@@ -35,8 +35,8 @@ android {
     sourceSets {
         main {
             java {
-                // Exclude ALL 3rd party library source - only keep app code
-                // Top-level lib packages
+                // Exclude ONLY known 3rd party library packages
+                // These are already compiled into AARs in dependencies
                 exclude 'anet/**'
                 exclude 'okhttp3/**'
                 exclude 'okio/**'
@@ -48,7 +48,7 @@ android {
                 exclude 'io/**'
                 exclude 'kotlinx/**'
                 exclude 'org/**'
-                // com/ sub-packages that are 3rd party libs
+                // com/ 3rd party sub-packages only
                 exclude 'com/alibaba/**'
                 exclude 'com/bumptech/**'
                 exclude 'com/bytedance/**'
@@ -71,11 +71,6 @@ android {
                 exclude 'com/uyumao/**'
                 exclude 'com/youth/**'
                 exclude 'com/zhy/**'
-                // other top-level lib packages
-                exclude 'ac/**'
-                exclude 'me/**'
-                exclude 've/**'
-                exclude 'tv/**'
             }
         }
     }
