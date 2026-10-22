@@ -62,7 +62,7 @@ public abstract class AbstractC6629i0 {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: s1.i0$b */
     /* loaded from: classes.dex */
-    public interface b {
+    public class b {
         /* renamed from: a */
         void mo25876a(Canvas canvas, Paint paint, RectF rectF);
     }

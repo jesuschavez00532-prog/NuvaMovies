@@ -5,7 +5,7 @@ import java.nio.ByteBuffer;
 import p230m1.InterfaceC5569b;
 
 /* loaded from: classes.dex */
-public interface ImageHeaderParser {
+public class ImageHeaderParser {
 
     /* loaded from: classes.dex */
     public enum ImageType {

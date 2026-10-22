@@ -64,7 +64,7 @@ public final class C4218j {
 
     /* renamed from: f1.j$c */
     /* loaded from: classes.dex */
-    public interface c {
+    public class c {
         /* renamed from: a */
         void mo17628a();
     }

@@ -1,4 +1,4 @@
-﻿package com.uyumao;
+package com.uyumao;
 
 import android.content.Context;
 import android.location.Location;

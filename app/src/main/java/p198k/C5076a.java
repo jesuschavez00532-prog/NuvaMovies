@@ -181,7 +181,7 @@ public final class C5076a {
 
     /* renamed from: k.a$e */
     /* loaded from: classes.dex */
-    public interface e {
+    public class e {
         /* renamed from: a */
         void mo11400a(View view, int i10, ViewGroup viewGroup);
     }

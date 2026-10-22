@@ -1,4 +1,4 @@
-﻿package androidx.appcompat.app;
+package androidx.appcompat.app;
 
 import android.content.Context;
 import android.location.Location;

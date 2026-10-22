@@ -13,16 +13,16 @@ public abstract class AbstractC7186q {
     public static final InterfaceC7185p f26885b = new e(null, true);
 
     /* renamed from: c */
-    public static final InterfaceC7185p f26886c;
+    public static final InterfaceC7185p f26886c = null;
 
     /* renamed from: d */
-    public static final InterfaceC7185p f26887d;
+    public static final InterfaceC7185p f26887d = null;
 
     /* renamed from: e */
-    public static final InterfaceC7185p f26888e;
+    public static final InterfaceC7185p f26888e = null;
 
     /* renamed from: f */
-    public static final InterfaceC7185p f26889f;
+    public static final InterfaceC7185p f26889f = null;
 
     /* renamed from: v.q$a */
     /* loaded from: classes.dex */
@@ -93,7 +93,7 @@ public abstract class AbstractC7186q {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: v.q$c */
     /* loaded from: classes.dex */
-    public interface c {
+    public class c {
         /* renamed from: a */
         int mo27815a(CharSequence charSequence, int i10, int i11);
     }

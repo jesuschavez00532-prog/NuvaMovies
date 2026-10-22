@@ -130,7 +130,7 @@ public final class ViewOnClickListenerC5929g extends RelativeLayout implements V
 
     /* renamed from: o8.g$a */
     /* loaded from: classes2.dex */
-    public interface a {
+    public class a {
         /* renamed from: E1 */
         void mo22233E1(int i10, String str);
 

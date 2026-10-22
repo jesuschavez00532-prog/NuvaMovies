@@ -1,4 +1,4 @@
-﻿package androidx.core.widget;
+package androidx.core.widget;
 
 import android.os.Build;
 

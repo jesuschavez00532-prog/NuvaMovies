@@ -1,4 +1,4 @@
-﻿package androidx.recyclerview.widget;
+package androidx.recyclerview.widget;
 
 import androidx.recyclerview.widget.C0823j;
 import androidx.recyclerview.widget.RecyclerView;

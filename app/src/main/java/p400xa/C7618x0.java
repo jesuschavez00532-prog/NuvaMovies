@@ -27,7 +27,7 @@ import p317rb.AbstractC6567a;
 public final class C7618x0 {
 
     /* renamed from: a */
-    public static final C7618x0 f28031a;
+    public static final C7618x0 f28031a = null;
 
     /* renamed from: b */
     private static final String f28032b;
@@ -97,7 +97,7 @@ public final class C7618x0 {
 
     /* renamed from: xa.x0$a */
     /* loaded from: classes2.dex */
-    public interface a {
+    public class a {
         /* renamed from: a */
         void mo11883a(int i10, KeyEvent keyEvent);
 

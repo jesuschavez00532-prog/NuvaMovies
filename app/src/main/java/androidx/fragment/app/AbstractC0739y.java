@@ -283,7 +283,7 @@ public abstract class AbstractC0739y {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: androidx.fragment.app.y$g */
     /* loaded from: classes.dex */
-    public interface g {
+    public class g {
         /* renamed from: a */
         void mo3559a(Fragment fragment, C6871b c6871b);
 

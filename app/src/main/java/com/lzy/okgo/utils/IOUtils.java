@@ -1,4 +1,4 @@
-﻿package com.lzy.okgo.utils;
+package com.lzy.okgo.utils;
 
 import android.os.StatFs;
 import android.text.TextUtils;

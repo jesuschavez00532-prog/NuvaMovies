@@ -554,17 +554,17 @@ public class SearchView extends AbstractC0445s1 implements InterfaceC4319c {
 
     /* renamed from: androidx.appcompat.widget.SearchView$k */
     /* loaded from: classes.dex */
-    public interface InterfaceC0357k {
+    public class InterfaceC0357k {
     }
 
     /* renamed from: androidx.appcompat.widget.SearchView$l */
     /* loaded from: classes.dex */
-    public interface InterfaceC0358l {
+    public class InterfaceC0358l {
     }
 
     /* renamed from: androidx.appcompat.widget.SearchView$m */
     /* loaded from: classes.dex */
-    public interface InterfaceC0359m {
+    public class InterfaceC0359m {
     }
 
     /* JADX INFO: Access modifiers changed from: private */

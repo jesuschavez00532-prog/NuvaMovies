@@ -1,4 +1,4 @@
-﻿package com.umeng.analytics.process;
+package com.umeng.analytics.process;
 
 import com.umeng.analytics.pro.C3309bd;
 

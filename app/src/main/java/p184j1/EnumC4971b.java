@@ -1,4 +1,4 @@
-﻿package p184j1;
+package p184j1;
 
 /* JADX WARN: Enum visitor error
 jadx.core.utils.exceptions.JadxRuntimeException: Can't remove SSA var: r0v0 j1.b, still in use, count: 1, list:

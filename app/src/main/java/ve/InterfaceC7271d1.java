@@ -1,4 +1,4 @@
-﻿package ve;
+package ve;
 
 import ee.InterfaceC4184g;
 import java.util.concurrent.CancellationException;

@@ -1,4 +1,4 @@
-﻿package p200k1;
+package p200k1;
 
 import android.content.ContentResolver;
 import android.net.Uri;

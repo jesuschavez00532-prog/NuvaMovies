@@ -23,7 +23,7 @@ import p287pb.AbstractApplicationC6253c;
 public final class C7589m1 {
 
     /* renamed from: a */
-    public static final C7589m1 f27886a;
+    public static final C7589m1 f27886a = null;
 
     /* renamed from: b */
     private static final String f27887b;
@@ -42,7 +42,7 @@ public final class C7589m1 {
 
     /* renamed from: xa.m1$a */
     /* loaded from: classes2.dex */
-    public interface a {
+    public class a {
 
         /* renamed from: a */
         public static final C7866a f27892a = C7866a.f27893a;
@@ -77,7 +77,7 @@ public final class C7589m1 {
 
     /* renamed from: xa.m1$b */
     /* loaded from: classes2.dex */
-    public interface b {
+    public class b {
 
         /* renamed from: a */
         public static final a f27896a = a.f27897a;
@@ -120,7 +120,7 @@ public final class C7589m1 {
 
     /* renamed from: xa.m1$c */
     /* loaded from: classes2.dex */
-    public interface c {
+    public class c {
 
         /* renamed from: a */
         public static final a f27901a = a.f27902a;
@@ -198,7 +198,7 @@ public final class C7589m1 {
 
     /* renamed from: xa.m1$d */
     /* loaded from: classes2.dex */
-    public interface d {
+    public class d {
 
         /* renamed from: a */
         public static final a f27911a = a.f27912a;

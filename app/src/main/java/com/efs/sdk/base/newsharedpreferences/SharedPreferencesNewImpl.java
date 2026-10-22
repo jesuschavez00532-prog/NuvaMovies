@@ -240,7 +240,7 @@ public final class SharedPreferencesNewImpl implements SharedPreferences {
     }
 
     /* loaded from: classes.dex */
-    public interface OnSharedPreferenceErrorListener {
+    public class OnSharedPreferenceErrorListener {
         void onError(String str, int i10, long j10);
     }
 

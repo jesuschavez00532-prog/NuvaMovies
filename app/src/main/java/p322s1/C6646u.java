@@ -46,10 +46,10 @@ public final class C6646u {
     public static final C4976g f25483h = AbstractC6640o.f25476h;
 
     /* renamed from: i */
-    public static final C4976g f25484i;
+    public static final C4976g f25484i = null;
 
     /* renamed from: j */
-    public static final C4976g f25485j;
+    public static final C4976g f25485j = null;
 
     /* renamed from: k */
     private static final Set f25486k;
@@ -97,7 +97,7 @@ public final class C6646u {
 
     /* renamed from: s1.u$b */
     /* loaded from: classes.dex */
-    public interface b {
+    public class b {
         /* renamed from: a */
         void mo25856a(InterfaceC5571d interfaceC5571d, Bitmap bitmap);
 

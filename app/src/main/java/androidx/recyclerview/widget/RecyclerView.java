@@ -323,7 +323,7 @@ public class RecyclerView extends ViewGroup implements InterfaceC0564d0 {
 
         /* renamed from: androidx.recyclerview.widget.RecyclerView$a0$b */
         /* loaded from: classes.dex */
-        public interface b {
+        public class b {
             PointF computeScrollVectorForPosition(int i10);
         }
 
@@ -1885,7 +1885,7 @@ public class RecyclerView extends ViewGroup implements InterfaceC0564d0 {
 
     /* renamed from: androidx.recyclerview.widget.RecyclerView$k */
     /* loaded from: classes.dex */
-    public interface InterfaceC0792k {
+    public class InterfaceC0792k {
     }
 
     /* renamed from: androidx.recyclerview.widget.RecyclerView$l */
@@ -1920,7 +1920,7 @@ public class RecyclerView extends ViewGroup implements InterfaceC0564d0 {
         /* JADX INFO: Access modifiers changed from: package-private */
         /* renamed from: androidx.recyclerview.widget.RecyclerView$m$a */
         /* loaded from: classes.dex */
-        public interface a {
+        public class a {
             /* renamed from: a */
             void mo3910a(AbstractC0787f0 abstractC0787f0);
         }
@@ -2237,7 +2237,7 @@ public class RecyclerView extends ViewGroup implements InterfaceC0564d0 {
 
         /* renamed from: androidx.recyclerview.widget.RecyclerView$p$c */
         /* loaded from: classes.dex */
-        public interface c {
+        public class c {
             /* renamed from: a */
             void mo3924a(int i10, int i11);
         }
@@ -3528,7 +3528,7 @@ public class RecyclerView extends ViewGroup implements InterfaceC0564d0 {
 
     /* renamed from: androidx.recyclerview.widget.RecyclerView$r */
     /* loaded from: classes.dex */
-    public interface InterfaceC0799r {
+    public class InterfaceC0799r {
         void onChildViewAttachedToWindow(View view);
 
         void onChildViewDetachedFromWindow(View view);
@@ -3542,7 +3542,7 @@ public class RecyclerView extends ViewGroup implements InterfaceC0564d0 {
 
     /* renamed from: androidx.recyclerview.widget.RecyclerView$t */
     /* loaded from: classes.dex */
-    public interface InterfaceC0801t {
+    public class InterfaceC0801t {
         /* renamed from: a */
         void mo3931a(RecyclerView recyclerView, MotionEvent motionEvent);
 
@@ -4472,7 +4472,7 @@ public class RecyclerView extends ViewGroup implements InterfaceC0564d0 {
 
     /* renamed from: androidx.recyclerview.widget.RecyclerView$x */
     /* loaded from: classes.dex */
-    public interface InterfaceC0805x {
+    public class InterfaceC0805x {
         /* renamed from: a */
         void mo3992a(AbstractC0787f0 abstractC0787f0);
     }

@@ -43,7 +43,7 @@ public final class C1088t0 extends SQLiteOpenHelper {
 
     /* renamed from: b4.t0$a */
     /* loaded from: classes.dex */
-    public interface a {
+    public class a {
         /* renamed from: a */
         void mo5026a(SQLiteDatabase sQLiteDatabase);
     }

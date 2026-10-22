@@ -194,7 +194,7 @@ class RunnableC5321h implements InterfaceC5319f.a, Runnable, Comparable, Abstrac
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: l1.h$b */
     /* loaded from: classes.dex */
-    public interface b {
+    public class b {
         /* renamed from: a */
         void mo21512a(C5330q c5330q);
 
@@ -278,7 +278,7 @@ class RunnableC5321h implements InterfaceC5319f.a, Runnable, Comparable, Abstrac
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: l1.h$e */
     /* loaded from: classes.dex */
-    public interface e {
+    public class e {
         /* renamed from: a */
         InterfaceC5723a mo21520a();
     }

@@ -12,7 +12,7 @@ public class ALog {
     public static Logcat logcat;
 
     /* loaded from: classes.dex */
-    public interface ILog {
+    public class ILog {
         /* renamed from: d */
         void mo4520d(String str, String str2);
 

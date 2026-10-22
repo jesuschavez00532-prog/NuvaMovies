@@ -1,4 +1,4 @@
-﻿package com.google.android.gms.measurement.internal;
+package com.google.android.gms.measurement.internal;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteException;

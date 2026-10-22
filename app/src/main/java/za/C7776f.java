@@ -65,7 +65,7 @@ import ye.C7709c;
 public final class C7776f implements InterfaceC6372b0, InterfaceC6377d, InterfaceC6423s0, InterfaceC6433v1, InterfaceC6444z0, InterfaceC6403l1, InterfaceC6432v0 {
 
     /* renamed from: a */
-    public static final C7776f f28648a;
+    public static final C7776f f28648a = null;
 
     /* renamed from: b */
     private static final String f28649b;
@@ -129,7 +129,7 @@ public final class C7776f implements InterfaceC6372b0, InterfaceC6377d, Interfac
 
     /* renamed from: za.f$a */
     /* loaded from: classes2.dex */
-    public interface a {
+    public class a {
         /* renamed from: a */
         void mo11443a(boolean z10, String str, ActiveResult activeResult, LoginResult loginResult, String str2, String str3);
     }

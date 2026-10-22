@@ -43,7 +43,7 @@ public final class DialogC4072r0 extends Dialog implements C7069a.a {
 
     /* renamed from: db.r0$b */
     /* loaded from: classes2.dex */
-    public interface b {
+    public class b {
         /* renamed from: a */
         void mo17107a(int i10, KeyEvent keyEvent);
 

@@ -172,19 +172,19 @@ public final class ExecutorServiceC5901a implements ExecutorService {
 
     /* renamed from: o1.a$e */
     /* loaded from: classes.dex */
-    public interface e {
+    public class e {
 
         /* renamed from: a */
         public static final e f23495a = new a();
 
         /* renamed from: b */
-        public static final e f23496b;
+        public static final e f23496b = null;
 
         /* renamed from: c */
-        public static final e f23497c;
+        public static final e f23497c = null;
 
         /* renamed from: d */
-        public static final e f23498d;
+        public static final e f23498d = null;
 
         /* renamed from: o1.a$e$a */
         /* loaded from: classes.dex */
