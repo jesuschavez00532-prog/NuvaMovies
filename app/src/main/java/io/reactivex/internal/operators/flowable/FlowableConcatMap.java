@@ -1,4 +1,4 @@
-﻿package io.reactivex.internal.operators.flowable;
+package io.reactivex.internal.operators.flowable;
 
 import io.reactivex.Flowable;
 import io.reactivex.FlowableSubscriber;

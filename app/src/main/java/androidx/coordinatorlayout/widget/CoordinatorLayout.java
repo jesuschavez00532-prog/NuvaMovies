@@ -1,4 +1,4 @@
-﻿package androidx.coordinatorlayout.widget;
+package androidx.coordinatorlayout.widget;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -311,7 +311,7 @@ public class CoordinatorLayout extends ViewGroup implements InterfaceC0572f0, In
     @Retention(RetentionPolicy.RUNTIME)
     /* renamed from: androidx.coordinatorlayout.widget.CoordinatorLayout$c */
     /* loaded from: classes.dex */
-    public @class InterfaceC0483c {
+    public @interface InterfaceC0483c {
         Class value();
     }
 

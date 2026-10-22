@@ -1,4 +1,4 @@
-﻿package p243n1;
+package p243n1;
 
 import android.app.ActivityManager;
 import android.content.Context;
