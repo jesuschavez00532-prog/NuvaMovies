@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:background="@drawable/bg_item_member_center_tab" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="36.0px" android:textColor="@color/color_person_tab" android:id="@id/mTvTab" android:paddingLeft="28.0px" android:paddingTop="12.0px" android:paddingRight="28.0px" android:paddingBottom="12.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_gravity="center_horizontal" android:id="@id/mViewLine" android:background="@drawable/bg_person_tab_line" android:layout_width="110.0px" android:layout_height="3.0px" />
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,8 @@
+package androidx.lifecycle;
+
+/* renamed from: androidx.lifecycle.k */
+/* loaded from: classes.dex */
+public interface InterfaceC0757k {
+    /* renamed from: a */
+    void mo3288a(Object obj);
+}

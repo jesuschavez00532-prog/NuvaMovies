@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:background="@drawable/bg_dialog_brasiliptv" android:layout_width="980.0px" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="32.0px" android:textColor="@color/color_ffffff" android:gravity="center" android:background="@drawable/dialog_title_bg" android:layout_width="fill_parent" android:layout_height="100.0px" android:text="@string/resolution" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvQuality" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="23.0px" android:layout_marginTop="55.0px" />
+    <Button android:textSize="32.0px" android:layout_gravity="center_horizontal" android:id="@id/mBtnExit" android:background="@drawable/selector_dialog_btn_vod_detailmenu" android:layout_width="496.0px" android:layout_height="80.0px" android:layout_marginTop="134.0px" android:layout_marginBottom="60.0px" android:text="@string/exit" style="@style/btn.exit" />
+</com.zhy.autolayout.AutoLinearLayout>

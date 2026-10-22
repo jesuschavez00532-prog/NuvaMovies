@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mLayoutFeedback" android:background="@color/color_000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="42.0px" android:textStyle="bold" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="65.0px" android:layout_marginTop="81.0px" android:text="@string/personal_feedback" />
+    <View android:background="@color/color_70707070" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="16.0px" />
+    <TextView android:textSize="36.0px" android:textColor="@color/color_ffffff" android:id="@id/tvContact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="65.0px" android:layout_marginTop="16.0px" android:text="@string/feedback_contract_us" />
+    <com.zhy.autolayout.AutoLinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="65.0px" android:layout_marginTop="30.0px">
+        <com.zhy.autolayout.AutoRelativeLayout android:id="@id/llWhatsAppTips" android:visibility="gone" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivWhatsApp" android:layout_width="33.0px" android:layout_height="33.0px" android:layout_marginTop="4.0px" android:src="@mipmap/icon_whatsapp" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+            <TextView android:textSize="32.0px" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@id/tvWhatsAppTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_whatApp" android:layout_marginStart="14.0px" android:layout_toEndOf="@id/ivWhatsApp" />
+            <TextView android:textSize="32.0px" android:textColor="@color/color_ffaa00" android:id="@id/tvWhatsApp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/tvWhatsAppTitle" />
+            <TextView android:textSize="23.0px" android:textColor="@color/color_b3b3b3" android:id="@id/tvWhatsAppTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0px" android:layout_below="@id/tvWhatsAppTitle" android:layout_alignParentStart="true" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+        <com.zhy.autolayout.AutoRelativeLayout android:id="@id/llWhatsAppTipsTwo" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="40.0px" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivWhatsAppTwo" android:layout_width="33.0px" android:layout_height="33.0px" android:layout_marginTop="4.0px" android:src="@mipmap/icon_whatsapp" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+            <TextView android:textSize="32.0px" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@id/tvWhatsAppTitleTwo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_whatApp" android:layout_marginStart="14.0px" android:layout_toEndOf="@id/ivWhatsAppTwo" />
+            <TextView android:textSize="32.0px" android:textColor="@color/color_ffaa00" android:id="@id/tvWhatsAppTwo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/tvWhatsAppTitleTwo" />
+            <TextView android:textSize="23.0px" android:textColor="@color/color_b3b3b3" android:id="@id/tvWhatsAppTimeTwo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0px" android:layout_below="@id/tvWhatsAppTitleTwo" android:layout_alignParentStart="true" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:textSize="28.0px" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@id/mTvEmailTips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="65.0px" android:layout_marginTop="28.0px">
+        <ImageView android:layout_width="33.0px" android:layout_height="33.0px" android:src="@drawable/vod_email_icon" />
+        <TextView android:textSize="32.0px" android:textColor="@color/color_ffffff" android:id="@id/mTvEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/tvWebTips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="65.0px" android:layout_marginTop="45.0px" android:layout_marginRight="65.0px">
+        <ImageView android:layout_width="33.0px" android:layout_height="33.0px" android:src="@mipmap/icon_website" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_ffffff" android:id="@id/mTvWebsite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="65.0px" android:layout_marginTop="45.0px" android:layout_marginRight="65.0px">
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="32.0px" android:textColor="@color/color_font_second" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_feedback_iv_notice" />
+            <ImageView android:id="@id/setting_feedback_scan_qr" android:layout_width="300.0px" android:layout_height="300.0px" android:layout_marginTop="28.0px" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_font_height_light" android:id="@id/mTvHelpCenter" android:background="@drawable/sel_bg_text" android:focusable="true" android:nextFocusUp="@id/mTvHelpCenter" android:nextFocusDown="@id/mTvHelpCenter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0px" android:text="@string/help_center" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <ViewStub android:id="@id/mLayoutService" android:layout="@layout/layout_custom_service" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="90.0px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

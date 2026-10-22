@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoRelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_dialog_coupon" android:layout_width="932.0px" android:layout_height="806.0px">
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="81.0px" android:layout_marginTop="337.0px" android:layout_marginRight="51.0px" android:layout_alignParentTop="true">
+            <TextView android:textSize="28.0px" android:textStyle="bold" android:textColor="@color/color_c93e3e" android:id="@id/mDialogTipsOne" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="26.0px" android:textColor="@color/color_bf000000" android:id="@id/mDialogTipsTwo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoRelativeLayout android:id="@id/mLayoutButtons" android:layout_width="700.0px" android:layout_height="wrap_content" android:layout_marginLeft="63.0px" android:layout_marginBottom="73.0px" android:layout_alignParentBottom="true">
+            <Button android:textSize="31.0px" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/mBtnCancel" android:background="@drawable/selector_dialog_btn_coupon" android:focusableInTouchMode="true" android:layout_width="320.0px" android:layout_height="68.0px" android:text="@string/dialog_close" android:layout_alignParentLeft="true" />
+            <Button android:textSize="36.0px" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/mBtnGet" android:background="@drawable/selector_dialog_btn_coupon" android:focusableInTouchMode="true" android:layout_width="320.0px" android:layout_height="68.0px" android:layout_marginLeft="60.0px" android:text="@string/dialog_get_it_now" android:layout_alignParentRight="true" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

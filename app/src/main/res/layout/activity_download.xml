@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout android:id="@id/mRootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/color_33000000" android:layout_width="380.0px" android:layout_height="fill_parent" />
+    <TextView android:textSize="36.0px" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="70.0px" android:layout_marginTop="40.0px" android:text="@string/notification_download" />
+    <TextView android:textSize="24.0px" android:textColor="@color/color_main" android:gravity="center" android:id="@id/mTvDiskName" android:padding="10.0px" android:layout_width="380.0px" android:layout_height="wrap_content" android:layout_marginTop="88.0px" />
+    <com.module.view.AutoRadioGroup android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mRadioGroup" android:layout_width="380.0px" android:layout_height="fill_parent" android:layout_marginTop="320.0px">
+        <RadioButton android:textSize="36.0px" android:textColor="@color/sel_color_download_tab" android:ellipsize="marquee" android:gravity="center" android:id="@id/mRbDownloading" android:background="@drawable/sel_bg_download_tab" android:nextFocusUp="@id/mRbDownloading" android:layout_width="fill_parent" android:layout_height="80.0px" android:button="@null" android:text="@string/download_downloading" android:singleLine="true" />
+        <RadioButton android:textSize="36.0px" android:textColor="@color/sel_color_download_tab" android:ellipsize="marquee" android:gravity="center" android:id="@id/mRbComplete" android:background="@drawable/sel_bg_download_tab" android:nextFocusUp="@id/mRbDownloading" android:layout_width="fill_parent" android:layout_height="80.0px" android:button="@null" android:text="@string/download_completed" android:singleLine="true" />
+    </com.module.view.AutoRadioGroup>
+    <com.zhy.autolayout.AutoFrameLayout android:id="@id/mFlContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/mRadioGroup" />
+</com.zhy.autolayout.AutoRelativeLayout>

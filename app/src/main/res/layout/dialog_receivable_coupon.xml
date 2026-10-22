@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:background="@drawable/bg_dialog_brasiliptv" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="931.0px" android:layout_height="781.0px">
+        <TextView android:textSize="32.0px" android:textColor="#ffffbf00" android:id="@id/mReceivableTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="33.0px" android:text="@string/coupons_receiveable_title" />
+        <androidx.recyclerview.widget.RecyclerView android:scrollbarSize="6.0dip" android:scrollbarThumbVertical="@drawable/selector_thumb_drawable" android:scrollbarTrackVertical="@drawable/selector_dialog_line_drawable" android:scrollbarStyle="outsideInset" android:id="@id/mDialogRv" android:focusable="true" android:scrollbars="vertical" android:clickable="true" android:descendantFocusability="afterDescendants" android:layout_width="867.0px" android:layout_height="508.0px" android:scrollbarFadeDuration="0" android:fadeScrollbars="false" />
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center" android:background="@drawable/shape_dialog_receivable_coupon" android:layout_width="420.0px" android:layout_height="68.0px" android:layout_marginTop="42.0px">
+            <TextView android:textSize="32.0px" android:textColor="@color/color_ffffff" android:id="@id/mDialogCon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coupons_receivable_confirm" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoFrameLayout>

@@ -1,0 +1,32 @@
+package com.google.firebase.messaging;
+
+/* loaded from: classes.dex */
+public final class R$attr {
+    public static final int alpha = 2130968621;
+    public static final int buttonSize = 2130968699;
+    public static final int circleCrop = 2130968742;
+    public static final int colorScheme = 2130968773;
+    public static final int coordinatorLayoutStyle = 2130968797;
+    public static final int font = 2130968907;
+    public static final int fontProviderAuthority = 2130968909;
+    public static final int fontProviderCerts = 2130968910;
+    public static final int fontProviderFetchStrategy = 2130968911;
+    public static final int fontProviderFetchTimeout = 2130968912;
+    public static final int fontProviderPackage = 2130968913;
+    public static final int fontProviderQuery = 2130968914;
+    public static final int fontStyle = 2130968916;
+    public static final int fontVariationSettings = 2130968917;
+    public static final int fontWeight = 2130968918;
+    public static final int imageAspectRatio = 2130969000;
+    public static final int imageAspectRatioAdjust = 2130969001;
+    public static final int keylines = 2130969060;
+    public static final int layout_anchor = 2130969066;
+    public static final int layout_anchorGravity = 2130969067;
+    public static final int layout_behavior = 2130969070;
+    public static final int layout_dodgeInsetEdges = 2130969114;
+    public static final int layout_insetEdge = 2130969123;
+    public static final int layout_keyline = 2130969124;
+    public static final int scopeUris = 2130969269;
+    public static final int statusBarBackground = 2130969319;
+    public static final int ttcIndex = 2130969432;
+}

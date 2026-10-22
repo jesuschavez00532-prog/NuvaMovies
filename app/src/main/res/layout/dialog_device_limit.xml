@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhy.autolayout.AutoRelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_device_manager_dialog" android:layout_width="1640.0px" android:layout_height="948.0px">
+        <TextView android:textSize="32.0px" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/tvTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="100.0px" android:layout_marginTop="76.0px" android:layout_marginRight="100.0px" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="28.0px" android:textColor="@color/color_66ffffff" android:gravity="center" android:id="@id/tvContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="100.0px" android:layout_marginTop="26.0px" android:layout_marginRight="100.0px" android:text="@string/device_limit_reached_tips" android:lines="2" android:layout_below="@id/tvTips" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+        <com.zhy.autolayout.AutoFrameLayout android:layout_width="fill_parent" android:layout_height="554.0px" android:layout_marginTop="28.0px" android:layout_below="@id/tvContent">
+            <com.open.leanback.widget.VerticalGridView android:layout_gravity="center_vertical" android:id="@id/mGridDevice" android:paddingLeft="186.0px" android:paddingRight="186.0px" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="56.0px" android:verticalSpacing="40.0px" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" app:focusOutEnd="true" app:numberOfColumns="2" />
+        </com.zhy.autolayout.AutoFrameLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="68.0px" android:layout_alignParentBottom="true">
+            <Button android:textSize="36.0px" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/btnDelete" android:background="@drawable/sel_device_limit_button_bg" android:layout_width="340.0px" android:layout_height="80.0px" android:text="@string/device_limit_reached_remove" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <TextView android:textSize="32.0px" android:textColor="@color/color_ffffff" android:id="@id/mTvNoDevices" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_limit_no_devices" android:layout_centerInParent="true" />
+        <com.module.view.LoadingView android:id="@id/loadingView" android:visibility="gone" android:layout_width="200.0px" android:layout_height="200.0px" android:layout_centerInParent="true" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoLinearLayout>

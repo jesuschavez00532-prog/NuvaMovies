@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:nextFocusDown="@id/mBtDownload" android:layout_width="wrap_content" android:layout_height="40.0px" android:layout_marginLeft="8.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mIvIcon" android:duplicateParentState="true" android:layout_width="30.0px" android:layout_height="30.0px" android:layout_marginLeft="10.0px" android:src="@drawable/sel_icon_download_audio" />
+    <TextView android:textSize="28.0px" android:textColor="@color/sel_color_download_audio" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/mTvSource" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0px" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="marquee_forever" />
+    <TextView android:textSize="20.0px" android:textColor="@color/sel_color_download_audio" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/mTvAudios" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0px" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:layout_marginTop="30.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="36.0px" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vod_setting_subtitle" />
+    <ImageView android:id="@id/mIvSwitch" android:background="@drawable/selector_subtitle_switch_bg" android:padding="10.0px" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="126.0px" android:layout_height="70.0px" android:layout_marginLeft="28.0px" android:src="@drawable/selector_subtitle_switch" android:scaleType="center" />
+</com.zhy.autolayout.AutoLinearLayout>

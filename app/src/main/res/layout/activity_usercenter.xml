@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.core.sysopt.mark.home.UserCenterRootView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.open.leanback.widget.VerticalGridView android:id="@id/mTabRecyclerview" android:background="@color/color_000000" android:paddingTop="54.0px" android:clipChildren="false" android:clipToPadding="false" android:layout_width="422.0px" android:layout_height="fill_parent" app:focusOutEnd="true" />
+    <View android:background="@color/color_4affffff" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginLeft="422.0px" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/mViewPager" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="1498.0px" android:layout_height="fill_parent" android:layout_marginLeft="423.0px" />
+</com.core.sysopt.mark.home.UserCenterRootView>

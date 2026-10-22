@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/mLlCoupon" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="140.0px" android:layout_marginBottom="10.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoFrameLayout android:gravity="center" android:background="@drawable/selector_coupons_left" android:duplicateParentState="true" android:layout_width="227.0px" android:layout_height="fill_parent">
+        <com.zhy.autolayout.AutoRelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="58.0px" android:textColor="@color/selector_color_coupons_price" android:gravity="center" android:layout_gravity="center" android:id="@id/tvPrice" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoFrameLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/selector_coupons_bg" android:paddingLeft="20.0px" android:paddingTop="10.0px" android:paddingRight="14.0px" android:paddingBottom="10.0px" android:duplicateParentState="true" android:layout_width="620.0px" android:layout_height="fill_parent" android:minHeight="200.0px">
+        <TextView android:textSize="30.0px" android:textStyle="bold" android:textColor="@color/selector_color_coupons_des" android:ellipsize="end" android:id="@id/tvCouponsTitle" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+        <TextView android:textSize="24.0px" android:textColor="@color/selector_color_coupons_des" android:id="@id/tvDate" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="24.0px" android:textColor="@color/selector_color_coupons_des" android:id="@id/tvUseOn" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignLeft="@id/tvCouponsTitle" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

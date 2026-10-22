@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mRootLayout" android:background="@color/color_000000" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoFrameLayout android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:layout_marginTop="64.0px" />
+        <TextView android:textSize="34.0px" android:textColor="@color/color_ffffffff" android:layout_gravity="right" android:id="@id/text_order_history_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="86.0px" android:layout_marginRight="120.0px" />
+    </com.zhy.autolayout.AutoFrameLayout>
+    <View android:background="@color/color_4affffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="29.0px" />
+    <com.zhy.autolayout.AutoRelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mListView" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="1329.0px" android:layout_height="fill_parent" android:layout_marginLeft="75.0px" android:layout_marginTop="24.0px" android:layout_marginRight="94.0px" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/mIvNoRecords" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/icon_no_records" android:layout_centerInParent="true" />
+        <TextView android:textSize="32.0px" android:textColor="@color/color_font_second" android:id="@id/mTextNoRecords" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/personal_no_order_recordes" android:layout_below="@id/mIvNoRecords" android:layout_centerInParent="true" />
+        <com.module.view.LoadingView android:id="@id/mLoadingView" android:visibility="gone" android:layout_width="165.0px" android:layout_height="165.0px" android:layout_centerInParent="true" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoLinearLayout>

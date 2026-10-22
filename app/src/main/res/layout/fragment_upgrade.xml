@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:orientation="vertical" android:id="@id/mRootLayout" android:background="@color/color_000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="48.0px" android:textColor="@color/color_ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="52.0px" android:layout_marginTop="68.0px" android:text="@string/settings" />
+    <View android:background="@color/color_66ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="165.0px" />
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mLayoutCache" android:background="@drawable/bg_settings_upgrade_item" android:layout_width="fill_parent" android:layout_height="461.0px" android:layout_marginLeft="30.0px" android:layout_marginTop="198.0px" android:layout_marginEnd="108.0px">
+        <TextView android:textSize="40.0px" android:textStyle="bold" android:textColor="@color/color_font_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0px" android:layout_marginTop="27.0px" android:text="@string/personal_clean_cache" />
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="68.0px" android:layout_marginLeft="65.0px" android:layout_marginTop="64.0px">
+            <TextView android:text="@string/personal_recorde" android:width="197.0px" style="@style/set.clear.left.style" />
+            <Button android:id="@id/mCleanHistoryBtn" android:nextFocusRight="@id/mCleanHistoryBtn" android:nextFocusUp="@id/mCleanHistoryBtn" android:text="@string/clear" style="@style/set.clear.right.style" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="68.0px" android:layout_marginLeft="65.0px" android:layout_marginTop="39.0px">
+            <TextView android:text="@string/image_cache" android:width="197.0px" style="@style/set.clear.left.style" />
+            <Button android:id="@id/mCleanImageBtn" android:nextFocusRight="@id/mCleanImageBtn" android:nextFocusUp="@id/mCleanHistoryBtn" android:text="@string/clear" style="@style/set.clear.right.style" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="68.0px" android:layout_marginLeft="65.0px" android:layout_marginTop="39.0px">
+            <TextView android:text="@string/clear_all" android:width="197.0px" style="@style/set.clear.left.style" />
+            <Button android:gravity="center" android:id="@id/mCleanAllBtn" android:nextFocusRight="@id/mCleanAllBtn" android:nextFocusUp="@id/mCleanImageBtn" android:nextFocusDown="@id/tvUpdate" android:text="@string/clear" style="@style/set.clear.right.style" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/rlContent" android:background="@drawable/bg_settings_upgrade_item" android:layout_width="fill_parent" android:layout_height="291.0px" android:layout_marginLeft="30.0px" android:layout_marginTop="689.0px" android:layout_marginEnd="108.0px">
+        <TextView android:textSize="40.0px" android:textStyle="bold" android:textColor="@color/color_font_main" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0px" android:layout_marginTop="59.0px" android:text="@string/personal_upgrade" />
+        <com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="68.0px" android:layout_marginLeft="64.0px" android:layout_marginTop="54.0px">
+            <TextView android:textSize="30.0px" android:textColor="@color/color_detail_font_des" android:id="@id/tvVersionName" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="32.0px" android:textColor="@color/color_c4c4c4" android:gravity="center" android:id="@id/tvUpdate" android:background="@drawable/vod_selector_bg_personal_safe" android:focusable="true" android:visibility="gone" android:nextFocusRight="@id/tvUpdate" android:nextFocusUp="@id/mCleanAllBtn" android:nextFocusDown="@id/tvUpdate" android:layout_width="336.0px" android:layout_height="67.0px" android:layout_marginLeft="51.0px" android:text="@string/update_fragemt_detect_upgrade" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <TextView android:textSize="30.0px" android:textColor="@color/color_c4c4c4" android:layout_gravity="bottom|center|right" android:id="@id/tvProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0px" android:layout_marginBottom="30.0px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.module.view.LoadingView android:layout_gravity="center" android:id="@id/mLoadingView" android:visibility="gone" android:layout_width="150.0px" android:layout_height="150.0px" />
+</com.zhy.autolayout.AutoFrameLayout>

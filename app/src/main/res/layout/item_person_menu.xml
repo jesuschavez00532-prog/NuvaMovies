@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:background="@drawable/bg_item_person_menu" android:paddingLeft="32.0px" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="366.0px" android:layout_height="96.0px" android:layout_marginLeft="44.0px" android:paddingEnd="32.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/mIvMenu" android:layout_width="48.0px" android:layout_height="48.0px" />
+    <TextView android:textSize="32.0px" android:textColor="@color/color_person_tab" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/mTvMenu" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0px" android:singleLine="true" />
+</com.zhy.autolayout.AutoLinearLayout>

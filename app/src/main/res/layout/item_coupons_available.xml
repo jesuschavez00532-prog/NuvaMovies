@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:background="@color/color_AF4113" android:focusable="true" android:layout_width="fill_parent" android:layout_height="140.0px" android:layout_marginLeft="25.0px" android:layout_marginTop="5.0px" android:layout_marginRight="25.0px" android:layout_marginBottom="5.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhy.autolayout.AutoFrameLayout android:background="@mipmap/icon_coupons_left_select" android:duplicateParentState="true" android:layout_width="230.0px" android:layout_height="fill_parent">
+        <TextView android:textSize="70.0px" android:textColor="@color/color_e41929" android:gravity="center" android:layout_gravity="center" android:id="@id/tvPrice" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" />
+    </com.zhy.autolayout.AutoFrameLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:paddingLeft="23.0px" android:paddingTop="13.0px" android:paddingRight="14.0px" android:paddingBottom="10.0px" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="160.0px">
+        <TextView android:textSize="30.0px" android:textColor="@color/color_ffe3ac" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvCouponsTitle" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+        <TextView android:textSize="24.0px" android:textColor="@color/color_ffe3ac" android:gravity="center_vertical" android:id="@id/tvUseOn" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

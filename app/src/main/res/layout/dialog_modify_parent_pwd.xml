@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_dialog_brasiliptv" android:layout_width="980.0px" android:layout_height="763.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="40.0px" android:textStyle="bold" android:textColor="@color/color_font_main" android:gravity="center" android:background="@drawable/dialog_title_bg" android:layout_width="fill_parent" android:layout_height="105.0px" android:text="@string/cr_switch_modify_parent_control_pwd" />
+    <com.module.childlock.view.MarqueTextView android:textSize="28.0px" android:textColor="@color/color_ffffff" android:ellipsize="marquee" android:id="@id/childlock_AttentionText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="117.0px" android:layout_marginTop="37.0px" android:text="@string/password_setting_page_tip" android:layout_marginEnd="117.0px" />
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/mLayoutPassword" android:paddingLeft="124.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/color_font_second" android:id="@id/tv_Password" android:layout_marginTop="47.0px" android:text="@string/initial_password" style="@style/pwd.set.tv.title" />
+        <com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0px">
+            <EditText android:textColor="@color/vod_text_black_white_color" android:id="@id/mEditFirstOne" android:layout_marginLeft="0.0px" style="@style/et.pwd.setting" />
+            <View style="@style/styleParentLockLine" />
+            <EditText android:textColor="@color/vod_text_black_white_color" android:id="@id/mEditSecondOne" style="@style/et.pwd.setting" />
+            <View style="@style/styleParentLockLine" />
+            <EditText android:textColor="@color/vod_text_black_white_color" android:id="@id/mEditThirdOne" style="@style/et.pwd.setting" />
+            <View style="@style/styleParentLockLine" />
+            <EditText android:textColor="@color/vod_text_black_white_color" android:id="@id/mEditFourthOne" android:imeOptions="actionDone" style="@style/et.pwd.setting" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/mLayoutSetNewPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="58.0px">
+        <TextView android:textStyle="bold" android:textColor="@color/color_font_second" android:id="@id/tv_NewPassword" android:text="@string/confirm_password" style="@style/pwd.set.tv.title" />
+        <com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0px">
+            <EditText android:textColor="@color/vod_text_black_white_color" android:id="@id/mEditNewFirstOne" android:nextFocusUp="@id/mEditFirstOne" android:layout_marginLeft="0.0px" style="@style/et.pwd.setting" />
+            <View style="@style/styleParentLockLine" />
+            <EditText android:textColor="@color/vod_text_black_white_color" android:id="@id/mEditNewSecondOne" style="@style/et.pwd.setting" />
+            <View style="@style/styleParentLockLine" />
+            <EditText android:textColor="@color/vod_text_black_white_color" android:id="@id/mEditNewThirdOne" style="@style/et.pwd.setting" />
+            <View style="@style/styleParentLockLine" />
+            <EditText android:textColor="@color/vod_text_black_white_color" android:id="@id/mEditNewFourthOne" android:imeOptions="actionDone" style="@style/et.pwd.setting" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="64.0px">
+        <Button android:id="@id/mButtonCancel" android:nextFocusUp="@id/mEditNewFirstOne" android:layout_width="380.0px" android:layout_height="80.0px" android:layout_marginLeft="60.0px" android:text="@string/pwd_cancel" style="@style/btn.pwd" />
+        <Button android:id="@id/mButtonConfirm" android:nextFocusUp="@id/mEditNewFirstOne" android:layout_width="380.0px" android:layout_height="80.0px" android:layout_marginLeft="60.0px" android:text="@string/pwd_confim" style="@style/btn.pwd" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

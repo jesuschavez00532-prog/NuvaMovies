@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:id="@id/mRootView" android:background="@color/color_000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhy.autolayout.AutoFrameLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0px">
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="55.0px" android:layout_marginLeft="20.0px">
+            <TextView android:textSize="24.0px" android:textColor="@color/color_80ffffff" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0px" android:text="@string/purchase_vip_can_login_in" />
+            <ImageView android:background="@mipmap/icon_purchase_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="39.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_80ffffff" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:text="@string/purchase_tv" />
+            <ImageView android:background="@mipmap/icon_purchase_mobile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="47.0px" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_80ffffff" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0px" android:text="@string/purchase_mobile" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="762.0px">
+            <ImageView android:layout_width="48.0px" android:layout_height="48.0px" android:src="@mipmap/icon_coupon_center" />
+            <TextView android:textSize="26.0px" android:textColor="@color/color_6bffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0px" android:text="@string/purchase_coupon_tips" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoFrameLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:layout_width="926.0px" android:layout_height="fill_parent" android:layout_marginLeft="20.0px" android:layout_marginTop="90.0px">
+        <com.open.leanback.widget.HorizontalGridView android:id="@id/mGridTab" android:layout_width="894.0px" android:layout_height="110.0px" app:numberOfRows="1" />
+        <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="886.0px" android:layout_height="629.0px" android:layout_marginTop="23.0px">
+            <com.widget.recyclerView.RecyclerViewTV android:scrollbarSize="6.0px" android:scrollbarThumbVertical="@drawable/shape_scrollbar_thumb" android:scrollbarTrackVertical="@drawable/shape_scrollbar_track" android:scrollbarStyle="outsideInset" android:id="@id/mRecyclerView" android:paddingRight="16.0px" android:focusable="true" android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollbarFadeDuration="0" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="527.0px" android:layout_height="762.0px" android:layout_marginLeft="926.0px" android:layout_marginTop="88.0px">
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mAlBindTip" android:background="@drawable/bg_purchase_bind" android:visibility="gone" android:layout_width="527.0px" android:layout_height="762.0px">
+            <ImageView android:layout_gravity="center_horizontal" android:background="@mipmap/icon_purchase_unbind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="89.0px" />
+            <TextView android:textSize="28.0px" android:textColor="@color/color_4dfffff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/mTvBindTips" android:layout_width="373.0px" android:layout_height="wrap_content" android:layout_marginTop="110.0px" />
+            <Button android:textSize="32.0px" android:textColor="@color/color_ffffff" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/mBtnBind" android:background="@drawable/btn_redeem_selector" android:layout_width="369.0px" android:layout_height="80.0px" android:layout_marginTop="85.0px" android:layout_marginBottom="23.0px" android:text="@string/bind" android:textAllCaps="false" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:orientation="vertical" android:id="@id/mAlPurChase" android:background="@drawable/bg_purchase_bind" android:visibility="visible" android:layout_width="527.0px" android:layout_height="762.0px">
+            <TextView android:textSize="30.0px" android:textColor="@color/color_ffffff" android:layout_gravity="center_horizontal" android:id="@id/mTextSanTip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0px" />
+            <com.zhy.autolayout.AutoLinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/mLayoutTips1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0px">
+                <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="50.0px" android:layout_height="50.0px" android:src="@mipmap/icon_purchase_google_lens" />
+                    <TextView android:textSize="20.0px" android:textColor="@color/color_abffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0px" android:text="@string/purchase_google_lens" />
+                </com.zhy.autolayout.AutoLinearLayout>
+                <View android:background="@color/color_70707070" android:layout_width="1.0px" android:layout_height="86.0px" android:layout_marginLeft="17.0px" />
+                <com.zhy.autolayout.AutoLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0px">
+                    <ImageView android:layout_width="50.0px" android:layout_height="50.0px" android:src="@mipmap/icon_purchase_magis_logo" />
+                    <TextView android:textSize="20.0px" android:textColor="@color/color_abffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0px" android:text="@string/purchase_magis" />
+                </com.zhy.autolayout.AutoLinearLayout>
+            </com.zhy.autolayout.AutoLinearLayout>
+            <TextView android:textSize="22.0px" android:textColor="@color/color_main" android:layout_gravity="center_horizontal" android:id="@id/mTvTips2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0px" android:text="@string/purchase_dont_use" />
+            <ImageView android:layout_gravity="center" android:id="@id/mImgQrCode" android:layout_width="425.0px" android:layout_height="425.0px" android:layout_marginTop="46.0px" />
+            <com.zhy.autolayout.AutoLinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/mTvContactWhatsApp1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0px">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/ivWhatsAppLogo1" android:layout_width="30.0px" android:layout_height="30.0px" />
+                <TextView android:textSize="20.0px" android:textColor="@color/color_ffffff" android:id="@id/mTvWhatsApp1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+            <TextView android:textSize="18.0px" android:textColor="@color/color_b3b3b3" android:layout_gravity="center_horizontal" android:id="@id/mTvWhatsApp1Time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.module.view.LoadingView android:layout_gravity="center" android:id="@id/mLoadingView" android:visibility="gone" android:layout_width="280.0px" android:layout_height="280.0px" />
+</com.zhy.autolayout.AutoFrameLayout>

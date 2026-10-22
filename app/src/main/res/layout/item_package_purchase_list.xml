@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout android:id="@id/mRlPackage" android:background="@drawable/selector_vod_package_bg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="150.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mIvHot" android:visibility="gone" android:layout_width="57.0px" android:layout_height="57.0px" android:src="@mipmap/vod_icon_package_hot" />
+    <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="44.0px">
+        <com.zhy.autolayout.AutoLinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="48.0px" android:textColor="@color/color_ffffff" android:id="@id/mTvPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0px" android:includeFontPadding="false" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_ffffff" android:id="@id/mTvPriceType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0px" android:minWidth="40.0px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout android:orientation="horizontal" android:id="@id/mLayoutCoupon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0px">
+            <ImageView android:layout_width="32.0px" android:layout_height="32.0px" android:src="@mipmap/icon_purchase_package_item_coupon" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_fbdfae" android:id="@id/mTvCouponPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="24.0px" android:textColor="@color/color_fbdfae" android:id="@id/mTvOriginalPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView android:textSize="28.0px" android:textColor="@color/color_ffffff" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/mTvName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="343.0px" android:layout_marginRight="150.0px" android:includeFontPadding="false" style="@style/marqueeText" />
+    <TextView android:textSize="24.0px" android:textColor="@color/color_ffffff" android:layout_gravity="center|right" android:id="@id/mTvPerDayPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="41.0px" android:layout_toRightOf="@id/mTvName" android:layout_centerVertical="true" />
+</com.zhy.autolayout.AutoFrameLayout>

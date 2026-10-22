@@ -1,0 +1,28 @@
+package cf;
+
+import cc.C1447d;
+import cc.C1477w;
+import java.util.concurrent.TimeUnit;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+
+/* renamed from: cf.a */
+/* loaded from: classes3.dex */
+public abstract class AbstractC1515a {
+    /* renamed from: a */
+    public static String m7036a(String str) {
+        try {
+            OkHttpClient.Builder builder = new OkHttpClient.Builder();
+            TimeUnit timeUnit = TimeUnit.SECONDS;
+            Response execute = builder.readTimeout(5L, timeUnit).connectTimeout(5L, timeUnit).addInterceptor(new C1447d(".notice")).dns(new C1477w(".notice")).build().newCall(new Request.Builder().url(str).addHeader("accept", "*/*").addHeader("connection", "Keep-Alive").build()).execute();
+            if (execute.body() == null || execute.code() != 200) {
+                return null;
+            }
+            return execute.body().string();
+        } catch (Exception e10) {
+            e10.printStackTrace();
+            return null;
+        }
+    }
+}
