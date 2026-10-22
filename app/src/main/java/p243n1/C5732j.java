@@ -1,4 +1,4 @@
-package p243n1;
+﻿package p243n1;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -107,7 +107,7 @@ public final class C5732j {
 
     /* renamed from: n1.j$c */
     /* loaded from: classes.dex */
-    interface c {
+    class c {
         /* renamed from: a */
         int mo23143a();
 

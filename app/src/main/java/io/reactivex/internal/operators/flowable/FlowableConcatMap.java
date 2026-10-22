@@ -1,4 +1,4 @@
-package io.reactivex.internal.operators.flowable;
+﻿package io.reactivex.internal.operators.flowable;
 
 import io.reactivex.Flowable;
 import io.reactivex.FlowableSubscriber;
@@ -481,7 +481,7 @@ public final class FlowableConcatMap<T, R> extends AbstractFlowableWithUpstream<
     }
 
     /* loaded from: classes3.dex */
-    interface ConcatMapSupport<T> {
+    class ConcatMapSupport<T> {
         void innerComplete();
 
         void innerError(Throwable th);

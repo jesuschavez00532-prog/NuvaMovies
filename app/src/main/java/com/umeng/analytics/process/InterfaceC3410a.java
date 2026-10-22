@@ -1,10 +1,10 @@
-package com.umeng.analytics.process;
+﻿package com.umeng.analytics.process;
 
 import com.umeng.analytics.pro.C3309bd;
 
 /* renamed from: com.umeng.analytics.process.a */
 /* loaded from: classes3.dex */
-interface InterfaceC3410a {
+class InterfaceC3410a {
 
     /* renamed from: a */
     public static final String f14952a = C3309bd.m13860b().m13863b(C3309bd.f14115v);
