@@ -23,11 +23,41 @@ jobs:
         run: |
           yes | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --licenses || true
 
-      - name: Fix decompiled Java files with invalid ?? operator
+      - name: Exclude app files that import from removed libraries
         run: |
-          echo "Checking for any remaining ?? artifacts..."
-          COUNT=$(grep -rl '\?\?' app/src/main/java 2>/dev/null | wc -l)
-          echo "Files with ?? remaining: $COUNT"
+          echo "Finding app files with broken imports..."
+          PATTERNS="import (androidx\.|com\.umeng\.|com\.bumptech\.|com\.zhy\.|com\.raizlabs\.|com\.open\.leanback\.|kotlinx\.coroutines\.internal\.|anet\.|com\.lzy\.|com\.titan\.|com\.qiniu\.android\.dns\.|org\.android\.)"
+          
+          > /tmp/file_excludes.txt
+          find app/src/main/java -name "*.java" | while read f; do
+            PKG=$(echo "$f" | sed 's|app/src/main/java/||' | cut -d'/' -f1)
+            case "$PKG" in
+              anet|okhttp3|okio|antlr|retrofit2|javax|androidx|android|io|kotlinx|org|com) continue ;;
+            esac
+            if grep -qE "$PATTERNS" "$f" 2>/dev/null; then
+              REL=$(echo "$f" | sed 's|app/src/main/java/||')
+              echo "                exclude '$REL'" >> /tmp/file_excludes.txt
+            fi
+          done
+          
+          COUNT=$(wc -l < /tmp/file_excludes.txt)
+          echo "Files to exclude: $COUNT"
+          
+          # Inject into build.gradle before the closing of the java block
+          EXCLUDES=$(cat /tmp/file_excludes.txt)
+          # Use python for reliable multi-line insertion
+          python3 - <<EOF
+import re
+with open('app/build.gradle', 'r') as f:
+    content = f.read()
+with open('/tmp/file_excludes.txt', 'r') as f:
+    excludes = f.read().rstrip()
+# Insert before the closing of the java { } block
+content = content.replace("                exclude 'com/zhy/**'", "                exclude 'com/zhy/**'\n" + excludes)
+with open('app/build.gradle', 'w') as f:
+    f.write(content)
+print("Done injecting excludes")
+EOF
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
