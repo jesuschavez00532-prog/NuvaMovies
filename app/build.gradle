@@ -32,6 +32,25 @@ android {
         }
     }
 
+    sourceSets {
+        main {
+            java {
+                // Exclude 3rd party library source already provided as AARs
+                exclude 'anet/**'
+                exclude 'okhttp3/**'
+                exclude 'okio/**'
+                exclude 'antlr/**'
+                exclude 'retrofit2/**'
+                exclude 'javax/**'
+                exclude 'androidx/**'
+                exclude 'android/**'
+                exclude 'io/reactivex/**'
+                exclude 'io/reactivex3/**'
+                exclude 'kotlinx/**'
+            }
+        }
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
