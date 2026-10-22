@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom attrs used by app layouts - app-specific only -->
+    <attr name="ad_type" format="integer" />
+    <attr name="banner_layout" format="reference" />
+    <attr name="defaultBgId" format="reference|integer" />
+    <attr name="descText" format="string|reference" />
+    <attr name="focusOutEnd" format="boolean" />
+    <attr name="focusOutFront" format="boolean" />
+    <attr name="focusOutSideEnd" format="boolean" />
+    <attr name="focusOutSideStart" format="boolean" />
+    <attr name="forceMaxHeight" format="dimension" />
+    <attr name="horizontalMargin" format="dimension" />
+    <attr name="image_scale_type" format="integer" />
+    <attr name="indicator_drawable_selected" format="reference" />
+    <attr name="indicator_drawable_unselected" format="reference" />
+    <attr name="indicator_height" format="dimension" />
+    <attr name="indicator_margin" format="dimension" />
+    <attr name="indicator_selected_height" format="dimension" />
+    <attr name="indicator_selected_width" format="dimension" />
+    <attr name="indicator_width" format="dimension" />
+    <attr name="isLeft" format="boolean" />
+    <attr name="isNoDisk" format="boolean" />
+    <attr name="isRight" format="boolean" />
+    <attr name="isVod" format="boolean" />
+    <attr name="noticeType" format="integer" />
+    <attr name="numberOfColumns" format="integer" />
+    <attr name="numberOfRows" format="integer" />
+    <attr name="parentDuplicateVisibility" format="boolean" />
+    <attr name="popHeight" format="dimension|integer" />
+    <attr name="popWidth" format="dimension|integer" />
+    <attr name="posterType" format="integer" />
+    <attr name="previewFrameLayout" format="reference" />
+    <attr name="simplifyText" format="boolean" />
+    <attr name="textBackground" format="reference|color" />
+    <attr name="textOrientation" format="integer" />
+    <attr name="title_background" format="reference|color" />
+    <attr name="title_textsize" format="dimension" />
+    <attr name="verticalMargin" format="dimension" />
+</resources>
