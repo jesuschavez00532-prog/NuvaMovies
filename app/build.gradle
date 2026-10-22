@@ -35,7 +35,8 @@ android {
     sourceSets {
         main {
             java {
-                // Exclude 3rd party library source already provided as AARs
+                // Exclude ALL 3rd party library source - only keep app code
+                // Top-level lib packages
                 exclude 'anet/**'
                 exclude 'okhttp3/**'
                 exclude 'okio/**'
@@ -44,27 +45,37 @@ android {
                 exclude 'javax/**'
                 exclude 'androidx/**'
                 exclude 'android/**'
-                exclude 'io/reactivex/**'
-                exclude 'io/reactivex3/**'
+                exclude 'io/**'
                 exclude 'kotlinx/**'
-                exclude 'org/xutils/**'
-                exclude 'org/mozilla/**'
-                exclude 'org/android/**'
-                exclude 'com/bumptech/**'
-                exclude 'com/zhy/**'
-                exclude 'com/raizlabs/**'
-                exclude 'com/open/**'
-                exclude 'com/umeng/**'
-                exclude 'com/efs/**'
-                exclude 'com/p077uc/**'
-                exclude 'com/uyumao/**'
-                exclude 'com/taobao/**'
+                exclude 'org/**'
+                // com/ sub-packages that are 3rd party libs
                 exclude 'com/alibaba/**'
-                exclude 'com/google/android/gms/**'
-                exclude 'com/google/android/material/**'
-                exclude 'com/google/firebase/**'
-                exclude 'com/google/gson/**'
-                exclude 'com/google/android/exoplayer2/**'
+                exclude 'com/bumptech/**'
+                exclude 'com/bytedance/**'
+                exclude 'com/efs/**'
+                exclude 'com/google/**'
+                exclude 'com/ixuea/**'
+                exclude 'com/lzy/**'
+                exclude 'com/open/**'
+                exclude 'com/p077uc/**'
+                exclude 'com/qiniu/**'
+                exclude 'com/raizlabs/**'
+                exclude 'com/swlauthnew/**'
+                exclude 'com/taobao/**'
+                exclude 'com/tbruyelle/**'
+                exclude 'com/therouter/**'
+                exclude 'com/titan/**'
+                exclude 'com/titans/**'
+                exclude 'com/trello/**'
+                exclude 'com/umeng/**'
+                exclude 'com/uyumao/**'
+                exclude 'com/youth/**'
+                exclude 'com/zhy/**'
+                // other top-level lib packages
+                exclude 'ac/**'
+                exclude 'me/**'
+                exclude 've/**'
+                exclude 'tv/**'
             }
         }
     }
