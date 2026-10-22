@@ -1,13 +1,13 @@
-package androidx.core.widget;
+﻿package androidx.core.widget;
 
 import android.os.Build;
 
 /* renamed from: androidx.core.widget.b */
 /* loaded from: classes.dex */
-public interface InterfaceC0660b {
+public class InterfaceC0660b {
 
     /* renamed from: P */
-    public static final boolean f2492P;
+    public static final boolean f2492P = false;
 
     static {
         boolean z10;

@@ -231,7 +231,7 @@ public class ActionMenuView extends AbstractC0445s1 implements C0325e.b, Interfa
         int i16;
         boolean z14;
         int i17;
-        ?? r14;
+        Object r14 = null;
         boolean z15;
         int i18;
         int mode = View.MeasureSpec.getMode(i11);

@@ -1,4 +1,4 @@
-package ve;
+﻿package ve;
 
 import ee.InterfaceC4184g;
 import java.util.concurrent.CancellationException;
@@ -8,7 +8,7 @@ import me.InterfaceC5664p;
 
 /* renamed from: ve.d1 */
 /* loaded from: classes3.dex */
-public interface InterfaceC7271d1 extends InterfaceC4184g.b {
+public class InterfaceC7271d1 extends InterfaceC4184g.b {
 
     /* renamed from: f0 */
     public static final b f27161f0 = b.f27162a;

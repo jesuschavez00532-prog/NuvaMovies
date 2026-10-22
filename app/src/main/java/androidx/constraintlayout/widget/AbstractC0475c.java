@@ -274,7 +274,7 @@ public abstract class AbstractC0475c extends ViewGroup {
         int i12;
         boolean isInEditMode = isInEditMode();
         int childCount = getChildCount();
-        ?? r32 = 0;
+        Object r32 = 0;
         if (isInEditMode) {
             for (int i13 = 0; i13 < childCount; i13++) {
                 View childAt = getChildAt(i13);

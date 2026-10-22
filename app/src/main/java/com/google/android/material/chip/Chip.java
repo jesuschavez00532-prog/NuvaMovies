@@ -336,7 +336,7 @@ public class Chip extends C0403i implements C2554h.a, InterfaceC6693p {
     /* JADX WARN: Type inference failed for: r0v0, types: [int, boolean] */
     /* renamed from: i */
     private int[] m10276i() {
-        ?? isEnabled = isEnabled();
+        Object isEnabled = isEnabled();
         int i10 = isEnabled;
         if (this.f9530l) {
             i10 = isEnabled + 1;

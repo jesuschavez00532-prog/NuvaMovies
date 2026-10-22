@@ -1,4 +1,4 @@
-package com.google.android.gms.measurement.internal;
+﻿package com.google.android.gms.measurement.internal;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -138,7 +138,7 @@ public final class C2355l extends AbstractC2485w8 {
     /* JADX WARN: Type inference failed for: r4v3, types: [boolean] */
     /* renamed from: G */
     public final void m9748G(String str, long j10, long j11, C2288e9 c2288e9) {
-        ?? r42;
+        Object r42 = null;
         Cursor cursor;
         String[] strArr;
         Cursor rawQuery;

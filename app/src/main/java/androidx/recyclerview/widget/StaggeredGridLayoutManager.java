@@ -1455,7 +1455,7 @@ public class StaggeredGridLayoutManager extends RecyclerView.AbstractC0797p impl
         int mo4232i;
         boolean m4045j;
         int m4088l;
-        ?? r92 = 0;
+        Object r92 = 0;
         this.f3295j.set(0, this.f3286a, true);
         if (this.f3292g.f3473i) {
             if (c0820g.f3469e == 1) {

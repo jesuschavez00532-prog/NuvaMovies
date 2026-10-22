@@ -56,8 +56,8 @@ public class WhereBuilder {
             sb2.append(str3);
             sb2.append(" ");
             int i10 = 0;
-            ?? r22 = 0;
-            ?? arrayList = 0;
+            Object r22 = 0;
+            Object arrayList = 0;
             if (Operator.Operation.f12581IN.equalsIgnoreCase(str3)) {
                 if (obj instanceof Iterable) {
                     arrayList = (Iterable) obj;

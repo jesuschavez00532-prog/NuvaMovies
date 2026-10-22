@@ -1,4 +1,4 @@
-package anet.channel.util;
+﻿package anet.channel.util;
 
 import android.content.Context;
 import anet.channel.GlobalAppRuntimeInfo;

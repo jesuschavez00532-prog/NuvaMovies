@@ -1,4 +1,4 @@
-package androidx.appcompat.app;
+﻿package androidx.appcompat.app;
 
 import android.content.Context;
 import android.location.Location;
@@ -66,15 +66,15 @@ class C0317r {
         return f1172d;
     }
 
-    /* JADX WARN: Not initialized variable reg: 1, insn: 0x0002: INVOKE (r0 I:int) = (r0v0 ?? I:android.content.Context), (r1 I:java.lang.String) STATIC call: androidx.core.content.d.b(android.content.Context, java.lang.String):int A[MD:(android.content.Context, java.lang.String):int (m)] (LINE:5), block:B:1:0x0000 */
-    /* JADX WARN: Not initialized variable reg: 3, insn: 0x0013: INVOKE (r2 I:int) = (r2v0 ?? I:android.content.Context), (r3 I:java.lang.String) STATIC call: androidx.core.content.d.b(android.content.Context, java.lang.String):int A[MD:(android.content.Context, java.lang.String):int (m)] (LINE:24), block:B:4:0x0011 */
+    /* JADX WARN: Not initialized variable reg: 1, insn: 0x0002: INVOKE (r0 I:int) = (r0v0 Object I:android.content.Context), (r1 I:java.lang.String) STATIC call: androidx.core.content.d.b(android.content.Context, java.lang.String):int A[MD:(android.content.Context, java.lang.String):int (m)] (LINE:5), block:B:1:0x0000 */
+    /* JADX WARN: Not initialized variable reg: 3, insn: 0x0013: INVOKE (r2 I:int) = (r2v0 Object I:android.content.Context), (r3 I:java.lang.String) STATIC call: androidx.core.content.d.b(android.content.Context, java.lang.String):int A[MD:(android.content.Context, java.lang.String):int (m)] (LINE:24), block:B:4:0x0011 */
     /* JADX WARN: Type inference failed for: r1v0, types: [java.lang.String] */
     /* JADX WARN: Type inference failed for: r3v0, types: [java.lang.String] */
     /* renamed from: b */
     private Location m1214b() {
-        ?? m2356b;
+        Object m2356b = null;
         Location location;
-        ?? m2356b2;
+        Object m2356b2 = null;
         int m2356b3 = AbstractC0550d.m2356b(this.f1173a, m2356b);
         Location location2 = null;
         if (m2356b3 == 0) {

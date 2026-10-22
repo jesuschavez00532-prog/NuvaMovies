@@ -213,7 +213,7 @@ public class C1018c {
     /* JADX WARN: Type inference failed for: r5v2, types: [java.lang.Object[]] */
     /* renamed from: j */
     public static int m4806j() {
-        ?? r32;
+        Object r32 = null;
         int i10;
         try {
             r32 = AwcnConfig.isIpStackDetectByUdpConnect();

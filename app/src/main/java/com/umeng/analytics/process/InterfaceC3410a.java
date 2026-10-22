@@ -1,4 +1,4 @@
-package com.umeng.analytics.process;
+﻿package com.umeng.analytics.process;
 
 import com.umeng.analytics.pro.C3309bd;
 
@@ -13,13 +13,13 @@ interface InterfaceC3410a {
     public static final String f14953b = "id";
 
     /* renamed from: c */
-    public static final String f14954c;
+    public static final String f14954c = "";
 
     /* renamed from: d */
     public static final String f14955d = ".db";
 
     /* renamed from: e */
-    public static final String f14956e;
+    public static final String f14956e = "";
 
     /* renamed from: f */
     public static final int f14957f = 1;
@@ -32,7 +32,7 @@ interface InterfaceC3410a {
 
     /* renamed from: com.umeng.analytics.process.a$a */
     /* loaded from: classes3.dex */
-    public interface a {
+    public class a {
 
         /* renamed from: a */
         public static final String f14960a = "__et_p";

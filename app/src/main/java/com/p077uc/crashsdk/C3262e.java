@@ -2967,7 +2967,7 @@ public class C3262e implements Thread.UncaughtExceptionHandler {
                     C3257g.m13220a(e11);
                 }
             }
-            ?? r52 = 0;
+            Object r52 = 0;
             r5 = null;
             FileLock lock = null;
             z10 = false;
@@ -3078,7 +3078,7 @@ public class C3262e implements Thread.UncaughtExceptionHandler {
             return false;
         }
         String str3 = C3264g.m13579Y() + m13488k(str);
-        ?? r11 = (j10 & 32) != 0 ? 1 : 0;
+        Object r11 = (j10 & 32) != 0 ? 1 : 0;
         if (z11) {
             long nativeClientCreateConnection = C3259b.f13741d ? JNIBridge.nativeClientCreateConnection(str3, "custom", str, r11) : 0L;
             if (nativeClientCreateConnection == 0) {

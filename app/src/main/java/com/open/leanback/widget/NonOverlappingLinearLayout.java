@@ -57,7 +57,7 @@ public class NonOverlappingLinearLayout extends LinearLayout {
         boolean z11;
         boolean z12;
         int size;
-        ?? r02 = 0;
+        Object r02 = 0;
         int i14 = 0;
         try {
             if (this.f12497a && getOrientation() == 0 && getLayoutDirection() == 1) {

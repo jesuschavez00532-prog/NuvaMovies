@@ -96,7 +96,7 @@ public abstract class AbstractC7654d {
         String str5;
         String str6;
         String str7;
-        ?? r02 = 0;
+        Object r02 = 0;
         r02 = 0;
         if (bundle == null) {
             return false;

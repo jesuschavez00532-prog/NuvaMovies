@@ -208,7 +208,7 @@ public abstract class AbstractC2672d {
     /* renamed from: j */
     private static int m11156j(C2682g0 c2682g0) {
         boolean m11226a = c2682g0.m11226a("gcm.n.default_sound");
-        ?? r02 = m11226a;
+        Object r02 = m11226a;
         if (c2682g0.m11226a("gcm.n.default_vibrate_timings")) {
             r02 = (m11226a ? 1 : 0) | 2;
         }

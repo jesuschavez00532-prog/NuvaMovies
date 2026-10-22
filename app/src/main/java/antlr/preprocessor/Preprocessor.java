@@ -105,7 +105,7 @@ public class Preprocessor extends LLkParser implements PreprocessorTokenTypes {
                 superClass = superClass();
             }
             match(11);
-            ?? grammar2 = hierarchy.getGrammar(mo4817LT2.getText());
+            Object grammar2 = hierarchy.getGrammar(mo4817LT2.getText());
             if (grammar2 == 0) {
                 try {
                     grammar = new Grammar(hierarchy.getTool(), mo4817LT2.getText(), mo4817LT3.getText(), indexedVector);

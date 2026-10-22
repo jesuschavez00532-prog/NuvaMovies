@@ -244,7 +244,7 @@ public final class HttpLoggingInterceptor implements Interceptor {
                         Buffer buffer2 = source.buffer();
                         GzipSource gzipSource = null;
                         if ("gzip".equalsIgnoreCase(headers2.get("Content-Encoding"))) {
-                            ?? valueOf = Long.valueOf(buffer2.size());
+                            Object valueOf = Long.valueOf(buffer2.size());
                             try {
                                 GzipSource gzipSource2 = new GzipSource(buffer2.clone());
                                 try {

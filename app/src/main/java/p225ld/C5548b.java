@@ -46,7 +46,7 @@ public final class C5548b {
     /* JADX WARN: Type inference failed for: r0v5 */
     public int hashCode() {
         boolean z10 = this.f22487a;
-        ?? r02 = z10;
+        Object r02 = z10;
         if (z10) {
             r02 = 1;
         }

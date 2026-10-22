@@ -266,7 +266,7 @@ public final class C1714a implements IHttpUtil {
         r4 = null;
         r4 = null;
         r4 = null;
-        ?? r42 = null;
+        Object r42 = null;
         httpURLConnection = null;
         httpURLConnection = null;
         httpURLConnection = null;

@@ -69,7 +69,7 @@ public final class ObservableScan<T> extends AbstractObservableWithUpstream<T, T
                 return;
             }
             try {
-                ?? r42 = (T) ObjectHelper.requireNonNull(this.accumulator.apply(t11, t10), "The value returned by the accumulator is null");
+                Object r42 = (T) ObjectHelper.requireNonNull(this.accumulator.apply(t11, t10), "The value returned by the accumulator is null");
                 this.value = r42;
                 observer.onNext(r42);
             } catch (Throwable th) {

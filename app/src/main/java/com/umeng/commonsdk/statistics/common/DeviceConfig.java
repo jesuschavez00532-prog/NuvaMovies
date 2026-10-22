@@ -1024,7 +1024,7 @@ public class DeviceConfig {
         }
         try {
             TelephonyManager telephonyManager = (TelephonyManager) context.getSystemService("phone");
-            ?? checkPermission = checkPermission(context, "android.permission.READ_PHONE_STATE");
+            Object checkPermission = checkPermission(context, "android.permission.READ_PHONE_STATE");
             if (checkPermission != 0 && telephonyManager != null) {
                 sOperatorName = checkPermission;
             }

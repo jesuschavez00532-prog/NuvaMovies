@@ -107,7 +107,7 @@ public final class ObservableGroupBy<T, K, V> extends AbstractObservableWithUpst
                     obj = NULL_KEY;
                 }
                 GroupedUnicast<K, V> groupedUnicast = this.groups.get(obj);
-                ?? r22 = groupedUnicast;
+                Object r22 = groupedUnicast;
                 if (groupedUnicast == false) {
                     if (this.cancelled.get()) {
                         return;

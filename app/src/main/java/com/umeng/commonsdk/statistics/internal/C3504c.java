@@ -1,4 +1,4 @@
-package com.umeng.commonsdk.statistics.internal;
+﻿package com.umeng.commonsdk.statistics.internal;
 
 import android.content.Context;
 import android.text.TextUtils;

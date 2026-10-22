@@ -33,7 +33,7 @@ class C0932f implements EventCb {
     public void onEvent(Session session, int i10, C0935b c0935b) {
         C0927a.b bVar;
         String str;
-        ?? r02 = 1;
+        Object r02 = 1;
         if (i10 != 1) {
             r02 = 0;
         }

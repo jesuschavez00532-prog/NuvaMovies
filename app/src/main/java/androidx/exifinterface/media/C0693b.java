@@ -1,4 +1,4 @@
-package androidx.exifinterface.media;
+﻿package androidx.exifinterface.media;
 
 import android.content.res.AssetManager;
 import android.media.MediaDataSource;

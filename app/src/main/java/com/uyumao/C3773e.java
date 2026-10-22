@@ -172,12 +172,12 @@ public class C3773e {
     /* JADX WARN: Type inference failed for: r1v2, types: [java.lang.String, boolean] */
     /* renamed from: g */
     public static String[] m16022g(Context context) {
-        ?? m16012a;
+        Object m16012a = null;
         WifiManager wifiManager;
         WifiInfo connectionInfo;
         String[] strArr = {"", ""};
         try {
-            ?? m16012a2 = m16012a(context, "android.permission.ACCESS_WIFI_STATE");
+            Object m16012a2 = m16012a(context, "android.permission.ACCESS_WIFI_STATE");
             if (m16012a2 != 0 && (m16012a = m16012a(context, (String) m16012a2)) != 0 && m16012a(context, (String) m16012a) && (wifiManager = (WifiManager) context.getApplicationContext().getSystemService("wifi")) != null && (connectionInfo = wifiManager.getConnectionInfo()) != null) {
                 String ssid = connectionInfo.getSSID();
                 String bssid = connectionInfo.getBSSID();

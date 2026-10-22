@@ -210,7 +210,7 @@ public class C3253c {
         byte[] bArr;
         int length;
         BufferedInputStream bufferedInputStream;
-        ?? r12 = 0;
+        Object r12 = 0;
         byte[] bArr2 = null;
         r1 = null;
         Closeable closeable = null;

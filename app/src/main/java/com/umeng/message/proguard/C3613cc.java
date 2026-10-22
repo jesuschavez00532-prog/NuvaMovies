@@ -1,4 +1,4 @@
-package com.umeng.message.proguard;
+﻿package com.umeng.message.proguard;
 
 import android.content.Context;
 import android.graphics.Bitmap;

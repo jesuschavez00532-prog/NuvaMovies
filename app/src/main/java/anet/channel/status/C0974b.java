@@ -183,7 +183,7 @@ public class C0974b {
                         f4055e = m4676a(networkInfo.getExtraInfo());
                         m4686h();
                     } else {
-                        ?? type = networkInfo.getType();
+                        Object type = networkInfo.getType();
                         if (type == 1) {
                             m4678a(NetworkStatusHelper.NetworkStatus.WIFI, "wifi");
                             if (AwcnConfig.isWifiInfoEnable() && (m4687i = m4687i()) != null && m4680b(type)) {
