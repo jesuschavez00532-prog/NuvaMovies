@@ -32,7 +32,6 @@
     <attr name="posterType" format="integer" />
     <attr name="previewFrameLayout" format="reference" />
     <attr name="simplifyText" format="boolean" />
-    <attr name="textBackground" format="reference|color" />
     <attr name="textOrientation" format="integer" />
     <attr name="title_background" format="reference|color" />
     <attr name="title_textsize" format="dimension" />
