@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Custom attrs used by app layouts - app-specific only -->
-    <attr name="ad_type" format="integer" />
+    <attr name="ad_type" format="string|reference|integer" />
     <attr name="banner_layout" format="reference" />
     <attr name="defaultBgId" format="reference|integer" />
     <attr name="descText" format="string|reference" />
@@ -23,7 +23,7 @@
     <attr name="isNoDisk" format="boolean" />
     <attr name="isRight" format="boolean" />
     <attr name="isVod" format="boolean" />
-    <attr name="noticeType" format="integer" />
+    <attr name="noticeType" format="string|reference|integer" />
     <attr name="numberOfColumns" format="integer" />
     <attr name="numberOfRows" format="integer" />
     <attr name="parentDuplicateVisibility" format="boolean" />
@@ -31,7 +31,8 @@
     <attr name="popWidth" format="dimension|integer" />
     <attr name="posterType" format="integer" />
     <attr name="previewFrameLayout" format="reference" />
-    <attr name="simplifyText" format="boolean" />
+    <attr name="simplifyText" format="string|boolean" />
+    <attr name="src" format="reference|string" />
     <attr name="textOrientation" format="integer" />
     <attr name="title_background" format="reference|color" />
     <attr name="title_textsize" format="dimension" />
