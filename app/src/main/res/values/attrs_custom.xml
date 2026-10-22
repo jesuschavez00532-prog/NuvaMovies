@@ -11,7 +11,7 @@
     <attr name="focusOutSideStart" format="boolean" />
     <attr name="forceMaxHeight" format="dimension" />
     <attr name="horizontalMargin" format="dimension" />
-    <attr name="image_scale_type" format="integer" />
+    <attr name="image_scale_type" format="string|integer" />
     <attr name="indicator_drawable_selected" format="reference" />
     <attr name="indicator_drawable_unselected" format="reference" />
     <attr name="indicator_height" format="dimension" />
@@ -33,7 +33,9 @@
     <attr name="previewFrameLayout" format="reference" />
     <attr name="simplifyText" format="string|boolean" />
     <attr name="src" format="reference|string" />
-    <attr name="textOrientation" format="integer" />
+    <attr name="textColor" format="color|reference" />
+    <attr name="textOrientation" format="string|integer" />
+    <attr name="textSize" format="dimension|reference" />
     <attr name="title_background" format="reference|color" />
     <attr name="title_textsize" format="dimension" />
     <attr name="verticalMargin" format="dimension" />
