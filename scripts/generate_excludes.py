@@ -33,8 +33,8 @@ DIRECT_BAD_RE = re.compile(
 FORCE_EXCLUDE_SIMPLE = {
     # r0/r1/r2/r6/r9/r11 variables not declared (jadx artifact)
     "C5596a", "C5886a", "AbstractC4488o0", "C4481l", "C5709m",
-    "ViewOnTouchListenerC5130a", "C1441a",
-    # interface expected here (interface->class conversion issue)
+    "ViewOnTouchListenerC5130a", "C1441a", "C5921e",
+    # interface expected here
     "AbstractC7186q", "AbstractC6629i0", "ExecutorServiceC5901a", "C7222g",
     # hidden/restricted API
     "C5885c",
@@ -42,52 +42,54 @@ FORCE_EXCLUDE_SIMPLE = {
     "C7364d", "C7671g", "C4881o0", "C4252n",
     # R class references
     "LoadingView", "C3890R",
-    # jadx th variable
-    "AbstractC4111a", "C5255c",
+    # jadx th/e variable artifacts
+    "AbstractC4111a", "C5255c", "AbstractC4228d", "AbstractC6208l",
     # FilterInputStream.in protected access
     "C4113c", "C6621e0",
     # non-static this in static context
     "AbstractC4116f", "AbstractC1339c", "AbstractC1348c", "C1088t0",
     "AbstractC0102u", "AbstractC1453g", "C5334u", "AbstractC4219a",
-    "AbstractC5323j", "C6951k",
-    # weaker access override
-    "C1049a", "C6655c", "C5254b", "C5259g",
+    "AbstractC5323j", "C6951k", "AbstractC5149d", "AbstractC7029f",
+    "AbstractC7188a",
+    # weaker access / abstract override
+    "C1049a", "C6655c", "C5254b", "C5259g", "C5260h",
     # bad operator / incompatible types
     "C1318n", "SubTitleFileList", "C5548b", "C5766b",
     "C4497u", "AbstractC5697a", "C7709c", "C5573f", "C5575h",
-    "AbstractC4130a",
-    # anonymous Runnable/type issues
+    "AbstractC4130a", "AbstractC6882m", "C4174b",
+    # cannot assign final variable
+    "C1331b",
+    # abstract override issues
     "ViewOnFocusChangeListenerC5935m", "C6553r",
-    # FlowableTransformer/Observer/Function abstract issues
     "C4307b", "AbstractC4306a", "C5260h", "C5258f", "C5253a",
-    "C5254b", "C5259g", "C7783c",
-    # InterfaceC1029a abstract issue
+    "C5254b", "C5259g", "C7783c", "C5920d",
+    # InterfaceC1029a / Parcelable
     "InterfaceC1029a", "C1030b",
-    # Runnable private access issues
+    # Runnable private access
     "RunnableC4259u", "RunnableC4255q", "RunnableC4261w",
     "RunnableC4234c0", "RunnableC4263y", "RunnableC4257s", "RunnableC4230a0",
-    # AsyncTask/Property/TypeEvaluator override
+    # AsyncTask/Property/TypeEvaluator
     "AsyncTaskC7064d", "C4475i", "C4481l",
-    # HttpException method not found
+    # HttpException method
     "AbstractC6927a", "AbstractC7354a",
     # missing method body
     "C5076a",
     # Dialog no-arg constructor
     "AbstractDialogC4756b1",
-    # EnumC4971b issues
+    # EnumC4971b
     "EnumC4971b",
     # IBinder incompatible
     "C4867h0",
-    # AbstractBinderC7494b RemoteException
-    "AbstractBinderC7494b",
+    # RemoteException
+    "AbstractBinderC7494b", "AbstractC7493a",
     # not enclosing class
-    "C5907c", "AbstractC5907c", "C7217d0", "C6569c",
+    "C5907c", "AbstractC5907c", "C7217d0", "C6569c", "AbstractC7029f",
     # Schedulers.m20294io
-    "AbstractC7782b", "C7783c",
-    # CallAdapter.Factory
-    "C5260h",
-    # r2 package issue
-    "C5241n",
+    "AbstractC7782b", "C7783c", "AbstractC7029f",
+    # r2 package / misc
+    "C5241n", "AbstractC7354a",
+    # UserManager incompatible
+    "AbstractC6882m",
 }
 
 IMPORT_RE = re.compile(r"^import\s+([\w.]+)\s*;", re.MULTILINE)
