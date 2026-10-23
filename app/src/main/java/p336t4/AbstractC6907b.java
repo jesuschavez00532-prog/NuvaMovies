@@ -48,10 +48,10 @@ public abstract class AbstractC6907b {
 
     /* renamed from: c */
     private static synchronized Thread m26847c() {
-        SecurityException e10;
-        Thread thread;
-        Thread thread2;
-        ThreadGroup threadGroup;
+        SecurityException e10 = null;
+        Thread thread = null;
+        Thread thread2 = null;
+        ThreadGroup threadGroup = null;
         synchronized (AbstractC6907b.class) {
             ThreadGroup threadGroup2 = Looper.getMainLooper().getThread().getThreadGroup();
             if (threadGroup2 == null) {
