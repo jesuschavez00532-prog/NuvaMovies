@@ -20,7 +20,7 @@ public class ServiceConnectionC4852a implements ServiceConnection {
     private final BlockingQueue f20334b = new LinkedBlockingQueue();
 
     /* renamed from: a */
-    public IBinder m20014a(long j10, TimeUnit timeUnit) {
+    public IBinder m20014a(long j10, TimeUnit timeUnit) throws InterruptedException, TimeoutException {
         AbstractC5391n.m21782h("BlockingServiceConnection.getServiceWithTimeout() called on main thread");
         if (!this.f20333a) {
             this.f20333a = true;

@@ -64,7 +64,7 @@ public abstract class AbstractC0101t0 {
     }
 
     /* renamed from: d */
-    public static Object m453d(AbstractC4245i abstractC4245i) {
+    public static Object m453d(AbstractC4245i abstractC4245i) throws InterruptedException, java.util.concurrent.TimeoutException {
         final CountDownLatch countDownLatch = new CountDownLatch(1);
         abstractC4245i.mo17705g(f333a, new InterfaceC4229a() { // from class: a6.q0
             @Override // p127f5.InterfaceC4229a

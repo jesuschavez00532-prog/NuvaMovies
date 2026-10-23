@@ -28,7 +28,7 @@ public abstract class AbstractC4250l {
     }
 
     /* renamed from: b */
-    public static Object m17730b(AbstractC4245i abstractC4245i, long j10, TimeUnit timeUnit) {
+    public static Object m17730b(AbstractC4245i abstractC4245i, long j10, TimeUnit timeUnit) throws java.util.concurrent.TimeoutException, InterruptedException {
         AbstractC5391n.m21781g();
         AbstractC5391n.m21784j(abstractC4245i, "Task must not be null");
         AbstractC5391n.m21784j(timeUnit, "TimeUnit must not be null");
