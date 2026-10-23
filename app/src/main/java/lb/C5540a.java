@@ -109,7 +109,7 @@ public class C5540a implements InterfaceC5142c {
     }
 
     @Override // p210kb.InterfaceC5142c
-    public C5959c load() {
+    public C5959c load() throws java.io.IOException {
         File file = new File(f22467b + File.separator + "dns.cache");
         if (!file.exists()) {
             return null;

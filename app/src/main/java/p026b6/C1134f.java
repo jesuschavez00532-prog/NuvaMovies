@@ -44,7 +44,7 @@ class C1134f implements InterfaceC1129a {
 
         @Override // p026b6.C1133e.d
         /* renamed from: a */
-        public void mo5166a(InputStream inputStream, int i10) {
+        public void mo5166a(InputStream inputStream, int i10) throws java.io.IOException {
             try {
                 inputStream.read(this.f4449a, this.f4450b[0], i10);
                 int[] iArr = this.f4450b;

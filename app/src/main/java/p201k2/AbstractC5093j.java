@@ -207,7 +207,7 @@ public abstract class AbstractC5093j {
     }
 
     /* renamed from: l */
-    private static String m20680l(String str) {
+    private static String m20680l(String str) throws java.io.IOException {
         FileReader fileReader = new FileReader(str);
         String m20681m = m20681m(fileReader);
         fileReader.close();

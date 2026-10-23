@@ -88,7 +88,7 @@ public abstract class AbstractC4111a {
     }
 
     /* renamed from: b */
-    public static ByteBuffer m17191b(InputStream inputStream) {
+    public static ByteBuffer m17191b(InputStream inputStream) throws java.io.IOException {
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream(16384);
         byte[] bArr = (byte[]) f18062a.getAndSet(null);
         if (bArr == null) {

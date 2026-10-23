@@ -164,7 +164,7 @@ public class C6168h implements InterfaceC6175o {
 
             @Override // p278p1.C6168h.d
             /* renamed from: a */
-            public Class mo24633a() {
+            public Class mo24633a() throws java.io.IOException {
                 return InputStream.class;
             }
 

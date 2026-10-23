@@ -27,7 +27,7 @@ public abstract class AbstractC5721h {
     }
 
     /* renamed from: b */
-    public static String m23115b(File file) {
+    public static String m23115b(File file) throws java.io.IOException {
         if (!file.isFile()) {
             return null;
         }

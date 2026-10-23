@@ -123,7 +123,7 @@ public final class C6167g implements InterfaceC6175o {
 
         @Override // p278p1.C6167g.e
         /* renamed from: a */
-        public Class mo24623a() {
+        public Class mo24623a() throws java.io.IOException {
             return InputStream.class;
         }
 
@@ -134,7 +134,7 @@ public final class C6167g implements InterfaceC6175o {
 
         @Override // p278p1.InterfaceC6176p
         /* renamed from: d */
-        public InterfaceC6175o mo7348d(C6179s c6179s) {
+        public InterfaceC6175o mo7348d(C6179s c6179s) throws java.io.IOException {
             return new C6167g(this.f24246a, this);
         }
 

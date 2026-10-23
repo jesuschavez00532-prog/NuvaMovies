@@ -100,7 +100,7 @@ public final class C6165e implements InterfaceC6175o {
 
             @Override // p278p1.C6165e.a
             /* renamed from: a */
-            public Class mo24613a() {
+            public Class mo24613a() throws java.io.IOException {
                 return InputStream.class;
             }
 

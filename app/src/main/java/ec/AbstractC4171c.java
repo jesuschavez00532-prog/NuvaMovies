@@ -54,25 +54,25 @@ public abstract class AbstractC4171c {
     }
 
     /* renamed from: f */
-    protected void m17433f(PushbackInputStream pushbackInputStream, OutputStream outputStream) {
+    protected void m17433f(PushbackInputStream pushbackInputStream, OutputStream outputStream) throws java.io.IOException {
     }
 
     /* renamed from: g */
-    protected void m17434g(PushbackInputStream pushbackInputStream, OutputStream outputStream) {
+    protected void m17434g(PushbackInputStream pushbackInputStream, OutputStream outputStream) throws java.io.IOException {
     }
 
     /* renamed from: h */
-    protected int m17435h(PushbackInputStream pushbackInputStream, OutputStream outputStream) {
+    protected int m17435h(PushbackInputStream pushbackInputStream, OutputStream outputStream) throws java.io.IOException {
         return mo17125b();
     }
 
     /* renamed from: i */
-    protected void m17436i(PushbackInputStream pushbackInputStream, OutputStream outputStream) {
+    protected void m17436i(PushbackInputStream pushbackInputStream, OutputStream outputStream) throws java.io.IOException {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
     /* renamed from: j */
-    public int m17437j(InputStream inputStream, byte[] bArr, int i10, int i11) {
+    public int m17437j(InputStream inputStream, byte[] bArr, int i10, int i11) throws java.io.IOException {
         for (int i12 = 0; i12 < i11; i12++) {
             int read = inputStream.read();
             if (read == -1) {

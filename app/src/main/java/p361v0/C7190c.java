@@ -40,7 +40,7 @@ public final class C7190c {
     }
 
     /* renamed from: d */
-    public final void m27824d(String str) {
+    public final void m27824d(String str) throws java.io.IOException {
         AbstractC5868k.m23674f(str, Progress.FILE_PATH);
         File file = new File(str);
         if (!file.getParentFile().exists()) {

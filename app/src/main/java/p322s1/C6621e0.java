@@ -40,7 +40,7 @@ public class C6621e0 extends FilterInputStream {
     }
 
     /* renamed from: a */
-    private int m25843a(InputStream inputStream, byte[] bArr) {
+    private int m25843a(InputStream inputStream, byte[] bArr) throws java.io.IOException {
         int i10 = this.f25428d;
         if (i10 != -1) {
             int i11 = this.f25429e - i10;

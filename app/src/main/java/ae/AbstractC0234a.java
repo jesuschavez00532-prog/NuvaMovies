@@ -842,7 +842,7 @@ public abstract class AbstractC0234a {
         }
 
         /* renamed from: h */
-        private void m864h(OutputStream outputStream, long j10) {
+        private void m864h(OutputStream outputStream, long j10) throws java.io.IOException {
             boolean z10 = false;
             long min;
             byte[] bArr = new byte[(int) IjkMediaMeta.AV_CH_TOP_FRONT_RIGHT];
@@ -895,12 +895,12 @@ public abstract class AbstractC0234a {
         }
 
         /* renamed from: b */
-        public String m867b(String str) {
+        public String m867b(String str) throws java.io.IOException {
             return (String) this.f704f.get(str.toLowerCase());
         }
 
         /* renamed from: c */
-        public String m868c() {
+        public String m868c() throws java.io.IOException {
             return this.f700b;
         }
 

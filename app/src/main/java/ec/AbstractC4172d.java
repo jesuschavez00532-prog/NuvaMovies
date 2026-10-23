@@ -62,25 +62,25 @@ public abstract class AbstractC4172d {
     protected abstract void mo17129e(OutputStream outputStream, byte[] bArr, int i10, int i11);
 
     /* renamed from: f */
-    protected void m17440f(OutputStream outputStream) {
+    protected void m17440f(OutputStream outputStream) throws java.io.IOException {
         this.f18247a = new PrintStream(outputStream);
     }
 
     /* renamed from: g */
-    protected void m17441g(OutputStream outputStream) {
+    protected void m17441g(OutputStream outputStream) throws java.io.IOException {
     }
 
     /* renamed from: h */
-    protected void m17442h(OutputStream outputStream, int i10) {
+    protected void m17442h(OutputStream outputStream, int i10) throws java.io.IOException {
     }
 
     /* renamed from: i */
-    protected void m17443i(OutputStream outputStream) {
+    protected void m17443i(OutputStream outputStream) throws java.io.IOException {
         this.f18247a.println();
     }
 
     /* renamed from: j */
-    protected int m17444j(InputStream inputStream, byte[] bArr) {
+    protected int m17444j(InputStream inputStream, byte[] bArr) throws java.io.IOException {
         for (int i10 = 0; i10 < bArr.length; i10++) {
             int read = inputStream.read();
             if (read == -1) {

@@ -8,19 +8,19 @@ import java.io.OutputStream;
 public class C4092b extends AbstractC4172d {
     @Override // ec.AbstractC4172d
     /* renamed from: a */
-    protected int mo17127a() {
+    protected int mo17127a() throws java.io.IOException {
         return 3;
     }
 
     @Override // ec.AbstractC4172d
     /* renamed from: b */
-    protected int mo17128b() {
+    protected int mo17128b() throws java.io.IOException {
         return 57;
     }
 
     @Override // ec.AbstractC4172d
     /* renamed from: e */
-    protected void mo17129e(OutputStream outputStream, byte[] bArr, int i10, int i11) {
+    protected void mo17129e(OutputStream outputStream, byte[] bArr, int i10, int i11) throws java.io.IOException {
         char[] cArr = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '/'};
         if (i11 == 1) {
             byte b10 = bArr[i10];

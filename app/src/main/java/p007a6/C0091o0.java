@@ -123,7 +123,7 @@ public class C0091o0 {
     }
 
     /* renamed from: f */
-    public static String m416f(InputStream inputStream) {
+    public static String m416f(InputStream inputStream) throws java.io.IOException {
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         byte[] bArr = new byte[8192];
         while (true) {

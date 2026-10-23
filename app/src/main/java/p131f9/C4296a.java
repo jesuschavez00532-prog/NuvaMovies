@@ -93,7 +93,7 @@ public class C4296a {
     }
 
     /* renamed from: c */
-    public void m17972c(String str, String str2) {
+    public void m17972c(String str, String str2) throws java.io.IOException {
         try {
             if (new File(str).exists()) {
                 FileInputStream fileInputStream = new FileInputStream(str);

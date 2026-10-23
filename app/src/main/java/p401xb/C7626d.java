@@ -333,7 +333,7 @@ public final class C7626d {
     }
 
     /* renamed from: t */
-    private final String m29389t(InputStream inputStream, File file) {
+    private final String m29389t(InputStream inputStream, File file) throws java.io.IOException {
         FileOutputStream fileOutputStream = new FileOutputStream(file);
         MessageDigest messageDigest = MessageDigest.getInstance("MD5");
         try {

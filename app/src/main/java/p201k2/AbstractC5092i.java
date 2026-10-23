@@ -50,7 +50,7 @@ public abstract class AbstractC5092i {
     }
 
     /* renamed from: c */
-    public static String m20668c(File file) {
+    public static String m20668c(File file) throws java.io.IOException {
         if (!file.isFile()) {
             return null;
         }

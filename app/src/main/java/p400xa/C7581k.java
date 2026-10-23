@@ -104,7 +104,7 @@ public final class C7581k {
     }
 
     /* renamed from: g */
-    public final void m29098g(String str, String str2) {
+    public final void m29098g(String str, String str2) throws java.io.IOException {
         AbstractC5868k.m23674f(str, Progress.FILE_NAME);
         AbstractC5868k.m23674f(str2, "fileContent");
         try {

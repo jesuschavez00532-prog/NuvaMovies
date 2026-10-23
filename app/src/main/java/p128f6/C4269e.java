@@ -75,7 +75,7 @@ public class C4269e {
     }
 
     /* renamed from: A */
-    private static String m17751A(File file) {
+    private static String m17751A(File file) throws java.io.IOException {
         byte[] bArr = new byte[8192];
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         FileInputStream fileInputStream = new FileInputStream(file);
