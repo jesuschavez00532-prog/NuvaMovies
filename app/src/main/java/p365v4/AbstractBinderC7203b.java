@@ -22,7 +22,7 @@ public abstract class AbstractBinderC7203b extends Binder implements IInterface 
     }
 
     @Override // android.os.Binder
-    public final boolean onTransact(int i10, Parcel parcel, Parcel parcel2, int i11) {
+    public final boolean onTransact(int i10, Parcel parcel, Parcel parcel2, int i11) throws android.os.RemoteException {
         if (i10 > 16777215) {
             if (super.onTransact(i10, parcel, parcel2, i11)) {
                 return true;
