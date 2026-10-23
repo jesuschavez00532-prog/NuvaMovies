@@ -11,7 +11,7 @@ import p310r4.C6534e;
 /* loaded from: classes.dex */
 public abstract class AbstractC6197a {
     /* renamed from: a */
-    public static byte[] m24741a(Context context, String str) {
+    public static byte[] m24741a(Context context, String str) throws android.content.pm.PackageManager.NameNotFoundException {
         MessageDigest m24742b;
         PackageInfo m25567e = C6534e.m25570a(context).m25567e(str, 64);
         Signature[] signatureArr = m25567e.signatures;
@@ -23,7 +23,7 @@ public abstract class AbstractC6197a {
 
     /* renamed from: b */
     public static MessageDigest m24742b(String str) {
-        MessageDigest messageDigest;
+        MessageDigest messageDigest = null;
         for (int i10 = 0; i10 < 2; i10++) {
             try {
                 messageDigest = MessageDigest.getInstance(str);
