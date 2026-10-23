@@ -125,7 +125,7 @@ abstract class AbstractC7006g {
 
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: c */
-    public static Object m27049c(ExecutorService executorService, Callable callable, int i10) {
+    public static Object m27049c(ExecutorService executorService, Callable callable, int i10) throws InterruptedException {
         try {
             return executorService.submit(callable).get(i10, TimeUnit.MILLISECONDS);
         } catch (InterruptedException e10) {

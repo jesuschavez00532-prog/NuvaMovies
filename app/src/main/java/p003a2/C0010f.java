@@ -73,7 +73,7 @@ public class C0010f implements InterfaceFutureC0007c, InterfaceC0011g {
     }
 
     /* renamed from: c */
-    private synchronized Object m100c(Long l10) {
+    private synchronized Object m100c(Long l10) throws InterruptedException, java.util.concurrent.TimeoutException, java.util.concurrent.ExecutionException, java.util.concurrent.CancellationException {
         if (this.f53c && !isDone()) {
             AbstractC4122l.m17228a();
         }
@@ -151,10 +151,10 @@ public class C0010f implements InterfaceFutureC0007c, InterfaceC0011g {
     }
 
     @Override // java.util.concurrent.Future
-    public Object get() {
+    public Object get() throws InterruptedException, java.util.concurrent.ExecutionException {
         try {
             return m100c(null);
-        } catch (TimeoutException e10) {
+        } catch (java.util.concurrent.TimeoutException e10) {
             throw new AssertionError(e10);
         }
     }
@@ -254,7 +254,7 @@ public class C0010f implements InterfaceFutureC0007c, InterfaceC0011g {
     }
 
     @Override // java.util.concurrent.Future
-    public Object get(long j10, TimeUnit timeUnit) {
+    public Object get(long j10, TimeUnit timeUnit) throws InterruptedException, java.util.concurrent.ExecutionException, java.util.concurrent.TimeoutException {
         return m100c(Long.valueOf(timeUnit.toMillis(j10)));
     }
 }
