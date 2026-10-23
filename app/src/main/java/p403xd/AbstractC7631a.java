@@ -26,7 +26,7 @@ public abstract class AbstractC7631a {
 
     /* renamed from: a */
     public void mo29404a(View view) {
-        boolean z10;
+        boolean z10 = false;
         int m29410g;
         if (view.getTag() != null && view.getTag().toString().equals(ConnType.PK_AUTO)) {
             z10 = true;

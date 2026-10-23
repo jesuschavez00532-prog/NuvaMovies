@@ -253,7 +253,7 @@ public final class C1446c0 {
     /* renamed from: C */
     private final boolean m6711C(String str) {
         List list;
-        boolean z10;
+        boolean z10 = false;
         if (str != null) {
             list = AbstractC7167u.m27748R(str, new String[]{","}, false, 0, 6, null);
         } else {
@@ -334,7 +334,7 @@ public final class C1446c0 {
 
     /* renamed from: H */
     private final boolean m6715H() {
-        boolean z10;
+        boolean z10 = false;
         C5090g c5090g = C5090g.f20948a;
         String m20653t = c5090g.m20653t(c5090g.m20648m());
         String m20653t2 = c5090g.m20653t(c5090g.m20644i());
@@ -392,8 +392,8 @@ public final class C1446c0 {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: O */
     public final void m6720O(Context context) {
-        String m27728o;
-        String m27728o2;
+        String m27728o = null;
+        String m27728o2 = null;
         Cursor cursor = null;
         try {
             try {
@@ -668,7 +668,7 @@ public final class C1446c0 {
     private final String m6733o() {
         byte[] bArr;
         byte[] hardwareAddress;
-        boolean z10;
+        boolean z10 = false;
         StringBuilder sb2 = new StringBuilder();
         try {
             NetworkInterface byName = NetworkInterface.getByName("eth0");
@@ -722,7 +722,7 @@ public final class C1446c0 {
 
     /* renamed from: r */
     private final String m6734r() {
-        String m6727d;
+        String m6727d = null;
         try {
             String[] strArr = {"/sys/class/net/wlan0/address", "/sys/devices/virtual/net/wlan0/address"};
             for (int i10 = 0; i10 < 2; i10++) {
@@ -804,7 +804,7 @@ public final class C1446c0 {
         Observable compose = just.map(new Function() { // from class: cc.z
             @Override // io.reactivex.functions.Function
             public final Object apply(Object obj) {
-                String m6717L;
+                String m6717L = null;
                 m6717L = C1446c0.m6717L(InterfaceC5660l.this, obj);
                 return m6717L;
             }
@@ -855,8 +855,8 @@ public final class C1446c0 {
 
     /* renamed from: l */
     public final String m6743l() {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         String m6731i = m6731i("cat /sys/block/mmcblk0/device/type");
         String m6731i2 = m6731i("cat /sys/block/mmcblk0/device/name");
         String m6731i3 = m6731i("cat /sys/block/mmcblk0/device/cid");
@@ -948,8 +948,8 @@ public final class C1446c0 {
 
     /* renamed from: t */
     public final String m6748t() {
-        boolean z10;
-        String m20690a;
+        boolean z10 = false;
+        String m20690a = null;
         if (f5560b.length() == 0) {
             z10 = true;
         } else {
@@ -991,7 +991,7 @@ public final class C1446c0 {
 
     /* renamed from: v */
     public final String m6750v(Context context) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         try {
             StatFs statFs = new StatFs(Environment.getDataDirectory().getPath());
@@ -1022,7 +1022,7 @@ public final class C1446c0 {
 
     /* renamed from: y */
     public final String m6752y(Context context) {
-        String str;
+        String str = null;
         boolean m27763v;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         String str2 = "02:00:00:00:00:00";

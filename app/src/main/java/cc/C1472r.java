@@ -171,10 +171,10 @@ public final class C1472r {
     /* renamed from: m */
     public final void m6910m(Context context) {
         Uri uri;
-        String m6799d;
+        String m6799d = null;
         Cursor query;
-        String m27728o;
-        String m27728o2;
+        String m27728o = null;
+        String m27728o2 = null;
         Cursor cursor = null;
         try {
             try {
@@ -275,7 +275,7 @@ public final class C1472r {
         Observable compose = just.map(new Function() { // from class: cc.o
             @Override // io.reactivex.functions.Function
             public final Object apply(Object obj) {
-                String m6907j;
+                String m6907j = null;
                 m6907j = C1472r.m6907j(InterfaceC5660l.this, obj);
                 return m6907j;
             }

@@ -15,7 +15,7 @@ public class C7790a implements InterfaceC7713g {
     private final String f28719a;
 
     static {
-        boolean z10;
+        boolean z10 = false;
         try {
             Class.forName("android.util.Log");
             z10 = true;

@@ -53,7 +53,7 @@ public final class C5350a implements InterfaceC4983a {
     public static final class a extends AbstractC4445l implements InterfaceC5664p {
 
         /* renamed from: e */
-        Object f21876e;
+        Object f21876e = null;
 
         /* renamed from: f */
         int f21877f;
@@ -86,7 +86,7 @@ public final class C5350a implements InterfaceC4983a {
                 boolean m27721h;
                 boolean m27721h2;
                 boolean m27721h3;
-                String str;
+                String str = null;
                 AbstractC4313d.m18094c();
                 if (this.f21880e == 0) {
                     AbstractC1320p.m5976b(obj);
@@ -177,7 +177,7 @@ public final class C5350a implements InterfaceC4983a {
         @Override // ge.AbstractC4434a
         /* renamed from: l */
         public final Object mo2392l(Object obj) {
-            Object m18094c;
+            Object m18094c = null;
             C5878u c5878u;
             m18094c = AbstractC4313d.m18094c();
             int i10 = this.f21877f;

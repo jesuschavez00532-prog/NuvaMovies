@@ -67,7 +67,7 @@ public final class C5105b0 extends Fragment implements InterfaceC5108e {
     @Override // androidx.fragment.app.Fragment
     /* renamed from: L7 */
     public final void mo3103L7(Bundle bundle) {
-        Bundle bundle2;
+        Bundle bundle2 = null;
         super.mo3103L7(bundle);
         this.f21036p0 = 1;
         this.f21037q0 = bundle;

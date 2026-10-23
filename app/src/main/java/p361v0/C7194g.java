@@ -52,7 +52,7 @@ public final class C7194g {
 
     /* renamed from: c */
     public final ArrayList m27834c(Context context, String str, List list, String str2, long j10, boolean z10, String str3) {
-        boolean z11;
+        boolean z11 = false;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         AbstractC5868k.m23674f(str, "adType");
         AbstractC5868k.m23674f(str2, "userIdentity");

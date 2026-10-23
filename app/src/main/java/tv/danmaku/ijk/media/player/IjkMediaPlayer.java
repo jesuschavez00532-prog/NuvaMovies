@@ -456,7 +456,7 @@ public final class IjkMediaPlayer extends AbstractMediaPlayer {
     }
 
     public static String loadLibrariesOnce(IjkLibLoader ijkLibLoader) {
-        String str;
+        String str = null;
         synchronized (IjkMediaPlayer.class) {
             if (!mIsLibLoaded) {
                 if (ijkLibLoader == null) {
@@ -584,7 +584,7 @@ public final class IjkMediaPlayer extends AbstractMediaPlayer {
     }
 
     private void updateSurfaceScreenOn() {
-        boolean z10;
+        boolean z10 = false;
         SurfaceHolder surfaceHolder = this.mSurfaceHolder;
         if (surfaceHolder != null) {
             if (this.mScreenOnWhilePlaying && this.mStayAwake) {
@@ -965,7 +965,7 @@ public final class IjkMediaPlayer extends AbstractMediaPlayer {
     @Override // tv.danmaku.ijk.media.player.IMediaPlayer
     @SuppressLint({"Wakelock"})
     public void setWakeMode(Context context, int i10) {
-        boolean z10;
+        boolean z10 = false;
         PowerManager.WakeLock wakeLock = this.mWakeLock;
         if (wakeLock != null) {
             if (wakeLock.isHeld()) {

@@ -151,8 +151,8 @@ public final class C7697b implements Dns {
 
     /* renamed from: e */
     private final boolean m29564e(String str) {
-        String m27728o;
-        String m27728o2;
+        String m27728o = null;
+        String m27728o2 = null;
         try {
             m27728o = AbstractC7166t.m27728o(str, ".", "", false, 4, null);
             m27728o2 = AbstractC7166t.m27728o(m27728o, ":", "", false, 4, null);
@@ -167,9 +167,9 @@ public final class C7697b implements Dns {
     /* renamed from: f */
     private final List m29565f(List list, String str, String str2, String str3) {
         List m7001F;
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         StringBuilder sb2 = new StringBuilder();
         int size = list.size();
         ArrayList arrayList = new ArrayList();
@@ -236,7 +236,7 @@ public final class C7697b implements Dns {
     /* renamed from: g */
     private final InterfaceC5142c m29566g() {
         File file;
-        boolean z10;
+        boolean z10 = false;
         Context context = f28153h;
         if (context != null) {
             file = context.getCacheDir();
@@ -270,7 +270,7 @@ public final class C7697b implements Dns {
     /* renamed from: k */
     private final List m29569k(String str) {
         String[] strArr;
-        boolean z10;
+        boolean z10 = false;
         List m6948a;
         try {
             C5140a c5140a = this.f28158d;
@@ -353,9 +353,9 @@ public final class C7697b implements Dns {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: n */
     public static final void m29572n(String str, String str2, C7697b c7697b, String str3, String str4) {
-        String str5;
-        boolean z10;
-        String str6;
+        String str5 = null;
+        boolean z10 = false;
+        String str6 = null;
         AbstractC5868k.m23674f(str, "$type");
         AbstractC5868k.m23674f(str2, "$hostname");
         AbstractC5868k.m23674f(c7697b, "this$0");
@@ -385,7 +385,7 @@ public final class C7697b implements Dns {
     /* renamed from: j */
     public final List m29573j(String str, String str2) {
         List m29569k;
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, "hostname");
         AbstractC5868k.m23674f(str2, "alias");
         try {

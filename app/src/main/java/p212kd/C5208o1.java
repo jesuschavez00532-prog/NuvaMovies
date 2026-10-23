@@ -62,7 +62,7 @@ public final class C5208o1 extends AbstractC7526a {
     @Override // p399x9.AbstractC7526a
     /* renamed from: h, reason: merged with bridge method [inline-methods] */
     public void mo21036b(final C7532g c7532g, final AssetList assetList) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(c7532g, "holder");
         AbstractC5868k.m23674f(assetList, "bean");
         if (c7532g.m28869b() == m28841d().size() - 1) {

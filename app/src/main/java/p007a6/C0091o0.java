@@ -80,9 +80,9 @@ public class C0091o0 {
 
     /* renamed from: e */
     private static AbstractC1366a0.a m415e(ApplicationExitInfo applicationExitInfo) {
-        String applicationExitInfo2;
+        String applicationExitInfo2 = null;
         int importance;
-        String processName;
+        String processName = null;
         int reason;
         long timestamp;
         int pid;
@@ -279,7 +279,7 @@ public class C0091o0 {
 
     /* renamed from: w */
     public AbstractC4245i m433w(Executor executor, String str) {
-        boolean z10;
+        boolean z10 = false;
         List<AbstractC0092p> m17781w = this.f307b.m17781w();
         ArrayList arrayList = new ArrayList();
         for (AbstractC0092p abstractC0092p : m17781w) {

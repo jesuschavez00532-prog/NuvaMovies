@@ -26,7 +26,7 @@ public final class C6610e {
 
     /* renamed from: a */
     public final List m25823a(Context context, String str, List list, String str2, String str3, long j10, boolean z10, String str4) {
-        boolean z11;
+        boolean z11 = false;
         boolean m27723j;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         AbstractC5868k.m23674f(str, "adType");

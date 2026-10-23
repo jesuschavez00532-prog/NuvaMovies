@@ -81,7 +81,7 @@ public final class C5192k1 extends AbstractC7527b {
         @Override // p399x9.AbstractC7527b
         /* renamed from: q, reason: merged with bridge method [inline-methods] */
         public void mo5338e(final C7531f c7531f, final C5552f c5552f) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(c7531f, "holder");
             AbstractC5868k.m23674f(c5552f, "bean");
             View view = c7531f.itemView;
@@ -157,7 +157,7 @@ public final class C5192k1 extends AbstractC7527b {
     @Override // p399x9.AbstractC7527b
     /* renamed from: q, reason: merged with bridge method [inline-methods] */
     public void mo5338e(final C7531f c7531f, final C5552f c5552f) {
-        boolean z10;
+        boolean z10 = false;
         int color;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(c5552f, "bean");

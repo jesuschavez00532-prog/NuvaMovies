@@ -316,7 +316,7 @@ public final class C5500t extends AbstractC7766d<C4570a5> implements InterfaceC4
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: Ea */
     public static final void m22301Ea(C5500t c5500t, ObservableEmitter observableEmitter) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(c5500t, "this$0");
         AbstractC5868k.m23674f(observableEmitter, "it");
         ArrayList arrayList = new ArrayList();
@@ -692,7 +692,7 @@ public final class C5500t extends AbstractC7766d<C4570a5> implements InterfaceC4
     @Override // p130f8.InterfaceC4295v
     /* renamed from: K5 */
     public void mo17965K5(long j10, String str, String str2) {
-        String format;
+        String format = null;
         if (j10 == 0) {
             ViewOnClickListenerC5136d viewOnClickListenerC5136d = this.f22387C0;
             if (viewOnClickListenerC5136d != null) {
@@ -764,7 +764,7 @@ public final class C5500t extends AbstractC7766d<C4570a5> implements InterfaceC4
     @Override // p130f8.InterfaceC4295v
     /* renamed from: T2 */
     public void mo17967T2() {
-        String str;
+        String str = null;
         int i10 = R$id.mTvChannel;
         if (((TextView) m22340Y9(i10)) == null) {
             this.f22394J0 = true;
@@ -801,7 +801,7 @@ public final class C5500t extends AbstractC7766d<C4570a5> implements InterfaceC4
     @Override // p130f8.InterfaceC4295v
     /* renamed from: a1 */
     public void mo17968a1(final ReservationList reservationList) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(reservationList, "reserve");
         ViewOnClickListenerC5136d viewOnClickListenerC5136d = this.f22387C0;
         if (viewOnClickListenerC5136d != null && viewOnClickListenerC5136d.m3079D7()) {
@@ -966,7 +966,7 @@ public final class C5500t extends AbstractC7766d<C4570a5> implements InterfaceC4
     @Override // p430z9.AbstractC7770h, p164hd.AbstractC4817b, androidx.fragment.app.Fragment
     /* renamed from: g8 */
     public void mo3164g8() {
-        boolean z10;
+        boolean z10 = false;
         C5498s1 c5498s1;
         super.mo3164g8();
         if (this.f22388D0) {
@@ -1067,7 +1067,7 @@ public final class C5500t extends AbstractC7766d<C4570a5> implements InterfaceC4
 
     @Override // p011aa.InterfaceC0124b
     public boolean onKeyDown(int i10, KeyEvent keyEvent) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(keyEvent, "event");
         if (!this.f22397M0) {
             return false;

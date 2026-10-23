@@ -128,7 +128,7 @@ public final class C1428w {
 
     /* renamed from: f */
     public final void m6673f(List list) {
-        boolean z10;
+        boolean z10 = false;
         if (f5541c.size() != 0 && list != null) {
             Iterator it = list.iterator();
             while (it.hasNext()) {

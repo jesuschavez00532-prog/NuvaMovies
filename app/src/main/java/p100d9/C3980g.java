@@ -74,7 +74,7 @@ public final class C3980g extends AbstractC7527b {
     @Override // p399x9.AbstractC7527b
     /* renamed from: r, reason: merged with bridge method [inline-methods] */
     public void mo5338e(final C7531f c7531f, CouponCodeList couponCodeList) {
-        String string;
+        String string = null;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(couponCodeList, "bean");
         if (AbstractC5868k.m23669a(couponCodeList.getStatus(), MessageService.MSG_DB_READY_REPORT)) {

@@ -193,8 +193,8 @@ public final class C7702e {
 
         @Override // tv.danmaku.ijk.media.player.IjkMediaPlayer.OnSelectTrackListener
         public final void onSelectTrack(ArrayList arrayList) {
-            String str;
-            String m29710d;
+            String str = null;
+            String m29710d = null;
             ArrayList m27266f;
             ArrayList m27266f2;
             ArrayList m27266f3;
@@ -462,7 +462,7 @@ public final class C7702e {
         @Override // com.titan.ranger.JniHandler.InterfaceC3228a
         /* renamed from: c */
         public int mo13092c(String str, String str2, int i10) {
-            String str3;
+            String str3 = null;
             AbstractC5868k.m23675g(str, "obj");
             AbstractC5868k.m23675g(str2, C3417a.f15001w);
             InterfaceC7392a m29682a0 = C7702e.this.m29682a0();
@@ -538,10 +538,10 @@ public final class C7702e {
 
         @Override // android.os.Handler
         public void handleMessage(android.os.Message message) {
-            String str;
+            String str = null;
             InterfaceC7392a m29682a0;
-            String str2;
-            String m29710d;
+            String str2 = null;
+            String m29710d = null;
             AbstractC5868k.m23675g(message, "msg");
             int i10 = message.what;
             if (i10 == 61699) {
@@ -686,7 +686,7 @@ public final class C7702e {
         public final boolean onError(IMediaPlayer iMediaPlayer, int i10, int i11) {
             C7703f c7703f;
             InterfaceC7392a m29682a0;
-            String m29710d;
+            String m29710d = null;
             if (i10 != -38 && C7702e.this.f28189i != 5) {
                 if (C7702e.this.m29681Z() instanceof AndroidMediaPlayer) {
                     C7702e.this.f28183c = false;
@@ -759,14 +759,14 @@ public final class C7702e {
         @Override // tv.danmaku.ijk.media.player.IMediaPlayer.OnSeekCompleteListener
         public final void onSeekComplete(IMediaPlayer iMediaPlayer) {
             long j10;
-            String str;
+            String str = null;
             C7703f c7703f;
             InterfaceC7392a m29682a0;
-            String str2;
-            String m29710d;
-            String str3;
+            String str2 = null;
+            String m29710d = null;
+            String str3 = null;
             long j11;
-            String m29710d2;
+            String m29710d2 = null;
             C7702e.this.f28183c = false;
             C7703f c7703f2 = C7702e.this.f28206z;
             if (c7703f2 != null) {
@@ -871,10 +871,10 @@ public final class C7702e {
 
         @Override // tv.danmaku.ijk.media.player.IMediaPlayer.OnBufferingUpdateListener
         public final void onBufferingUpdate(IMediaPlayer iMediaPlayer, int i10, long j10) {
-            String str;
-            boolean z10;
+            String str = null;
+            boolean z10 = false;
             InterfaceC7392a m29682a0;
-            String m29710d;
+            String m29710d = null;
             long j11;
             C7703f c7703f;
             C7703f c7703f2;
@@ -975,7 +975,7 @@ public final class C7702e {
 
         @Override // tv.danmaku.ijk.media.player.IMediaPlayer.OnSeekListener
         public final void onSeek(IMediaPlayer iMediaPlayer, long j10) {
-            String str;
+            String str = null;
             if (C7702e.this.m29681Z() != null && C7702e.this.f28189i != 0 && C7702e.this.f28189i != -1) {
                 C7702e.this.m29650q0();
                 NativeJni m13097c = NativeJni.m13097c();
@@ -1019,9 +1019,9 @@ public final class C7702e {
         @Override // p432zc.C7783c.a
         /* renamed from: a */
         public void mo29695a(String str) {
-            String str2;
+            String str2 = null;
             InterfaceC7392a m29682a0;
-            String m29710d;
+            String m29710d = null;
             AbstractC5868k.m23675g(str, "programData");
             C7703f c7703f = C7702e.this.f28206z;
             String str3 = null;
@@ -1058,9 +1058,9 @@ public final class C7702e {
 
         @Override // com.titan.thumbnail.ThumbnailCallback
         public void onBitmapPrepared(boolean z10, Bitmap bitmap) {
-            String str;
+            String str = null;
             InterfaceC7392a m29682a0;
-            String m29710d;
+            String m29710d = null;
             String str2 = "";
             C7702e.this.f28173C.lock();
             try {
@@ -1084,9 +1084,9 @@ public final class C7702e {
 
         @Override // com.titan.thumbnail.ThumbnailCallback
         public void onGetThumbnail(boolean z10) {
-            String str;
+            String str = null;
             InterfaceC7392a m29682a0;
-            String m29710d;
+            String m29710d = null;
             String str2 = "";
             C7702e.this.f28173C.lock();
             try {
@@ -1135,10 +1135,10 @@ public final class C7702e {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: A0 */
     public final void m29593A0(long j10) {
-        String str;
+        String str = null;
         InterfaceC7392a interfaceC7392a;
-        String str2;
-        String m29710d;
+        String str2 = null;
+        String m29710d = null;
         if (m29645n0()) {
             try {
                 IMediaPlayer iMediaPlayer = this.f28194n;
@@ -1232,7 +1232,7 @@ public final class C7702e {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: R0 */
     public final void m29615R0() {
-        String str;
+        String str = null;
         m29616S();
         if (this.f28195o != 1) {
             C7703f c7703f = this.f28206z;
@@ -1316,8 +1316,8 @@ public final class C7702e {
 
     /* renamed from: U */
     private final IMediaPlayer m29619U() {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         C7703f c7703f;
         Program m29713g;
         C7703f c7703f2;
@@ -1454,7 +1454,7 @@ public final class C7702e {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: g0 */
     public final void m29632g0(InterfaceC3248b interfaceC3248b) {
-        String str;
+        String str = null;
         C7703f c7703f = this.f28206z;
         String str2 = null;
         if (c7703f != null) {
@@ -1477,9 +1477,9 @@ public final class C7702e {
     /* renamed from: i0 */
     public final void m29635i0() {
         MediaInfo mediaInfo;
-        String str;
+        String str = null;
         MediaInfo mediaInfo2;
-        String str2;
+        String str2 = null;
         C7076c c7076c;
         int m29629e0 = m29629e0(1);
         int m29629e02 = m29629e0(2);
@@ -1537,9 +1537,9 @@ public final class C7702e {
     /* renamed from: j0 */
     private final ArrayList m29637j0() {
         ITrackInfo[] iTrackInfoArr;
-        boolean z10;
+        boolean z10 = false;
         ArrayList m27266f;
-        Object obj;
+        Object obj = null;
         ArrayList arrayList = new ArrayList();
         try {
             IMediaPlayer iMediaPlayer = this.f28194n;
@@ -1790,7 +1790,7 @@ public final class C7702e {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: l0 */
     public final void m29641l0() {
-        String str;
+        String str = null;
         C7703f c7703f = this.f28206z;
         if (c7703f != null) {
             str = c7703f.m29712f();
@@ -1806,7 +1806,7 @@ public final class C7702e {
 
     /* renamed from: m0 */
     private final boolean m29643m0() {
-        String str;
+        String str = null;
         if (Build.VERSION.SDK_INT == 28) {
             Env m29757m = C7705h.f28256m.m29771a().m29757m();
             if (m29757m != null) {
@@ -1834,7 +1834,7 @@ public final class C7702e {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: p0 */
     public final void m29648p0(String str) {
-        String str2;
+        String str2 = null;
         C7703f c7703f = this.f28206z;
         if (c7703f != null && c7703f.m29724r()) {
             str2 = C3325bt.f14185aC;
@@ -2003,7 +2003,7 @@ public final class C7702e {
 
     /* renamed from: B0 */
     public final int m29665B0(String str, long j10) {
-        boolean z10;
+        boolean z10 = false;
         C7703f c7703f;
         C7703f c7703f2;
         AbstractC5868k.m23675g(str, SerializableCookie.NAME);
@@ -2050,7 +2050,7 @@ public final class C7702e {
         MediaPlayer internalMediaPlayer2;
         ArrayList arrayList;
         C7074a m27261a;
-        String str;
+        String str = null;
         MediaInfo mediaInfo;
         if (m29645n0()) {
             IMediaPlayer iMediaPlayer = this.f28194n;
@@ -2186,7 +2186,7 @@ public final class C7702e {
 
     /* renamed from: M0 */
     public final void m29674M0(Surface surface, String str) {
-        String str2;
+        String str2 = null;
         AbstractC5868k.m23675g(str, "surfaceId");
         String str3 = null;
         if (surface == null) {
@@ -2244,8 +2244,8 @@ public final class C7702e {
 
     /* renamed from: P0 */
     public final void m29676P0(String str, boolean z10) {
-        String str2;
-        String m29718l;
+        String str2 = null;
+        String m29718l = null;
         Program m29713g;
         C7076c c7076c;
         AbstractC5868k.m23675g(str, "realPlayUrl");
@@ -2380,9 +2380,9 @@ public final class C7702e {
 
     /* renamed from: U0 */
     public final int m29678U0(String str, int i10) {
-        String str2;
-        boolean z10;
-        String str3;
+        String str2 = null;
+        boolean z10 = false;
+        String str3 = null;
         C7703f c7703f;
         C7703f c7703f2;
         Program m29713g;
@@ -2583,8 +2583,8 @@ public final class C7702e {
 
     /* renamed from: o0 */
     public final boolean m29687o0() {
-        String m29712f;
-        boolean z10;
+        String m29712f = null;
+        boolean z10 = false;
         IMediaPlayer iMediaPlayer;
         C7703f c7703f = this.f28206z;
         if (c7703f == null || (m29712f = c7703f.m29712f()) == null) {

@@ -15,7 +15,7 @@ public abstract class AbstractC6907b {
 
     /* renamed from: a */
     public static synchronized ClassLoader m26845a() {
-        ClassLoader classLoader;
+        ClassLoader classLoader = null;
         synchronized (AbstractC6907b.class) {
             if (f26231a == null) {
                 f26231a = m26846b();

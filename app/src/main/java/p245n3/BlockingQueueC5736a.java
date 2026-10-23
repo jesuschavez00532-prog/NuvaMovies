@@ -92,7 +92,7 @@ public class BlockingQueueC5736a extends AbstractQueue implements BlockingQueue,
 
         @Override // java.util.Iterator
         public Object next() {
-            Object m23158b;
+            Object m23158b = null;
             BlockingQueueC5736a.this.m23153i();
             try {
                 b bVar = this.f23032a;
@@ -245,7 +245,7 @@ public class BlockingQueueC5736a extends AbstractQueue implements BlockingQueue,
 
     /* renamed from: g */
     private void m23149g(b bVar) {
-        boolean z10;
+        boolean z10 = false;
         b bVar2 = this.f23026c;
         while (true) {
             b bVar3 = bVar2.f23038c;

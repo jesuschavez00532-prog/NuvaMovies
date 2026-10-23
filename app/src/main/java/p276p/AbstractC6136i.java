@@ -90,7 +90,7 @@ public abstract class AbstractC6136i {
     /* renamed from: c */
     public static Typeface m24455c(Context context, AbstractC5891f.a aVar, Resources resources, int i10, int i11, AbstractC5894i.d dVar, Handler handler, boolean z10) {
         Typeface mo24468b;
-        boolean z11;
+        boolean z11 = false;
         int i12 = 0;
         if (aVar instanceof AbstractC5891f.d) {
             AbstractC5891f.d dVar2 = (AbstractC5891f.d) aVar;

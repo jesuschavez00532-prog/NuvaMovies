@@ -245,7 +245,7 @@ public abstract class AbstractC5891f {
 
     /* renamed from: f */
     private static c m23772f(XmlPullParser xmlPullParser, Resources resources) {
-        boolean z10;
+        boolean z10 = false;
         TypedArray obtainAttributes = resources.obtainAttributes(Xml.asAttributeSet(xmlPullParser), R$styleable.f2178d);
         int i10 = R$styleable.FontFamilyFont_fontWeight;
         if (!obtainAttributes.hasValue(i10)) {

@@ -18,8 +18,8 @@ public final class C6452g extends HashMap {
     /* renamed from: b */
     public Object m25274b(String str) {
         int m27734D;
-        Object obj;
-        Object obj2;
+        Object obj = null;
+        Object obj2 = null;
         boolean m27763v;
         if (str == null) {
             return null;
@@ -61,7 +61,7 @@ public final class C6452g extends HashMap {
 
     @Override // java.util.HashMap, java.util.AbstractMap, java.util.Map
     public final /* bridge */ boolean containsKey(Object obj) {
-        boolean z10;
+        boolean z10 = false;
         if (obj == null) {
             z10 = true;
         } else {
@@ -100,7 +100,7 @@ public final class C6452g extends HashMap {
 
     @Override // java.util.HashMap, java.util.AbstractMap, java.util.Map
     public final /* bridge */ Object get(Object obj) {
-        boolean z10;
+        boolean z10 = false;
         if (obj == null) {
             z10 = true;
         } else {
@@ -114,7 +114,7 @@ public final class C6452g extends HashMap {
 
     @Override // java.util.HashMap, java.util.Map
     public final /* bridge */ Object getOrDefault(Object obj, Object obj2) {
-        boolean z10;
+        boolean z10 = false;
         if (obj == null) {
             z10 = true;
         } else {

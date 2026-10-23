@@ -89,7 +89,7 @@ public class C7710d {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: e */
     public InterfaceC7714h m29812e() {
-        Object m29808c;
+        Object m29808c = null;
         InterfaceC7714h interfaceC7714h = this.f28367l;
         if (interfaceC7714h != null) {
             return interfaceC7714h;

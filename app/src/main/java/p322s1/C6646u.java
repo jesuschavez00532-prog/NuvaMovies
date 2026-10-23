@@ -137,7 +137,7 @@ public final class C6646u {
 
     /* renamed from: b */
     private void m25934b(InterfaceC6613a0 interfaceC6613a0, EnumC4971b enumC4971b, boolean z10, boolean z11, BitmapFactory.Options options, int i10, int i11) {
-        boolean z12;
+        boolean z12 = false;
         Bitmap.Config config;
         if (this.f25494e.m25969g(i10, i11, options, z10, z11)) {
             return;
@@ -270,7 +270,7 @@ public final class C6646u {
 
     /* renamed from: g */
     private InterfaceC5335v m25936g(InterfaceC6613a0 interfaceC6613a0, int i10, int i11, C4977h c4977h, b bVar) {
-        boolean z10;
+        boolean z10 = false;
         byte[] bArr = (byte[]) this.f25492c.mo22611d(65536, byte[].class);
         BitmapFactory.Options m25940k = m25940k();
         m25940k.inTempStorage = bArr;
@@ -294,11 +294,11 @@ public final class C6646u {
 
     /* renamed from: h */
     private Bitmap m25937h(InterfaceC6613a0 interfaceC6613a0, BitmapFactory.Options options, AbstractC6640o abstractC6640o, EnumC4971b enumC4971b, EnumC4978i enumC4978i, boolean z10, int i10, int i11, boolean z11, b bVar) {
-        boolean z12;
+        boolean z12 = false;
         int i12 = 0;
         int i13 = 0;
         int i14 = 0;
-        String str;
+        String str = null;
         ColorSpace.Named named;
         ColorSpace colorSpace;
         ColorSpace colorSpace2;

@@ -151,7 +151,7 @@ public final class C4127e extends RecyclerView.AbstractC0789h {
                         /* renamed from: l */
                         public final Object mo2392l(Object obj) {
                             RunnableC4341c runnableC4341c;
-                            String str;
+                            String str = null;
                             RunnableC4341c downloadTask;
                             AbstractC4313d.m18094c();
                             if (this.f18116e == 0) {
@@ -203,7 +203,7 @@ public final class C4127e extends RecyclerView.AbstractC0789h {
                     @Override // ge.AbstractC4434a
                     /* renamed from: l */
                     public final Object mo2392l(Object obj) {
-                        Object m18094c;
+                        Object m18094c = null;
                         m18094c = AbstractC4313d.m18094c();
                         int i10 = this.f18114e;
                         if (i10 != 0) {

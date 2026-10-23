@@ -20,7 +20,7 @@ public abstract class AbstractBinderC4857c0 extends AbstractBinderC5396o1 {
 
     /* JADX INFO: Access modifiers changed from: protected */
     public AbstractBinderC4857c0(byte[] bArr) {
-        boolean z10;
+        boolean z10 = false;
         if (bArr.length == 25) {
             z10 = true;
         } else {

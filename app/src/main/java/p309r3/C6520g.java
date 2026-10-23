@@ -146,7 +146,7 @@ final class C6520g extends AbstractC6526m {
     public boolean equals(Object obj) {
         AbstractC6524k abstractC6524k;
         Integer num;
-        String str;
+        String str = null;
         List list;
         if (obj == this) {
             return true;

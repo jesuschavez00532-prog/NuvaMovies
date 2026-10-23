@@ -74,9 +74,9 @@ public final class C5451g2 extends AbstractC1196d<InterfaceC4286m> implements In
 
     /* renamed from: I9 */
     private final void m22007I9() {
-        String str;
+        String str = null;
         Team team_b;
-        String teamLogo;
+        String teamLogo = null;
         Team team_a;
         if (this.f22185y0 == null) {
             return;

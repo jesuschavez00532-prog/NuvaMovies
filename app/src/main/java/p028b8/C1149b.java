@@ -316,9 +316,9 @@ public final class C1149b extends BaseAdapter implements BaseAdapterImpl {
     public View getView(int i10, View view, ViewGroup viewGroup) {
         a aVar;
         View view2;
-        String valueOf;
+        String valueOf = null;
         ArrayList<EpgProgram> programList;
-        String valueOf2;
+        String valueOf2 = null;
         if (view == null) {
             view2 = LayoutInflater.from(this.f4487c).inflate(R$layout.layout_channel_item, viewGroup, false);
             aVar = new a(this, view2);

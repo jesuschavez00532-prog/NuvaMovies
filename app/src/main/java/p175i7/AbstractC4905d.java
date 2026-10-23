@@ -13,7 +13,7 @@ abstract class AbstractC4905d {
     private static int m20134b(C4903b c4903b, boolean z10) {
         int m20108e;
         int m20107d;
-        byte b10;
+        byte b10 = 0;
         if (z10) {
             m20108e = c4903b.m20107d();
         } else {

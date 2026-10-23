@@ -330,7 +330,7 @@ public abstract class AbstractC6629i0 {
 
     /* renamed from: n */
     public static Bitmap m25873n(InterfaceC5571d interfaceC5571d, Bitmap bitmap, int i10) {
-        boolean z10;
+        boolean z10 = false;
         if (i10 > 0) {
             z10 = true;
         } else {

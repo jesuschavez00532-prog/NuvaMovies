@@ -503,7 +503,7 @@ public final class C7414k extends PopupWindow {
 
     @Override // android.widget.PopupWindow
     public void dismiss() {
-        boolean z10;
+        boolean z10 = false;
         Disposable disposable;
         C7709c.m29787d().m29801m(new MsgUnReadSizeUpdateEvent());
         this.f27437e.setVisibility(8);

@@ -53,7 +53,7 @@ public abstract class AbstractC7780c implements Interceptor {
     @Override // okhttp3.Interceptor
     public Response intercept(Interceptor.Chain chain) {
         JsonObject asJsonObject;
-        String jsonElement;
+        String jsonElement = null;
         Request.Builder put;
         Request request = chain.request();
         if ((!TextUtils.equals(request.method(), "POST") && !TextUtils.equals(request.method(), Request.Method.PUT)) || !request.body().contentType().toString().contains("application/json;")) {

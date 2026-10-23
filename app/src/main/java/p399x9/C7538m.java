@@ -191,7 +191,7 @@ public final class C7538m extends AbstractC7527b {
 
     /* renamed from: s */
     public final void m28892s(C7550y c7550y) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(c7550y, "bean");
         C7709c m29787d = C7709c.m29787d();
         Channel m28928a = c7550y.m28928a();
@@ -205,8 +205,8 @@ public final class C7538m extends AbstractC7527b {
 
     /* renamed from: t */
     public final void m28893t(Context context, C7550y c7550y) {
-        String str;
-        String type;
+        String str = null;
+        String type = null;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         AbstractC5868k.m23674f(c7550y, "bean");
         C7709c.m29787d().m29801m(new FinishVodDetailEvent());

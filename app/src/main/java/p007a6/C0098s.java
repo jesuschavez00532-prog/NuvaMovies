@@ -81,8 +81,8 @@ public class C0098s {
 
     /* renamed from: e */
     private void m440e(boolean z10) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         if (z10) {
             str = "ENABLED";
         } else {
@@ -100,8 +100,8 @@ public class C0098s {
 
     /* renamed from: f */
     private static Boolean m441f(Context context) {
-        ApplicationInfo applicationInfo;
-        Bundle bundle;
+        ApplicationInfo applicationInfo = null;
+        Bundle bundle = null;
         try {
             PackageManager packageManager = context.getPackageManager();
             if (packageManager != null && (applicationInfo = packageManager.getApplicationInfo(context.getPackageName(), 128)) != null && (bundle = applicationInfo.metaData) != null && bundle.containsKey("firebase_crashlytics_collection_enabled")) {

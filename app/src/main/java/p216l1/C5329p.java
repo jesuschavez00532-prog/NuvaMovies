@@ -92,7 +92,7 @@ class C5329p implements InterfaceC5335v {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: f */
     public void m21580f() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this) {
             int i10 = this.f21821f;
             if (i10 > 0) {

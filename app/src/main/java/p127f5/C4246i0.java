@@ -135,7 +135,7 @@ public final class C4246i0 extends AbstractC4245i {
     @Override // p127f5.AbstractC4245i
     /* renamed from: j */
     public final Object mo17708j() {
-        Object obj;
+        Object obj = null;
         synchronized (this.f18540a) {
             m17715v();
             m17716w();
@@ -152,7 +152,7 @@ public final class C4246i0 extends AbstractC4245i {
     @Override // p127f5.AbstractC4245i
     /* renamed from: k */
     public final Object mo17709k(Class cls) {
-        Object obj;
+        Object obj = null;
         synchronized (this.f18540a) {
             m17715v();
             m17716w();
@@ -179,7 +179,7 @@ public final class C4246i0 extends AbstractC4245i {
     @Override // p127f5.AbstractC4245i
     /* renamed from: m */
     public final boolean mo17711m() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f18540a) {
             z10 = this.f18542c;
         }
@@ -189,7 +189,7 @@ public final class C4246i0 extends AbstractC4245i {
     @Override // p127f5.AbstractC4245i
     /* renamed from: n */
     public final boolean mo17712n() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f18540a) {
             z10 = false;
             if (this.f18542c && !this.f18543d && this.f18545f == null) {

@@ -23,7 +23,7 @@ public final class ServiceConnectionC5413w0 implements ServiceConnection {
 
     @Override // android.content.ServiceConnection
     public final void onServiceConnected(ComponentName componentName, IBinder iBinder) {
-        Object obj;
+        Object obj = null;
         InterfaceC5382k c5389m0;
         AbstractC5358c abstractC5358c = this.f22049b;
         if (iBinder != null) {
@@ -46,7 +46,7 @@ public final class ServiceConnectionC5413w0 implements ServiceConnection {
 
     @Override // android.content.ServiceConnection
     public final void onServiceDisconnected(ComponentName componentName) {
-        Object obj;
+        Object obj = null;
         obj = this.f22049b.f21909n;
         synchronized (obj) {
             this.f22049b.f21910o = null;

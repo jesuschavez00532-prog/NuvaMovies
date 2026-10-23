@@ -67,7 +67,7 @@ public class C6627h0 implements InterfaceC4979j {
     /* renamed from: c, reason: merged with bridge method [inline-methods] */
     public InterfaceC5335v mo20329a(InputStream inputStream, int i10, int i11, C4977h c4977h) {
         C6621e0 c6621e0;
-        boolean z10;
+        boolean z10 = false;
         if (inputStream instanceof C6621e0) {
             c6621e0 = (C6621e0) inputStream;
             z10 = false;

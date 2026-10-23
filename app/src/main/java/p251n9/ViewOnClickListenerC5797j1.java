@@ -99,7 +99,7 @@ public final class ViewOnClickListenerC5797j1 extends AbstractC5774c<InterfaceC4
         @Override // p315r9.InterfaceC6563a
         /* renamed from: b */
         public void mo19703b() {
-            boolean z10;
+            boolean z10 = false;
             AbstractActivityC0712e m3075C6 = ViewOnClickListenerC5797j1.this.m3075C6();
             if (m3075C6 != null) {
                 z10 = m3075C6.isFinishing();
@@ -119,7 +119,7 @@ public final class ViewOnClickListenerC5797j1 extends AbstractC5774c<InterfaceC4
         @Override // p315r9.InterfaceC6563a
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void mo19702a(UpdateBean updateBean) {
-            boolean z10;
+            boolean z10 = false;
             AbstractActivityC0712e m3075C6 = ViewOnClickListenerC5797j1.this.m3075C6();
             if (m3075C6 != null) {
                 z10 = m3075C6.isFinishing();
@@ -141,7 +141,7 @@ public final class ViewOnClickListenerC5797j1 extends AbstractC5774c<InterfaceC4
 
         @Override // p315r9.InterfaceC6563a
         public void onError(Throwable th) {
-            boolean z10;
+            boolean z10 = false;
             AbstractActivityC0712e m3075C6 = ViewOnClickListenerC5797j1.this.m3075C6();
             if (m3075C6 != null) {
                 z10 = m3075C6.isFinishing();
@@ -188,7 +188,7 @@ public final class ViewOnClickListenerC5797j1 extends AbstractC5774c<InterfaceC4
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: fa */
     public static final void m23381fa(ViewOnClickListenerC5797j1 viewOnClickListenerC5797j1) {
-        String m27728o;
+        String m27728o = null;
         AbstractC5868k.m23674f(viewOnClickListenerC5797j1, "this$0");
         C4296a c4296a = viewOnClickListenerC5797j1.f23206F0;
         AbstractC5868k.m23671c(c4296a);
@@ -227,7 +227,7 @@ public final class ViewOnClickListenerC5797j1 extends AbstractC5774c<InterfaceC4
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: ga */
     public static final void m23382ga(ViewOnClickListenerC5797j1 viewOnClickListenerC5797j1) {
-        String m27728o;
+        String m27728o = null;
         AbstractC5868k.m23674f(viewOnClickListenerC5797j1, "this$0");
         viewOnClickListenerC5797j1.m23388ba();
         C4296a c4296a = viewOnClickListenerC5797j1.f23206F0;
@@ -336,10 +336,10 @@ public final class ViewOnClickListenerC5797j1 extends AbstractC5774c<InterfaceC4
     @Override // p251n9.AbstractC5774c
     /* renamed from: H9 */
     protected boolean mo23232H9() {
-        boolean z10;
-        boolean z11;
-        boolean z12;
-        boolean z13;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
+        boolean z13 = false;
         Button button = (Button) m23387X9(R$id.mCleanHistoryBtn);
         if (button != null && button.hasFocus()) {
             z10 = true;
@@ -567,9 +567,9 @@ public final class ViewOnClickListenerC5797j1 extends AbstractC5774c<InterfaceC4
 
     @Override // android.view.View.OnKeyListener
     public boolean onKey(View view, int i10, KeyEvent keyEvent) {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         TextView textView;
         boolean z13 = false;
         if (keyEvent != null && keyEvent.getAction() == 0) {

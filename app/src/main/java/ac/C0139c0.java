@@ -41,7 +41,7 @@ public final class C0139c0 extends AbstractC0166j {
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final FilterGenreResult mo542f(FilterGenreResult filterGenreResult) {
             List<String> list;
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(filterGenreResult, "it");
             FilterGenreResultData data = filterGenreResult.getData();
             if (data != null) {

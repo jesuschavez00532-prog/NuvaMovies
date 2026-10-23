@@ -69,7 +69,7 @@ public final class C7288j0 extends C5279r {
 
     /* renamed from: w0 */
     public final Object m28241w0() {
-        Object m18094c;
+        Object m18094c = null;
         if (m28240y0()) {
             m18094c = AbstractC4313d.m18094c();
             return m18094c;

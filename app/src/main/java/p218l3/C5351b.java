@@ -44,7 +44,7 @@ public final class C5351b implements InterfaceC4985c {
     public static final class a extends AbstractC4445l implements InterfaceC5664p {
 
         /* renamed from: e */
-        Object f21884e;
+        Object f21884e = null;
 
         /* renamed from: f */
         int f21885f;
@@ -106,7 +106,7 @@ public final class C5351b implements InterfaceC4985c {
         @Override // ge.AbstractC4434a
         /* renamed from: l */
         public final Object mo2392l(Object obj) {
-            Object m18094c;
+            Object m18094c = null;
             C5878u c5878u;
             m18094c = AbstractC4313d.m18094c();
             int i10 = this.f21885f;

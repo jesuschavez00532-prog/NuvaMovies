@@ -312,8 +312,8 @@ public final class ViewOnClickListenerC5820v extends AbstractC5774c<InterfaceC47
     @Override // p251n9.AbstractC5774c
     /* renamed from: I9 */
     public boolean mo23265I9() {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         AutoRelativeLayout autoRelativeLayout = (AutoRelativeLayout) m23499W9(R$id.mEditLayout);
         if (autoRelativeLayout != null && autoRelativeLayout.hasFocus()) {
             z10 = true;
@@ -496,7 +496,7 @@ public final class ViewOnClickListenerC5820v extends AbstractC5774c<InterfaceC47
 
     @Override // p251n9.AbstractC5774c
     public boolean onKeyDown(int i10, KeyEvent keyEvent) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(keyEvent, "event");
         C1328x c1328x = null;
         if (i10 != 4) {

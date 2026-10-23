@@ -384,8 +384,8 @@ public final class C7734h {
 
     /* renamed from: A */
     public static /* synthetic */ void m29870A(C7734h c7734h, boolean z10, DomainInfo domainInfo, String str, int i10, String str2, String str3, String str4, String str5, String str6, String str7, boolean z11, int i11, Object obj) {
-        boolean z12;
-        boolean z13;
+        boolean z12 = false;
+        boolean z13 = false;
         if ((i11 & 1) != 0) {
             z12 = false;
         } else {

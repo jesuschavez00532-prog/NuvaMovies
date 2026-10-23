@@ -43,7 +43,7 @@ public final class C7581k {
 
     /* renamed from: a */
     public final String m29092a(String str) {
-        String str2;
+        String str2 = null;
         AbstractC5868k.m23674f(str, "type");
         StringBuilder sb2 = new StringBuilder();
         File externalFilesDir = AbstractApplicationC6253c.f24484b.m24887a().getExternalFilesDir(str);

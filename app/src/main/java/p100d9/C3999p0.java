@@ -40,7 +40,7 @@ public final class C3999p0 extends AbstractC7527b {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: t */
     public static final void m16903t(C3999p0 c3999p0, int i10, TextView textView, ImageView imageView, C4011w c4011w, View view, boolean z10) {
-        boolean z11;
+        boolean z11 = false;
         AbstractC5868k.m23674f(c3999p0, "this$0");
         AbstractC5868k.m23674f(textView, "$mTvMenu");
         AbstractC5868k.m23674f(imageView, "$mIvMenu");

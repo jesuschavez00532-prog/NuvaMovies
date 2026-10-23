@@ -268,7 +268,7 @@ public final class C7618x0 {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: A */
     public final void m29332A() {
-        boolean z10;
+        boolean z10 = false;
         Context context;
         DialogC4072r0 dialogC4072r0;
         DialogC4072r0 dialogC4072r02 = f28033c;
@@ -338,7 +338,7 @@ public final class C7618x0 {
     public final void m29353s(Context context) {
         double d10 = 0.0;
         double d11 = 0.0;
-        String str;
+        String str = null;
         f28048r = false;
         f28049s = 0;
         f28036f = SystemClock.elapsedRealtime();
@@ -387,7 +387,7 @@ public final class C7618x0 {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: u */
     public final void m29355u(ArrayList arrayList, String str, boolean z10, boolean z11) {
-        boolean z12;
+        boolean z12 = false;
         m29356v().removeCallbacks(f28052v);
         DialogC4072r0 dialogC4072r0 = f28033c;
         if (dialogC4072r0 != null) {
@@ -507,7 +507,7 @@ public final class C7618x0 {
 
     /* renamed from: z */
     public final boolean m29363z() {
-        boolean z10;
+        boolean z10 = false;
         DialogC4072r0 dialogC4072r0 = f28033c;
         if (dialogC4072r0 != null && dialogC4072r0.isShowing()) {
             z10 = true;

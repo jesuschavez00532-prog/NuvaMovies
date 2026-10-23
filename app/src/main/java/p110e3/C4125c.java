@@ -62,8 +62,8 @@ public final class C4125c extends AbstractC7527b {
     @Override // p399x9.AbstractC7527b
     /* renamed from: r, reason: merged with bridge method [inline-methods] */
     public void mo5338e(final C7531f c7531f, SourceBean sourceBean) {
-        boolean z10;
-        String sb2;
+        boolean z10 = false;
+        String sb2 = null;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(sourceBean, "bean");
         TextView textView = (TextView) c7531f.m28863b(R$id.mTvSource);

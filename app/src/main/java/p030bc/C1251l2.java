@@ -49,8 +49,8 @@ public final class C1251l2 {
 
         /* renamed from: a */
         public final String m5652a(Context context, String str, String str2, String str3, String str4, C1318n c1318n) {
-            String str5;
-            boolean z10;
+            String str5 = null;
+            boolean z10 = false;
             AbstractC5868k.m23674f(context, C3384f.f14563X);
             AbstractC5868k.m23674f(str, "contentId");
             AbstractC5868k.m23674f(c1318n, "download2Usb");
@@ -129,7 +129,7 @@ public final class C1251l2 {
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final Boolean mo542f(HashMap hashMap) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(hashMap, "it");
             if (hashMap.size() > 0) {
                 z10 = true;
@@ -175,7 +175,7 @@ public final class C1251l2 {
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final Boolean mo542f(Map.Entry entry) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(entry, "it");
             ((SubTitleFileList) entry.getValue()).setDownloadFinished(false);
             ((SubTitleFileList) entry.getValue()).setDownloadError(false);

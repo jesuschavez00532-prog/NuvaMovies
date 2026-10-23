@@ -32,8 +32,8 @@ public final class C0199r0 extends AbstractC0166j {
         @Override // p343tb.AbstractC6929a, io.reactivex.Observer
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void onNext(GetLiveDataResult getLiveDataResult) {
-            boolean z10;
-            String str;
+            boolean z10 = false;
+            String str = null;
             AbstractC5868k.m23674f(getLiveDataResult, "t");
             super.onNext(getLiveDataResult);
             if (AbstractC5868k.m23669a(getLiveDataResult.getReturnCode(), "304")) {

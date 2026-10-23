@@ -268,7 +268,7 @@ public final class C5827y0 extends AbstractC5774c<InterfaceC4749y> implements In
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: ha */
     public final void m23537ha() {
-        boolean z10;
+        boolean z10 = false;
         C7615w c7615w = C7615w.f27995a;
         if (c7615w.m29308N()) {
             View view = this.f23309G0;
@@ -432,7 +432,7 @@ public final class C5827y0 extends AbstractC5774c<InterfaceC4749y> implements In
     @Override // p160h9.InterfaceC4750z
     /* renamed from: B */
     public void mo19642B(int i10) {
-        boolean z10;
+        boolean z10 = false;
         View view = this.f23309G0;
         if (view != null && view.getVisibility() == 0) {
             z10 = true;
@@ -497,7 +497,7 @@ public final class C5827y0 extends AbstractC5774c<InterfaceC4749y> implements In
     /* renamed from: O9 */
     public void mo23245O9() {
         View view;
-        boolean z10;
+        boolean z10 = false;
         View childAt;
         View childAt2;
         int i10 = R$id.recyclerView;
@@ -561,7 +561,7 @@ public final class C5827y0 extends AbstractC5774c<InterfaceC4749y> implements In
     @Override // p160h9.InterfaceC4750z
     /* renamed from: c0 */
     public void mo19643c0(String str) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, "bean");
         C7581k.f27855a.m29098g("Properties", str);
         Object fromJson = AbstractC7027d.m27114a().fromJson(str, (Class<Object>) ConfigInfoBean.class);
@@ -698,7 +698,7 @@ public final class C5827y0 extends AbstractC5774c<InterfaceC4749y> implements In
 
     @Override // p251n9.AbstractC5774c
     public boolean onKeyDown(int i10, KeyEvent keyEvent) {
-        boolean z10;
+        boolean z10 = false;
         View view;
         AbstractC5868k.m23674f(keyEvent, "event");
         if (i10 == 20) {

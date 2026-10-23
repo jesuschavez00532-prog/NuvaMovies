@@ -11,7 +11,7 @@ public abstract class AbstractViewOnClickListenerC0123a implements View.OnClickL
 
     /* renamed from: b */
     private final boolean m490b() {
-        boolean z10;
+        boolean z10 = false;
         long currentTimeMillis = System.currentTimeMillis();
         long j10 = currentTimeMillis - this.f373a;
         if (1 <= j10 && j10 < m491a()) {

@@ -438,7 +438,7 @@ public class C1133e implements Closeable {
 
     /* renamed from: q */
     public synchronized boolean m5165q() {
-        boolean z10;
+        boolean z10 = false;
         if (this.f4432c == 0) {
             z10 = true;
         } else {

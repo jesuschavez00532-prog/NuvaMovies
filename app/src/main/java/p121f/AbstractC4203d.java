@@ -635,7 +635,7 @@ public abstract class AbstractC4203d extends Drawable implements Drawable.Callba
 
         /* renamed from: w */
         final boolean m17572w(int i10, int i11) {
-            boolean z10;
+            boolean z10 = false;
             int i12 = this.f18433h;
             Drawable[] drawableArr = this.f18432g;
             boolean z11 = false;
@@ -1111,7 +1111,7 @@ public abstract class AbstractC4203d extends Drawable implements Drawable.Callba
 
     @Override // android.graphics.drawable.Drawable
     public void jumpToCurrentState() {
-        boolean z10;
+        boolean z10 = false;
         Drawable drawable = this.f18406d;
         boolean z11 = true;
         if (drawable != null) {

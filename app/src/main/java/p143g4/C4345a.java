@@ -54,7 +54,7 @@ public class C4345a {
 
     /* renamed from: b */
     public GoogleSignInAccount m18240b() {
-        String m18241c;
+        String m18241c = null;
         String m18241c2 = m18241c("defaultGoogleSignInAccount");
         if (TextUtils.isEmpty(m18241c2) || (m18241c = m18241c(m18239d("googleSignInAccount", m18241c2))) == null) {
             return null;

@@ -319,7 +319,7 @@ public final class C1192c extends AbstractC7768f<InterfaceC7381a> implements Int
     @Override // p011aa.InterfaceC0124b
     /* renamed from: Q2 */
     public boolean mo493Q2() {
-        boolean z10;
+        boolean z10 = false;
         LoadingView loadingView;
         View view;
         if (m5445N9().m27165g()) {

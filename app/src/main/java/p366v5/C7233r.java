@@ -118,7 +118,7 @@ public final class C7233r {
     }
 
     public String toString() {
-        String str;
+        String str = null;
         StringBuilder sb2 = new StringBuilder("Dependency{anInterface=");
         sb2.append(this.f27036a);
         sb2.append(", type=");

@@ -37,7 +37,7 @@ public final class Digraph {
     /* renamed from: c */
     private final void m23610c(AbstractC5838b abstractC5838b) {
         boolean m23623d;
-        String m23622c;
+        String m23622c = null;
         if (!abstractC5838b.m23628e()) {
             Set m23614d = m23614d(abstractC5838b);
             m23623d = AbstractC5837a.m23623d(m23614d);

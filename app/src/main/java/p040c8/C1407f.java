@@ -313,8 +313,8 @@ public final class C1407f {
 
     /* renamed from: A */
     public final void m6480A() {
-        Object m7008t;
-        String str;
+        Object m7008t = null;
+        String str = null;
         if (!f5481x) {
             return;
         }
@@ -416,7 +416,7 @@ public final class C1407f {
 
     /* renamed from: M */
     public final void m6488M() {
-        String str;
+        String str = null;
         Channel m6531w = m6531w();
         if (m6531w != null) {
             str = m6531w.getRestricted();
@@ -642,7 +642,7 @@ public final class C1407f {
 
     /* renamed from: h0 */
     public final boolean m6512h0(int i10, String str, List list, InterfaceC5642a interfaceC5642a, InterfaceC5660l interfaceC5660l) {
-        boolean z10;
+        boolean z10 = false;
         Channel m6531w;
         AbstractC5868k.m23674f(str, "lastPlayChannelCode");
         AbstractC5868k.m23674f(list, "oldChannels");
@@ -778,7 +778,7 @@ public final class C1407f {
 
     /* renamed from: l */
     public final String m6517l() {
-        String alias;
+        String alias = null;
         ArrayList arrayList = f5483z;
         ArrayList arrayList2 = new ArrayList();
         Iterator it = arrayList.iterator();
@@ -840,9 +840,9 @@ public final class C1407f {
 
     /* renamed from: n0 */
     public final boolean m6522n0(Channel channel) {
-        String str;
-        boolean z10;
-        String str2;
+        String str = null;
+        boolean z10 = false;
+        String str2 = null;
         boolean m27763v;
         if (channel != null) {
             str = channel.getSupportBusiness();
@@ -934,7 +934,7 @@ public final class C1407f {
 
     /* renamed from: z */
     public final Channel m6534z() {
-        Object m7008t;
+        Object m7008t = null;
         ArrayList arrayList = f5472o;
         if (arrayList != null) {
             m7008t = AbstractC1508t.m7008t(arrayList, f5471n);

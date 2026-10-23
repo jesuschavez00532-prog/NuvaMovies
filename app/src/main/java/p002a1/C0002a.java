@@ -182,7 +182,7 @@ public final class C0002a implements InterfaceC0004c {
     /* renamed from: a */
     public void mo7a(InterfaceC0003b interfaceC0003b) {
         BBEventRequestBean mo28674c;
-        String str;
+        String str = null;
         List m11g = m11g();
         if (m11g == null || AbstractC4215g.m17617b(m11g) || (mo28674c = this.f3a.mo28674c(m6f(m11g))) == null) {
             return;

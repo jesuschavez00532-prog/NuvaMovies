@@ -48,7 +48,7 @@ public final class C7072d extends BroadcastReceiver {
 
         /* renamed from: a */
         public final void m27239a(Long l10) {
-            String str;
+            String str = null;
             ArrayList<C1318n> mo19982e;
             Uri data = this.f26504a.getData();
             Object obj = "";
@@ -100,8 +100,8 @@ public final class C7072d extends BroadcastReceiver {
 
     @Override // android.content.BroadcastReceiver
     public void onReceive(Context context, Intent intent) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         AbstractC5868k.m23674f(intent, "intent");
         if (AbstractC5868k.m23669a(intent.getAction(), "android.intent.action.MEDIA_MOUNTED")) {

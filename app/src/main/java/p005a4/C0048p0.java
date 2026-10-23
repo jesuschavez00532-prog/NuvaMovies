@@ -46,7 +46,7 @@ public class C0048p0 {
         this.f170d.mo5022c(new InterfaceC1358b.a() { // from class: a4.o0
             @Override // p036c4.InterfaceC1358b.a
             public final Object execute() {
-                Object m190d;
+                Object m190d = null;
                 m190d = C0048p0.this.m190d();
                 return m190d;
             }

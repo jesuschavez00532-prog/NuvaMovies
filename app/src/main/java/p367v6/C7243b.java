@@ -92,7 +92,7 @@ public class C7243b {
 
     /* renamed from: g */
     private String m28033g() {
-        String string;
+        String string = null;
         synchronized (this.f27064a) {
             string = this.f27064a.getString("|S|id", null);
         }

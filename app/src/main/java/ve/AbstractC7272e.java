@@ -42,8 +42,8 @@ public abstract /* synthetic */ class AbstractC7272e {
 
     /* renamed from: c */
     public static final Object m28126c(InterfaceC4184g interfaceC4184g, InterfaceC5664p interfaceC5664p, InterfaceC4181d interfaceC4181d) {
-        Object m28241w0;
-        Object m18094c;
+        Object m28241w0 = null;
+        Object m18094c = null;
         InterfaceC4184g mo17487e = interfaceC4181d.mo17487e();
         InterfaceC4184g plus = mo17487e.plus(interfaceC4184g);
         AbstractC7331x1.m28312a(plus);

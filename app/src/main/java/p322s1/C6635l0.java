@@ -352,7 +352,7 @@ public class C6635l0 implements InterfaceC4979j {
 
     /* renamed from: l */
     private boolean m25893l(Object obj, MediaMetadataRetriever mediaMetadataRetriever) {
-        boolean z10;
+        boolean z10 = false;
         String str = Build.DEVICE;
         if (str != null && str.matches(".+_cheets|cheets_.+")) {
             z10 = true;

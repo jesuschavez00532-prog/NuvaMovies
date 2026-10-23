@@ -592,7 +592,7 @@ public abstract class AbstractC6135h {
         private static void m24450c(Path path, float f10, float f11, float f12, float f13, float f14, float f15, float f16, boolean z10, boolean z11) {
             double d10 = 0.0;
             double d11 = 0.0;
-            boolean z12;
+            boolean z12 = false;
             double radians = Math.toRadians(f16);
             double cos = Math.cos(radians);
             double sin = Math.sin(radians);

@@ -54,8 +54,8 @@ public final class C4806x extends C7767e {
     /* renamed from: M9 */
     private final void m19860M9() {
         Context m3096J6;
-        String string;
-        String str;
+        String string = null;
+        String str = null;
         Context m3096J62;
         Boolean bool = this.f20257G0;
         if (bool != null) {
@@ -149,7 +149,7 @@ public final class C4806x extends C7767e {
     @Override // androidx.fragment.app.Fragment
     /* renamed from: k8 */
     public void mo3176k8(View view, Bundle bundle) {
-        String m6878m;
+        String m6878m = null;
         AbstractC5868k.m23674f(view, "view");
         super.mo3176k8(view, bundle);
         C1466m0 c1466m0 = C1466m0.f5627a;

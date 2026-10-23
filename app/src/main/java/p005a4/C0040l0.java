@@ -146,7 +146,7 @@ public class C0040l0 {
                     this.f149f.mo5022c(new InterfaceC1358b.a() { // from class: a4.d0
                         @Override // p036c4.InterfaceC1358b.a
                         public final Object execute() {
-                            Object m174s;
+                            Object m174s = null;
                             m174s = C0040l0.this.m174s(abstractC6667o, i10);
                             return m174s;
                         }
@@ -230,7 +230,7 @@ public class C0040l0 {
                     this.f149f.mo5022c(new InterfaceC1358b.a() { // from class: a4.g0
                         @Override // p036c4.InterfaceC1358b.a
                         public final Object execute() {
-                            Object m169n;
+                            Object m169n = null;
                             m169n = C0040l0.this.m169n(iterable, abstractC6667o, j11);
                             return m169n;
                         }
@@ -241,7 +241,7 @@ public class C0040l0 {
                 this.f149f.mo5022c(new InterfaceC1358b.a() { // from class: a4.h0
                     @Override // p036c4.InterfaceC1358b.a
                     public final Object execute() {
-                        Object m170o;
+                        Object m170o = null;
                         m170o = C0040l0.this.m170o(iterable);
                         return m170o;
                     }
@@ -252,7 +252,7 @@ public class C0040l0 {
                         this.f149f.mo5022c(new InterfaceC1358b.a() { // from class: a4.i0
                             @Override // p036c4.InterfaceC1358b.a
                             public final Object execute() {
-                                Object m171p;
+                                Object m171p = null;
                                 m171p = C0040l0.this.m171p();
                                 return m171p;
                             }
@@ -272,7 +272,7 @@ public class C0040l0 {
                     this.f149f.mo5022c(new InterfaceC1358b.a() { // from class: a4.j0
                         @Override // p036c4.InterfaceC1358b.a
                         public final Object execute() {
-                            Object m172q;
+                            Object m172q = null;
                             m172q = C0040l0.this.m172q(hashMap);
                             return m172q;
                         }
@@ -282,7 +282,7 @@ public class C0040l0 {
             this.f149f.mo5022c(new InterfaceC1358b.a() { // from class: a4.k0
                 @Override // p036c4.InterfaceC1358b.a
                 public final Object execute() {
-                    Object m173r;
+                    Object m173r = null;
                     m173r = C0040l0.this.m173r(abstractC6667o, j11);
                     return m173r;
                 }

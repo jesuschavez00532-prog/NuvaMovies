@@ -65,7 +65,7 @@ public class C7284i extends AbstractC7291k0 implements InterfaceC7281h, Interfac
 
     /* renamed from: F */
     private final void m28201F(Object obj, int i10, InterfaceC5660l interfaceC5660l) {
-        Object obj2;
+        Object obj2 = null;
         do {
             obj2 = this._state;
             if (obj2 instanceof InterfaceC7301n1) {
@@ -195,7 +195,7 @@ public class C7284i extends AbstractC7291k0 implements InterfaceC7281h, Interfac
 
     /* renamed from: q */
     private final boolean m28211q() {
-        Throwable m21181k;
+        Throwable m21181k = null;
         boolean m28227z = m28227z();
         if (!AbstractC7294l0.m28247c(this.f27191c)) {
             return m28227z;
@@ -414,8 +414,8 @@ public class C7284i extends AbstractC7291k0 implements InterfaceC7281h, Interfac
 
     /* renamed from: o */
     public boolean m28221o(Throwable th) {
-        Object obj;
-        boolean z10;
+        Object obj = null;
+        boolean z10 = false;
         do {
             obj = this._state;
             if (!(obj instanceof InterfaceC7301n1)) {
@@ -456,7 +456,7 @@ public class C7284i extends AbstractC7291k0 implements InterfaceC7281h, Interfac
     /* renamed from: w */
     public final Object m28224w() {
         InterfaceC7271d1 interfaceC7271d1;
-        Object m18094c;
+        Object m18094c = null;
         m28205J();
         if (m28207L()) {
             m18094c = AbstractC4313d.m18094c();

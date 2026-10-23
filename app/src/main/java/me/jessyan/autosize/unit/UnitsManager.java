@@ -36,7 +36,7 @@ public class UnitsManager {
     }
 
     public UnitsManager setDesignHeight(float f10) {
-        boolean z10;
+        boolean z10 = false;
         if (f10 > 0.0f) {
             z10 = true;
         } else {
@@ -54,7 +54,7 @@ public class UnitsManager {
     }
 
     public UnitsManager setDesignWidth(float f10) {
-        boolean z10;
+        boolean z10 = false;
         if (f10 > 0.0f) {
             z10 = true;
         } else {

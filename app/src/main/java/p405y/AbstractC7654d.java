@@ -88,14 +88,14 @@ public abstract class AbstractC7654d {
     /* JADX WARN: Type inference failed for: r0v6 */
     /* renamed from: b */
     static boolean m29449b(String str, Bundle bundle, c cVar) {
-        boolean z10;
-        String str2;
+        boolean z10 = false;
+        String str2 = null;
         ResultReceiver resultReceiver;
-        String str3;
-        String str4;
-        String str5;
-        String str6;
-        String str7;
+        String str3 = null;
+        String str4 = null;
+        String str5 = null;
+        String str6 = null;
+        String str7 = null;
         Object r02 = 0;
         r02 = 0;
         if (bundle == null) {

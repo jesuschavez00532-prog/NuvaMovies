@@ -57,9 +57,9 @@ public final class C4442i {
 
     /* renamed from: b */
     public final String m18641b(AbstractC4434a abstractC4434a) {
-        Object obj;
-        Object obj2;
-        Object obj3;
+        Object obj = null;
+        Object obj2 = null;
+        Object obj3 = null;
         AbstractC5868k.m23674f(abstractC4434a, "continuation");
         a aVar = f19257c;
         if (aVar == null) {

@@ -10,9 +10,9 @@ import p241n.C5702f;
 public abstract class AbstractC5697a {
     /* renamed from: a */
     public static void m22902a(C5703g c5703g) {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         if ((c5703g.m23028S0() & 32) != 32) {
             m22911j(c5703g);
             return;
@@ -86,7 +86,7 @@ public abstract class AbstractC5697a {
 
     /* renamed from: c */
     private static int m22904c(C5704h c5704h, int i10) {
-        boolean z10;
+        boolean z10 = false;
         int i11 = i10 * 2;
         List m23045b = c5704h.m23045b(i10);
         int size = m23045b.size();
@@ -108,7 +108,7 @@ public abstract class AbstractC5697a {
 
     /* renamed from: d */
     private static int m22905d(C5702f c5702f, int i10, boolean z10, int i11) {
-        boolean z11;
+        boolean z11 = false;
         int m23003r;
         int m22987j;
         int i12 = 0;
@@ -357,7 +357,7 @@ public abstract class AbstractC5697a {
 
     /* renamed from: l */
     private static void m22913l(C5702f c5702f, int i10, int i11) {
-        boolean z10;
+        boolean z10 = false;
         int i12 = i10 * 2;
         C5701e[] c5701eArr = c5702f.f22787C;
         C5701e c5701e = c5701eArr[i12];

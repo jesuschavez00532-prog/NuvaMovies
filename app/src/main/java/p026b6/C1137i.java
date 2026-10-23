@@ -147,8 +147,8 @@ public class C1137i {
 
     /* renamed from: k */
     private void m5177k() {
-        boolean z10;
-        String str;
+        boolean z10 = false;
+        String str = null;
         synchronized (this.f4461f) {
             z10 = false;
             if (this.f4461f.isMarked()) {
@@ -195,7 +195,7 @@ public class C1137i {
             this.f4457b.m286h(new Callable() { // from class: b6.g
                 @Override // java.util.concurrent.Callable
                 public final Object call() {
-                    Object m5174h;
+                    Object m5174h = null;
                     m5174h = C1137i.this.m5174h();
                     return m5174h;
                 }

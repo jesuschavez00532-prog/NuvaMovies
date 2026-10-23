@@ -111,7 +111,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
 
     /* renamed from: A */
     public void mo17463A(Program program, String str, String str2) {
-        String mo805b;
+        String mo805b = null;
         AbstractC5868k.m23674f(program, "program");
         AbstractC5868k.m23674f(str, "programCode");
         AbstractC5868k.m23674f(str2, "extra");
@@ -145,7 +145,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
 
     /* renamed from: B */
     public final void m17469B() {
-        String mo805b;
+        String mo805b = null;
         this.f18286f = false;
         InterfaceC0230b interfaceC0230b = this.f18284d;
         if (interfaceC0230b != null && (mo805b = interfaceC0230b.mo805b()) != null) {
@@ -163,7 +163,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
     @Override // p386wc.InterfaceC7393b
     /* renamed from: a */
     public void mo5954a(int i10, String str, Status status, long j10) {
-        String str2;
+        String str2 = null;
         InterfaceC1294a interfaceC1294a;
         InterfaceC1294a interfaceC1294a2;
         InterfaceC1294a interfaceC1294a3;
@@ -230,7 +230,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
     @Override // p386wc.InterfaceC7392a
     /* renamed from: c */
     public void mo5944c(int i10, String str) {
-        String str2;
+        String str2 = null;
         InterfaceC1294a interfaceC1294a;
         AbstractC5868k.m23674f(str, SerializableCookie.NAME);
         InterfaceC0230b interfaceC0230b = this.f18284d;
@@ -247,7 +247,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
     @Override // p386wc.InterfaceC7392a
     /* renamed from: d */
     public C7077d mo5945d(C7076c c7076c, String str) {
-        String str2;
+        String str2 = null;
         InterfaceC1294a interfaceC1294a;
         AbstractC5868k.m23674f(c7076c, "playStatus");
         AbstractC5868k.m23674f(str, SerializableCookie.NAME);
@@ -265,7 +265,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
 
     /* renamed from: e */
     public void mo5946e(int i10, String str, String str2) {
-        String str3;
+        String str3 = null;
         InterfaceC1294a interfaceC1294a;
         AbstractC5868k.m23674f(str, "type");
         AbstractC5868k.m23674f(str2, SerializableCookie.NAME);
@@ -293,7 +293,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
 
     /* renamed from: f */
     public void mo5947f(int i10, long j10, String str) {
-        String str2;
+        String str2 = null;
         InterfaceC1294a interfaceC1294a;
         AbstractC5868k.m23674f(str, SerializableCookie.NAME);
         InterfaceC0230b interfaceC0230b = this.f18284d;
@@ -310,7 +310,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
     @Override // p386wc.InterfaceC7392a
     /* renamed from: g */
     public void mo5948g(int i10, String str, String str2, int i11, String str3) {
-        String str4;
+        String str4 = null;
         AbstractC5868k.m23674f(str, "obj");
         AbstractC5868k.m23674f(str2, C3417a.f15001w);
         AbstractC5868k.m23674f(str3, SerializableCookie.NAME);
@@ -392,7 +392,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
 
     public final List<AudioTrack> getAudioTracks() {
         ArrayList<C7075b> arrayList;
-        boolean z10;
+        boolean z10 = false;
         C7076c m29760p = C7705h.f28256m.m29771a().m29760p(this.f18282b);
         if (m29760p != null) {
             arrayList = m29760p.m27266f();
@@ -442,7 +442,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
     @Override // p386wc.InterfaceC7392a
     /* renamed from: h */
     public void mo5949h(int i10, long j10, String str) {
-        String str2;
+        String str2 = null;
         InterfaceC1294a interfaceC1294a;
         AbstractC5868k.m23674f(str, SerializableCookie.NAME);
         InterfaceC0230b interfaceC0230b = this.f18284d;
@@ -459,7 +459,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
     @Override // p386wc.InterfaceC7392a
     /* renamed from: i */
     public void mo5950i(boolean z10, Bitmap bitmap, String str) {
-        String str2;
+        String str2 = null;
         AbstractC5868k.m23674f(str, SerializableCookie.NAME);
         InterfaceC0230b interfaceC0230b = this.f18284d;
         if (interfaceC0230b != null) {
@@ -487,8 +487,8 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
     @Override // p386wc.InterfaceC7392a
     /* renamed from: j */
     public void mo5951j(int i10, int i11, String str, String str2) {
-        String str3;
-        String str4;
+        String str3 = null;
+        String str4 = null;
         AbstractC5868k.m23674f(str, "player");
         AbstractC5868k.m23674f(str2, SerializableCookie.NAME);
         InterfaceC0230b interfaceC0230b = this.f18284d;
@@ -528,7 +528,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
     @Override // p386wc.InterfaceC7392a
     /* renamed from: k */
     public void mo5952k(boolean z10, String str) {
-        String str2;
+        String str2 = null;
         AbstractC5868k.m23674f(str, SerializableCookie.NAME);
         InterfaceC0230b interfaceC0230b = this.f18284d;
         if (interfaceC0230b != null) {
@@ -555,9 +555,9 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
 
     /* renamed from: l */
     public void mo5953l(int i10, int i11, int i12, String str, String str2) {
-        String str3;
+        String str3 = null;
         InterfaceC1294a interfaceC1294a;
-        String str4;
+        String str4 = null;
         AbstractC5868k.m23674f(str, "type");
         AbstractC5868k.m23674f(str2, SerializableCookie.NAME);
         InterfaceC0230b interfaceC0230b = this.f18284d;
@@ -724,7 +724,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
     }
 
     public final void setMedia(String str) {
-        String mo805b;
+        String mo805b = null;
         AbstractC5868k.m23674f(str, "mediaCode");
         this.f18286f = false;
         InterfaceC0230b interfaceC0230b = this.f18284d;
@@ -792,7 +792,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
 
     /* renamed from: u */
     public final void m17475u() {
-        String mo805b;
+        String mo805b = null;
         Log.i(this.f18281a, "pause player");
         InterfaceC0230b interfaceC0230b = this.f18284d;
         if (interfaceC0230b != null && (mo805b = interfaceC0230b.mo805b()) != null) {
@@ -802,7 +802,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
 
     /* renamed from: v */
     public final void m17476v() {
-        String mo805b;
+        String mo805b = null;
         InterfaceC0230b interfaceC0230b = this.f18284d;
         if (interfaceC0230b != null && (mo805b = interfaceC0230b.mo805b()) != null) {
             C7705h.f28256m.m29771a().m29767y(this.f18282b, mo805b);
@@ -811,7 +811,7 @@ public class C4177e extends FrameLayout implements InterfaceC7392a, InterfaceC73
 
     /* renamed from: w */
     public final void m17477w(long j10) {
-        String mo805b;
+        String mo805b = null;
         InterfaceC0230b interfaceC0230b = this.f18284d;
         if (interfaceC0230b != null && (mo805b = interfaceC0230b.mo805b()) != null) {
             C7705h.f28256m.m29771a().m29768z(this.f18282b, mo805b, j10);

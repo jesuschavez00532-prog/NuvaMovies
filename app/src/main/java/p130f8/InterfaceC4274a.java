@@ -12,7 +12,7 @@ public interface InterfaceC4274a extends InterfaceC1439a {
     public static final class a {
         /* renamed from: a */
         public static /* synthetic */ void m17834a(InterfaceC4274a interfaceC4274a, int i10, boolean z10, int i11, int i12, boolean z11, boolean z12, int i13, Object obj) {
-            boolean z13;
+            boolean z13 = false;
             if (obj == null) {
                 if ((i13 & 32) != 0) {
                     z13 = false;

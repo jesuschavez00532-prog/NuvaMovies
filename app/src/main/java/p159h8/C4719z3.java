@@ -317,10 +317,10 @@ public final class C4719z3 implements InterfaceC4290q, InterfaceC6370a1 {
     @Override // ca.InterfaceC1439a
     /* renamed from: B0 */
     public void mo6701B0() {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         Team team_b;
-        String teamName;
+        String teamName = null;
         Team team_a;
         Match mo17950f = this.f20080b.mo17950f();
         String str3 = "";

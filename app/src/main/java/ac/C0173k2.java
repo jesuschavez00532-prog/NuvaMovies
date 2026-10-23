@@ -71,10 +71,10 @@ public final class C0173k2 extends AbstractC0166j {
         @Override // me.InterfaceC5660l
         /* renamed from: a */
         public final ObservableSource mo542f(Long l10) {
-            String str;
-            String str2;
-            String str3;
-            String str4;
+            String str = null;
+            String str2 = null;
+            String str3 = null;
+            String str4 = null;
             AbstractC5868k.m23674f(l10, "it");
             if (C4842a.f20329a.m19920a().mo19934K()) {
                 C1224f m5631a = C1224f.f4816e.m5631a();
@@ -299,9 +299,9 @@ public final class C0173k2 extends AbstractC0166j {
 
     /* renamed from: i */
     public static /* synthetic */ void m634i(C0173k2 c0173k2, String str, String str2, String[] strArr, String str3, String str4, boolean z10, int i10, Object obj) {
-        String str5;
-        String str6;
-        boolean z11;
+        String str5 = null;
+        String str6 = null;
+        boolean z11 = false;
         if ((i10 & 8) != 0) {
             str5 = null;
         } else {
@@ -328,9 +328,9 @@ public final class C0173k2 extends AbstractC0166j {
 
     /* renamed from: g */
     public final void m636g(GetSlbInfoBeanResult getSlbInfoBeanResult, String str, String str2, String[] strArr, String str3, String str4, boolean z10) {
-        String str5;
+        String str5 = null;
         long j10;
-        boolean z11;
+        boolean z11 = false;
         List<CdnListBeanResult> list;
         Integer error_code;
         AbstractC5868k.m23674f(getSlbInfoBeanResult, "t");

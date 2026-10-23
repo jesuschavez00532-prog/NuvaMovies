@@ -38,7 +38,7 @@ public final class C4635l3 implements InterfaceC4286m, InterfaceC6435w0 {
     @Override // ca.InterfaceC1439a
     /* renamed from: B0 */
     public void mo6701B0() {
-        String str;
+        String str = null;
         Match mo17939f = this.f19911b.mo17939f();
         if (mo17939f != null) {
             str = mo17939f.getGameId();

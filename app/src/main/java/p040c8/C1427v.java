@@ -560,9 +560,9 @@ public final class C1427v implements InterfaceC7623a {
 
     /* renamed from: s0 */
     private final void m6603s0(ArrayList arrayList) {
-        boolean z10;
-        String m27728o;
-        String m27728o2;
+        boolean z10 = false;
+        String m27728o = null;
+        String m27728o2 = null;
         int m20615h = AbstractC5086c.m20615h();
         if (arrayList != null && arrayList.size() > 0) {
             int size = arrayList.size();
@@ -761,9 +761,9 @@ public final class C1427v implements InterfaceC7623a {
 
     /* renamed from: C */
     public final void m6617C(Channel channel, EpgProgram epgProgram) {
-        String str;
-        String str2;
-        String str3;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
         LiveReserveDao liveReserveDao = LiveReserveDao.INSTANCE;
         String str4 = null;
         if (channel != null) {
@@ -984,7 +984,7 @@ public final class C1427v implements InterfaceC7623a {
 
     /* renamed from: W */
     public final boolean m6636W(String str) {
-        String str2;
+        String str2 = null;
         if (AbstractC6567a.m25634d(str)) {
             return false;
         }

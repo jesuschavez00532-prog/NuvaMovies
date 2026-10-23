@@ -127,7 +127,7 @@ final class C1385r extends AbstractC1366a0.e.d.a.b.AbstractC7812e.AbstractC7814b
     }
 
     public boolean equals(Object obj) {
-        String str;
+        String str = null;
         if (obj == this) {
             return true;
         }

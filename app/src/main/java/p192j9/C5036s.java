@@ -73,7 +73,7 @@ public final class C5036s implements InterfaceC4737m {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: i */
     public static final void m20472i(Album album, C5036s c5036s, ObservableEmitter observableEmitter) {
-        String m27728o;
+        String m27728o = null;
         AbstractC5868k.m23674f(c5036s, "this$0");
         AbstractC5868k.m23674f(observableEmitter, "it");
         if (album == null) {

@@ -245,7 +245,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final ChannelList mo542f(Channel channel) {
-            String str;
+            String str = null;
             ChannelList channelList;
             ChannelList channelList2;
             AbstractC5868k.m23674f(channel, "it");
@@ -666,7 +666,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final InfoBarBean mo542f(InfoBarBean infoBarBean) {
-            String quality;
+            String quality = null;
             AbstractC5868k.m23674f(infoBarBean, "it");
             C1407f.f5458a.m6490O(this.f19792a, infoBarBean.getDefinitions(), C1456h0.f5574a.m6773i(C1456h0.a.LIVE), this.f19793b.m19228R5());
             if (!AbstractC6567a.m25637g(this.f19793b.f19758g) || !AbstractC5868k.m23669a(infoBarBean.getChannelCode(), this.f19793b.f19758g)) {
@@ -1180,7 +1180,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
 
     /* renamed from: B5 */
     private final List m19131B5(StartPlayBTVResult startPlayBTVResult, List list) {
-        boolean z10;
+        boolean z10 = false;
         ArrayList arrayList = new ArrayList();
         StartPlayBTVResultData data = startPlayBTVResult.getData();
         AbstractC5868k.m23671c(data);
@@ -1227,8 +1227,8 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
 
     /* renamed from: D5 */
     private final void m19136D5(final Channel channel, String str) {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         C1456h0 c1456h0 = C1456h0.f5574a;
         C1456h0.a aVar = C1456h0.a.LIVE;
         List m6773i = c1456h0.m6773i(aVar);
@@ -1306,8 +1306,8 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
     /* renamed from: F5 */
     public static final void m19141F5(Channel channel, C4598f2 c4598f2, C5876s c5876s, C5874q c5874q, List list, ObservableEmitter observableEmitter) {
         int i10 = 0;
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         AbstractC5868k.m23674f(channel, "$playChannel");
         AbstractC5868k.m23674f(c4598f2, "this$0");
         AbstractC5868k.m23674f(c5876s, "$defaultQuality");
@@ -1363,10 +1363,10 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
 
     /* renamed from: F6 */
     private final void m19142F6() {
-        String str;
-        String str2;
-        String name;
-        String channelCode;
+        String str = null;
+        String str2 = null;
+        String name = null;
+        String channelCode = null;
         AbstractActivityC0712e m3075C6 = this.f19752a.m3075C6();
         AbstractC5868k.m23672d(m3075C6, "null cannot be cast to non-null type com.module.basemvp.BaseMVPActivity<*>");
         AbstractActivityC2972a abstractActivityC2972a = (AbstractActivityC2972a) m3075C6;
@@ -1475,7 +1475,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
 
     /* renamed from: N6 */
     private final void m19156N6() {
-        boolean z10;
+        boolean z10 = false;
         this.f19753b.mo17894Q();
         C1427v c1427v = C1427v.f5519a;
         Channel m6622H = c1427v.m6622H();
@@ -1985,11 +1985,11 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
 
     /* renamed from: G6 */
     public void m19221G6() {
-        String str;
-        String str2;
-        String name;
-        String channelCode;
-        String str3;
+        String str = null;
+        String str2 = null;
+        String name = null;
+        String channelCode = null;
+        String str3 = null;
         GetAuthInfoResultData data;
         GetAuthInfoResultData data2;
         if (C1466m0.f5627a.m6840M()) {
@@ -2061,7 +2061,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
     @Override // p301qb.InterfaceC6441y0
     /* renamed from: K1 */
     public void mo19223K1(String str, String str2) {
-        String str3;
+        String str3 = null;
         AbstractC5868k.m23674f(str, "errCode");
         AbstractC5868k.m23674f(str2, "channelCode");
         this.f19760i = false;
@@ -2130,7 +2130,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
     @Override // p130f8.InterfaceC4278e
     /* renamed from: O0 */
     public void mo17870O0() {
-        String str;
+        String str = null;
         C1415j c1415j = C1415j.f5500a;
         ChannelList channelList = this.f19756e;
         String str2 = null;
@@ -2260,7 +2260,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
     @Override // p301qb.InterfaceC6438x0
     /* renamed from: R4 */
     public void mo19227R4(String str, String str2) {
-        String str3;
+        String str3 = null;
         AbstractC5868k.m23674f(str, "errCode");
         AbstractC5868k.m23674f(str2, "channelCode");
         this.f19760i = false;
@@ -2292,7 +2292,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
     @Override // p130f8.InterfaceC4278e
     /* renamed from: T2 */
     public void mo17873T2() {
-        String str;
+        String str = null;
         C1415j c1415j = C1415j.f5500a;
         ChannelList channelList = this.f19756e;
         if (channelList != null) {
@@ -2439,7 +2439,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
     @Override // p301qb.InterfaceC6406m1
     /* renamed from: f5 */
     public void mo19230f5(StartPlayBTVResult startPlayBTVResult) {
-        boolean z10;
+        boolean z10 = false;
         int i10 = 0;
         List<StartPlayBTVResultLicenseList> totalPlayUrlList;
         AbstractC5868k.m23674f(startPlayBTVResult, "result");
@@ -2592,9 +2592,9 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
     @Override // p130f8.InterfaceC4278e
     /* renamed from: w0 */
     public void mo17880w0(String str, String str2) {
-        boolean z10;
-        String str3;
-        String str4;
+        boolean z10 = false;
+        String str3 = null;
+        String str4 = null;
         if (AbstractC6567a.m25634d(AbstractC4161e.f18225a.m17399b())) {
             this.f19753b.mo17895R5();
             return;
@@ -2704,7 +2704,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
     @Override // p130f8.InterfaceC4278e
     /* renamed from: x2 */
     public void mo17882x2(ChannelList channelList, boolean z10) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(channelList, "lockedChannel");
         String channelCode = channelList.getChannelCode();
         Channel channel = this.f19759h;
@@ -2759,7 +2759,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
     @Override // p301qb.InterfaceC6438x0
     /* renamed from: z3 */
     public void mo19235z3(List list, Channel channel, int i10) {
-        Object m7008t;
+        Object m7008t = null;
         AbstractC5868k.m23674f(list, "favId");
         AbstractC5868k.m23674f(channel, "channel");
         this.f19760i = false;

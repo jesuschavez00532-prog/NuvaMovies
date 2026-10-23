@@ -30,9 +30,9 @@ final class RunnableC5128y implements Runnable {
         int i12 = 0;
         int i13 = 0;
         int i14 = 0;
-        Bundle bundle;
-        Bundle bundle2;
-        Bundle bundle3;
+        Bundle bundle = null;
+        Bundle bundle2 = null;
+        Bundle bundle3 = null;
         FragmentC5129z fragmentC5129z = this.f21060c;
         i10 = fragmentC5129z.f21063b;
         if (i10 > 0) {

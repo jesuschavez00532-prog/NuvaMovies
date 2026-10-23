@@ -119,7 +119,7 @@ public abstract class AbstractC7002c {
         int i11 = 0;
         Uri withAppendedId;
         int i12 = 0;
-        boolean z10;
+        boolean z10 = false;
         ArrayList arrayList = new ArrayList();
         Uri build = new Uri.Builder().scheme("content").authority(str).build();
         Uri build2 = new Uri.Builder().scheme("content").authority(str).appendPath("file").build();

@@ -32,7 +32,7 @@ public final class C0178m extends AbstractC0166j {
         @Override // p343tb.AbstractC6929a, io.reactivex.Observer
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void onNext(BindPhoneResult bindPhoneResult) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(bindPhoneResult, "t");
             super.onNext(bindPhoneResult);
             if (AbstractC5868k.m23669a(bindPhoneResult.getReturnCode(), MessageService.MSG_DB_READY_REPORT)) {

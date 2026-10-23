@@ -79,7 +79,7 @@ public final class C7729c {
         @Override // p123f1.C4212d.c
         /* renamed from: a */
         public void mo17607a() {
-            String userName;
+            String userName = null;
             if (!TextUtils.isEmpty(this.f28428a)) {
                 userName = this.f28428a;
             } else {
@@ -168,10 +168,10 @@ public final class C7729c {
 
     /* renamed from: c */
     private final EventDbModel m29845c(boolean z10) {
-        String str;
+        String str = null;
         long j10;
         long j11;
-        String str2;
+        String str2 = null;
         AppBean appBean = f28425c;
         if (appBean != null) {
             str = appBean.getTag();
@@ -215,7 +215,7 @@ public final class C7729c {
 
     /* renamed from: e */
     public static /* synthetic */ void m29846e(C7729c c7729c, long j10, long j11, String str, String str2, int i10, String str3, HashMap hashMap, boolean z10, int i11, Object obj) {
-        String str4;
+        String str4 = null;
         HashMap hashMap2;
         if ((i11 & 32) != 0) {
             str4 = "";

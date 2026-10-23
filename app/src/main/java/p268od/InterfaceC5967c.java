@@ -24,8 +24,8 @@ public interface InterfaceC5967c extends InterfaceC1439a {
 
         /* renamed from: b */
         public static /* synthetic */ void m24141b(InterfaceC5967c interfaceC5967c, String str, boolean z10, String str2, String str3, String str4, String str5, boolean z11, int i10, Object obj) {
-            String str6;
-            boolean z12;
+            String str6 = null;
+            boolean z12 = false;
             if (obj == null) {
                 if ((i10 & 8) != 0) {
                     str6 = "";

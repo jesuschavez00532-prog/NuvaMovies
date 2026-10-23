@@ -416,7 +416,7 @@ public final class C7124o1 extends AbstractC7089d<InterfaceC5972h> implements In
     @Override // p268od.InterfaceC5973i
     /* renamed from: r */
     public void mo24166r(List list, int i10) {
-        Object valueOf;
+        Object valueOf = null;
         AbstractC5868k.m23674f(list, "data");
         this.f26772B0 = false;
         m27608Q9().m28854l(list);

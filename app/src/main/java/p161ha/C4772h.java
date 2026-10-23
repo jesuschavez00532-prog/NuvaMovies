@@ -190,8 +190,8 @@ public final class C4772h extends C7767e implements InterfaceC6379d1 {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: T9 */
     public static final void m19719T9(C4772h c4772h, View view) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         AbstractC5868k.m23674f(c4772h, "this$0");
         C1466m0 c1466m0 = C1466m0.f5627a;
         UserInfo m6887v = c1466m0.m6887v();
@@ -284,8 +284,8 @@ public final class C4772h extends C7767e implements InterfaceC6379d1 {
     @Override // p301qb.InterfaceC6379d1
     /* renamed from: S0 */
     public void mo19724S0(String str) {
-        String m28982c;
-        boolean z10;
+        String m28982c = null;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, "errCode");
         m19710J();
         if (AbstractC5868k.m23669a(str, "aaa100012")) {

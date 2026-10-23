@@ -94,7 +94,7 @@ public final class C4357b implements InterfaceC4143b, InterfaceC6409n1 {
     /* renamed from: F3 */
     private final void m18280F3(StartPlayLiveResult startPlayLiveResult) {
         List m6983b;
-        boolean z10;
+        boolean z10 = false;
         C1407f c1407f = C1407f.f5458a;
         if (!c1407f.m6486H() && c1407f.m6523o() != -1) {
             List m6515j = c1407f.m6515j(c1407f.m6523o());

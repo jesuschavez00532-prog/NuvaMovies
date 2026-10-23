@@ -349,7 +349,7 @@ public final class C6156m {
 
         /* renamed from: d */
         public final void m24586d(AdvertResult advertResult) {
-            boolean z10;
+            boolean z10 = false;
             C6156m.f24203x = advertResult;
             C7193f.f26903a.m27830c(this.f24210a, C6156m.f24189j, "");
             HashMap hashMap = new HashMap();
@@ -554,7 +554,7 @@ public final class C6156m {
 
     /* renamed from: B */
     public static /* synthetic */ List m24510B(C6156m c6156m, Context context, String str, String str2, boolean z10, String str3, int i10, Object obj) {
-        boolean z11;
+        boolean z11 = false;
         if ((i10 & 8) != 0) {
             z11 = false;
         } else {
@@ -565,7 +565,7 @@ public final class C6156m {
 
     /* renamed from: D */
     public static /* synthetic */ void m24511D(C6156m c6156m, Context context, String str, InterfaceC6611f interfaceC6611f, String str2, boolean z10, String str3, int i10, Object obj) {
-        boolean z11;
+        boolean z11 = false;
         if ((i10 & 16) != 0) {
             z11 = false;
         } else {
@@ -577,7 +577,7 @@ public final class C6156m {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: E */
     public static final void m24512E(Context context, String str, String str2, boolean z10, String str3, ObservableEmitter observableEmitter) {
-        boolean z11;
+        boolean z11 = false;
         File file;
         AbstractC5868k.m23674f(context, "$context");
         AbstractC5868k.m23674f(str, "$adType");
@@ -655,7 +655,7 @@ public final class C6156m {
 
     /* renamed from: I */
     public static /* synthetic */ List m24515I(C6156m c6156m, Context context, String str, String str2, String str3, boolean z10, String str4, int i10, Object obj) {
-        boolean z11;
+        boolean z11 = false;
         if ((i10 & 16) != 0) {
             z11 = false;
         } else {
@@ -666,7 +666,7 @@ public final class C6156m {
 
     /* renamed from: K */
     public static /* synthetic */ ArrayList m24516K(C6156m c6156m, Context context, String str, String str2, String str3, boolean z10, String str4, int i10, Object obj) {
-        boolean z11;
+        boolean z11 = false;
         if ((i10 & 8) != 0) {
             str3 = "picture";
         }
@@ -797,7 +797,7 @@ public final class C6156m {
 
     /* renamed from: c0 */
     public static /* synthetic */ void m24526c0(C6156m c6156m, Context context, String str, String str2, InterfaceC6607b interfaceC6607b, String str3, boolean z10, int i10, Object obj) {
-        boolean z11;
+        boolean z11 = false;
         if ((i10 & 16) != 0) {
             str3 = "1.0";
         }
@@ -836,7 +836,7 @@ public final class C6156m {
         Integer num3;
         InterfaceC5660l interfaceC5660l2;
         Integer num4;
-        boolean z11;
+        boolean z11 = false;
         int i12 = 0;
         if ((i11 & 16) != 0) {
             num3 = null;
@@ -904,7 +904,7 @@ public final class C6156m {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: n0 */
     public final void m24544n0(Context context, long j10) {
-        boolean z10;
+        boolean z10 = false;
         Disposable disposable;
         Disposable disposable2 = f24185f;
         if (disposable2 != null) {
@@ -1009,7 +1009,7 @@ public final class C6156m {
 
     /* renamed from: H */
     public final List m24559H(Context context, String str, String str2, String str3, boolean z10, String str4) {
-        boolean z11;
+        boolean z11 = false;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         AbstractC5868k.m23674f(str, "adType");
         AbstractC5868k.m23674f(str2, "mediaType");
@@ -1035,7 +1035,7 @@ public final class C6156m {
 
     /* renamed from: J */
     public final ArrayList m24560J(Context context, String str, String str2, String str3, boolean z10, String str4) {
-        boolean z11;
+        boolean z11 = false;
         ArrayList arrayList;
         long j10;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
@@ -1094,7 +1094,7 @@ public final class C6156m {
 
     /* renamed from: N */
     public final List m24562N(Context context, String str) {
-        boolean z10;
+        boolean z10 = false;
         List list;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         C7193f c7193f = C7193f.f26903a;
@@ -1159,7 +1159,7 @@ public final class C6156m {
 
     /* renamed from: b0 */
     public final void m24571b0(Context context, String str, String str2, InterfaceC6607b interfaceC6607b, String str3, boolean z10) {
-        String str4;
+        String str4 = null;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         AbstractC5868k.m23674f(str3, "ad_version");
         String str5 = Build.VERSION.RELEASE;

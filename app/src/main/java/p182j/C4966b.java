@@ -141,7 +141,7 @@ public class C4966b implements Iterable {
         @Override // p182j.C4966b.f
         /* renamed from: b */
         public void mo20305b(c cVar) {
-            boolean z10;
+            boolean z10 = false;
             c cVar2 = this.f20684a;
             if (cVar == cVar2) {
                 c cVar3 = cVar2.f20683d;

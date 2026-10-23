@@ -13,7 +13,7 @@ public final class C5419z0 extends AbstractC5593a {
     public static final Parcelable.Creator<C5419z0> CREATOR = new C5354a1();
 
     /* renamed from: a */
-    Bundle f22058a;
+    Bundle f22058a = null;
 
     /* renamed from: b */
     C4858d[] f22059b;

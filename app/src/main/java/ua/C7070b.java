@@ -25,8 +25,8 @@ public final class C7070b extends BroadcastReceiver {
 
     @Override // android.content.BroadcastReceiver
     public void onReceive(Context context, Intent intent) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         UsbDevice usbDevice = null;
         if (intent != null) {
             str = intent.getAction();

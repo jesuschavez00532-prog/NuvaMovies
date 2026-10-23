@@ -64,8 +64,8 @@ public final class C0130a extends AbstractC0166j {
         @Override // p343tb.AbstractC6929a, io.reactivex.Observer
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void onNext(ActiveResult activeResult) {
-            boolean z10;
-            String str;
+            boolean z10 = false;
+            String str = null;
             HashMap m6937e;
             HashMap m6937e2;
             List m27748R;
@@ -350,8 +350,8 @@ public final class C0130a extends AbstractC0166j {
 
     /* renamed from: f */
     public final void m520f(int i10) {
-        String m6868h;
-        String str;
+        String m6868h = null;
+        String str = null;
         this.f386c = i10;
         C0189o2 c0189o2 = new C0189o2(this.f387d);
         if (C5096m.f20979a.m20691b()) {

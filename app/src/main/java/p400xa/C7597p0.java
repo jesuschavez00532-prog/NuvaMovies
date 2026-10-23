@@ -72,7 +72,7 @@ public final class C7597p0 {
         int m27735E;
         int m27735E2;
         int m27735E3;
-        String substring;
+        String substring = null;
         AbstractC5868k.m23674f(str, "url");
         AbstractC5868k.m23674f(str2, "field");
         try {

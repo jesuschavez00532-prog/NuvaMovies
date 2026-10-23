@@ -83,7 +83,7 @@ public class C4886r {
     /* renamed from: f */
     private final C4885q0 m20093f(String str, boolean z10, boolean z11) {
         C4885q0 m20085c;
-        ApplicationInfo applicationInfo;
+        ApplicationInfo applicationInfo = null;
         if (str == null) {
             return C4885q0.m20085c("null pkg");
         }

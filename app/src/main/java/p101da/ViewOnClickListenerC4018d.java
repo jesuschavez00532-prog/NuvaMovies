@@ -607,7 +607,7 @@ public final class ViewOnClickListenerC4018d extends C7767e implements View.OnCl
 
     @Override // android.view.View.OnClickListener
     public void onClick(View view) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(view, "v");
         int id2 = view.getId();
         if (id2 == R$id.mButtonConfirm) {

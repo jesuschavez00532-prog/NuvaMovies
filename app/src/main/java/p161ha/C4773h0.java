@@ -59,7 +59,7 @@ public final class C4773h0 extends C7767e {
 
         @Override // android.webkit.WebViewClient
         public void onPageFinished(WebView webView, String str) {
-            String title;
+            String title = null;
             boolean m27763v;
             boolean m27763v2;
             super.onPageFinished(webView, str);
@@ -132,8 +132,8 @@ public final class C4773h0 extends C7767e {
         @Override // android.webkit.WebChromeClient
         public void onReceivedTitle(WebView webView, String str) {
             boolean m27763v;
-            String title;
-            String url;
+            String title = null;
+            String url = null;
             boolean m27763v2;
             super.onReceivedTitle(webView, str);
             if (str != null) {
@@ -175,7 +175,7 @@ public final class C4773h0 extends C7767e {
 
     /* renamed from: K9 */
     private final void m19729K9() {
-        String str;
+        String str = null;
         Dialog m3280r9 = m3280r9();
         if (m3280r9 != null) {
             m3280r9.setCancelable(true);
@@ -278,7 +278,7 @@ public final class C4773h0 extends C7767e {
     @Override // androidx.fragment.app.Fragment
     /* renamed from: g8 */
     public void mo3164g8() {
-        Object obj;
+        Object obj = null;
         Window window;
         Window window2;
         Window window3;

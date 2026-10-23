@@ -84,7 +84,7 @@ public class C0090o {
 
     /* renamed from: h */
     private AbstractC1366a0.e.d.a m391h(int i10, AbstractC1366a0.a aVar) {
-        boolean z10;
+        boolean z10 = false;
         if (aVar.mo6179b() != 100) {
             z10 = true;
         } else {
@@ -96,7 +96,7 @@ public class C0090o {
     /* renamed from: i */
     private AbstractC1366a0.e.d.a m392i(int i10, C4901e c4901e, Thread thread, int i11, int i12, boolean z10) {
         Boolean bool;
-        boolean z11;
+        boolean z11 = false;
         ActivityManager.RunningAppProcessInfo m260j = AbstractC0074g.m260j(this.f304c.f187d, this.f302a);
         if (m260j != null) {
             if (m260j.importance != 100) {

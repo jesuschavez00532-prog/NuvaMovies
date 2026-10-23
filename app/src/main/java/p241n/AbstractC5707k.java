@@ -13,9 +13,9 @@ public abstract class AbstractC5707k {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: a */
     public static void m23056a(int i10, C5702f c5702f) {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         c5702f.m22958H0();
         C5709m m22931f = c5702f.f22851u.m22931f();
         C5709m m22931f2 = c5702f.f22852v.m22931f();

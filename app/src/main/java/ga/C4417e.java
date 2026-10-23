@@ -266,7 +266,7 @@ public final class C4417e {
         Observable map = just.map(new Function() { // from class: ga.a
             @Override // io.reactivex.functions.Function
             public final Object apply(Object obj) {
-                String m18498g;
+                String m18498g = null;
                 m18498g = C4417e.m18498g(InterfaceC5660l.this, obj);
                 return m18498g;
             }

@@ -264,7 +264,7 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final Boolean mo542f(Boolean bool) {
-            String m6870i;
+            String m6870i = null;
             AbstractC5868k.m23674f(bool, "isAlwaysFinish");
             if (bool.booleanValue()) {
                 C1466m0 c1466m0 = C1466m0.f5627a;
@@ -468,7 +468,7 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final String mo542f(String str) {
-            String str2;
+            String str2 = null;
             AbstractC5868k.m23674f(str, "it");
             C1473s.f5656a.m6918b(0);
             C7252a.f27087a.m28078m((String) C7577i1.f27838b.m29084c().m29074f("key_device_tag", ""));
@@ -681,8 +681,8 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
         @Override // za.C7776f.a
         /* renamed from: a */
         public void mo11443a(boolean z10, String str, ActiveResult activeResult, LoginResult loginResult, String str2, String str3) {
-            boolean z11;
-            String str4;
+            boolean z11 = false;
+            String str4 = null;
             LoginResultData data;
             LoginResultData data2;
             AbstractC5868k.m23674f(str, Constants.KEY_ERROR_CODE);
@@ -968,7 +968,7 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
     private final void m28760X2() {
         GetAuthInfoResultData getAuthInfoResultData;
         long j10;
-        String str;
+        String str = null;
         this.f27624m = new C0222x1(this);
         C1466m0 c1466m0 = C1466m0.f5627a;
         String str2 = c1466m0.m6878m() + "isHasCouponQualification";
@@ -1112,7 +1112,7 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
     /* renamed from: p6 */
     public final void m28780p6(UpdateBean updateBean) {
         int i10 = 0;
-        String m6870i;
+        String m6870i = null;
         if (updateBean == null) {
             return;
         }
@@ -1203,7 +1203,7 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: s6 */
     public static final void m28786s6(C7523p c7523p) {
-        String m27728o;
+        String m27728o = null;
         AbstractC5868k.m23674f(c7523p, "this$0");
         c7523p.m28778k6();
         c7523p.m28775j6();
@@ -1292,7 +1292,7 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
 
     /* renamed from: x6 */
     private final void m28792x6() {
-        boolean z10;
+        boolean z10 = false;
         String m20594d = AbstractC5085b.m20594d();
         AbstractC5868k.m23673e(m20594d, "getDeviceToken()");
         if (m20594d.length() == 0) {
@@ -1370,8 +1370,8 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
         GetAuthInfoResultData getAuthInfoResultData;
         Long l10;
         List<CouponCodeList> list;
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         List<AvailableCouponCodeList> list2;
         List<AvailableCouponCodeList> receiveCouponCodeList;
         List<CouponCodeList> list3;
@@ -1690,7 +1690,7 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
         Observable compose = just.map(new Function() { // from class: x8.a
             @Override // io.reactivex.functions.Function
             public final Object apply(Object obj) {
-                String m28763Y5;
+                String m28763Y5 = null;
                 m28763Y5 = C7523p.m28763Y5(InterfaceC5660l.this, obj);
                 return m28763Y5;
             }
@@ -1938,9 +1938,9 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
 
     /* renamed from: f6 */
     public void m28804f6() {
-        String str;
-        String str2;
-        String hasPay;
+        String str = null;
+        String str2 = null;
+        String hasPay = null;
         C6156m c6156m = C6156m.f24180a;
         AbstractActivityC7763a abstractActivityC7763a = this.f27612a;
         String m23090c = C5714a.f22937a.m23090c();
@@ -2019,8 +2019,8 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
 
     /* renamed from: g6 */
     public void m28806g6(String str) {
-        String str2;
-        String str3;
+        String str2 = null;
+        String str3 = null;
         AbstractC5868k.m23674f(str, "renewFlag");
         C6156m c6156m = C6156m.f24180a;
         AbstractActivityC7763a abstractActivityC7763a = this.f27612a;
@@ -2238,10 +2238,10 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
 
     /* renamed from: w6 */
     public final void m28815w6(List list, long j10, Context context) {
-        boolean z10;
-        boolean z11;
-        boolean z12;
-        boolean z13;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
+        boolean z13 = false;
         AbstractC5868k.m23674f(list, "list");
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         String m20614g = AbstractC5086c.m20614g("yyyy-MM-dd");

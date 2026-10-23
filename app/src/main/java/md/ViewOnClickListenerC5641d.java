@@ -84,7 +84,7 @@ public final class ViewOnClickListenerC5641d extends C7767e implements View.OnCl
         @Override // p315r9.InterfaceC6563a
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void mo19702a(UpdateBean updateBean) {
-            boolean z10;
+            boolean z10 = false;
             AbstractActivityC0712e m3075C6 = ViewOnClickListenerC5641d.this.m3075C6();
             if (m3075C6 != null) {
                 z10 = m3075C6.isFinishing();
@@ -103,7 +103,7 @@ public final class ViewOnClickListenerC5641d extends C7767e implements View.OnCl
 
         @Override // p315r9.InterfaceC6563a
         public void onError(Throwable th) {
-            boolean z10;
+            boolean z10 = false;
             AbstractActivityC0712e m3075C6 = ViewOnClickListenerC5641d.this.m3075C6();
             if (m3075C6 != null && !m3075C6.isFinishing()) {
                 z10 = true;
@@ -254,7 +254,7 @@ public final class ViewOnClickListenerC5641d extends C7767e implements View.OnCl
 
     /* renamed from: R9 */
     public final void m22895R9() {
-        String str;
+        String str = null;
         String m20603m = AbstractC5085b.m20603m(m3096J6());
         ((TextView) m22893I9(R$id.mTextCurVersion)).setText(m3172j7(R$string.current_version_str) + m20603m);
         if (this.f22727I0 != null) {
@@ -361,7 +361,7 @@ public final class ViewOnClickListenerC5641d extends C7767e implements View.OnCl
 
     @Override // p315r9.InterfaceC6565c
     public void onSuccess() {
-        boolean z10;
+        boolean z10 = false;
         AbstractActivityC0712e m3075C6 = m3075C6();
         if (m3075C6 != null && !m3075C6.isFinishing()) {
             z10 = true;
@@ -377,7 +377,7 @@ public final class ViewOnClickListenerC5641d extends C7767e implements View.OnCl
     @Override // p315r9.InterfaceC6565c
     /* renamed from: u0 */
     public void mo11850u0(Exception exc) {
-        boolean z10;
+        boolean z10 = false;
         AbstractActivityC0712e m3075C6 = m3075C6();
         if (m3075C6 != null && !m3075C6.isFinishing()) {
             z10 = true;

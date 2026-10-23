@@ -13,7 +13,7 @@ import kotlinx.coroutines.internal.C5265d;
 public abstract class AbstractC7294l0 {
     /* renamed from: a */
     public static final void m28245a(AbstractC7291k0 abstractC7291k0, int i10) {
-        boolean z10;
+        boolean z10 = false;
         InterfaceC4181d mo21179b = abstractC7291k0.mo21179b();
         if (i10 == 4) {
             z10 = true;
@@ -46,7 +46,7 @@ public abstract class AbstractC7294l0 {
 
     /* renamed from: d */
     public static final void m28248d(AbstractC7291k0 abstractC7291k0, InterfaceC4181d interfaceC4181d, boolean z10) {
-        Object mo28218f;
+        Object mo28218f = null;
         Object mo21180i = abstractC7291k0.mo21180i();
         Throwable mo28217c = abstractC7291k0.mo28217c(mo21180i);
         if (mo28217c != null) {

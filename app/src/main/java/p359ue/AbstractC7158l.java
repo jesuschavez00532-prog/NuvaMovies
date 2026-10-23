@@ -9,7 +9,7 @@ import ne.AbstractC5868k;
 public abstract class AbstractC7158l {
     /* renamed from: a */
     public static void m27714a(Appendable appendable, Object obj, InterfaceC5660l interfaceC5660l) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(appendable, "<this>");
         if (interfaceC5660l != null) {
             appendable.append((CharSequence) interfaceC5660l.mo542f(obj));

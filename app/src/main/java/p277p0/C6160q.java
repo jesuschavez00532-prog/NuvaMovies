@@ -135,7 +135,7 @@ public final class C6160q {
 
     /* renamed from: h */
     public final void m24599h(Context context, String str, String str2, AdInfo adInfo) {
-        String str3;
+        String str3 = null;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         AbstractC5868k.m23674f(str2, "adType");
         if (adInfo == null) {
@@ -155,7 +155,7 @@ public final class C6160q {
 
     /* renamed from: i */
     public final void m24600i(Context context, String str, String str2, AdInfo adInfo) {
-        String str3;
+        String str3 = null;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         AbstractC5868k.m23674f(str2, "adType");
         AbstractC5868k.m23674f(adInfo, "adInfo");

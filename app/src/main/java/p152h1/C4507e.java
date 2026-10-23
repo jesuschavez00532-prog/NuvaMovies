@@ -125,11 +125,11 @@ public class C4507e implements InterfaceC4503a {
 
     /* renamed from: b */
     private void m18857b(C4504b c4504b) {
-        boolean z10;
+        boolean z10 = false;
         boolean booleanValue;
         int i10 = 0;
         int i11 = 0;
-        boolean z11;
+        boolean z11 = false;
         int i12 = 0;
         int i13 = 0;
         int i14 = 0;
@@ -267,8 +267,8 @@ public class C4507e implements InterfaceC4503a {
 
     /* renamed from: c */
     private void m18858c(C4504b c4504b) {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         C4504b c4504b2 = c4504b;
         int[] iArr = this.f19510j;
         int i10 = c4504b2.f19475d;
@@ -333,7 +333,7 @@ public class C4507e implements InterfaceC4503a {
     private void m18859d(C4504b c4504b) {
         int i10 = 0;
         int i11 = 0;
-        short s10;
+        short s10 = 0;
         C4507e c4507e = this;
         if (c4504b != null) {
             c4507e.f19504d.position(c4504b.f19481j);

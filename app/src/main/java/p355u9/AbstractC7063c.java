@@ -45,7 +45,7 @@ public abstract class AbstractC7063c {
         @Override // io.reactivex.Observer
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public void onNext(Pair pair) {
-            String str;
+            String str = null;
             if (AbstractC7063c.m27218e(this.f26492a)) {
                 str = "externalStorage_";
             } else {
@@ -149,7 +149,7 @@ public abstract class AbstractC7063c {
 
     /* renamed from: d */
     public static String m27217d(Context context, String str) {
-        String absolutePath;
+        String absolutePath = null;
         if (m27220g(context)) {
             if (context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS) == null) {
                 return "";
@@ -181,7 +181,7 @@ public abstract class AbstractC7063c {
 
     /* renamed from: g */
     public static boolean m27220g(Context context) {
-        boolean z10;
+        boolean z10 = false;
         boolean equals = Environment.getExternalStorageState().equals("mounted");
         if (Build.VERSION.SDK_INT >= 23 && AbstractC0547a.m2319a(context, "android.permission.WRITE_EXTERNAL_STORAGE") != 0) {
             z10 = false;

@@ -28,8 +28,8 @@ public final class C4214f {
     public final boolean m17614a(String str) {
         int m27735E;
         List m6985d;
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         AbstractC5868k.m23674f(str, "addr");
         if (!TextUtils.isEmpty(str)) {
             m27735E = AbstractC7167u.m27735E(str, ":", 0, false, 6, null);

@@ -221,7 +221,7 @@ public final class C1220e {
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final Boolean mo542f(Response response) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(response, "it");
             ResponseBody responseBody = (ResponseBody) response.m25761a();
             if (response.m25763d() && responseBody != null) {
@@ -412,8 +412,8 @@ public final class C1220e {
 
     /* renamed from: j */
     public final Observable m5537j(String str, SubTitleFileList subTitleFileList, String str2, int i10) {
-        String str3;
-        boolean z10;
+        String str3 = null;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, "contentId");
         AbstractC5868k.m23674f(subTitleFileList, "subTitleFileList");
         AbstractC5868k.m23674f(str2, "filepath");

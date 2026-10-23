@@ -110,7 +110,7 @@ public abstract class AbstractC1482a implements Collection, InterfaceC5974a {
     }
 
     public String toString() {
-        String m7011w;
+        String m7011w = null;
         m7011w = AbstractC1508t.m7011w(this, ", ", "[", "]", 0, null, new a(), 24, null);
         return m7011w;
     }

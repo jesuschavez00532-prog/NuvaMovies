@@ -108,7 +108,7 @@ public abstract class AbstractC5416y {
 
     /* renamed from: f */
     public static String m21824f(Context context, int i10) {
-        String m21825g;
+        String m21825g = null;
         if (i10 == 6) {
             m21825g = m21827i(context, "common_google_play_services_resolution_required_title");
         } else {

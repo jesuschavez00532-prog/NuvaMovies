@@ -117,7 +117,7 @@ public final class C5732j {
 
     C5732j(a aVar) {
         int i10 = 0;
-        boolean z10;
+        boolean z10 = false;
         this.f23007c = aVar.f23010a;
         if (m23137e(aVar.f23011b)) {
             i10 = aVar.f23017h / 2;

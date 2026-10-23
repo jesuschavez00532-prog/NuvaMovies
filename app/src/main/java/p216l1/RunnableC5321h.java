@@ -393,7 +393,7 @@ class RunnableC5321h implements InterfaceC5319f.a, Runnable, Comparable, Abstrac
 
     /* renamed from: C */
     private void m21488C() {
-        Throwable th;
+        Throwable th = null;
         this.f21692c.mo17649c();
         if (this.f21687D) {
             if (this.f21691b.isEmpty()) {
@@ -497,7 +497,7 @@ class RunnableC5321h implements InterfaceC5319f.a, Runnable, Comparable, Abstrac
 
     /* renamed from: l */
     private C4977h m21494l(EnumC4970a enumC4970a) {
-        boolean z10;
+        boolean z10 = false;
         C4977h c4977h = this.f21704o;
         if (Build.VERSION.SDK_INT < 26) {
             return c4977h;
@@ -530,7 +530,7 @@ class RunnableC5321h implements InterfaceC5319f.a, Runnable, Comparable, Abstrac
 
     /* renamed from: p */
     private void m21497p(String str, long j10, String str2) {
-        String str3;
+        String str3 = null;
         StringBuilder sb2 = new StringBuilder();
         sb2.append(str);
         sb2.append(" in ");

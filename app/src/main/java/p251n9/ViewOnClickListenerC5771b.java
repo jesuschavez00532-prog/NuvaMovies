@@ -80,29 +80,29 @@ public final class ViewOnClickListenerC5771b extends AbstractC5774c<InterfaceC47
         /* renamed from: a */
         public final void m23249a(LoginResult loginResult) {
             List<AuthInfoList> list;
-            String str;
-            String str2;
-            String str3;
-            String str4;
-            String str5;
-            String str6;
-            String str7;
-            String str8;
-            String str9;
+            String str = null;
+            String str2 = null;
+            String str3 = null;
+            String str4 = null;
+            String str5 = null;
+            String str6 = null;
+            String str7 = null;
+            String str8 = null;
+            String str9 = null;
             int i10 = 0;
-            String str10;
-            String str11;
-            String str12;
-            String str13;
-            String str14;
-            String str15;
-            String str16;
-            String str17;
-            String str18;
-            String str19;
-            String str20;
-            String str21;
-            String str22;
+            String str10 = null;
+            String str11 = null;
+            String str12 = null;
+            String str13 = null;
+            String str14 = null;
+            String str15 = null;
+            String str16 = null;
+            String str17 = null;
+            String str18 = null;
+            String str19 = null;
+            String str20 = null;
+            String str21 = null;
+            String str22 = null;
             LoginResultData data;
             LoginResultData data2;
             LoginResultData data3;
@@ -316,7 +316,7 @@ public final class ViewOnClickListenerC5771b extends AbstractC5774c<InterfaceC47
 
     /* renamed from: U9 */
     private final String m23239U9(String str) {
-        boolean z10;
+        boolean z10 = false;
         if (str != null && str.length() != 0) {
             z10 = false;
         } else {
@@ -417,13 +417,13 @@ public final class ViewOnClickListenerC5771b extends AbstractC5774c<InterfaceC47
     @Override // p251n9.AbstractC5774c
     /* renamed from: H9 */
     protected boolean mo23232H9() {
-        boolean z10;
-        boolean z11;
-        boolean z12;
-        boolean z13;
-        boolean z14;
-        boolean z15;
-        boolean z16;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
+        boolean z13 = false;
+        boolean z14 = false;
+        boolean z15 = false;
+        boolean z16 = false;
         TextView textView = (TextView) m23246S9(R$id.mTvLoginOther);
         if (textView != null && textView.hasFocus()) {
             z10 = true;
@@ -631,7 +631,7 @@ public final class ViewOnClickListenerC5771b extends AbstractC5774c<InterfaceC47
     @Override // p160h9.InterfaceC4727d
     /* renamed from: j0 */
     public void mo19591j0(String str) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, Constants.KEY_ERROR_CODE);
         if (m3075C6() != null) {
             AbstractActivityC0712e m3075C6 = m3075C6();
@@ -683,12 +683,12 @@ public final class ViewOnClickListenerC5771b extends AbstractC5774c<InterfaceC47
     @Override // android.view.View.OnClickListener
     public void onClick(View view) {
         Integer num;
-        String str;
+        String str = null;
         boolean m27724k;
-        String str2;
+        String str2 = null;
         boolean m27724k2;
-        String str3;
-        String str4;
+        String str3 = null;
+        String str4 = null;
         if (view != null) {
             num = Integer.valueOf(view.getId());
         } else {

@@ -64,7 +64,7 @@ public final class C7216d {
 
         /* renamed from: h */
         private b m27927h(int i10) {
-            boolean z10;
+            boolean z10 = false;
             if (this.f26990d == 0) {
                 z10 = true;
             } else {
@@ -95,7 +95,7 @@ public final class C7216d {
 
         /* renamed from: d */
         public C7216d m27931d() {
-            boolean z10;
+            boolean z10 = false;
             if (this.f26992f != null) {
                 z10 = true;
             } else {
@@ -149,7 +149,7 @@ public final class C7216d {
             @Override // p366v5.InterfaceC7223h
             /* renamed from: a */
             public final Object mo5191a(InterfaceC7218e interfaceC7218e) {
-                Object m27913o;
+                Object m27913o = null;
                 m27913o = C7216d.m27913o(obj, interfaceC7218e);
                 return m27913o;
             }
@@ -179,7 +179,7 @@ public final class C7216d {
             @Override // p366v5.InterfaceC7223h
             /* renamed from: a */
             public final Object mo5191a(InterfaceC7218e interfaceC7218e) {
-                Object m27914p;
+                Object m27914p = null;
                 m27914p = C7216d.m27914p(obj, interfaceC7218e);
                 return m27914p;
             }

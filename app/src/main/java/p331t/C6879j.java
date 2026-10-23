@@ -41,7 +41,7 @@ final class C6879j implements InterfaceC6875f {
     }
 
     public String toString() {
-        String localeList;
+        String localeList = null;
         localeList = this.f26174a.toString();
         return localeList;
     }

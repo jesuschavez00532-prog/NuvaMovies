@@ -150,8 +150,8 @@ public final class C0155g0 extends AbstractC0166j {
 
     /* renamed from: c */
     public final void m596c(int i10) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         C0206t c0206t = new C0206t(this.f449c);
         if (!C5096m.f20979a.m20691b()) {
             str = "";

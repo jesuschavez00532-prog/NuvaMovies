@@ -322,7 +322,7 @@ public final class C6288z implements InterfaceC5856p, InterfaceC6420r0, Interfac
     public void mo23209L2(GetColumnContentsResult getColumnContentsResult, int i10) {
         ChildColumn childColumn;
         List<ChildColumn> childColumnList;
-        Object m7008t;
+        Object m7008t = null;
         AbstractC5868k.m23674f(getColumnContentsResult, "result");
         GetColumnContentsResultData data = getColumnContentsResult.getData();
         int i11 = 0;

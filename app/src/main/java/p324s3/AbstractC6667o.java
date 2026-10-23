@@ -52,7 +52,7 @@ public abstract class AbstractC6667o {
     }
 
     public final String toString() {
-        String encodeToString;
+        String encodeToString = null;
         Object[] objArr = new Object[3];
         objArr[0] = mo26004b();
         objArr[1] = mo26006d();

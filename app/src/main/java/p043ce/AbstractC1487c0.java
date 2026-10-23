@@ -63,7 +63,7 @@ public abstract class AbstractC1487c0 extends AbstractC1485b0 {
 
     /* renamed from: i */
     public static Map m6941i(Iterable iterable) {
-        Object next;
+        Object next = null;
         AbstractC5868k.m23674f(iterable, "<this>");
         if (iterable instanceof Collection) {
             Collection collection = (Collection) iterable;

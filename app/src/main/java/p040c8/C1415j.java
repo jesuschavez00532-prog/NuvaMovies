@@ -120,8 +120,8 @@ public final class C1415j {
     /* renamed from: e */
     private final boolean m6562e(ChannelList channelList, InterfaceC1409g interfaceC1409g) {
         boolean m27723j;
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         String locked_start_time = channelList.getLocked_start_time();
         String locked_end_time = channelList.getLocked_end_time();
         String locked_time_zone = channelList.getLocked_time_zone();

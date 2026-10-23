@@ -54,7 +54,7 @@ public class C4118h {
 
     /* renamed from: g */
     public synchronized Object m17213g(Object obj) {
-        Object obj2;
+        Object obj2 = null;
         a aVar = (a) this.f18079a.get(obj);
         if (aVar != null) {
             obj2 = aVar.f18083a;

@@ -289,8 +289,8 @@ public final class C5435c2 extends AbstractC1196d<InterfaceC4282i> implements In
         @Override // p400xa.C7618x0.a
         /* renamed from: b */
         public void mo11884b(boolean z10, boolean z11, String str) {
-            boolean z12;
-            boolean z13;
+            boolean z12 = false;
+            boolean z13 = false;
             DialogC4084w0 dialogC4084w0;
             AbstractC5868k.m23674f(str, "errCode");
             if (!z11) {
@@ -445,7 +445,7 @@ public final class C5435c2 extends AbstractC1196d<InterfaceC4282i> implements In
         @Override // com.live.view.C2890r.b
         /* renamed from: w0 */
         public void mo11741w0(int i10) {
-            String str;
+            String str = null;
             if (i10 == 0) {
                 C2890r c2890r = C5435c2.this.f22085C0;
                 if (c2890r != null) {
@@ -520,7 +520,7 @@ public final class C5435c2 extends AbstractC1196d<InterfaceC4282i> implements In
 
     /* renamed from: U9 */
     private final void m21845U9() {
-        String contentId;
+        String contentId = null;
         if (this.f22091I0) {
             contentId = AbstractC5092i.m20666a(this.f22092J0);
         } else {
@@ -611,11 +611,11 @@ public final class C5435c2 extends AbstractC1196d<InterfaceC4282i> implements In
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: ba */
     public static final void m21850ba(C5435c2 c5435c2, String str, boolean z10) {
-        String str2;
-        String str3;
-        String string;
-        String string2;
-        String m6878m;
+        String str2 = null;
+        String str3 = null;
+        String string = null;
+        String string2 = null;
+        String m6878m = null;
         AbstractC5868k.m23674f(c5435c2, "this$0");
         AbstractC5868k.m23674f(str, "$errCode");
         int i10 = R$id.mLayoutError;
@@ -685,7 +685,7 @@ public final class C5435c2 extends AbstractC1196d<InterfaceC4282i> implements In
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: ca */
     public static final void m21851ca(C5435c2 c5435c2, int i10) {
-        String m6878m;
+        String m6878m = null;
         AbstractC5868k.m23674f(c5435c2, "this$0");
         C7617x c7617x = C7617x.f28030a;
         Context m3107M8 = c5435c2.m3107M8();
@@ -775,26 +775,26 @@ public final class C5435c2 extends AbstractC1196d<InterfaceC4282i> implements In
     @Override // com.live.view.InterceptKeyView.InterfaceC2872a
     /* renamed from: H1 */
     public boolean mo11576H1(KeyEvent keyEvent, boolean z10) {
-        boolean z11;
-        boolean z12;
-        boolean z13;
+        boolean z11 = false;
+        boolean z12 = false;
+        boolean z13 = false;
         MatchDetailActivity matchDetailActivity;
-        boolean z14;
-        boolean z15;
-        boolean z16;
-        boolean z17;
-        boolean z18;
-        boolean z19;
-        boolean z20;
-        boolean z21;
-        boolean z22;
-        boolean z23;
-        boolean z24;
-        boolean z25;
-        boolean z26;
-        boolean z27;
-        boolean z28;
-        boolean z29;
+        boolean z14 = false;
+        boolean z15 = false;
+        boolean z16 = false;
+        boolean z17 = false;
+        boolean z18 = false;
+        boolean z19 = false;
+        boolean z20 = false;
+        boolean z21 = false;
+        boolean z22 = false;
+        boolean z23 = false;
+        boolean z24 = false;
+        boolean z25 = false;
+        boolean z26 = false;
+        boolean z27 = false;
+        boolean z28 = false;
+        boolean z29 = false;
         AbstractC5868k.m23674f(keyEvent, "event");
         boolean z30 = false;
         if (!this.f22083A0) {
@@ -1259,7 +1259,7 @@ public final class C5435c2 extends AbstractC1196d<InterfaceC4282i> implements In
     /* renamed from: Z9 */
     public final void m21857Z9() {
         Integer num;
-        String contentId;
+        String contentId = null;
         C4176d c4176d = this.f22084B0;
         if (c4176d != null) {
             num = Integer.valueOf((int) c4176d.getCurrentProgress());
@@ -1317,7 +1317,7 @@ public final class C5435c2 extends AbstractC1196d<InterfaceC4282i> implements In
 
     /* renamed from: h4 */
     public void m21859h4() {
-        boolean z10;
+        boolean z10 = false;
         DialogC4084w0 dialogC4084w0;
         AutoRelativeLayout autoRelativeLayout;
         int i10 = R$id.mLayoutError;
@@ -1359,9 +1359,9 @@ public final class C5435c2 extends AbstractC1196d<InterfaceC4282i> implements In
     @Override // p130f8.InterfaceC4283j
     /* renamed from: k3 */
     public void mo17928k3(List list) {
-        String str;
-        String str2;
-        String programName;
+        String str = null;
+        String str2 = null;
+        String programName = null;
         AbstractC5868k.m23674f(list, "mediaList");
         if (mo17926I4() != null) {
             EpgProgram mo17926I4 = mo17926I4();
@@ -1428,7 +1428,7 @@ public final class C5435c2 extends AbstractC1196d<InterfaceC4282i> implements In
     @Override // p430z9.AbstractC7765c
     /* renamed from: n9 */
     public void mo5460n9() {
-        String str;
+        String str = null;
         Bundle m3090H6 = m3090H6();
         if (m3090H6 != null) {
             str = m3090H6.getString(f22082S0);

@@ -54,7 +54,7 @@ public interface InterfaceC1029a extends IInterface {
 
         @Override // android.os.Binder
         public boolean onTransact(int i10, Parcel parcel, Parcel parcel2, int i11) throws android.os.RemoteException {
-            Bundle bundle;
+            Bundle bundle = null;
             if (i10 != 1) {
                 if (i10 != 1598968902) {
                     return super.onTransact(i10, parcel, parcel2, i11);

@@ -46,7 +46,7 @@ public final class HandlerC5407t0 extends HandlerC7497e {
         C4854b c4854b2;
         C4854b c4854b3;
         C4854b c4854b4;
-        boolean z10;
+        boolean z10 = false;
         if (this.f22039a.f21895C.get() != message.arg1) {
             if (m21812b(message)) {
                 m21811a(message);

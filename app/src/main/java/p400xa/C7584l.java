@@ -178,8 +178,8 @@ public final class C7584l {
     /* renamed from: g */
     public final void m29109g(ChildColumn childColumn) {
         int i10 = 0;
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         AbstractC5868k.m23674f(childColumn, "column");
         List<PosterList> posterList = childColumn.getPosterList();
         boolean z12 = false;

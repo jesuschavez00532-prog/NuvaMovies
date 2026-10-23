@@ -37,7 +37,7 @@ public abstract class AbstractC7286i1 {
 
     /* renamed from: h */
     public static final Object m28237h(Object obj) {
-        Object obj2;
+        Object obj2 = null;
         InterfaceC7333y0 interfaceC7333y0;
         if (!(obj instanceof C7335z0)) {
             obj2 = null;

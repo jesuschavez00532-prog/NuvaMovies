@@ -47,7 +47,7 @@ public abstract class AbstractC6345b {
     static final String f24703l;
 
     static {
-        boolean z10;
+        boolean z10 = false;
         if (Build.VERSION.SDK_INT >= 21) {
             z10 = true;
         } else {

@@ -1143,7 +1143,7 @@ public class C5702f {
     }
 
     public String toString() {
-        String str;
+        String str = null;
         StringBuilder sb2 = new StringBuilder();
         String str2 = "";
         if (this.f22822f0 == null) {

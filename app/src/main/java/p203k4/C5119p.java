@@ -35,7 +35,7 @@ public final class C5119p extends BroadcastReceiver {
 
     @Override // android.content.BroadcastReceiver
     public final void onReceive(Context context, Intent intent) {
-        String str;
+        String str = null;
         Uri data = intent.getData();
         if (data != null) {
             str = data.getSchemeSpecificPart();

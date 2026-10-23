@@ -33,7 +33,7 @@ public final class C0222x1 extends AbstractC0166j {
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final Boolean mo542f(ApkQueryCouponResult apkQueryCouponResult) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(apkQueryCouponResult, "it");
             if (apkQueryCouponResult.getData() != null) {
                 z10 = true;

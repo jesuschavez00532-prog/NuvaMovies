@@ -265,7 +265,7 @@ public final class C1203g {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: v */
     public static final void m5493v(C1203g c1203g, TextView textView) {
-        Object m7008t;
+        Object m7008t = null;
         AbstractC5868k.m23674f(c1203g, "this$0");
         AbstractC5868k.m23674f(textView, "$textView");
         SRT srt = c1203g.f4770h;
@@ -398,9 +398,9 @@ public final class C1203g {
 
     /* renamed from: t */
     public final long m5504t(final TextView textView, long j10) {
-        Object m7008t;
-        Object m7008t2;
-        Object m7008t3;
+        Object m7008t = null;
+        Object m7008t2 = null;
+        Object m7008t3 = null;
         AbstractC5868k.m23674f(textView, "textView");
         if (this.f4767e.size() == 0) {
             m5499k(0, j10, this.f4769g, this.f4770h);

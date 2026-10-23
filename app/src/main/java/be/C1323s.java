@@ -35,7 +35,7 @@ final class C1323s implements InterfaceC1312h, Serializable {
 
     @Override // be.InterfaceC1312h
     public Object getValue() {
-        Object obj;
+        Object obj = null;
         Object obj2 = this.f4995b;
         C1326v c1326v = C1326v.f4997a;
         if (obj2 != c1326v) {

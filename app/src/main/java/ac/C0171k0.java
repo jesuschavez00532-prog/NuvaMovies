@@ -25,7 +25,7 @@ public final class C0171k0 extends AbstractC0166j {
 
         /* renamed from: a */
         public final void m627a(ConfigResult configResult) {
-            String config;
+            String config = null;
             if (configResult.getCode() == 200) {
                 ConfigData data = configResult.getData();
                 if (data != null && (config = data.getConfig()) != null) {

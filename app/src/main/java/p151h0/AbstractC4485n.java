@@ -189,7 +189,7 @@ public abstract class AbstractC4485n implements Cloneable {
         View f19417a;
 
         /* renamed from: b */
-        String f19418b;
+        String f19418b = null;
 
         /* renamed from: c */
         C4497u f19419c;
@@ -623,7 +623,7 @@ public abstract class AbstractC4485n implements Cloneable {
     /* renamed from: Q */
     public void m18753Q(ViewGroup viewGroup) {
         d dVar;
-        boolean z10;
+        boolean z10 = false;
         this.f19407t = new ArrayList();
         this.f19408u = new ArrayList();
         m18738O(this.f19403p, this.f19404q);
@@ -967,7 +967,7 @@ public abstract class AbstractC4485n implements Cloneable {
     /* JADX INFO: Access modifiers changed from: protected */
     /* renamed from: p */
     public void mo18773p(ViewGroup viewGroup, C4498v c4498v, C4498v c4498v2, ArrayList arrayList, ArrayList arrayList2) {
-        boolean z10;
+        boolean z10 = false;
         View view;
         Animator animator;
         C4497u c4497u;

@@ -73,7 +73,7 @@ public final class C1177p extends AbstractC7527b {
         @Override // p011aa.AbstractViewOnClickListenerC0123a
         /* renamed from: c */
         public void mo492c(View view) {
-            String m27728o;
+            String m27728o = null;
             String m6824c = C1464l0.f5622a.m6824c(this.f4647b.getGameTime(), "yyyy-MM-dd HH:mm");
             MatchDetailActivity.C2860a c2860a = MatchDetailActivity.f10864W;
             Context m28850h = this.f4648c.m28850h();
@@ -319,10 +319,10 @@ public final class C1177p extends AbstractC7527b {
 
     /* renamed from: y */
     private final String m5395y(Match match) {
-        boolean z10;
+        boolean z10 = false;
         List m27748R;
         List m27748R2;
-        String m20613f;
+        String m20613f = null;
         String gameTime = match.getGameTime();
         if (gameTime != null && gameTime.length() != 0) {
             z10 = false;

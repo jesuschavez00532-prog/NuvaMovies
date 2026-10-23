@@ -352,7 +352,7 @@ public final class C5463j2 extends AbstractC1196d<InterfaceC4288o> implements In
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: Y9 */
     public static final void m22026Y9(C5463j2 c5463j2, int i10) {
-        String m6878m;
+        String m6878m = null;
         AbstractC5868k.m23674f(c5463j2, "this$0");
         C7617x c7617x = C7617x.f28030a;
         Context m3107M8 = c5463j2.m3107M8();
@@ -625,7 +625,7 @@ public final class C5463j2 extends AbstractC1196d<InterfaceC4288o> implements In
     @Override // p430z9.AbstractC7765c
     /* renamed from: n9 */
     public void mo5460n9() {
-        String str;
+        String str = null;
         Bundle m3090H6 = m3090H6();
         if (m3090H6 != null) {
             str = m3090H6.getString("match_channel_code");

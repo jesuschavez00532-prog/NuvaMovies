@@ -94,7 +94,7 @@ public class C4131a {
     private final ScheduledExecutorService f18166q;
 
     public C4131a(Context context, int i10, String str) {
-        String str2;
+        String str2 = null;
         String packageName = context.getPackageName();
         this.f18150a = new Object();
         this.f18152c = 0;
@@ -298,7 +298,7 @@ public class C4131a {
 
     /* renamed from: b */
     public boolean m17320b() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f18150a) {
             if (this.f18152c > 0) {
                 z10 = true;

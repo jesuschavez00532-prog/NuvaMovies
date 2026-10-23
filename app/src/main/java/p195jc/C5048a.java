@@ -67,7 +67,7 @@ public class C5048a {
 
         @Override // android.os.Handler
         public void handleMessage(Message message) {
-            String str;
+            String str = null;
             int i10 = message.what;
             if (i10 == 16) {
                 C5048a.this.m20515p();

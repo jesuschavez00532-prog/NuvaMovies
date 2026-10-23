@@ -237,9 +237,9 @@ public final class C7110k extends AbstractC7766d<InterfaceC5965a> implements Int
     @Override // p268od.InterfaceC5966b
     /* renamed from: S4 */
     public void mo24127S4() {
-        boolean z10;
-        String str;
-        String str2;
+        boolean z10 = false;
+        String str = null;
+        String str2 = null;
         if (m3075C6() != null) {
             AbstractActivityC0712e m3075C6 = m3075C6();
             if (m3075C6 != null) {
@@ -289,9 +289,9 @@ public final class C7110k extends AbstractC7766d<InterfaceC5965a> implements Int
     @Override // p430z9.AbstractC7766d, p011aa.InterfaceC0124b
     /* renamed from: b5 */
     public boolean mo494b5() {
-        boolean z10;
+        boolean z10 = false;
         int i10 = 0;
-        boolean z11;
+        boolean z11 = false;
         int i11 = R$id.mListView;
         VerticalGridView verticalGridView = (VerticalGridView) m27336F9(i11);
         if (verticalGridView != null && verticalGridView.getVisibility() == 0) {
@@ -359,7 +359,7 @@ public final class C7110k extends AbstractC7766d<InterfaceC5965a> implements Int
     @Override // p430z9.AbstractC7766d, p011aa.InterfaceC0124b
     /* renamed from: g5 */
     public boolean mo495g5() {
-        boolean z10;
+        boolean z10 = false;
         VerticalGridView verticalGridView = (VerticalGridView) m27336F9(R$id.mListView);
         if (verticalGridView != null && verticalGridView.getVisibility() == 0) {
             z10 = true;
@@ -413,7 +413,7 @@ public final class C7110k extends AbstractC7766d<InterfaceC5965a> implements Int
     @Override // p430z9.AbstractC7770h
     /* renamed from: o9 */
     public void mo22270o9() {
-        String str;
+        String str = null;
         Bundle m3090H6 = m3090H6();
         String str2 = "";
         if (m3090H6 != null) {

@@ -155,7 +155,7 @@ public final class C5764q implements InterfaceC5605b, InterfaceC6375c0 {
 
         /* renamed from: a */
         public final void m23218a(Boolean bool) {
-            String str;
+            String str = null;
             AbstractC5868k.m23673e(bool, "alreadyShowGuide");
             if (bool.booleanValue()) {
                 str = C3325bt.f14194aL;
@@ -466,7 +466,7 @@ public final class C5764q implements InterfaceC5605b, InterfaceC6375c0 {
 
     /* renamed from: e4 */
     private final void m23198e4() {
-        String str;
+        String str = null;
         try {
             C5090g c5090g = C5090g.f20948a;
             StringBuilder sb2 = new StringBuilder();

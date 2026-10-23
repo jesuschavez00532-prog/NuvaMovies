@@ -93,7 +93,7 @@ public abstract class AbstractC5888c {
 
     /* renamed from: g */
     private static int m23752g(int i10, float f10, float f11) {
-        boolean z10;
+        boolean z10 = false;
         if (f11 >= 0.0f && f11 <= 100.0f) {
             z10 = true;
         } else {

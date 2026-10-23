@@ -39,7 +39,7 @@ public final class C6651z {
     private final int f25503a = 20000;
 
     static {
-        boolean z10;
+        boolean z10 = false;
         int i10 = Build.VERSION.SDK_INT;
         boolean z11 = true;
         if (i10 < 29) {

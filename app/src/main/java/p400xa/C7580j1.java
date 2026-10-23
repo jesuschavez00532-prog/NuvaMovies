@@ -52,7 +52,7 @@ public final class C7580j1 {
 
     /* renamed from: b */
     public final C6169i m29089b(String str, String str2) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, "url");
         AbstractC5868k.m23674f(str2, "domainKey");
         String m27854k = C7197a.f26917a.m27854k(str2);

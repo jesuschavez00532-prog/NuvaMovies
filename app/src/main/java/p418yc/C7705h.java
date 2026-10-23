@@ -399,7 +399,7 @@ public final class C7705h {
         /* JADX WARN: Failed to find 'out' block for switch in B:2:0x0010. Please report as an issue. */
         @Override // java.lang.Runnable
         public final void run() {
-            String str;
+            String str = null;
             C7702e c7702e = C7705h.this.f28258b[this.f28299b];
             String str2 = this.f28300c;
             switch (str2.hashCode()) {
@@ -696,7 +696,7 @@ public final class C7705h {
 
     /* renamed from: n */
     public final String m29758n(int i10) {
-        String m29684c0;
+        String m29684c0 = null;
         C7702e c7702e = this.f28258b[i10];
         if (c7702e == null || (m29684c0 = c7702e.m29684c0()) == null) {
             return "none";

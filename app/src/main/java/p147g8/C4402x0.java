@@ -102,7 +102,7 @@ public final class C4402x0 implements InterfaceC1439a, InterfaceC6440y {
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final Boolean mo542f(Match match) {
-            String m27728o;
+            String m27728o = null;
             CharSequence m27758b0;
             AbstractC5868k.m23674f(match, "it");
             String substring = match.getGameTime().substring(0, 10);
@@ -818,7 +818,7 @@ public final class C4402x0 implements InterfaceC1439a, InterfaceC6440y {
 
     /* renamed from: b5 */
     public void m18417b5(MatchDate matchDate, String str) {
-        String m27728o;
+        String m27728o = null;
         CharSequence m27758b0;
         AbstractC5868k.m23674f(matchDate, "matchDate");
         AbstractC5868k.m23674f(str, "selectedMatchId");

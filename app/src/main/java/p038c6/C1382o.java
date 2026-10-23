@@ -127,7 +127,7 @@ final class C1382o extends AbstractC1366a0.e.d.a.b.c {
     }
 
     public boolean equals(Object obj) {
-        String str;
+        String str = null;
         AbstractC1366a0.e.d.a.b.c cVar;
         if (obj == this) {
             return true;

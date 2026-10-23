@@ -190,11 +190,11 @@ public final class C1456h0 {
 
         /* renamed from: a */
         public final void m6791a(List list) {
-            String str;
-            String str2;
-            String str3;
-            String str4;
-            String str5;
+            String str = null;
+            String str2 = null;
+            String str3 = null;
+            String str4 = null;
+            String str5 = null;
             if (list.size() < 1) {
                 return;
             }
@@ -419,7 +419,7 @@ public final class C1456h0 {
 
     /* renamed from: r */
     public final void m6782r(GetSlbInfoBeanResultData getSlbInfoBeanResultData, boolean z10, final boolean z11) {
-        String str;
+        String str = null;
         List<CdnListBeanResult> list;
         f5582i = getSlbInfoBeanResultData;
         f5583j.clear();

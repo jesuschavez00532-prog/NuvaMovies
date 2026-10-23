@@ -298,10 +298,10 @@ public final class C3992m extends AbstractC7527b {
     /* renamed from: t, reason: merged with bridge method [inline-methods] */
     public void mo5338e(final C7531f c7531f, final FavoriteList favoriteList) {
         C7594o0.a aVar;
-        boolean z10;
-        boolean z11;
-        boolean z12;
-        boolean z13;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
+        boolean z13 = false;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(favoriteList, "bean");
         C7594o0 c7594o0 = C7594o0.f27942a;

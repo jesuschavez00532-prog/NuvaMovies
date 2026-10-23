@@ -372,7 +372,7 @@ public final class C5830a implements InterfaceC5533a, InterfaceC6398k, Interface
     /* renamed from: v1 */
     public void mo23557v1(String str, String str2) {
         GetAuthInfoResultData getAuthInfoResultData;
-        String str3;
+        String str3 = null;
         GetAuthInfoResultData getAuthInfoResultData2;
         UserInfo m6887v;
         AbstractC5868k.m23674f(str, "password");
@@ -476,7 +476,7 @@ public final class C5830a implements InterfaceC5533a, InterfaceC6398k, Interface
     @Override // p301qb.InterfaceC6430u1
     /* renamed from: x0 */
     public void mo23558x0(String str, String str2) {
-        String str3;
+        String str3 = null;
         AbstractC5868k.m23674f(str, "email");
         AbstractC5868k.m23674f(str2, "verifyCode");
         InterfaceC5534b interfaceC5534b = this.f23319a;

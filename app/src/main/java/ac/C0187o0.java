@@ -26,7 +26,7 @@ public final class C0187o0 extends AbstractC0166j {
         @Override // p343tb.AbstractC6929a, io.reactivex.Observer
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void onNext(GetInviteCodeResult getInviteCodeResult) {
-            String str;
+            String str = null;
             AbstractC5868k.m23674f(getInviteCodeResult, "t");
             super.onNext(getInviteCodeResult);
             GetInviteCodeData data = getInviteCodeResult.getData();

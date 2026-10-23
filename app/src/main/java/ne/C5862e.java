@@ -80,8 +80,8 @@ public final class C5862e implements InterfaceC6865b, InterfaceC5861d {
         int m6992k;
         Map m6941i;
         int m6932a;
-        String m27753W;
-        String m27753W2;
+        String m27753W = null;
+        String m27753W2 = null;
         int i10 = 0;
         m6988g = AbstractC1500l.m6988g(InterfaceC5642a.class, InterfaceC5660l.class, InterfaceC5664p.class, InterfaceC5665q.class, InterfaceC5666r.class, InterfaceC5667s.class, InterfaceC5668t.class, InterfaceC5669u.class, InterfaceC5670v.class, InterfaceC5671w.class, InterfaceC5643b.class, InterfaceC5644c.class, InterfaceC5645d.class, InterfaceC5646e.class, InterfaceC5647f.class, InterfaceC5648g.class, InterfaceC5649h.class, InterfaceC5650i.class, InterfaceC5651j.class, InterfaceC5659k.class, InterfaceC5661m.class, InterfaceC5662n.class, InterfaceC5663o.class);
         m6992k = AbstractC1501m.m6992k(m6988g, 10);

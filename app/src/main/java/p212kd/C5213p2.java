@@ -155,7 +155,7 @@ public final class C5213p2 extends AbstractC7527b {
     @Override // p399x9.AbstractC7527b
     /* renamed from: s, reason: merged with bridge method [inline-methods] */
     public void mo5338e(final C7531f c7531f, final AssetList assetList) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(assetList, "bean");
         String m20660c = AbstractC5091h.m20660c(assetList.getName(), assetList.getAlias());

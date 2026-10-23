@@ -68,7 +68,7 @@ public abstract class AbstractC7312r0 extends AbstractC7315s0 implements Interfa
         /* renamed from: a */
         public void mo21280a(AbstractC5285x abstractC5285x) {
             C5280s c5280s;
-            boolean z10;
+            boolean z10 = false;
             Object obj = this.f27220a;
             c5280s = AbstractC7321u0.f27228a;
             if (obj != c5280s) {
@@ -417,7 +417,7 @@ public abstract class AbstractC7312r0 extends AbstractC7315s0 implements Interfa
     /* renamed from: S */
     public long m28287S() {
         InterfaceC5286y interfaceC5286y;
-        boolean z10;
+        boolean z10 = false;
         if (m28270H()) {
             return 0L;
         }

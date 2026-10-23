@@ -208,7 +208,7 @@ public final class C5772b0 extends AbstractC5774c<InterfaceC4741q> implements In
     /* renamed from: W0 */
     private final void m23255W0() {
         List m6989h;
-        String str;
+        String str = null;
         List list;
         String string = m3154d7().getString(R$string.personal_recorde);
         AbstractC5868k.m23673e(string, "resources.getString(R.string.personal_recorde)");
@@ -347,9 +347,9 @@ public final class C5772b0 extends AbstractC5774c<InterfaceC4741q> implements In
     @Override // p251n9.AbstractC5774c
     /* renamed from: H9 */
     protected boolean mo23232H9() {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         View childAt;
         RecyclerView recyclerView;
         AbstractC5774c abstractC5774c = this.f23122J0;
@@ -539,11 +539,11 @@ public final class C5772b0 extends AbstractC5774c<InterfaceC4741q> implements In
 
     @Override // p251n9.AbstractC5774c
     public boolean onKeyDown(int i10, KeyEvent keyEvent) {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         View view;
-        boolean z12;
-        boolean z13;
+        boolean z12 = false;
+        boolean z13 = false;
         AbstractC5868k.m23674f(keyEvent, "event");
         if (i10 == 4) {
             RecyclerView recyclerView = (RecyclerView) m23266U9(R$id.recyclerView);

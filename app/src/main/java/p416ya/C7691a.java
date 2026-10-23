@@ -53,8 +53,8 @@ public final class C7691a implements Interceptor {
 
     @Override // okhttp3.Interceptor
     public Response intercept(Interceptor.Chain chain) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         int i10 = 0;
         boolean m27763v;
         AbstractC5868k.m23674f(chain, "chain");

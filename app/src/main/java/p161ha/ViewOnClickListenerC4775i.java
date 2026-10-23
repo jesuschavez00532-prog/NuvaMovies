@@ -198,7 +198,7 @@ public final class ViewOnClickListenerC4775i extends C7767e implements View.OnCl
 
     @Override // android.view.View.OnClickListener
     public void onClick(View view) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(view, "v");
         int id2 = view.getId();
         boolean z11 = false;

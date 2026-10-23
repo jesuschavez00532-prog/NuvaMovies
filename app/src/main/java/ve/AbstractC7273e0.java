@@ -20,7 +20,7 @@ public abstract class AbstractC7273e0 {
 
     /* renamed from: c */
     public static final String m28129c(InterfaceC4181d interfaceC4181d) {
-        Object m5971a;
+        Object m5971a = null;
         if (interfaceC4181d instanceof C5265d) {
             return interfaceC4181d.toString();
         }

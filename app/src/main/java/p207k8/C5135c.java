@@ -83,10 +83,10 @@ public final class C5135c extends DialogInterfaceOnCancelListenerC0710d {
 
     /* renamed from: I9 */
     private final void m20767I9() {
-        String str;
-        String str2;
-        String str3;
-        String logo;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        String logo = null;
         TextView textView = (TextView) m20770H9(R$id.mTvTeam1);
         ReserveTeam visitTeam = this.f21075D0.getVisitTeam();
         String str4 = "";
@@ -132,7 +132,7 @@ public final class C5135c extends DialogInterfaceOnCancelListenerC0710d {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: J9 */
     public static final void m20768J9(C5135c c5135c, View view) {
-        String m27728o;
+        String m27728o = null;
         AbstractC5868k.m23674f(c5135c, "this$0");
         c5135c.mo3278o9();
         String m6824c = C1464l0.f5622a.m6824c(c5135c.f21075D0.getGameTime(), "yyyy-MM-dd HH:mm");

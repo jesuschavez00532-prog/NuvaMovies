@@ -25,7 +25,7 @@ public final class C7306p0 implements InterfaceC7333y0 {
     }
 
     public String toString() {
-        String str;
+        String str = null;
         StringBuilder sb2 = new StringBuilder();
         sb2.append("Empty{");
         if (mo28135a()) {

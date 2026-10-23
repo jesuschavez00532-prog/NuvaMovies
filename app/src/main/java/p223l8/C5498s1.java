@@ -826,9 +826,9 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
         /* renamed from: a */
         public final void m22293a(int i10) {
             MosaicChannelBean mosaicChannelBean;
-            String str;
+            String str = null;
             List<MosaicChannelBean> mosaicChannes;
-            Object m7008t;
+            Object m7008t = null;
             C5498s1.this.f22340g1 = i10;
             Channel m6531w = C1407f.f5458a.m6531w();
             if (m6531w != null && (mosaicChannes = m6531w.getMosaicChannes()) != null) {
@@ -862,9 +862,9 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
         /* renamed from: a */
         public final void m22294a(int i10) {
             MosaicChannelBean mosaicChannelBean;
-            String str;
+            String str = null;
             List<MosaicChannelBean> mosaicChannes;
-            Object m7008t;
+            Object m7008t = null;
             C1407f c1407f = C1407f.f5458a;
             Channel m6531w = c1407f.m6531w();
             if (m6531w != null && (mosaicChannes = m6531w.getMosaicChannes()) != null) {
@@ -1133,13 +1133,13 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
 
     /* renamed from: Ab */
     public static /* synthetic */ void m22145Ab(C5498s1 c5498s1, int i10, boolean z10, String str, String str2, String str3, String str4, String str5, String str6, String str7, Integer num, int i11, Object obj) {
-        boolean z11;
-        String str8;
-        String str9;
-        String str10;
-        String str11;
-        String str12;
-        String str13;
+        boolean z11 = false;
+        String str8 = null;
+        String str9 = null;
+        String str10 = null;
+        String str11 = null;
+        String str12 = null;
+        String str13 = null;
         Integer num2;
         if ((i11 & 2) != 0) {
             z11 = false;
@@ -1190,11 +1190,11 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
 
     /* renamed from: Bb */
     public static final void m22146Bb(String str, C5498s1 c5498s1, int i10, Integer num, String str2, String str3, String str4, String str5, String str6, String str7) {
-        String str8;
-        String m6878m;
-        String str9;
-        String m29330d;
-        String valueOf;
+        String str8 = null;
+        String m6878m = null;
+        String str9 = null;
+        String m29330d = null;
+        String valueOf = null;
         AbstractC5868k.m23674f(str, "$errMsg");
         AbstractC5868k.m23674f(c5498s1, "this$0");
         AbstractC5868k.m23674f(str2, "$mCode");
@@ -1336,7 +1336,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
 
     /* renamed from: Ha */
     public final void m22157Ha() {
-        boolean z10;
+        boolean z10 = false;
         boolean z11 = true;
         m22185Va(1);
         ViewOnClickListenerC5929g viewOnClickListenerC5929g = this.f22311D0;
@@ -1542,11 +1542,11 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
     /* renamed from: Pb */
     private final void m22175Pb() {
         Channel m6630P;
-        String num;
-        String str;
+        String num = null;
+        String str = null;
         List<PosterList> list;
-        String str2;
-        String programName;
+        String str2 = null;
+        String programName = null;
         Channel m6630P2;
         String str3 = "";
         if (!C1407f.f5458a.m6527s() ? (m6630P = C1427v.f5519a.m6630P()) == null || (num = Integer.valueOf(m6630P.getChannelNumber()).toString()) == null : (m6630P2 = C1427v.f5519a.m6630P()) == null || (num = m6630P2.getFixedChannelNumber()) == null) {
@@ -1721,11 +1721,11 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
 
     /* renamed from: ob */
     public static final void m22212ob(C5498s1 c5498s1, String str, boolean z10) {
-        String str2;
-        String str3;
-        String string;
-        String string2;
-        String m6878m;
+        String str2 = null;
+        String str3 = null;
+        String string = null;
+        String string2 = null;
+        String m6878m = null;
         AbstractC5868k.m23674f(c5498s1, "this$0");
         AbstractC5868k.m23674f(str, "$errCode");
         int i10 = R$id.mLayoutError;
@@ -2019,7 +2019,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
 
     /* renamed from: ya */
     private final boolean m22226ya() {
-        boolean z10;
+        boolean z10 = false;
         ViewOnClickListenerC5929g viewOnClickListenerC5929g = this.f22311D0;
         if (viewOnClickListenerC5929g == null) {
             return true;
@@ -2082,7 +2082,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
 
     /* renamed from: Da */
     public final void m22231Da(AwakenVoiceAssistEvent awakenVoiceAssistEvent) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(awakenVoiceAssistEvent, "event");
         boolean z11 = false;
         C2890r c2890r = null;
@@ -2250,7 +2250,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
 
     /* renamed from: Ea */
     public final void m22234Ea() {
-        boolean z10;
+        boolean z10 = false;
         if (!this.f22334a1) {
             m22151Fa();
             m22180Rb();
@@ -2327,7 +2327,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
     @Override // p130f8.InterfaceC4279f
     /* renamed from: I0 */
     public void mo17886I0(String str) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, "text");
         if (str.length() == 0) {
             z10 = true;
@@ -2373,7 +2373,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
     @Override // p263o8.ViewOnClickListenerC5929g.a
     /* renamed from: J1 */
     public boolean mo22239J1(int i10) {
-        boolean z10;
+        boolean z10 = false;
         Channel channel;
         InterfaceC4278e interfaceC4278e = (InterfaceC4278e) m30063y9();
         if (interfaceC4278e != null) {
@@ -2394,8 +2394,8 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
     @Override // p130f8.InterfaceC4279f
     /* renamed from: J2 */
     public void mo17887J2(List list, String str) {
-        String str2;
-        String str3;
+        String str2 = null;
+        String str3 = null;
         AbstractC5868k.m23674f(list, "mediaList");
         AbstractC5868k.m23674f(str, "from");
         EpgProgram m22237I4 = m22237I4();
@@ -2717,7 +2717,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
     /* renamed from: Q3 */
     public void mo22248Q3(int i10) {
         EnumC7254b enumC7254b;
-        String str;
+        String str = null;
         if (i10 == 0) {
             enumC7254b = EnumC7254b.NATIVE;
         } else {
@@ -3099,8 +3099,8 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
 
     /* renamed from: Ya */
     public final void m22255Ya(boolean z10) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         InterfaceC4278e interfaceC4278e;
         this.f22332Y0 = true;
         if (this.f22325R0) {
@@ -3474,7 +3474,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
     @Override // p130f8.InterfaceC4279f
     /* renamed from: k4 */
     public void mo17900k4() {
-        boolean z10;
+        boolean z10 = false;
         if (AbstractC4161e.f18225a.m17399b().length() == 0) {
             z10 = true;
         } else {
@@ -3753,7 +3753,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
     @Override // p130f8.InterfaceC4279f
     /* renamed from: r3 */
     public void mo17905r3(String str, String str2) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, AnalyticsConfig.RTD_START_TIME);
         AbstractC5868k.m23674f(str2, "endTime");
         if (AbstractC4161e.f18225a.m17399b().length() == 0) {
@@ -3851,7 +3851,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
 
     /* renamed from: sa */
     public final void m22276sa() {
-        String str;
+        String str = null;
         this.f22332Y0 = true;
         C1407f c1407f = C1407f.f5458a;
         if (c1407f.m6532x() == -1) {
@@ -4021,7 +4021,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
     /* renamed from: w6 */
     public void mo5915w6() {
         C1456h0.a aVar;
-        String str;
+        String str = null;
         DialogC4084w0 dialogC4084w0;
         DialogC4084w0 dialogC4084w02 = this.f22316I0;
         boolean z10 = false;

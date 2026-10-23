@@ -38,8 +38,8 @@ public final class C4629k3 implements InterfaceC4284k, InterfaceC6376c1 {
     @Override // ca.InterfaceC1439a
     /* renamed from: B0 */
     public void mo6701B0() {
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         Match mo17935f = this.f19892b.mo17935f();
         if (mo17935f == null || (str = mo17935f.getGameId()) == null) {
             str = "";

@@ -133,7 +133,7 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
     }
 
     private C0014j(Context context, C1588e c1588e, Object obj, Object obj2, Class cls, AbstractC0005a abstractC0005a, int i10, int i11, EnumC1591h enumC1591h, InterfaceC1042j interfaceC1042j, InterfaceC0011g interfaceC0011g, List list, InterfaceC0009e interfaceC0009e, C5324k c5324k, InterfaceC1345c interfaceC1345c, Executor executor) {
-        String str;
+        String str = null;
         if (f61E) {
             str = String.valueOf(super.hashCode());
         } else {
@@ -165,7 +165,7 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
 
     /* renamed from: A */
     private void m111A(InterfaceC5335v interfaceC5335v, Object obj, EnumC4970a enumC4970a, boolean z10) {
-        boolean z11;
+        boolean z11 = false;
         boolean m122s = m122s();
         this.f88w = a.COMPLETE;
         this.f84s = interfaceC5335v;
@@ -370,7 +370,7 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
 
     /* renamed from: z */
     private void m129z(C5330q c5330q, int i10) {
-        boolean z10;
+        boolean z10 = false;
         this.f68c.mo17649c();
         synchronized (this.f69d) {
             c5330q.m21591k(this.f65D);
@@ -422,7 +422,7 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
     @Override // p003a2.InterfaceC0008d
     /* renamed from: b */
     public boolean mo87b() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f69d) {
             if (this.f88w == a.COMPLETE) {
                 z10 = true;
@@ -436,8 +436,8 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
     @Override // p003a2.InterfaceC0013i
     /* renamed from: c */
     public void mo109c(InterfaceC5335v interfaceC5335v, EnumC4970a enumC4970a, boolean z10) {
-        Object obj;
-        String str;
+        Object obj = null;
+        String str = null;
         this.f68c.mo17649c();
         InterfaceC5335v interfaceC5335v2 = null;
         try {
@@ -535,14 +535,14 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
     public boolean mo89d(InterfaceC0008d interfaceC0008d) {
         int i10 = 0;
         int i11 = 0;
-        Object obj;
+        Object obj = null;
         Class cls;
         AbstractC0005a abstractC0005a;
         EnumC1591h enumC1591h;
         int i12 = 0;
         int i13 = 0;
         int i14 = 0;
-        Object obj2;
+        Object obj2 = null;
         Class cls2;
         AbstractC0005a abstractC0005a2;
         EnumC1591h enumC1591h2;
@@ -588,7 +588,7 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
     @Override // p022b2.InterfaceC1041i
     /* renamed from: e */
     public void mo130e(int i10, int i11) {
-        Object obj;
+        Object obj = null;
         this.f68c.mo17649c();
         Object obj2 = this.f69d;
         synchronized (obj2) {
@@ -641,7 +641,7 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
     @Override // p003a2.InterfaceC0008d
     /* renamed from: g */
     public boolean mo92g() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f69d) {
             if (this.f88w == a.CLEARED) {
                 z10 = true;
@@ -705,7 +705,7 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
 
     @Override // p003a2.InterfaceC0008d
     public boolean isRunning() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f69d) {
             a aVar = this.f88w;
             if (aVar != a.RUNNING && aVar != a.WAITING_FOR_SIZE) {
@@ -719,7 +719,7 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
     @Override // p003a2.InterfaceC0008d
     /* renamed from: j */
     public boolean mo95j() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f69d) {
             if (this.f88w == a.COMPLETE) {
                 z10 = true;
@@ -740,7 +740,7 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
     }
 
     public String toString() {
-        Object obj;
+        Object obj = null;
         Class cls;
         synchronized (this.f69d) {
             obj = this.f74i;

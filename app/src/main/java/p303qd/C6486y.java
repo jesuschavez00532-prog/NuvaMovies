@@ -372,8 +372,8 @@ public final class C6486y implements InterfaceC5967c, InterfaceC6417q0 {
         @Override // p101da.ViewOnClickListenerC4019e.a
         /* renamed from: n2 */
         public void mo17008n2() {
-            String str;
-            String str2;
+            String str = null;
+            String str2 = null;
             C4160d.b bVar = C4160d.f18217d;
             AbstractActivityC7763a m25396b4 = C6486y.this.m25396b4();
             String string = C6486y.this.m25396b4().getString(R$string.pwd_set_suc);

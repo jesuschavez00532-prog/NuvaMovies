@@ -9,7 +9,7 @@ import android.os.UserManager;
 public abstract class AbstractC6882m {
     /* renamed from: a */
     public static boolean m26795a(Context context) {
-        Object systemService;
+        Object systemService = null;
         boolean isUserUnlocked;
         if (Build.VERSION.SDK_INT >= 24) {
             systemService = context.getSystemService((Class<Object>) UserManager.class);

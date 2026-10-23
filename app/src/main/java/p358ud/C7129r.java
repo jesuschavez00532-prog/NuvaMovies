@@ -54,10 +54,10 @@ public final class C7129r extends AbstractC7769g<C6486y> implements InterfaceC59
 
     /* renamed from: Q9 */
     private final RecommendList m27616Q9(RecommendList recommendList) {
-        String str;
+        String str = null;
         boolean m27723j;
         boolean m27723j2;
-        String hasPay;
+        String hasPay = null;
         C6156m c6156m = C6156m.f24180a;
         Context m3096J6 = m3096J6();
         AbstractC5868k.m23671c(m3096J6);

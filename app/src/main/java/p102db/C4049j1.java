@@ -238,7 +238,7 @@ public final class C4049j1 extends AutoFrameLayout {
 
     /* renamed from: n */
     public final void m17040n(String str, int i10) {
-        String str2;
+        String str2 = null;
         AbstractC5868k.m23674f(str, "email");
         ((AutoRelativeLayout) m17039h(R$id.mLayoutPassword)).setVisibility(8);
         if (i10 != 0) {

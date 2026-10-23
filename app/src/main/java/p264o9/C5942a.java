@@ -128,7 +128,7 @@ public final class C5942a {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: j */
     public void m24067j() {
-        String str;
+        String str = null;
         C7760a c7760a = this.f23629b;
         if (c7760a == null) {
             return;

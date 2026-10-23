@@ -17,10 +17,10 @@ public final class C6786d implements InterfaceC6931a {
     /* renamed from: b */
     private final Object m26767b(Object obj, String str) {
         boolean m26772e;
-        Object m26774g;
+        Object m26774g = null;
         boolean m27762u;
         Class m26771d;
-        String str2;
+        String str2 = null;
         Class m26771d2;
         if (obj == null || str == null) {
             return null;
@@ -68,7 +68,7 @@ public final class C6786d implements InterfaceC6931a {
     @Override // tc.InterfaceC6931a
     /* renamed from: a */
     public Object mo26766a(String str, Object obj, C6447b c6447b) {
-        Bundle extras;
+        Bundle extras = null;
         boolean z10 = false;
         if (c6447b != null && c6447b.m25232a() == 0) {
             z10 = true;

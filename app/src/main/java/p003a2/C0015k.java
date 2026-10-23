@@ -80,7 +80,7 @@ public class C0015k implements InterfaceC0009e, InterfaceC0008d {
     @Override // p003a2.InterfaceC0009e, p003a2.InterfaceC0008d
     /* renamed from: b */
     public boolean mo87b() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f100b) {
             if (!this.f102d.mo87b() && !this.f101c.mo87b()) {
                 z10 = false;
@@ -93,7 +93,7 @@ public class C0015k implements InterfaceC0009e, InterfaceC0008d {
     @Override // p003a2.InterfaceC0009e
     /* renamed from: c */
     public boolean mo88c(InterfaceC0008d interfaceC0008d) {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f100b) {
             if (m133m() && interfaceC0008d.equals(this.f101c) && !mo87b()) {
                 z10 = true;
@@ -159,7 +159,7 @@ public class C0015k implements InterfaceC0009e, InterfaceC0008d {
     @Override // p003a2.InterfaceC0009e
     /* renamed from: f */
     public boolean mo91f(InterfaceC0008d interfaceC0008d) {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f100b) {
             if (m134n() && (interfaceC0008d.equals(this.f101c) || this.f103e != InterfaceC0009e.a.SUCCESS)) {
                 z10 = true;
@@ -173,7 +173,7 @@ public class C0015k implements InterfaceC0009e, InterfaceC0008d {
     @Override // p003a2.InterfaceC0008d
     /* renamed from: g */
     public boolean mo92g() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f100b) {
             if (this.f103e == InterfaceC0009e.a.CLEARED) {
                 z10 = true;
@@ -215,7 +215,7 @@ public class C0015k implements InterfaceC0009e, InterfaceC0008d {
     @Override // p003a2.InterfaceC0009e
     /* renamed from: i */
     public boolean mo94i(InterfaceC0008d interfaceC0008d) {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f100b) {
             if (m132l() && interfaceC0008d.equals(this.f101c) && this.f103e != InterfaceC0009e.a.PAUSED) {
                 z10 = true;
@@ -228,7 +228,7 @@ public class C0015k implements InterfaceC0009e, InterfaceC0008d {
 
     @Override // p003a2.InterfaceC0008d
     public boolean isRunning() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f100b) {
             if (this.f103e == InterfaceC0009e.a.RUNNING) {
                 z10 = true;
@@ -242,7 +242,7 @@ public class C0015k implements InterfaceC0009e, InterfaceC0008d {
     @Override // p003a2.InterfaceC0008d
     /* renamed from: j */
     public boolean mo95j() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f100b) {
             if (this.f103e == InterfaceC0009e.a.SUCCESS) {
                 z10 = true;

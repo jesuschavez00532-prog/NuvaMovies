@@ -36,7 +36,7 @@ public final class C0138c extends AbstractC0166j {
         @Override // p343tb.AbstractC6929a, io.reactivex.Observer
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void onNext(AddFavoriteResult addFavoriteResult) {
-            boolean z10;
+            boolean z10 = false;
             List<FavIdDataItem> favoriteList;
             AbstractC5868k.m23674f(addFavoriteResult, "t");
             super.onNext(addFavoriteResult);

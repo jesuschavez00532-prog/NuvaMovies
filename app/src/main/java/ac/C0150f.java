@@ -93,7 +93,7 @@ public final class C0150f extends AbstractC0166j {
 
     /* renamed from: d */
     public final void m571d(String str, String str2, int i10) {
-        boolean z10;
+        boolean z10 = false;
         Disposable disposable;
         AbstractC5868k.m23674f(str, "match");
         AbstractC5868k.m23674f(str2, "gameId");

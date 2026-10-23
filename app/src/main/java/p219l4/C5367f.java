@@ -31,7 +31,7 @@ public class C5367f extends AbstractC5593a {
     int f21958c;
 
     /* renamed from: d */
-    String f21959d;
+    String f21959d = null;
 
     /* renamed from: e */
     IBinder f21960e;
@@ -40,7 +40,7 @@ public class C5367f extends AbstractC5593a {
     Scope[] f21961f;
 
     /* renamed from: g */
-    Bundle f21962g;
+    Bundle f21962g = null;
 
     /* renamed from: h */
     Account f21963h;

@@ -49,7 +49,7 @@ public abstract class AbstractC5093j {
 
     /* renamed from: b */
     private static String m20670b(String str, String str2) {
-        String readLine;
+        String readLine = null;
         try {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(Runtime.getRuntime().exec(str).getInputStream()));
             do {

@@ -390,7 +390,7 @@ public final class C6719h0 extends C7767e implements InterfaceC5537e, InterfaceC
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: da */
     public static final void m26356da(C6719h0 c6719h0, View view) {
-        String str;
+        String str = null;
         CharSequence m27758b0;
         Resources resources;
         AbstractC5868k.m23674f(c6719h0, "this$0");
@@ -442,8 +442,8 @@ public final class C6719h0 extends C7767e implements InterfaceC5537e, InterfaceC
 
     /* renamed from: h */
     private final void m26360h() {
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         C4300d c4300d = C4300d.f18678a;
         Pair m18021a = c4300d.m18021a();
         String str2 = null;
@@ -541,7 +541,7 @@ public final class C6719h0 extends C7767e implements InterfaceC5537e, InterfaceC
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: la */
     public static final void m26365la(C6719h0 c6719h0) {
-        String str;
+        String str = null;
         Resources resources;
         AbstractC5868k.m23674f(c6719h0, "this$0");
         TextView textView = (TextView) c6719h0.m26368P9(R$id.mTextGetCode);
@@ -636,7 +636,7 @@ public final class C6719h0 extends C7767e implements InterfaceC5537e, InterfaceC
     @Override // p301qb.InterfaceC6413p
     /* renamed from: F1 */
     public void mo25222F1() {
-        String str;
+        String str = null;
         if (C5096m.f20979a.m20692c()) {
             str = "2";
         } else {
@@ -761,7 +761,7 @@ public final class C6719h0 extends C7767e implements InterfaceC5537e, InterfaceC
     @Override // p301qb.InterfaceC6413p
     /* renamed from: U4 */
     public void mo25223U4(String str) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, Constants.KEY_ERROR_CODE);
         C7559c1 c7559c1 = C7559c1.f27762a;
         Context m3096J6 = m3096J6();

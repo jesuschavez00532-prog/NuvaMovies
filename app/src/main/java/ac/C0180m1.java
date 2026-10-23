@@ -71,7 +71,7 @@ public final class C0180m1 extends AbstractC0166j {
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void onNext(LoginResult loginResult) {
             HashMap m6937e;
-            String str;
+            String str = null;
             HashMap m6937e2;
             HashMap m6937e3;
             HashMap m6937e4;
@@ -279,9 +279,9 @@ public final class C0180m1 extends AbstractC0166j {
 
     /* renamed from: h */
     public static /* synthetic */ void m657h(C0180m1 c0180m1, String str, String str2, String str3, String str4, String str5, String str6, String str7, int i10, Object obj) {
-        String str8;
-        String str9;
-        String str10;
+        String str8 = null;
+        String str9 = null;
+        String str10 = null;
         if ((i10 & 16) != 0) {
             str8 = null;
         } else {
@@ -357,9 +357,9 @@ public final class C0180m1 extends AbstractC0166j {
 
     /* renamed from: g */
     public final void m664g(String str, String str2, String str3, String str4, String str5, String str6, String str7) {
-        String str8;
-        String str9;
-        String str10;
+        String str8 = null;
+        String str9 = null;
+        String str10 = null;
         AbstractC5868k.m23674f(str, "accountType");
         AbstractC5868k.m23674f(str2, "userName");
         AbstractC5868k.m23674f(str3, "password");

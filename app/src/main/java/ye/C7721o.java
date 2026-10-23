@@ -23,7 +23,7 @@ public class C7721o {
     final boolean f28389e;
 
     /* renamed from: f */
-    String f28390f;
+    String f28390f = null;
 
     public C7721o(Method method, Class cls, ThreadMode threadMode, int i10, boolean z10) {
         this.f28385a = method;

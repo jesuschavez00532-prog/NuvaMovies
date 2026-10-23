@@ -21,7 +21,7 @@ class C0106y {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: a */
     public synchronized String m481a(Context context) {
-        String str;
+        String str = null;
         if (this.f356a == null) {
             this.f356a = m480b(context);
         }

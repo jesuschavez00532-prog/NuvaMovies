@@ -184,12 +184,12 @@ public final class ViewOnClickListenerC5784f0 extends AbstractC5774c<InterfaceC4
     @Override // p251n9.AbstractC5774c
     /* renamed from: H9 */
     protected boolean mo23232H9() {
-        boolean z10;
-        boolean z11;
-        boolean z12;
-        boolean z13;
-        boolean z14;
-        boolean z15;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
+        boolean z13 = false;
+        boolean z14 = false;
+        boolean z15 = false;
         AutoFrameLayout autoFrameLayout = (AutoFrameLayout) m23350S9(R$id.playback_setting_full_screen);
         if (autoFrameLayout != null && autoFrameLayout.hasFocus()) {
             z10 = true;
@@ -365,7 +365,7 @@ public final class ViewOnClickListenerC5784f0 extends AbstractC5774c<InterfaceC4
 
     /* renamed from: X9 */
     public final void m23355X9(int i10) {
-        String str;
+        String str = null;
         if (i10 != 0) {
             if (i10 != 1) {
                 if (i10 != 2) {
@@ -392,7 +392,7 @@ public final class ViewOnClickListenerC5784f0 extends AbstractC5774c<InterfaceC4
 
     /* renamed from: Z9 */
     public final void m23357Z9(int i10) {
-        String str;
+        String str = null;
         if (i10 != 0) {
             if (i10 != 1) {
                 if (i10 != 2) {

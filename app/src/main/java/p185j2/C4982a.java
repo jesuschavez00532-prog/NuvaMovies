@@ -80,7 +80,7 @@ public final class C4982a {
 
         /* renamed from: d */
         public final Object m20339d(String str, Object obj) {
-            Object valueOf;
+            Object valueOf = null;
             AbstractC5868k.m23674f(str, CacheEntity.KEY);
             if (obj instanceof Integer) {
                 SharedPreferences sharedPreferences = this.f20722a;

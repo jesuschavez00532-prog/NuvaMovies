@@ -725,7 +725,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
         @Override // p400xa.C7618x0.a
         /* renamed from: b */
         public void mo11884b(boolean z10, boolean z11, String str) {
-            boolean z12;
+            boolean z12 = false;
             DialogC4084w0 dialogC4084w0;
             AbstractC5868k.m23674f(str, "errCode");
             if (!z11) {
@@ -985,13 +985,13 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
         /* renamed from: a */
         public final void m27577a(ArrayList arrayList) {
             Integer num;
-            String str;
+            String str = null;
             List<SimpleProgramList> simpleProgramList;
-            boolean z10;
-            String str2;
+            boolean z10 = false;
+            String str2 = null;
             boolean m27763v;
             boolean m27763v2;
-            String language;
+            String language = null;
             AbstractC5868k.m23673e(arrayList, "it");
             if (!arrayList.isEmpty()) {
                 ((ArrayList) this.f26731a.f23412a).addAll(arrayList);
@@ -1264,8 +1264,8 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
         @Override // me.InterfaceC5660l
         /* renamed from: a */
         public final HashMap mo542f(List list) {
-            boolean z10;
-            String quality;
+            boolean z10 = false;
+            String quality = null;
             AbstractC5868k.m23674f(list, "it");
             HashMap hashMap = new HashMap();
             HashMap hashMap2 = new HashMap();
@@ -1449,10 +1449,10 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
         @Override // p321s0.InterfaceC6611f
         /* renamed from: a */
         public void mo25825a(List list) {
-            String str;
-            String str2;
-            String str3;
-            String str4;
+            String str = null;
+            String str2 = null;
+            String str3 = null;
+            String str4 = null;
             if (AbstractC6567a.m25638h(list)) {
                 ArrayList arrayList = new ArrayList();
                 String str5 = (String) C4982a.f20721a.m20333a(AbstractApplicationC7689d.f28135d.m29494a(), C5090g.f20948a.m20647l(), "");
@@ -1551,11 +1551,11 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
         /* renamed from: a */
         public final void m27587a(ArrayList arrayList) {
             Integer num;
-            String str;
+            String str = null;
             List<SimpleProgramList> simpleProgramList;
-            boolean z10;
+            boolean z10 = false;
             boolean m27763v;
-            String language;
+            String language = null;
             AbstractC5868k.m23673e(arrayList, "it");
             if (!arrayList.isEmpty()) {
                 ((ArrayList) this.f26752a.f23412a).addAll(arrayList);
@@ -1953,8 +1953,8 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
         @Override // p212kd.InterfaceC5160c1
         /* renamed from: c */
         public void mo20846c(int i10, AudioInfoBean audioInfoBean) {
-            String str;
-            String str2;
+            String str = null;
+            String str2 = null;
             DefinitionBean m27545Wb = C7121n1.this.m27545Wb();
             if (m27545Wb != null) {
                 C4176d c4176d = null;
@@ -2181,9 +2181,9 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: Ec */
     public final void m27359Ec(Program program) {
-        String str;
-        String str2;
-        String hasPay;
+        String str = null;
+        String str2 = null;
+        String hasPay = null;
         if (m3096J6() != null && !m3192t7()) {
             this.f26687l1 = program;
             C6156m c6156m = C6156m.f24180a;
@@ -2237,12 +2237,12 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: Fc */
     private final void m27363Fc(final HashMap hashMap, String str, boolean z10) {
-        boolean z11;
+        boolean z11 = false;
         int i10 = 0;
-        String str2;
-        String str3;
-        String name;
-        String contentId;
+        String str2 = null;
+        String str3 = null;
+        String name = null;
+        String contentId = null;
         if (hashMap.isEmpty()) {
             return;
         }
@@ -2355,21 +2355,21 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     /* renamed from: Hc */
     public static final void m27373Hc(HashMap hashMap, C5878u c5878u, C5878u c5878u2, C7121n1 c7121n1, ArrayList arrayList, C5878u c5878u3, C5878u c5878u4, List list, ObservableEmitter observableEmitter) {
         List list2;
-        boolean z10;
+        boolean z10 = false;
         Iterator it;
-        String str;
+        String str = null;
         int i10 = 0;
-        String str2;
-        String str3;
-        String str4;
-        String str5;
-        String str6;
-        Object m7008t;
+        String str2 = null;
+        String str3 = null;
+        String str4 = null;
+        String str5 = null;
+        String str6 = null;
+        Object m7008t = null;
         List<String> list3;
-        boolean z11;
-        String str7;
-        String str8;
-        String str9;
+        boolean z11 = false;
+        String str7 = null;
+        String str8 = null;
+        String str9 = null;
         C5878u c5878u5 = c5878u2;
         AbstractC5868k.m23674f(hashMap, "$map");
         AbstractC5868k.m23674f(c5878u, "$sourceBeanList");
@@ -2590,11 +2590,11 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: Kd */
     public final boolean m27388Kd(List list, int i10) {
-        boolean z10;
+        boolean z10 = false;
         int i11 = 0;
         int i12 = 0;
         QualityBean quality_fhd;
-        String str;
+        String str = null;
         List<SimpleProgramList> simpleProgramList;
         VodQualityBean vodQualityBean = (VodQualityBean) list.get(i10);
         int i13 = 0;
@@ -2670,8 +2670,8 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: Mb */
     private final boolean m27394Mb(Program program, int i10) {
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         this.f26701y1 = null;
         C5911g.a aVar = C5911g.f23514h;
         if (aVar.m23905a().m23900q()) {
@@ -2865,7 +2865,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: Rb */
     private final void m27416Rb() {
-        String str;
+        String str = null;
         int[] iArr;
         int[] iArr2;
         this.f26669T0 = false;
@@ -2902,21 +2902,21 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
         Album album;
         Integer num;
         int i12 = 0;
-        String str;
-        String str2;
-        String str3;
-        String str4;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        String str4 = null;
         int i13 = 0;
-        String str5;
+        String str5 = null;
         int i14 = 0;
-        String str6;
-        String str7;
+        String str6 = null;
+        String str7 = null;
         Link link;
-        String m27728o;
-        String str8;
+        String m27728o = null;
+        String str8 = null;
         InterfaceC5346g interfaceC5346g;
         InterfaceC5346g interfaceC5346g2;
-        String str9;
+        String str9 = null;
         AbstractC5868k.m23674f(c7121n1, "this$0");
         AbstractC5868k.m23674f(c5876s, "$recordTime");
         if (assetData != null && i10 > 5000) {
@@ -3090,7 +3090,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: Sb */
     private final void m27420Sb() {
-        String str;
+        String str = null;
         if (this.f26646H0) {
             return;
         }
@@ -3184,8 +3184,8 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: Tb */
     public static final void m27424Tb(C5878u c5878u) {
-        String m27728o;
-        String str;
+        String m27728o = null;
+        String str = null;
         InterfaceC5346g interfaceC5346g;
         InterfaceC5346g interfaceC5346g2;
         AbstractC5868k.m23674f(c5878u, "$targetContentId");
@@ -3236,7 +3236,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     public final boolean m27427Ub(int i10) {
         SubTitleItemData subTitleItemData;
         List<SubTitleFileList> file;
-        Object m7008t;
+        Object m7008t = null;
         if (AbstractC6567a.m25635e(this.f26688m1)) {
             return false;
         }
@@ -3390,9 +3390,9 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: dd */
     public final void m27454dd(HashMap hashMap) {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         ArrayList arrayList = new ArrayList();
         if (hashMap.containsKey("480p")) {
             Object obj = hashMap.get("480p");
@@ -3456,9 +3456,9 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: ed */
     public final void m27458ed() {
-        boolean z10;
+        boolean z10 = false;
         List list;
-        Object m7008t;
+        Object m7008t = null;
         if (m3096J6() != null) {
             AbstractActivityC0712e m3075C6 = m3075C6();
             if (m3075C6 != null) {
@@ -3569,7 +3569,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: hd */
     public static final void m27469hd(C7121n1 c7121n1, ObservableEmitter observableEmitter) {
-        String str;
+        String str = null;
         int i10 = 0;
         Album album;
         int i11 = 0;
@@ -3683,7 +3683,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: ld */
     public static final void m27483ld(C7121n1 c7121n1, ObservableEmitter observableEmitter) {
-        String str;
+        String str = null;
         int i10 = 0;
         Album album;
         int i11 = 0;
@@ -3794,21 +3794,21 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     /* renamed from: qc */
     public static final void m27500qc(HashMap hashMap, C5878u c5878u, C5878u c5878u2, C7121n1 c7121n1, ArrayList arrayList, C5878u c5878u3, C5878u c5878u4, List list, ObservableEmitter observableEmitter) {
         List list2;
-        boolean z10;
+        boolean z10 = false;
         Iterator it;
-        String str;
+        String str = null;
         int i10 = 0;
-        String str2;
-        String str3;
-        String str4;
-        String str5;
-        String str6;
-        Object m7008t;
+        String str2 = null;
+        String str3 = null;
+        String str4 = null;
+        String str5 = null;
+        String str6 = null;
+        Object m7008t = null;
         List<String> list3;
-        boolean z11;
-        String str7;
-        String str8;
-        String str9;
+        boolean z11 = false;
+        String str7 = null;
+        String str8 = null;
+        String str9 = null;
         C5878u c5878u5 = c5878u2;
         AbstractC5868k.m23674f(hashMap, "$map");
         AbstractC5868k.m23674f(c5878u, "$sourceBeanList");
@@ -4054,8 +4054,8 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: vd */
     public final void m27520vd() {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         GetAuthInfoResultData data;
         GetAuthInfoResultData data2;
         GetAuthInfoResultData data3;
@@ -4112,15 +4112,15 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     public static final List m27523wc(C7121n1 c7121n1, StartPlayVODResultData startPlayVODResultData, C5878u c5878u, C5878u c5878u2) {
         int i10 = 0;
         StartPlayVODResultDataItem startPlayVODResultDataItem;
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         int i11 = 0;
         List<SubTitleItemData> list;
         List<TotalMovieListItem> list2;
-        String programContentId;
-        String str;
-        String str2;
+        String programContentId = null;
+        String str = null;
+        String str2 = null;
         TotalMovieListItem totalMovieListItem;
         List<TotalMovieListItem> totalMovieList;
         List<TotalMovieListItem> totalMovieList2;
@@ -4482,7 +4482,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: Ld */
     public final boolean m27540Ld() {
-        boolean z10;
+        boolean z10 = false;
         C1466m0 c1466m0 = C1466m0.f5627a;
         if (c1466m0.m6838K() && c1466m0.m6831D()) {
             MFInfoBar mFInfoBar = (MFInfoBar) m27561ua(R$id.mInfoBar);
@@ -4831,7 +4831,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     @Override // p268od.InterfaceC5971g
     /* renamed from: V */
     public void mo24154V(String str, int i10) {
-        String str2;
+        String str2 = null;
         AbstractC5868k.m23674f(str, "errCode");
         if (!this.f26677b1) {
             mo24155W3();
@@ -4894,9 +4894,9 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     @Override // p268od.InterfaceC5971g
     /* renamed from: Y1 */
     public void mo24156Y1(final StartPlayVODResultData startPlayVODResultData, int i10) {
-        boolean z10;
+        boolean z10 = false;
         int i11 = 0;
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(startPlayVODResultData, "result1");
         if (this.f26677b1) {
             this.f26679d1 = i10;
@@ -5022,7 +5022,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     @Override // bd.InterfaceC1294a
     /* renamed from: Y5 */
     public C7077d mo5907Y5(List list) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(list, "audioTrackList");
         DefinitionBean m27545Wb = m27545Wb();
         C4176d c4176d = null;
@@ -5107,7 +5107,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     public final void m27550ad(AssetData assetData, boolean z10) {
         int i10 = 0;
         SimpleProgramList simpleProgramList;
-        String str;
+        String str = null;
         int i11 = 0;
         AbstractC5868k.m23674f(assetData, "detailData");
         this.f26632A0 = assetData;
@@ -5174,7 +5174,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: cc */
     public final void m27553cc(String str, DefinitionBean definitionBean) {
-        String str2;
+        String str2 = null;
         boolean m27763v;
         AudioInfoBean selectAduio;
         boolean m27763v2;
@@ -5262,12 +5262,12 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: dc */
     public final void m27554dc(List list) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         int i10 = 0;
-        Object m7008t;
-        Object m7008t2;
-        String str3;
+        Object m7008t = null;
+        Object m7008t2 = null;
+        String str3 = null;
         AbstractC5868k.m23674f(list, "list");
         ArrayList arrayList = new ArrayList();
         ArrayList arrayList2 = new ArrayList();
@@ -5387,7 +5387,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     @Override // p164hd.AbstractC4817b, androidx.fragment.app.Fragment
     /* renamed from: g8 */
     public void mo3164g8() {
-        String str;
+        String str = null;
         long j10;
         super.mo3164g8();
         C4168g c4168g = this.f26697v1;
@@ -5739,10 +5739,10 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: od */
     public final void m27559od() {
-        String str;
+        String str = null;
         SourceBean selectSource;
         AudioInfoBean selectAduio;
-        String transLanguage;
+        String transLanguage = null;
         AudioInfoUtil audioInfoUtil = AudioInfoUtil.INSTANCE;
         AssetData assetData = this.f26632A0;
         String str2 = "";
@@ -5880,12 +5880,12 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: pc */
     public final void m27560pc(final HashMap hashMap, String str) {
-        boolean z10;
+        boolean z10 = false;
         int i10 = 0;
-        String str2;
-        String str3;
-        String name;
-        String contentId;
+        String str2 = null;
+        String str3 = null;
+        String name = null;
+        String contentId = null;
         AbstractC5868k.m23674f(hashMap, "map");
         if (hashMap.isEmpty()) {
             return;
@@ -6060,7 +6060,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     @Override // bd.InterfaceC1294a
     /* renamed from: w6 */
     public void mo5915w6() {
-        String str;
+        String str = null;
         DialogC4084w0 dialogC4084w0;
         DialogC4084w0 dialogC4084w02 = this.f26663P1;
         boolean z10 = false;
@@ -6089,7 +6089,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     /* renamed from: wd */
     public final boolean m27562wd() {
         Dialog m3280r9;
-        String str;
+        String str = null;
         if (!m30051p9()) {
             return false;
         }

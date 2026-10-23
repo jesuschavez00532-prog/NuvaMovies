@@ -99,7 +99,7 @@ public final class C4917i implements InterfaceC4409e, InterfaceC6390h0 {
     @Override // ca.InterfaceC1439a
     /* renamed from: B0 */
     public void mo6701B0() {
-        String str;
+        String str = null;
         C1466m0 c1466m0 = C1466m0.f5627a;
         UserInfo m6887v = c1466m0.m6887v();
         String str2 = null;

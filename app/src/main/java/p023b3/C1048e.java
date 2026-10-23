@@ -355,7 +355,7 @@ public final class C1048e {
         Observable observeOn = doOnNext.map(new Function() { // from class: b3.d
             @Override // io.reactivex.functions.Function
             public final Object apply(Object obj) {
-                String m4885k;
+                String m4885k = null;
                 m4885k = C1048e.m4885k(InterfaceC5660l.this, obj);
                 return m4885k;
             }
@@ -384,7 +384,7 @@ public final class C1048e {
         Observable observeOn = doOnNext.map(new Function() { // from class: b3.b
             @Override // io.reactivex.functions.Function
             public final Object apply(Object obj) {
-                String m4887n;
+                String m4887n = null;
                 m4887n = C1048e.m4887n(InterfaceC5660l.this, obj);
                 return m4887n;
             }

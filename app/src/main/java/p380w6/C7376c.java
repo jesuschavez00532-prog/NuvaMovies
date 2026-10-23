@@ -63,7 +63,7 @@ public class C7376c {
 
     /* renamed from: a */
     private static String m28460a(String str, String str2, String str3) {
-        String str4;
+        String str4 = null;
         Object[] objArr = new Object[3];
         objArr[0] = str2;
         objArr[1] = str3;

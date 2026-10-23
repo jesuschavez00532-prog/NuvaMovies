@@ -19,7 +19,7 @@ public final class C6625g0 extends AbstractC6626h {
     private final int f25437b;
 
     public C6625g0(int i10) {
-        boolean z10;
+        boolean z10 = false;
         if (i10 > 0) {
             z10 = true;
         } else {

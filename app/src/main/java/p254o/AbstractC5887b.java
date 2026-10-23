@@ -22,9 +22,9 @@ abstract class AbstractC5887b {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: a */
     public static int m23738a(float f10) {
-        boolean z10;
+        boolean z10 = false;
         float f11 = 0.0f;
-        boolean z11;
+        boolean z11 = false;
         float f12 = 0.0f;
         if (f10 < 1.0f) {
             return -16777216;

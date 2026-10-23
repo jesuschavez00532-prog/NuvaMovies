@@ -5,7 +5,7 @@ package p409y3;
 public abstract class AbstractC7663b {
     /* renamed from: a */
     public static Object m29465a(int i10, Object obj, InterfaceC7662a interfaceC7662a, InterfaceC7664c interfaceC7664c) {
-        Object apply;
+        Object apply = null;
         if (i10 < 1) {
             return interfaceC7662a.apply(obj);
         }

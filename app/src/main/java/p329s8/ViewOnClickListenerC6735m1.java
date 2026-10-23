@@ -306,7 +306,7 @@ public class ViewOnClickListenerC6735m1 extends C7767e implements View.OnClickLi
     @Override // p301qb.InterfaceC6413p
     /* renamed from: U4 */
     public void mo25223U4(String str) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, Constants.KEY_ERROR_CODE);
         m26439N9(false);
         C7559c1 c7559c1 = C7559c1.f27762a;

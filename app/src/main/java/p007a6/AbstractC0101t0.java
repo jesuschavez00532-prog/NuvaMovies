@@ -70,7 +70,7 @@ public abstract class AbstractC0101t0 {
             @Override // p127f5.InterfaceC4229a
             /* renamed from: a */
             public final Object mo289a(AbstractC4245i abstractC4245i2) {
-                Object m455f;
+                Object m455f = null;
                 m455f = AbstractC0101t0.m455f(countDownLatch, abstractC4245i2);
                 return m455f;
             }

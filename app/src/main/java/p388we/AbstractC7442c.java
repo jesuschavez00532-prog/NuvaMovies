@@ -14,7 +14,7 @@ public abstract class AbstractC7442c {
     public static final AbstractC7441b f27485a;
 
     static {
-        Object m5971a;
+        Object m5971a = null;
         Object obj = null;
         try {
             AbstractC1319o.a aVar = AbstractC1319o.f4987a;

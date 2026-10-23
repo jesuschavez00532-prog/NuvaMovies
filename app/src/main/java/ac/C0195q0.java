@@ -33,9 +33,9 @@ public final class C0195q0 extends AbstractC0166j {
 
         /* renamed from: a */
         public final void m708a(GetItemDataResult getItemDataResult) {
-            String str;
-            String str2;
-            String str3;
+            String str = null;
+            String str2 = null;
+            String str3 = null;
             if (getItemDataResult.getData().getAssetData() != null) {
                 AssetData assetData = getItemDataResult.getData().getAssetData();
                 String str4 = null;
@@ -127,7 +127,7 @@ public final class C0195q0 extends AbstractC0166j {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: d */
     public final String m705d(String str) {
-        String m27728o;
+        String m27728o = null;
         if (str != null) {
             m27728o = AbstractC7166t.m27728o(str, "\n", "", false, 4, null);
             return m27728o;

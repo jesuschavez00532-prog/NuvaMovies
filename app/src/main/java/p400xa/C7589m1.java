@@ -606,7 +606,7 @@ public final class C7589m1 {
 
     /* renamed from: J */
     public final void m29127J(boolean z10) {
-        String str;
+        String str = null;
         Bundle bundle = new Bundle();
         d.a aVar = d.f27911a;
         String m29180k = aVar.m29180k();
@@ -985,7 +985,7 @@ public final class C7589m1 {
 
     /* renamed from: m */
     public final void m29144m(boolean z10) {
-        String str;
+        String str = null;
         HashMap hashMap = new HashMap();
         d.a aVar = d.f27911a;
         String m29181l = aVar.m29181l();

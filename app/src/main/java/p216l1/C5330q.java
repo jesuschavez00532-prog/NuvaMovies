@@ -130,8 +130,8 @@ public final class C5330q extends Exception {
 
     @Override // java.lang.Throwable
     public String getMessage() {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         StringBuilder sb2 = new StringBuilder(71);
         sb2.append(this.f21828e);
         String str3 = "";

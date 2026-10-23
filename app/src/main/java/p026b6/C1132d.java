@@ -194,7 +194,7 @@ public class C1132d {
     /* renamed from: l */
     public void m5138l(String str, Map map, boolean z10) {
         File m5134b;
-        String m5129f;
+        String m5129f = null;
         BufferedWriter bufferedWriter;
         if (z10) {
             m5134b = m5133a(str);
@@ -232,7 +232,7 @@ public class C1132d {
 
     /* renamed from: m */
     public void m5139m(String str, String str2) {
-        String m5131j;
+        String m5131j = null;
         BufferedWriter bufferedWriter;
         File m5135c = m5135c(str);
         BufferedWriter bufferedWriter2 = null;

@@ -18,7 +18,7 @@ import ve.C7311r;
 public abstract class AbstractC7650b {
     /* renamed from: a */
     public static final void m29435a(InterfaceC5664p interfaceC5664p, Object obj, InterfaceC4181d interfaceC4181d) {
-        Object m18094c;
+        Object m18094c = null;
         InterfaceC4181d m18637a = AbstractC4441h.m18637a(interfaceC4181d);
         try {
             InterfaceC4184g mo17487e = interfaceC4181d.mo17487e();
@@ -45,10 +45,10 @@ public abstract class AbstractC7650b {
 
     /* renamed from: b */
     public static final Object m29436b(C5279r c5279r, Object obj, InterfaceC5664p interfaceC5664p) {
-        Object c7311r;
-        Object m18094c;
-        Object m18094c2;
-        Object m18094c3;
+        Object c7311r = null;
+        Object m18094c = null;
+        Object m18094c2 = null;
+        Object m18094c3 = null;
         c5279r.m28100r0();
         try {
         } catch (Throwable th) {

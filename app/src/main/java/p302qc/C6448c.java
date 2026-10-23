@@ -275,8 +275,8 @@ public class C6448c {
         int m27734D;
         List<String> m27748R;
         int m27735E;
-        String str2;
-        String str3;
+        String str2 = null;
+        String str3 = null;
         int i10 = 0;
         this.f24788a = str;
         this.f24789b = intent;
@@ -379,7 +379,7 @@ public class C6448c {
 
     /* renamed from: j */
     public final String m25246j(InterfaceC5664p interfaceC5664p) {
-        Object obj;
+        Object obj = null;
         AbstractC5868k.m23674f(interfaceC5664p, "handle");
         StringBuilder sb2 = new StringBuilder(m25244h());
         boolean z10 = true;
@@ -418,7 +418,7 @@ public class C6448c {
         List list;
         List list2;
         InterfaceC5664p interfaceC5664p;
-        Bundle extras;
+        Bundle extras = null;
         if (AbstractC6455j.m25289h() && !this.f24793f) {
             AbstractC5635j.m22862d("Navigator::navigation", "begin navigate " + m25244h(), null, 4, null);
             if (context == null) {

@@ -358,7 +358,7 @@ public class C7458h0 {
 
         /* renamed from: d */
         public boolean m28642d(View view, Bundle bundle) {
-            String name;
+            String name = null;
             if (this.f27535d == null) {
                 return false;
             }

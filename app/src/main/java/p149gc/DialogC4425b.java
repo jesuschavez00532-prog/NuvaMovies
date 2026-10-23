@@ -72,7 +72,7 @@ public class DialogC4425b extends Dialog {
 
     @Override // android.app.Dialog
     protected void onCreate(Bundle bundle) {
-        String string;
+        String string = null;
         super.onCreate(bundle);
         setContentView(R$layout.dialog_bottom_info_brasiliptv);
         getWindow().setFlags(8, 8);

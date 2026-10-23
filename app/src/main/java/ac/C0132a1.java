@@ -41,8 +41,8 @@ public final class C0132a1 extends AbstractC0166j {
         @Override // p343tb.AbstractC6929a, io.reactivex.Observer
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void onNext(SnTokenResult snTokenResult) {
-            boolean z10;
-            String lowerCase;
+            boolean z10 = false;
+            String lowerCase = null;
             AbstractC5868k.m23674f(snTokenResult, "t");
             super.onNext(snTokenResult);
             String str = "";

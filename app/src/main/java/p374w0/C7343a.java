@@ -78,7 +78,7 @@ public final class C7343a {
 
     /* renamed from: a */
     public final void m28329a(Dns dns, Interceptor interceptor) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(dns, BaseMonitor.COUNT_POINT_DNS);
         C4214f c4214f = C4214f.f18481a;
         String str2 = AbstractC7656a.f28099e;

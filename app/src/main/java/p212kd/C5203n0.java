@@ -121,7 +121,7 @@ public final class C5203n0 extends RecyclerView.AbstractC0789h {
 
     /* renamed from: g */
     public final void m21028g(C5550d c5550d) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(c5550d, "homeVodExtra");
         int size = this.f21299e.size();
         int m22501d = c5550d.m22501d();

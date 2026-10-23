@@ -684,7 +684,7 @@ public final class C7594o0 {
         Observable compose = Observable.fromCallable(new Callable() { // from class: xa.i0
             @Override // java.util.concurrent.Callable
             public final Object call() {
-                String m29207r;
+                String m29207r = null;
                 m29207r = C7594o0.m29207r(list, aVar);
                 return m29207r;
             }
@@ -713,7 +713,7 @@ public final class C7594o0 {
         Observable compose = Observable.fromCallable(new Callable() { // from class: xa.l0
             @Override // java.util.concurrent.Callable
             public final Object call() {
-                String m29210u;
+                String m29210u = null;
                 m29210u = C7594o0.m29210u(list, aVar);
                 return m29210u;
             }

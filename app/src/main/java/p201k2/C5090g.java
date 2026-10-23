@@ -155,15 +155,15 @@ public final class C5090g {
 
     /* renamed from: q */
     private final Object m20635q(String str) {
-        Object obj;
-        Object computeIfAbsent;
+        Object obj = null;
+        Object computeIfAbsent = null;
         if (Build.VERSION.SDK_INT >= 24) {
             ConcurrentHashMap concurrentHashMap = f20969v;
             final a aVar = a.f20971a;
             computeIfAbsent = concurrentHashMap.computeIfAbsent(str, new Function() { // from class: k2.f
                 @Override // java.util.function.Function
                 public final Object apply(Object obj2) {
-                    Object m20636r;
+                    Object m20636r = null;
                     m20636r = C5090g.m20636r(InterfaceC5660l.this, obj2);
                     return m20636r;
                 }
@@ -410,7 +410,7 @@ public final class C5090g {
 
     /* renamed from: s */
     public final void m20652s() {
-        String m27728o;
+        String m27728o = null;
         boolean m27723j;
         if (!f20968u) {
             String m20595e = AbstractC5085b.m20595e();
@@ -454,8 +454,8 @@ public final class C5090g {
 
     /* renamed from: t */
     public final String m20653t(String str) {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         AbstractC5868k.m23674f(str, CacheEntity.KEY);
         Iterator it = f20966s.iterator();
         String str2 = "";

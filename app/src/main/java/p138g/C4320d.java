@@ -47,7 +47,7 @@ public class C4320d extends ContextWrapper {
 
     /* renamed from: d */
     private void m18110d() {
-        boolean z10;
+        boolean z10 = false;
         if (this.f18772b == null) {
             z10 = true;
         } else {

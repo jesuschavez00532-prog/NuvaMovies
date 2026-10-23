@@ -383,8 +383,8 @@ public abstract class AbstractC0234a {
         private String f680n;
 
         public j(q qVar, InputStream inputStream, OutputStream outputStream, InetAddress inetAddress) {
-            String str;
-            String str2;
+            String str = null;
+            String str2 = null;
             this.f667a = qVar;
             this.f669c = new BufferedInputStream(inputStream, 8192);
             this.f668b = outputStream;
@@ -405,7 +405,7 @@ public abstract class AbstractC0234a {
 
         /* renamed from: d */
         private void m855d(BufferedReader bufferedReader, Map map, Map map2, Map map3) {
-            String m832i;
+            String m832i = null;
             try {
                 String readLine = bufferedReader.readLine();
                 if (readLine == null) {
@@ -450,8 +450,8 @@ public abstract class AbstractC0234a {
 
         /* renamed from: e */
         private void m856e(String str, Map map) {
-            String trim;
-            String str2;
+            String trim = null;
+            String str2 = null;
             if (str == null) {
                 this.f677k = "";
                 return;
@@ -518,8 +518,8 @@ public abstract class AbstractC0234a {
         /* renamed from: f */
         public void m861f() {
             byte[] bArr;
-            boolean z10;
-            boolean z11;
+            boolean z10 = false;
+            boolean z11 = false;
             m mVar = null;
             try {
                 try {
@@ -719,7 +719,7 @@ public abstract class AbstractC0234a {
             @Override // java.util.HashMap, java.util.AbstractMap, java.util.Map
             /* renamed from: a, reason: merged with bridge method [inline-methods] */
             public String put(String str, String str2) {
-                String lowerCase;
+                String lowerCase = null;
                 Map map = m.this.f704f;
                 if (str == null) {
                     lowerCase = str;
@@ -843,7 +843,7 @@ public abstract class AbstractC0234a {
 
         /* renamed from: h */
         private void m864h(OutputStream outputStream, long j10) {
-            boolean z10;
+            boolean z10 = false;
             long min;
             byte[] bArr = new byte[(int) IjkMediaMeta.AV_CH_TOP_FRONT_RIGHT];
             if (j10 == -1) {
@@ -925,7 +925,7 @@ public abstract class AbstractC0234a {
         /* renamed from: f */
         protected void m871f(OutputStream outputStream) {
             long j10;
-            String str;
+            String str = null;
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("E, d MMM yyyy HH:mm:ss 'GMT'", Locale.US);
             simpleDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
             try {

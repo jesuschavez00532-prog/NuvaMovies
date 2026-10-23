@@ -70,7 +70,7 @@ class C1130b {
 
     /* renamed from: e */
     public synchronized void m5119e(Map map) {
-        String m5116c;
+        String m5116c = null;
         int i10 = 0;
         for (Map.Entry entry : map.entrySet()) {
             String m5115b = m5115b((String) entry.getKey());

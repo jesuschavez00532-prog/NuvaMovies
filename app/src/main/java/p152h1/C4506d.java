@@ -42,7 +42,7 @@ public class C4506d {
 
     /* renamed from: e */
     private void m18840e() {
-        boolean z10;
+        boolean z10 = false;
         this.f19498c.f19486d.f19472a = m18849n();
         this.f19498c.f19486d.f19473b = m18849n();
         this.f19498c.f19486d.f19474c = m18849n();
@@ -233,7 +233,7 @@ public class C4506d {
 
     /* renamed from: l */
     private void m18847l() {
-        boolean z10;
+        boolean z10 = false;
         this.f19498c.f19488f = m18849n();
         this.f19498c.f19489g = m18849n();
         int m18839d = m18839d();

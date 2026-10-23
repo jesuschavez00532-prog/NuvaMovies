@@ -169,7 +169,7 @@ public class C5705i extends C5702f {
     @Override // p241n.C5702f
     /* renamed from: b */
     public void mo22918b(C5562e c5562e) {
-        boolean z10;
+        boolean z10 = false;
         C5703g c5703g = (C5703g) m23009u();
         if (c5703g == null) {
             return;

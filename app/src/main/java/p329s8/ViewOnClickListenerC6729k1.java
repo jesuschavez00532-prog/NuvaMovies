@@ -115,7 +115,7 @@ public final class ViewOnClickListenerC6729k1 extends C7767e implements View.OnC
 
         /* renamed from: a */
         public final void m26404a(ArrayList arrayList) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(arrayList, "it");
             if (ViewOnClickListenerC6729k1.this.m3075C6() != null) {
                 AbstractActivityC0712e m3075C6 = ViewOnClickListenerC6729k1.this.m3075C6();
@@ -273,9 +273,9 @@ public final class ViewOnClickListenerC6729k1 extends C7767e implements View.OnC
 
     /* renamed from: M9 */
     private final String m26388M9(boolean z10) {
-        String m27728o;
-        String m27728o2;
-        String email;
+        String m27728o = null;
+        String m27728o2 = null;
+        String email = null;
         if (this.f25846L0) {
             UserInfo m6887v = C1466m0.f5627a.m6887v();
             if (m6887v == null || (email = m6887v.getEmail()) == null) {
@@ -307,7 +307,7 @@ public final class ViewOnClickListenerC6729k1 extends C7767e implements View.OnC
     /* renamed from: P9 */
     private final String m26391P9(String str) {
         int m27735E;
-        boolean z10;
+        boolean z10 = false;
         StringBuilder sb2 = new StringBuilder();
         if (!TextUtils.isEmpty(str)) {
             m27735E = AbstractC7167u.m27735E(str, "@", 0, false, 6, null);
@@ -407,7 +407,7 @@ public final class ViewOnClickListenerC6729k1 extends C7767e implements View.OnC
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: Z9 */
     public static final void m26398Z9(ViewOnClickListenerC6729k1 viewOnClickListenerC6729k1) {
-        String str;
+        String str = null;
         Resources resources;
         AbstractC5868k.m23674f(viewOnClickListenerC6729k1, "this$0");
         TextView textView = (TextView) viewOnClickListenerC6729k1.m26400L9(R$id.mTextGetCode);
@@ -607,7 +607,7 @@ public final class ViewOnClickListenerC6729k1 extends C7767e implements View.OnC
     @Override // la.InterfaceC5536d
     /* renamed from: k */
     public void mo22451k(String str) {
-        String m3172j7;
+        String m3172j7 = null;
         AbstractC5868k.m23674f(str, "errCode");
         boolean z10 = true;
         ((TextView) m26400L9(R$id.mTextGetCode)).setEnabled(true);
@@ -679,7 +679,7 @@ public final class ViewOnClickListenerC6729k1 extends C7767e implements View.OnC
 
     @Override // android.view.View.OnClickListener
     public void onClick(View view) {
-        String str;
+        String str = null;
         Resources resources;
         AbstractC5868k.m23674f(view, "v");
         int id2 = view.getId();
@@ -742,7 +742,7 @@ public final class ViewOnClickListenerC6729k1 extends C7767e implements View.OnC
     @Override // p102db.C4049j1.b
     /* renamed from: v4 */
     public void mo17043v4(String str) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, "msg");
         if (str.length() == 0) {
             z10 = true;

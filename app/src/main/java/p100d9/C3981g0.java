@@ -219,9 +219,9 @@ public final class C3981g0 extends AbstractC7527b {
     /* renamed from: v, reason: merged with bridge method [inline-methods] */
     public void mo5338e(final C7531f c7531f, final PackageInfo packageInfo) {
         Collection m6985d;
-        String m16854C;
+        String m16854C = null;
         double d10 = 0.0;
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(packageInfo, "bean");
         C4297a c4297a = C4297a.f18620a;

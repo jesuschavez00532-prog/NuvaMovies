@@ -29,7 +29,7 @@ public final class C4545y {
 
     /* renamed from: a */
     public final synchronized int m18942a() {
-        PackageInfo packageInfo;
+        PackageInfo packageInfo = null;
         if (this.f19592b == 0) {
             try {
                 packageInfo = C6534e.m25570a(this.f19591a).m25567e("com.google.android.gms", 0);

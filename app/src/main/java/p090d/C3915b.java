@@ -26,7 +26,7 @@ public final class C3915b extends AbstractC3914a {
     @Override // p090d.AbstractC3914a
     /* renamed from: f, reason: merged with bridge method [inline-methods] */
     public AbstractC3914a.a mo16745b(Context context, String[] strArr) {
-        boolean z10;
+        boolean z10 = false;
         if (strArr != null && strArr.length != 0) {
             C5303a c5303a = new C5303a();
             boolean z11 = true;
@@ -52,7 +52,7 @@ public final class C3915b extends AbstractC3914a {
     @Override // p090d.AbstractC3914a
     /* renamed from: g, reason: merged with bridge method [inline-methods] */
     public Map mo3563c(int i10, Intent intent) {
-        boolean z10;
+        boolean z10 = false;
         if (i10 != -1) {
             return Collections.emptyMap();
         }

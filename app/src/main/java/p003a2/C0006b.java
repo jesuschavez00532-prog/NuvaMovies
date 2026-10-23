@@ -91,7 +91,7 @@ public final class C0006b implements InterfaceC0009e, InterfaceC0008d {
     @Override // p003a2.InterfaceC0009e, p003a2.InterfaceC0008d
     /* renamed from: b */
     public boolean mo87b() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f37a) {
             if (!this.f39c.mo87b() && !this.f40d.mo87b()) {
                 z10 = false;
@@ -104,7 +104,7 @@ public final class C0006b implements InterfaceC0009e, InterfaceC0008d {
     @Override // p003a2.InterfaceC0009e
     /* renamed from: c */
     public boolean mo88c(InterfaceC0008d interfaceC0008d) {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f37a) {
             if (m84n() && m82l(interfaceC0008d)) {
                 z10 = true;
@@ -176,7 +176,7 @@ public final class C0006b implements InterfaceC0009e, InterfaceC0008d {
     @Override // p003a2.InterfaceC0008d
     /* renamed from: g */
     public boolean mo92g() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f37a) {
             InterfaceC0009e.a aVar = this.f41e;
             InterfaceC0009e.a aVar2 = InterfaceC0009e.a.CLEARED;
@@ -205,7 +205,7 @@ public final class C0006b implements InterfaceC0009e, InterfaceC0008d {
     @Override // p003a2.InterfaceC0009e
     /* renamed from: i */
     public boolean mo94i(InterfaceC0008d interfaceC0008d) {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f37a) {
             if (m83m() && interfaceC0008d.equals(this.f39c)) {
                 z10 = true;
@@ -218,7 +218,7 @@ public final class C0006b implements InterfaceC0009e, InterfaceC0008d {
 
     @Override // p003a2.InterfaceC0008d
     public boolean isRunning() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f37a) {
             InterfaceC0009e.a aVar = this.f41e;
             InterfaceC0009e.a aVar2 = InterfaceC0009e.a.RUNNING;
@@ -233,7 +233,7 @@ public final class C0006b implements InterfaceC0009e, InterfaceC0008d {
     @Override // p003a2.InterfaceC0008d
     /* renamed from: j */
     public boolean mo95j() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f37a) {
             InterfaceC0009e.a aVar = this.f41e;
             InterfaceC0009e.a aVar2 = InterfaceC0009e.a.SUCCESS;

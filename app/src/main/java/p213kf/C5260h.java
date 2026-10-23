@@ -41,13 +41,13 @@ public final class C5260h extends CallAdapter.Factory {
     @Override // retrofit2.CallAdapter.Factory
     /* renamed from: a */
     public CallAdapter mo21167a(Type type, Annotation[] annotationArr, Retrofit retrofit) {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         Type type2;
-        boolean z13;
-        boolean z14;
-        String str;
+        boolean z13 = false;
+        boolean z14 = false;
+        String str = null;
         Class m25688c = CallAdapter.Factory.m25688c(type);
         if (m25688c == Completable.class) {
             return new C5259g(Void.class, this.f21458a, this.f21459b, false, true, false, false, false, true);

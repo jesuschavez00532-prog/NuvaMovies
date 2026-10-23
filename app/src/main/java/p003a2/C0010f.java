@@ -176,7 +176,7 @@ public class C0010f implements InterfaceFutureC0007c, InterfaceC0011g {
 
     @Override // java.util.concurrent.Future
     public synchronized boolean isDone() {
-        boolean z10;
+        boolean z10 = false;
         if (!this.f57g && !this.f58h) {
             if (!this.f59i) {
                 z10 = false;
@@ -225,7 +225,7 @@ public class C0010f implements InterfaceFutureC0007c, InterfaceC0011g {
 
     public String toString() {
         InterfaceC0008d interfaceC0008d;
-        String str;
+        String str = null;
         String str2 = super.toString() + "[status=";
         synchronized (this) {
             interfaceC0008d = null;

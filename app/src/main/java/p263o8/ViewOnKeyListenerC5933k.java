@@ -199,7 +199,7 @@ public final class ViewOnKeyListenerC5933k extends LinearLayout implements View.
     /* renamed from: l */
     private final void m24010l(int i10) {
         EpgProgram epgProgram;
-        boolean z10;
+        boolean z10 = false;
         C1155e c1155e = this.f23594d;
         if (c1155e != null) {
             epgProgram = c1155e.getItem(i10);
@@ -351,8 +351,8 @@ public final class ViewOnKeyListenerC5933k extends LinearLayout implements View.
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: p */
     public final void m24014p(int i10) {
-        boolean z10;
-        String str;
+        boolean z10 = false;
+        String str = null;
         boolean z11 = false;
         if (i10 == 0) {
             ((ImageView) m24026e(R$id.mIvUp)).setVisibility(4);
@@ -476,8 +476,8 @@ public final class ViewOnKeyListenerC5933k extends LinearLayout implements View.
     /* renamed from: r */
     private final void m24016r(boolean z10, boolean z11) {
         int selectedItemPosition;
-        boolean z12;
-        String str;
+        boolean z12 = false;
+        String str = null;
         this.f23596f = Boolean.valueOf(z10);
         if (z11) {
             int i10 = R$id.mTvLoading;
@@ -532,7 +532,7 @@ public final class ViewOnKeyListenerC5933k extends LinearLayout implements View.
 
     /* renamed from: s */
     private final void m24017s() {
-        String str;
+        String str = null;
         AutoFocusedTextView autoFocusedTextView = (AutoFocusedTextView) m24026e(R$id.mTvChannel);
         Channel m6622H = C1427v.f5519a.m6622H();
         if (m6622H == null || (str = AbstractC5607a.m22776a(m6622H)) == null) {
@@ -603,8 +603,8 @@ public final class ViewOnKeyListenerC5933k extends LinearLayout implements View.
 
     /* renamed from: B */
     public void m24022B(boolean z10) {
-        boolean z11;
-        String str;
+        boolean z11 = false;
+        String str = null;
         this.f23596f = null;
         if (C7252a.f27087a.m28072g() <= this.f23592b) {
             ((TextView) m24026e(R$id.mTvLoading)).setText(R$string.no_data);
@@ -642,8 +642,8 @@ public final class ViewOnKeyListenerC5933k extends LinearLayout implements View.
 
     /* renamed from: C */
     public void m24023C() {
-        boolean z10;
-        String str;
+        boolean z10 = false;
+        String str = null;
         if (C7252a.f27087a.m28072g() <= this.f23592b) {
             ((TextView) m24026e(R$id.mTvLoading)).setText(R$string.no_data);
         } else {
@@ -684,7 +684,7 @@ public final class ViewOnKeyListenerC5933k extends LinearLayout implements View.
     @Override // p263o8.InterfaceC5941s
     /* renamed from: a */
     public void mo24025a(ArrayList arrayList, int i10) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(arrayList, "dates");
         C1427v c1427v = C1427v.f5519a;
         if (c1427v.m6621G()) {
@@ -736,13 +736,13 @@ public final class ViewOnKeyListenerC5933k extends LinearLayout implements View.
     /* JADX WARN: Can't fix incorrect switch cases order, some code will duplicate */
     @Override // android.view.View.OnKeyListener
     public boolean onKey(View view, int i10, KeyEvent keyEvent) {
-        boolean z10;
-        boolean z11;
-        boolean z12;
-        boolean z13;
-        boolean z14;
-        boolean z15;
-        boolean z16;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
+        boolean z13 = false;
+        boolean z14 = false;
+        boolean z15 = false;
+        boolean z16 = false;
         boolean z17 = false;
         if (keyEvent != null && keyEvent.getAction() == 0) {
             z10 = true;
@@ -895,10 +895,10 @@ public final class ViewOnKeyListenerC5933k extends LinearLayout implements View.
 
     /* renamed from: y */
     public void m24028y(ArrayList arrayList) {
-        String str;
-        boolean z10;
-        String str2;
-        boolean z11;
+        String str = null;
+        boolean z10 = false;
+        String str2 = null;
+        boolean z11 = false;
         AbstractC5868k.m23674f(arrayList, "epgPrograms");
         ((TextView) m24026e(R$id.mTvLoading)).setVisibility(8);
         C1155e c1155e = this.f23594d;
@@ -952,8 +952,8 @@ public final class ViewOnKeyListenerC5933k extends LinearLayout implements View.
 
     /* renamed from: z */
     public void m24029z(ArrayList arrayList, int i10) {
-        boolean z10;
-        String str;
+        boolean z10 = false;
+        String str = null;
         AbstractC5868k.m23674f(arrayList, "epgPrograms");
         this.f23596f = null;
         ((TextView) m24026e(R$id.mTvLoading)).setVisibility(8);

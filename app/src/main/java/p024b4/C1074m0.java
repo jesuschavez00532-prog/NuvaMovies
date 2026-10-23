@@ -214,14 +214,14 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
             @Override // p024b4.C1074m0.d
             /* renamed from: a */
             public final Object mo4937a() {
-                Object m4981b0;
+                Object m4981b0 = null;
                 m4981b0 = C1074m0.m4981b0(sQLiteDatabase);
                 return m4981b0;
             }
         }, new b() { // from class: b4.h0
             @Override // p024b4.C1074m0.b
             public final Object apply(Object obj) {
-                Object m4982c0;
+                Object m4982c0 = null;
                 m4982c0 = C1074m0.m4982c0((Throwable) obj);
                 return m4982c0;
             }
@@ -332,7 +332,7 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
         m4963G0(sQLiteDatabase.rawQuery("SELECT COUNT(*), transport_name FROM events WHERE timestamp_ms < ? GROUP BY transport_name", strArr), new b() { // from class: b4.q
             @Override // p024b4.C1074m0.b
             public final Object apply(Object obj) {
-                Object m4979Z;
+                Object m4979Z = null;
                 m4979Z = C1074m0.this.m4979Z((Cursor) obj);
                 return m4979Z;
             }
@@ -517,7 +517,7 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: q0 */
     public /* synthetic */ Long m5003q0(AbstractC6661i abstractC6661i, AbstractC6667o abstractC6667o, SQLiteDatabase sQLiteDatabase) {
-        boolean z10;
+        boolean z10 = false;
         byte[] bArr;
         if (m4977X()) {
             mo4918d(1L, C7357c.b.CACHE_FULL, abstractC6661i.mo25983j());
@@ -608,7 +608,7 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
         m4963G0(sQLiteDatabase.rawQuery(str2, null), new b() { // from class: b4.v
             @Override // p024b4.C1074m0.b
             public final Object apply(Object obj) {
-                Object m5007s0;
+                Object m5007s0 = null;
                 m5007s0 = C1074m0.this.m5007s0((Cursor) obj);
                 return m5007s0;
             }
@@ -620,7 +620,7 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: u0 */
     public static /* synthetic */ Boolean m5010u0(Cursor cursor) {
-        boolean z10;
+        boolean z10 = false;
         if (cursor.getCount() > 0) {
             z10 = true;
         } else {
@@ -682,7 +682,7 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
         m4963G0(sQLiteDatabase.query(C3384f.f14604ax, new String[]{C3329bx.f14344d, "transport_name", "timestamp_ms", "uptime_ms", "payload_encoding", "payload", Constants.KEY_HTTP_CODE, "inline"}, "context_id = ?", new String[]{m4976V.toString()}, null, null, null, String.valueOf(this.f4356d.mo4904d())), new b() { // from class: b4.t
             @Override // p024b4.C1074m0.b
             public final Object apply(Object obj) {
-                Object m5000o0;
+                Object m5000o0 = null;
                 m5000o0 = C1074m0.this.m5000o0(arrayList, abstractC6667o, (Cursor) obj);
                 return m5000o0;
             }
@@ -704,7 +704,7 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
         m4963G0(sQLiteDatabase.query("event_metadata", new String[]{"event_id", SerializableCookie.NAME, "value"}, sb2.toString(), null, null, null, null), new b() { // from class: b4.r
             @Override // p024b4.C1074m0.b
             public final Object apply(Object obj) {
-                Object m5001p0;
+                Object m5001p0 = null;
                 m5001p0 = C1074m0.m5001p0(hashMap, (Cursor) obj);
                 return m5001p0;
             }
@@ -756,7 +756,7 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
         m5021W(new b() { // from class: b4.n
             @Override // p024b4.C1074m0.b
             public final Object apply(Object obj) {
-                Object m5014x0;
+                Object m5014x0 = null;
                 m5014x0 = C1074m0.this.m5014x0((SQLiteDatabase) obj);
                 return m5014x0;
             }
@@ -804,7 +804,7 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
         m5021W(new b() { // from class: b4.l0
             @Override // p024b4.C1074m0.b
             public final Object apply(Object obj) {
-                Object m5011v0;
+                Object m5011v0 = null;
                 m5011v0 = C1074m0.m5011v0(str, bVar, j10, (SQLiteDatabase) obj);
                 return m5011v0;
             }
@@ -884,7 +884,7 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
         m5021W(new b() { // from class: b4.m
             @Override // p024b4.C1074m0.b
             public final Object apply(Object obj) {
-                Object m5012w0;
+                Object m5012w0 = null;
                 m5012w0 = C1074m0.m5012w0(j10, abstractC6667o, (SQLiteDatabase) obj);
                 return m5012w0;
             }
@@ -902,7 +902,7 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
         m5021W(new b() { // from class: b4.p
             @Override // p024b4.C1074m0.b
             public final Object apply(Object obj) {
-                Object m5009t0;
+                Object m5009t0 = null;
                 m5009t0 = C1074m0.this.m5009t0(str, str2, (SQLiteDatabase) obj);
                 return m5009t0;
             }

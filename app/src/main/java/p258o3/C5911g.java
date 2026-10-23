@@ -113,7 +113,7 @@ public final class C5911g {
         @Override // ge.AbstractC4434a
         /* renamed from: l */
         public final Object mo2392l(Object obj) {
-            Object m18094c;
+            Object m18094c = null;
             m18094c = AbstractC4313d.m18094c();
             int i10 = this.f23523e;
             if (i10 != 0) {
@@ -214,7 +214,7 @@ public final class C5911g {
         @Override // ge.AbstractC4434a
         /* renamed from: l */
         public final Object mo2392l(Object obj) {
-            Object m18094c;
+            Object m18094c = null;
             m18094c = AbstractC4313d.m18094c();
             int i10 = this.f23525e;
             if (i10 != 0) {
@@ -272,11 +272,11 @@ public final class C5911g {
     /* renamed from: n */
     private final ArrayList m23887n(Context context) {
         Method method;
-        String str;
-        String str2;
-        Object obj;
-        String str3;
-        String str4;
+        String str = null;
+        String str2 = null;
+        Object obj = null;
+        String str3 = null;
+        String str4 = null;
         C5911g c5911g = this;
         ArrayList arrayList = new ArrayList();
         Method declaredMethod = StorageManager.class.getDeclaredMethod("getVolumeList", new Class[0]);
@@ -457,8 +457,8 @@ public final class C5911g {
 
     /* renamed from: i */
     public final String m23894i(Context context) {
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         UDiskBean uDiskBean = this.f23519d;
         if (uDiskBean == null || (str = uDiskBean.getName()) == null) {
@@ -542,8 +542,8 @@ public final class C5911g {
 
     /* renamed from: s */
     public final void m23902s(String str) {
-        boolean z10;
-        String str2;
+        boolean z10 = false;
+        String str2 = null;
         AbstractC5868k.m23674f(str, "path");
         if (str.length() == 0) {
             z10 = true;

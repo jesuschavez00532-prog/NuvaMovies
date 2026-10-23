@@ -128,7 +128,7 @@ public final class C7154h implements InterfaceC7153g {
 
         @Override // p043ce.AbstractC1482a, java.util.Collection
         public final /* bridge */ boolean contains(Object obj) {
-            boolean z10;
+            boolean z10 = false;
             if (obj == null) {
                 z10 = true;
             } else {

@@ -183,7 +183,7 @@ public final class C5617i extends DialogInterfaceOnCancelListenerC0710d {
 
     /* renamed from: L9 */
     private final void m22796L9() {
-        String str;
+        String str = null;
         String m22801Q9 = m22801Q9();
         String m20659b = AbstractC5091h.m20659b();
         C1466m0 c1466m0 = C1466m0.f5627a;
@@ -293,7 +293,7 @@ public final class C5617i extends DialogInterfaceOnCancelListenerC0710d {
     @Override // androidx.fragment.app.DialogInterfaceOnCancelListenerC0710d, androidx.fragment.app.Fragment
     /* renamed from: L7 */
     public void mo3103L7(Bundle bundle) {
-        String str;
+        String str = null;
         super.mo3103L7(bundle);
         m3274B9(1, R$style.InputPasswordDialog);
         Bundle m3090H6 = m3090H6();

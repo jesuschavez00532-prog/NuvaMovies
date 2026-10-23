@@ -328,7 +328,7 @@ public final class C4774h1 extends C7767e implements InterfaceC5539g {
 
     /* renamed from: X9 */
     public final void m19750X9() {
-        String str;
+        String str = null;
         AwakenVoiceAssistEvent awakenVoiceAssistEvent = this.f20146I0;
         String str2 = null;
         if (awakenVoiceAssistEvent != null) {
@@ -410,7 +410,7 @@ public final class C4774h1 extends C7767e implements InterfaceC5539g {
     @Override // la.InterfaceC5539g
     /* renamed from: j1 */
     public void mo19752j1() {
-        String str;
+        String str = null;
         int i10 = R$id.mTvDesc;
         ((TextView) m19746I9(i10)).setVisibility(0);
         TextView textView = (TextView) m19746I9(i10);
@@ -469,7 +469,7 @@ public final class C4774h1 extends C7767e implements InterfaceC5539g {
     @Override // la.InterfaceC5539g
     /* renamed from: m6 */
     public void mo19754m6(int i10, int i11, int i12, ArrayList arrayList) {
-        boolean z10;
+        boolean z10 = false;
         C7538m c7538m;
         AbstractC5868k.m23674f(arrayList, "datas");
         int i13 = R$id.mTvDesc;

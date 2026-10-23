@@ -231,7 +231,7 @@ public final class C7572h {
 
         /* renamed from: a */
         public final void m29060a(Long l10) {
-            boolean z10;
+            boolean z10 = false;
             Activity activity = C7572h.this.f27815e;
             boolean z11 = true;
             if (activity != null && activity.isFinishing()) {
@@ -425,7 +425,7 @@ public final class C7572h {
 
     /* renamed from: w */
     public final void m29054w() {
-        boolean z10;
+        boolean z10 = false;
         Disposable disposable;
         Disposable disposable2;
         Disposable disposable3 = this.f27817g;

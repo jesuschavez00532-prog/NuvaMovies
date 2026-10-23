@@ -424,7 +424,7 @@ public final class C7559c1 {
 
     /* renamed from: f */
     public final String m28988f(String str, String str2, boolean z10) {
-        boolean z11;
+        boolean z11 = false;
         AbstractC5868k.m23674f(str, "phone");
         AbstractC5868k.m23674f(str2, "areaCode");
         StringBuilder sb2 = new StringBuilder();
@@ -474,9 +474,9 @@ public final class C7559c1 {
 
     /* renamed from: h */
     public final String m28989h(String str, String str2) {
-        String m27728o;
-        String m27728o2;
-        String m27728o3;
+        String m27728o = null;
+        String m27728o2 = null;
+        String m27728o3 = null;
         AbstractC5868k.m23674f(str, "phoneNumber");
         AbstractC5868k.m23674f(str2, C3325bt.f14170O);
         m27728o = AbstractC7166t.m27728o(str, " ", "", false, 4, null);

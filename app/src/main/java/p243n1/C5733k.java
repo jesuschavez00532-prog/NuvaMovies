@@ -72,7 +72,7 @@ public class C5733k {
 
     /* renamed from: b */
     public String m23146b(InterfaceC4975f interfaceC4975f) {
-        String str;
+        String str = null;
         synchronized (this.f23019a) {
             str = (String) this.f23019a.m17213g(interfaceC4975f);
         }

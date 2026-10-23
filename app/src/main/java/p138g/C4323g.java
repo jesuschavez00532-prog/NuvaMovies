@@ -216,7 +216,7 @@ public class C4323g extends MenuInflater {
 
         /* renamed from: i */
         private void m18121i(MenuItem menuItem) {
-            boolean z10;
+            boolean z10 = false;
             MenuItem enabled = menuItem.setChecked(this.f18822s).setVisible(this.f18823t).setEnabled(this.f18824u);
             boolean z11 = false;
             if (this.f18821r >= 1) {
@@ -307,7 +307,7 @@ public class C4323g extends MenuInflater {
 
         /* renamed from: g */
         public void m18126g(AttributeSet attributeSet) {
-            boolean z10;
+            boolean z10 = false;
             C0438q2 m1873u = C0438q2.m1873u(C4323g.this.f18793c, attributeSet, R$styleable.f889D);
             this.f18812i = m1873u.m1888n(R$styleable.MenuItem_android_id, 0);
             this.f18813j = (m1873u.m1885k(R$styleable.MenuItem_android_menuCategory, this.f18806c) & (-65536)) | (m1873u.m1885k(R$styleable.MenuItem_android_orderInCategory, this.f18807d) & 65535);

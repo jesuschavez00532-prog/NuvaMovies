@@ -26,7 +26,7 @@ public class C4549a {
 
     /* renamed from: b */
     public JSONObject m18947b() {
-        Throwable th;
+        Throwable th = null;
         FileInputStream fileInputStream;
         JSONObject jSONObject;
         C7503f.m28716f().m28717b("Checking for cached settings...");

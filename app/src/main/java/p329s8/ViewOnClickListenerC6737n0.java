@@ -257,8 +257,8 @@ public final class ViewOnClickListenerC6737n0 extends C7767e implements Interfac
         @Override // p161ha.ViewOnClickListenerC4802v.b
         /* renamed from: b0 */
         public void mo11903b0() {
-            String str;
-            String str2;
+            String str = null;
+            String str2 = null;
             C7556b1 c7556b1 = C7556b1.f27754a;
             AbstractC0729o m3110N8 = this.f25909b.m3110N8();
             AbstractC5868k.m23673e(m3110N8, "requireFragmentManager()");
@@ -276,8 +276,8 @@ public final class ViewOnClickListenerC6737n0 extends C7767e implements Interfac
         @Override // p161ha.ViewOnClickListenerC4802v.b
         /* renamed from: c0 */
         public void mo11904c0() {
-            String str;
-            String str2;
+            String str = null;
+            String str2 = null;
             C7556b1 c7556b1 = C7556b1.f27754a;
             AbstractC0729o m3110N8 = this.f25909b.m3110N8();
             AbstractC5868k.m23673e(m3110N8, "requireFragmentManager()");
@@ -430,7 +430,7 @@ public final class ViewOnClickListenerC6737n0 extends C7767e implements Interfac
         CharSequence m27758b02;
         boolean m27763v;
         boolean m27763v2;
-        String str;
+        String str = null;
         Editable text = ((AutoCompleteEditView) m26455I9(R$id.mEditAccount)).getText();
         AbstractC5868k.m23673e(text, "mEditAccount.text");
         m27758b0 = AbstractC7167u.m27758b0(text);
@@ -905,7 +905,7 @@ public final class ViewOnClickListenerC6737n0 extends C7767e implements Interfac
 
     @Override // android.view.View.OnFocusChangeListener
     public void onFocusChange(View view, boolean z10) {
-        boolean z11;
+        boolean z11 = false;
         boolean z12 = true;
         if (view != null && view.getId() == R$id.mEditAccount) {
             z11 = true;
@@ -934,8 +934,8 @@ public final class ViewOnClickListenerC6737n0 extends C7767e implements Interfac
     @Override // p285p8.InterfaceC6241d
     /* renamed from: v */
     public void mo24852v(boolean z10) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         ViewOnClickListenerC4802v viewOnClickListenerC4802v;
         if (z10 && (viewOnClickListenerC4802v = this.f25896I0) != null) {
             viewOnClickListenerC4802v.mo3279p9();

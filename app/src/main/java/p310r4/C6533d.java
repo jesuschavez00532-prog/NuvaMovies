@@ -46,7 +46,7 @@ public class C6533d {
 
     /* renamed from: f */
     public boolean m25568f() {
-        String nameForUid;
+        String nameForUid = null;
         boolean isInstantApp;
         if (Binder.getCallingUid() == Process.myUid()) {
             return AbstractC6531b.m25561a(this.f25142a);

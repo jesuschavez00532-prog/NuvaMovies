@@ -321,7 +321,7 @@ public final class C4128f extends RecyclerView.AbstractC0789h {
                     @Override // ge.AbstractC4434a
                     /* renamed from: l */
                     public final Object mo2392l(Object obj) {
-                        Object m18094c;
+                        Object m18094c = null;
                         m18094c = AbstractC4313d.m18094c();
                         int i10 = this.f18139e;
                         if (i10 != 0) {
@@ -524,7 +524,7 @@ public final class C4128f extends RecyclerView.AbstractC0789h {
 
         /* renamed from: o */
         private final void m17298o(Progress progress) {
-            String m23913b;
+            String m23913b = null;
             TextView textView = this.f18126d;
             long j10 = progress.totalSize;
             if (j10 < 0) {

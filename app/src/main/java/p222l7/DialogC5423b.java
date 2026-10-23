@@ -93,7 +93,7 @@ public final class DialogC5423b extends Dialog implements View.OnClickListener {
 
     @Override // android.app.Dialog
     protected void onCreate(Bundle bundle) {
-        String string;
+        String string = null;
         super.onCreate(bundle);
         TextView textView = (TextView) findViewById(R$id.mTvWay);
         if (Build.VERSION.SDK_INT >= 33) {

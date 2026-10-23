@@ -51,7 +51,7 @@ public final class C5363d1 {
 
     /* renamed from: c */
     public final Intent m21715c(Context context) {
-        Bundle bundle;
+        Bundle bundle = null;
         if (this.f21941a != null) {
             Intent intent = null;
             if (this.f21945e) {

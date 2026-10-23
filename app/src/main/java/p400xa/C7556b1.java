@@ -38,9 +38,9 @@ public final class C7556b1 {
 
     /* renamed from: e */
     public static /* synthetic */ ViewOnClickListenerC4775i m28961e(C7556b1 c7556b1, AbstractC0729o abstractC0729o, String str, String str2, String str3, boolean z10, ViewOnClickListenerC4775i.a aVar, boolean z11, String str4, boolean z12, int i10, Object obj) {
-        boolean z13;
-        String str5;
-        boolean z14;
+        boolean z13 = false;
+        String str5 = null;
+        boolean z14 = false;
         if ((i10 & 64) != 0) {
             z13 = true;
         } else {
@@ -61,9 +61,9 @@ public final class C7556b1 {
 
     /* renamed from: j */
     public static /* synthetic */ ViewOnClickListenerC4799t0 m28962j(C7556b1 c7556b1, AbstractC0729o abstractC0729o, String str, String str2, String str3, boolean z10, ViewOnClickListenerC4799t0.a aVar, boolean z11, String str4, boolean z12, int i10, Object obj) {
-        boolean z13;
-        String str5;
-        boolean z14;
+        boolean z13 = false;
+        String str5 = null;
+        boolean z14 = false;
         if ((i10 & 64) != 0) {
             z13 = true;
         } else {

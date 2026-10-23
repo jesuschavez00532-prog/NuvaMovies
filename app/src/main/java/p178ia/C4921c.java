@@ -27,7 +27,7 @@ public final class C4921c extends AbstractC1043k implements InterfaceC1344b.a {
 
     /* renamed from: e */
     private final void m20219e(C7346c c7346c) {
-        boolean z10;
+        boolean z10 = false;
         if (c7346c instanceof Animatable) {
             this.f20462i = c7346c;
             if (c7346c != null) {
@@ -111,7 +111,7 @@ public final class C4921c extends AbstractC1043k implements InterfaceC1344b.a {
 
     @Override // p022b2.AbstractC1033a, com.bumptech.glide.manager.InterfaceC1628k
     public void onStart() {
-        boolean z10;
+        boolean z10 = false;
         C7346c c7346c = this.f20462i;
         if (c7346c != null) {
             z10 = c7346c.isRunning();

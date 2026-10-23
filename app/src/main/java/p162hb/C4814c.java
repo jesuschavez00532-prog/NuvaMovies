@@ -172,8 +172,8 @@ public final class C4814c extends C7767e {
 
     /* renamed from: W0 */
     public final void m19898W0() {
-        String str;
-        String text;
+        String str = null;
+        String text = null;
         UmengPush umengPush = this.f20284H0;
         if (umengPush != null) {
             AbstractC5868k.m23671c(umengPush);

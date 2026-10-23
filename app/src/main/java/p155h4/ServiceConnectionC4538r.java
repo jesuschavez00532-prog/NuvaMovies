@@ -88,7 +88,7 @@ public final class ServiceConnectionC4538r implements ServiceConnection {
 
     /* renamed from: b */
     final synchronized void m18924b(int i10, String str, Throwable th) {
-        String str2;
+        String str2 = null;
         if (Log.isLoggable("MessengerIpcClient", 3)) {
             String valueOf = String.valueOf(str);
             if (valueOf.length() != 0) {
@@ -220,7 +220,7 @@ public final class ServiceConnectionC4538r implements ServiceConnection {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: g */
     public final synchronized boolean m18929g(AbstractC4541u abstractC4541u) {
-        boolean z10;
+        boolean z10 = false;
         int i10 = this.f19574a;
         if (i10 != 0) {
             if (i10 != 1) {

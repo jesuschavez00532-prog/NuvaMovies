@@ -702,7 +702,7 @@ public final class C4625k implements InterfaceC4274a, InterfaceC1416k, Interface
     @Override // p301qb.InterfaceC6441y0
     /* renamed from: E2 */
     public void mo19220E2(Channel channel, int i10) {
-        Object m7008t;
+        Object m7008t = null;
         AbstractC5868k.m23674f(channel, "channel");
         this.f19865i.put(channel.getChannelCode(), Boolean.FALSE);
         channel.setFav(false);
@@ -753,7 +753,7 @@ public final class C4625k implements InterfaceC4274a, InterfaceC1416k, Interface
     @Override // p301qb.InterfaceC6441y0
     /* renamed from: K1 */
     public void mo19223K1(String str, String str2) {
-        String str3;
+        String str3 = null;
         AbstractC5868k.m23674f(str, "errCode");
         AbstractC5868k.m23674f(str2, "channelCode");
         this.f19865i.put(str2, Boolean.FALSE);
@@ -792,7 +792,7 @@ public final class C4625k implements InterfaceC4274a, InterfaceC1416k, Interface
     @Override // p301qb.InterfaceC6438x0
     /* renamed from: R4 */
     public void mo19227R4(String str, String str2) {
-        String str3;
+        String str3 = null;
         AbstractC5868k.m23674f(str, "errCode");
         AbstractC5868k.m23674f(str2, "channelCode");
         this.f19865i.put(str2, Boolean.FALSE);
@@ -815,7 +815,7 @@ public final class C4625k implements InterfaceC4274a, InterfaceC1416k, Interface
     @Override // p130f8.InterfaceC4274a
     /* renamed from: U1 */
     public boolean mo17828U1(int i10) {
-        Object m7008t;
+        Object m7008t = null;
         List<MosaicChannelBean> mosaicChannes;
         if (AbstractC6567a.m25638h(this.f19863g)) {
             m7008t = AbstractC1508t.m7008t(this.f19863g, i10);
@@ -1038,8 +1038,8 @@ public final class C4625k implements InterfaceC4274a, InterfaceC1416k, Interface
     @Override // p301qb.InterfaceC6438x0
     /* renamed from: z3 */
     public void mo19235z3(List list, Channel channel, int i10) {
-        Object m7008t;
-        Object m7008t2;
+        Object m7008t = null;
+        Object m7008t2 = null;
         AbstractC5868k.m23674f(list, "favId");
         AbstractC5868k.m23674f(channel, "channel");
         this.f19865i.put(channel.getChannelCode(), Boolean.FALSE);

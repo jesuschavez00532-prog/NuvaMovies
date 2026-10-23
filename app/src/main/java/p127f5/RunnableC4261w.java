@@ -18,7 +18,7 @@ final class RunnableC4261w implements Runnable {
 
     @Override // java.lang.Runnable
     public final void run() {
-        Object obj;
+        Object obj = null;
         InterfaceC4235d interfaceC4235d;
         InterfaceC4235d interfaceC4235d2;
         obj = this.f18575b.f18577b;

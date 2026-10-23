@@ -98,7 +98,7 @@ public class C7042b implements InterfaceC7041a {
     @Override // p351u5.InterfaceC7041a
     /* renamed from: a */
     public InterfaceC7041a.a mo27140a(String str, InterfaceC7041a.b bVar) {
-        Object c2619f;
+        Object c2619f = null;
         AbstractC5391n.m21783i(bVar);
         if (!AbstractC2615b.m10847f(str) || m27146f(str)) {
             return null;

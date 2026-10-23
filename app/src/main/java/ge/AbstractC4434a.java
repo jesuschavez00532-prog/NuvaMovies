@@ -27,8 +27,8 @@ public abstract class AbstractC4434a implements InterfaceC4181d, InterfaceC4438e
     @Override // ee.InterfaceC4181d
     /* renamed from: d */
     public final void mo17486d(Object obj) {
-        Object mo2392l;
-        Object m18094c;
+        Object mo2392l = null;
+        Object m18094c = null;
         InterfaceC4181d interfaceC4181d = this;
         while (true) {
             AbstractC4441h.m18638b(interfaceC4181d);

@@ -49,7 +49,7 @@ final class C5255c extends Observable {
 
     @Override // io.reactivex.Observable
     protected void subscribeActual(Observer observer) {
-        boolean z10;
+        boolean z10 = false;
         Call clone = this.f21442a.clone();
         a aVar = new a(clone);
         observer.onSubscribe(aVar);

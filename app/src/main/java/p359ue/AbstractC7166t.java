@@ -66,7 +66,7 @@ public abstract class AbstractC7166t extends AbstractC7165s {
 
     /* renamed from: l */
     public static boolean m27725l(CharSequence charSequence) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(charSequence, "<this>");
         if (charSequence.length() == 0) {
             return true;

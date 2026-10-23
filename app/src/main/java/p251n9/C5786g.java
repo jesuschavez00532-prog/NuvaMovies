@@ -129,7 +129,7 @@ public final class C5786g extends AbstractC5774c<InterfaceC4731g> implements Int
             @Override // p101da.ViewOnClickListenerC4019e.a
             /* renamed from: q0 */
             public void mo17009q0() {
-                String str;
+                String str = null;
                 C1466m0 c1466m0 = C1466m0.f5627a;
                 UserInfo m6887v = c1466m0.m6887v();
                 if (m6887v != null) {
@@ -219,7 +219,7 @@ public final class C5786g extends AbstractC5774c<InterfaceC4731g> implements Int
 
         @Override // android.view.View.OnClickListener
         public void onClick(View view) {
-            String str;
+            String str = null;
             UserInfo m6887v = C1466m0.f5627a.m6887v();
             if (m6887v != null) {
                 str = m6887v.getHasPwd();
@@ -332,7 +332,7 @@ public final class C5786g extends AbstractC5774c<InterfaceC4731g> implements Int
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: X9 */
     public final void m23365X9() {
-        String str;
+        String str = null;
         UserInfo m6887v = C1466m0.f5627a.m6887v();
         if (m6887v != null) {
             str = m6887v.getRestrictedStatus();
@@ -431,9 +431,9 @@ public final class C5786g extends AbstractC5774c<InterfaceC4731g> implements Int
     @Override // p251n9.AbstractC5774c
     /* renamed from: H9 */
     protected boolean mo23232H9() {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         ImageView imageView = (ImageView) m23367S9(R$id.mLockBtn);
         if (imageView != null && imageView.hasFocus()) {
             z10 = true;
@@ -542,7 +542,7 @@ public final class C5786g extends AbstractC5774c<InterfaceC4731g> implements Int
     @Override // p430z9.AbstractC7765c
     /* renamed from: n9 */
     public void mo5460n9() {
-        String str;
+        String str = null;
         UserInfo m6887v = C1466m0.f5627a.m6887v();
         if (m6887v != null) {
             str = m6887v.getRestrictedStatus();
@@ -560,8 +560,8 @@ public final class C5786g extends AbstractC5774c<InterfaceC4731g> implements Int
 
     @Override // p251n9.AbstractC5774c
     public boolean onKeyDown(int i10, KeyEvent keyEvent) {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         AbstractC5868k.m23674f(keyEvent, "event");
         if (i10 == 20) {
             ImageView imageView = (ImageView) m23367S9(R$id.mLockBtn);

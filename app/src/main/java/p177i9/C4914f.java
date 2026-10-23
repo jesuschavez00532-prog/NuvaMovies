@@ -330,8 +330,8 @@ public final class C4914f implements InterfaceC4405a, InterfaceC6411o0, Interfac
     @Override // p301qb.InterfaceC6408n0
     /* renamed from: j5 */
     public void mo20194j5(GetQrResult getQrResult) {
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         Disposable disposable;
         AbstractC5868k.m23674f(getQrResult, "qrResultResponse");
         String status = getQrResult.getData().getStatus();

@@ -139,7 +139,7 @@ public class C6217d {
 
     /* renamed from: d */
     private void m24800d() {
-        String str;
+        String str = null;
         if (this.f24406o == null && (str = this.f24398g) != null) {
             this.f24406o = Typeface.create(str, this.f24396e);
         }
@@ -258,7 +258,7 @@ public class C6217d {
 
     /* renamed from: k */
     public void m24807k(TextPaint textPaint, Typeface typeface) {
-        boolean z10;
+        boolean z10 = false;
         float f10 = 0.0f;
         textPaint.setTypeface(typeface);
         int style = (typeface.getStyle() ^ (-1)) & this.f24396e;

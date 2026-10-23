@@ -25,63 +25,38 @@ def get_pkg_top(rel):
 
 def fix_uninit_locals(content):
     """Fix uninitialized local numeric/reference variables (jadx artifact).
-    Pattern: lines with just 'float fXX;' or 'int iXX;' etc inside method bodies.
+    Pattern: lines with just 'Type varName;' inside method bodies.
     Only matches single-name declarations (not multi-var like 'int a, b;').
     """
-    # float fXX; → float fXX = 0.0f;
-    content = re.sub(
-        r'^(\s+)(float)([ \t]+)(f\d+);[ \t]*$',
-        r'\1\2\3\4 = 0.0f;',
-        content, flags=re.MULTILINE
-    )
-    # int iXX; → int iXX = 0;
-    content = re.sub(
-        r'^(\s+)(int)([ \t]+)(i\d+);[ \t]*$',
-        r'\1\2\3\4 = 0;',
-        content, flags=re.MULTILINE
-    )
-    # long lXX; → long lXX = 0L;
-    content = re.sub(
-        r'^(\s+)(long)([ \t]+)(l\d+);[ \t]*$',
-        r'\1\2\3\4 = 0L;',
-        content, flags=re.MULTILINE
-    )
-    # double dXX; → double dXX = 0.0;
-    content = re.sub(
-        r'^(\s+)(double)([ \t]+)(d\d+);[ \t]*$',
-        r'\1\2\3\4 = 0.0;',
-        content, flags=re.MULTILINE
-    )
-    # char cXX; → char cXX = '\0';
-    content = re.sub(
-        r'^(\s+)(char)([ \t]+)(c\d+);[ \t]*$',
-        r"\1\2\3\4 = '\\0';",
-        content, flags=re.MULTILINE
-    )
-    # boolean bXX; → boolean bXX = false;
-    content = re.sub(
-        r'^(\s+)(boolean)([ \t]+)(b\d+);[ \t]*$',
-        r'\1\2\3\4 = false;',
-        content, flags=re.MULTILINE
-    )
-    # Thread threadXX; → Thread threadXX = null;
-    content = re.sub(
-        r'^(\s+)(Thread)([ \t]+)(thread\w*);[ \t]*$',
-        r'\1\2\3\4 = null;',
-        content, flags=re.MULTILINE
-    )
-    # ThreadGroup threadGroupXX; → ThreadGroup threadGroupXX = null;
-    content = re.sub(
-        r'^(\s+)(ThreadGroup)([ \t]+)(threadGroup\w*);[ \t]*$',
-        r'\1\2\3\4 = null;',
-        content, flags=re.MULTILINE
-    )
-    # SecurityException eXX; → SecurityException eXX = null;
-    content = re.sub(
-        r'^(\s+)(SecurityException|IOException|RemoteException|Exception|Throwable)([ \t]+)(e\d+|e\w+);[ \t]*$',
-        r'\1\2\3\4 = null;',
-        content, flags=re.MULTILINE
-    )
+    # Numeric primitives
+    content = re.sub(r'^(\s+)(float)([ \t]+)(f\d+);[ \t]*$', r'\1\2\3\4 = 0.0f;', content, flags=re.MULTILINE)
+    content = re.sub(r'^(\s+)(int)([ \t]+)(i\d+);[ \t]*$', r'\1\2\3\4 = 0;', content, flags=re.MULTILINE)
+    content = re.sub(r'^(\s+)(long)([ \t]+)(l\d+);[ \t]*$', r'\1\2\3\4 = 0L;', content, flags=re.MULTILINE)
+    content = re.sub(r'^(\s+)(double)([ \t]+)(d\d+);[ \t]*$', r'\1\2\3\4 = 0.0;', content, flags=re.MULTILINE)
+    content = re.sub(r'^(\s+)(char)([ \t]+)(c\d+);[ \t]*$', r"\1\2\3\4 = '\\0';", content, flags=re.MULTILINE)
+    content = re.sub(r'^(\s+)(boolean)([ \t]+)(b\d+|z\d+);[ \t]*$', r'\1\2\3\4 = false;', content, flags=re.MULTILINE)
+    content = re.sub(r'^(\s+)(byte)([ \t]+)(b\d+);[ \t]*$', r'\1\2\3\4 = 0;', content, flags=re.MULTILINE)
+    content = re.sub(r'^(\s+)(short)([ \t]+)(s\d+);[ \t]*$', r'\1\2\3\4 = 0;', content, flags=re.MULTILINE)
+
+    # Common reference types that appear as local vars in jadx output
+    ref_types = [
+        'Thread', 'ThreadGroup', 'Bundle', 'String', 'Object',
+        'Throwable', 'Exception', 'IOException', 'RemoteException',
+        'SecurityException', 'RuntimeException',
+        'PackageInfo', 'ApplicationInfo', 'ClassLoader',
+    ]
+    for rtype in ref_types:
+        # Match "    TypeName varName;" lines (no generics, no array, no =)
+        content = re.sub(
+            r'^(\s+)(' + re.escape(rtype) + r')([ \t]+)(\w+);[ \t]*$',
+            r'\1\2\3\4 = null;',
+            content, flags=re.MULTILINE
+        )
+
+    # Generic numbered variable names for common jadx patterns
+    content = re.sub(r'^(\s+)(Thread)([ \t]+)(thread\w*);[ \t]*$', r'\1\2\3\4 = null;', content, flags=re.MULTILINE)
+    content = re.sub(r'^(\s+)(ThreadGroup)([ \t]+)(threadGroup\w*);[ \t]*$', r'\1\2\3\4 = null;', content, flags=re.MULTILINE)
+
     return content
 
 def fix_socket_factory_throws(content):

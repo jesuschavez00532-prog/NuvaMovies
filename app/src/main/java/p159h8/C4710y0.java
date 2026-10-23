@@ -475,7 +475,7 @@ public final class C4710y0 implements InterfaceC4276c, InterfaceC6396j0, Interfa
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final ArrayList mo542f(ArrayList arrayList) {
-            String str;
+            String str = null;
             AbstractC5868k.m23674f(arrayList, "it");
             C1427v c1427v = C1427v.f5519a;
             Channel channel = C4710y0.this.f20021f;
@@ -574,7 +574,7 @@ public final class C4710y0 implements InterfaceC4276c, InterfaceC6396j0, Interfa
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final ArrayList mo542f(EpgDate epgDate) {
-            String str;
+            String str = null;
             AbstractC5868k.m23674f(epgDate, "it");
             C1427v c1427v = C1427v.f5519a;
             Channel channel = C4710y0.this.f20021f;
@@ -709,7 +709,7 @@ public final class C4710y0 implements InterfaceC4276c, InterfaceC6396j0, Interfa
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final ArrayList mo542f(EpgDate epgDate) {
-            String str;
+            String str = null;
             AbstractC5868k.m23674f(epgDate, "it");
             C1427v c1427v = C1427v.f5519a;
             Channel channel = C4710y0.this.f20021f;
@@ -740,7 +740,7 @@ public final class C4710y0 implements InterfaceC4276c, InterfaceC6396j0, Interfa
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final ArrayList mo542f(EpgDate epgDate) {
-            String str;
+            String str = null;
             AbstractC5868k.m23674f(epgDate, "it");
             C1427v c1427v = C1427v.f5519a;
             Channel channel = C4710y0.this.f20021f;
@@ -920,7 +920,7 @@ public final class C4710y0 implements InterfaceC4276c, InterfaceC6396j0, Interfa
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final ArrayList mo542f(EpgDate epgDate) {
-            String str;
+            String str = null;
             AbstractC5868k.m23674f(epgDate, "it");
             C1427v c1427v = C1427v.f5519a;
             Channel channel = C4710y0.this.f20021f;
@@ -951,7 +951,7 @@ public final class C4710y0 implements InterfaceC4276c, InterfaceC6396j0, Interfa
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final ArrayList mo542f(EpgDate epgDate) {
-            String str;
+            String str = null;
             AbstractC5868k.m23674f(epgDate, "it");
             C1427v c1427v = C1427v.f5519a;
             Channel channel = C4710y0.this.f20021f;
@@ -1077,7 +1077,7 @@ public final class C4710y0 implements InterfaceC4276c, InterfaceC6396j0, Interfa
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: D6 */
     public static final void m19438D6(int i10, C4710y0 c4710y0) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(c4710y0, "this$0");
         String m29097f = C7581k.f27855a.m29097f(String.valueOf(i10));
         if (c4710y0.f20016a.m3096J6() == null) {
@@ -1430,7 +1430,7 @@ public final class C4710y0 implements InterfaceC4276c, InterfaceC6396j0, Interfa
 
     /* renamed from: s6 */
     private final void m19504s6(ArrayList arrayList, int i10, boolean z10) {
-        String str;
+        String str = null;
         Channel channel = this.f20021f;
         if (channel != null) {
             str = channel.getChannelCode();
@@ -1559,7 +1559,7 @@ public final class C4710y0 implements InterfaceC4276c, InterfaceC6396j0, Interfa
     @Override // p130f8.InterfaceC4276c
     /* renamed from: B3 */
     public void mo17844B3(EpgDate epgDate, int i10) {
-        String str;
+        String str = null;
         if (epgDate != null) {
             Channel channel = this.f20021f;
             String str2 = null;
@@ -1738,9 +1738,9 @@ public final class C4710y0 implements InterfaceC4276c, InterfaceC6396j0, Interfa
     @Override // p301qb.InterfaceC6396j0
     /* renamed from: O1 */
     public void mo19519O1(GetLiveDataResult getLiveDataResult, final int i10) {
-        String str;
-        boolean z10;
-        String str2;
+        String str = null;
+        boolean z10 = false;
+        String str2 = null;
         AbstractC5868k.m23674f(getLiveDataResult, "getChannelDataResult");
         C7383a c7383a = C7383a.f27389a;
         C7383a.m28494e(c7383a, null, 1, null);

@@ -26,7 +26,7 @@ public abstract class AbstractC5391n {
 
     /* renamed from: c */
     public static void m21777c(Handler handler) {
-        String str;
+        String str = null;
         Looper myLooper = Looper.myLooper();
         if (myLooper != handler.getLooper()) {
             if (myLooper != null) {

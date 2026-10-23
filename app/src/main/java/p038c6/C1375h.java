@@ -137,7 +137,7 @@ final class C1375h extends AbstractC1366a0.e.a {
     }
 
     public boolean equals(Object obj) {
-        String str;
+        String str = null;
         if (obj == this) {
             return true;
         }

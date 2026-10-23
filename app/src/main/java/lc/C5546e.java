@@ -86,7 +86,7 @@ public class C5546e extends Fragment {
 
     /* renamed from: q9 */
     void m22484q9(String[] strArr, int[] iArr, boolean[] zArr) {
-        boolean z10;
+        boolean z10 = false;
         int length = strArr.length;
         for (int i10 = 0; i10 < length; i10++) {
             m22483p9("onRequestPermissionsResult  " + strArr[i10]);

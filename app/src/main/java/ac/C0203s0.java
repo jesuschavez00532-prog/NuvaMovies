@@ -31,8 +31,8 @@ public final class C0203s0 extends AbstractC0166j {
         @Override // p343tb.AbstractC6929a, io.reactivex.Observer
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void onNext(GetNextColumnResult getNextColumnResult) {
-            String returnCode;
-            boolean z10;
+            String returnCode = null;
+            boolean z10 = false;
             AbstractC5868k.m23674f(getNextColumnResult, "t");
             super.onNext(getNextColumnResult);
             if (AbstractC5868k.m23669a(getNextColumnResult.getReturnCode(), "304")) {

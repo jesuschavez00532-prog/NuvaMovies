@@ -201,7 +201,7 @@ public final class C4053l extends DialogInterfaceOnCancelListenerC0710d {
     private final void m17051O9() {
         Button button;
         TextView textView;
-        boolean z10;
+        boolean z10 = false;
         ImageView imageView = null;
         if (this.f17885G0 > 0) {
             this.f17884F0 = View.inflate(m3096J6(), this.f17885G0, null);
@@ -435,7 +435,7 @@ public final class C4053l extends DialogInterfaceOnCancelListenerC0710d {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: X9 */
     public static final Drawable m17060X9(C4053l c4053l, String str) {
-        String str2;
+        String str2 = null;
         AbstractC5868k.m23674f(c4053l, "this$0");
         Context m3096J6 = c4053l.m3096J6();
         AbstractC5868k.m23671c(m3096J6);

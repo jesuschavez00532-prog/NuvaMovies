@@ -79,9 +79,9 @@ public final class C5447f2 extends AbstractC1196d<InterfaceC4284k> implements In
 
     /* renamed from: K9 */
     private final void m22000K9() {
-        String str;
+        String str = null;
         Team team_b;
-        String teamLogo;
+        String teamLogo = null;
         Team team_a;
         if (this.f22176y0 == null) {
             return;

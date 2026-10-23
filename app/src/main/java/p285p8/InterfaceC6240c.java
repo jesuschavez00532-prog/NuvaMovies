@@ -11,9 +11,9 @@ public interface InterfaceC6240c extends InterfaceC1439a {
     public static final class a {
         /* renamed from: a */
         public static /* synthetic */ void m24847a(InterfaceC6240c interfaceC6240c, String str, String str2, String str3, String str4, String str5, String str6, int i10, Object obj) {
-            String str7;
-            String str8;
-            String str9;
+            String str7 = null;
+            String str8 = null;
+            String str9 = null;
             if (obj == null) {
                 if ((i10 & 8) != 0) {
                     str7 = null;

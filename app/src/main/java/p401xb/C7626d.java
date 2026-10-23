@@ -392,8 +392,8 @@ public final class C7626d {
 
     /* renamed from: i */
     public final void m29392i(Context context, int i10) {
-        String str;
-        String second;
+        String str = null;
+        String second = null;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         String absolutePath = context.getFilesDir().getAbsolutePath();
         AbstractC5868k.m23673e(absolutePath, "context.filesDir.absolutePath");

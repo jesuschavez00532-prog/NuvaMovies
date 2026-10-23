@@ -343,8 +343,8 @@ public final class C6768x1 extends C7767e implements InterfaceC5537e, InterfaceC
         @Override // p161ha.ViewOnClickListenerC4802v.b
         /* renamed from: b0 */
         public void mo11903b0() {
-            String str;
-            String str2;
+            String str = null;
+            String str2 = null;
             C7556b1 c7556b1 = C7556b1.f27754a;
             AbstractC0729o m3110N8 = this.f26037b.m3110N8();
             AbstractC5868k.m23673e(m3110N8, "requireFragmentManager()");
@@ -362,8 +362,8 @@ public final class C6768x1 extends C7767e implements InterfaceC5537e, InterfaceC
         @Override // p161ha.ViewOnClickListenerC4802v.b
         /* renamed from: c0 */
         public void mo11904c0() {
-            String str;
-            String str2;
+            String str = null;
+            String str2 = null;
             C7556b1 c7556b1 = C7556b1.f27754a;
             AbstractC0729o m3110N8 = this.f26037b.m3110N8();
             AbstractC5868k.m23673e(m3110N8, "requireFragmentManager()");
@@ -514,7 +514,7 @@ public final class C6768x1 extends C7767e implements InterfaceC5537e, InterfaceC
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: ga */
     public static final void m26593ga(C6768x1 c6768x1, View view) {
-        String str;
+        String str = null;
         CharSequence m27758b0;
         Resources resources;
         AbstractC5868k.m23674f(c6768x1, "this$0");
@@ -541,8 +541,8 @@ public final class C6768x1 extends C7767e implements InterfaceC5537e, InterfaceC
 
     /* renamed from: h */
     private final void m26594h() {
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         C4300d c4300d = C4300d.f18678a;
         Pair m18021a = c4300d.m18021a();
         String str2 = null;
@@ -735,7 +735,7 @@ public final class C6768x1 extends C7767e implements InterfaceC5537e, InterfaceC
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: pa */
     public static final void m26603pa(C6768x1 c6768x1) {
-        String str;
+        String str = null;
         Resources resources;
         AbstractC5868k.m23674f(c6768x1, "this$0");
         TextView textView = (TextView) c6768x1.m26607Q9(R$id.mTextGetCode);
@@ -783,7 +783,7 @@ public final class C6768x1 extends C7767e implements InterfaceC5537e, InterfaceC
     @Override // la.InterfaceC5538f
     /* renamed from: C */
     public void mo22454C(String str) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, Constants.KEY_ERROR_CODE);
         ((TextView) m26607Q9(R$id.mTextGetCode)).setEnabled(true);
         C7559c1 c7559c1 = C7559c1.f27762a;
@@ -860,7 +860,7 @@ public final class C6768x1 extends C7767e implements InterfaceC5537e, InterfaceC
     @Override // la.InterfaceC5537e
     /* renamed from: a4 */
     public void mo22453a4(String str, String str2) {
-        boolean z10;
+        boolean z10 = false;
         CharSequence m27758b0;
         AbstractC5868k.m23674f(str, "nationCode");
         AbstractC5868k.m23674f(str2, "nation");
@@ -1156,8 +1156,8 @@ public final class C6768x1 extends C7767e implements InterfaceC5537e, InterfaceC
     @Override // p285p8.InterfaceC6241d
     /* renamed from: v */
     public void mo24852v(boolean z10) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         ViewOnClickListenerC4802v viewOnClickListenerC4802v;
         if (z10 && (viewOnClickListenerC4802v = this.f26014F0) != null) {
             viewOnClickListenerC4802v.mo3279p9();

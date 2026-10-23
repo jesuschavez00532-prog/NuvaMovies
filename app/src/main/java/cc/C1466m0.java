@@ -85,7 +85,7 @@ public final class C1466m0 {
 
     /* renamed from: A */
     public final boolean m6828A() {
-        String str;
+        String str = null;
         UserInfo userInfo = f5634h;
         String str2 = null;
         if (userInfo != null) {
@@ -107,7 +107,7 @@ public final class C1466m0 {
 
     /* renamed from: B */
     public final boolean m6829B() {
-        String str;
+        String str = null;
         GetAuthInfoResultData data;
         GetAuthInfoResultData data2;
         C7252a c7252a = C7252a.f27087a;
@@ -137,7 +137,7 @@ public final class C1466m0 {
 
     /* renamed from: D */
     public final boolean m6831D() {
-        String str;
+        String str = null;
         UserInfo userInfo = f5634h;
         if (userInfo != null) {
             if (userInfo != null) {
@@ -169,7 +169,7 @@ public final class C1466m0 {
 
     /* renamed from: H */
     public final boolean m6835H() {
-        String str;
+        String str = null;
         UserInfo userInfo = f5634h;
         if (userInfo != null) {
             if (userInfo != null) {
@@ -398,7 +398,7 @@ public final class C1466m0 {
 
     /* renamed from: O */
     public final boolean m6842O() {
-        String str;
+        String str = null;
         UserInfo userInfo = f5634h;
         if (userInfo != null) {
             if (userInfo != null) {
@@ -822,7 +822,7 @@ public final class C1466m0 {
 
     /* renamed from: x */
     public final String m6889x() {
-        boolean z10;
+        boolean z10 = false;
         String str = (String) m6872j("user_password_new", "");
         if (str.length() > 0) {
             z10 = true;

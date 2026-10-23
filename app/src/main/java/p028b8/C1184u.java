@@ -110,8 +110,8 @@ public final class C1184u extends RecyclerView.AbstractC0789h {
             @Override // p250n8.InterfaceC5767c
             /* renamed from: a */
             public void mo5429a(Context context, View view, MatchPromotion matchPromotion) {
-                String str;
-                String str2;
+                String str = null;
+                String str2 = null;
                 AbstractC5868k.m23674f(context, C3384f.f14563X);
                 AbstractC5868k.m23674f(view, "view");
                 ImageView imageView = (ImageView) view.findViewById(R$id.mIvLeftTeamLogo);
@@ -193,7 +193,7 @@ public final class C1184u extends RecyclerView.AbstractC0789h {
             @Override // p250n8.InterfaceC5767c
             /* renamed from: d */
             public void mo5432d(Context context, View view, MatchPromotion matchPromotion) {
-                String str;
+                String str = null;
                 AbstractC5868k.m23674f(context, C3384f.f14563X);
                 AbstractC5868k.m23674f(view, "view");
                 if (matchPromotion != null) {

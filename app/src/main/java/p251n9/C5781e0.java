@@ -130,9 +130,9 @@ public final class C5781e0 extends AbstractC5774c<InterfaceC4743s> implements In
 
         /* renamed from: a */
         public final void m23320a(int i10, boolean z10) {
-            String str;
+            String str = null;
             boolean m27724k;
-            String m3172j7;
+            String m3172j7 = null;
             C4010v c4010v = C5781e0.this.f23150C0;
             if (c4010v != null) {
                 c4010v.m16948x(z10);
@@ -311,9 +311,9 @@ public final class C5781e0 extends AbstractC5774c<InterfaceC4743s> implements In
     @Override // p251n9.AbstractC5774c
     /* renamed from: H9 */
     protected boolean mo23232H9() {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         View childAt;
         int i10 = R$id.mListView;
         RecyclerView recyclerView = (RecyclerView) m23314U9(i10);
@@ -427,7 +427,7 @@ public final class C5781e0 extends AbstractC5774c<InterfaceC4743s> implements In
     /* renamed from: O9 */
     public void mo23245O9() {
         View view;
-        boolean z10;
+        boolean z10 = false;
         View childAt;
         View childAt2;
         int i10 = R$id.recyclerView;
@@ -683,7 +683,7 @@ public final class C5781e0 extends AbstractC5774c<InterfaceC4743s> implements In
 
     @Override // p251n9.AbstractC5774c
     public boolean onKeyDown(int i10, KeyEvent keyEvent) {
-        boolean z10;
+        boolean z10 = false;
         View view;
         AbstractC5868k.m23674f(keyEvent, "event");
         if (i10 == 20) {

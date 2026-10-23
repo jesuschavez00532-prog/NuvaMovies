@@ -119,7 +119,7 @@ public class DialogC6776d extends Dialog implements InterfaceC6565c {
 
     /* renamed from: d */
     private String m26661d() {
-        String str;
+        String str = null;
         try {
             str = getContext().getPackageManager().getPackageInfo(getContext().getPackageName(), 0).versionName;
         } catch (PackageManager.NameNotFoundException e10) {
@@ -229,7 +229,7 @@ public class DialogC6776d extends Dialog implements InterfaceC6565c {
 
     /* renamed from: m */
     private void m26669m(long j10) {
-        String str;
+        String str = null;
         long currentTimeMillis = System.currentTimeMillis();
         long j11 = ((j10 - this.f26071a) * 1000) / (currentTimeMillis - this.f26072b);
         if (j11 <= 0) {

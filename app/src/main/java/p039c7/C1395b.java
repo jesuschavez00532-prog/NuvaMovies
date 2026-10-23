@@ -33,7 +33,7 @@ public class C1395b implements InterfaceC7225j {
                     @Override // p366v5.InterfaceC7223h
                     /* renamed from: a */
                     public final Object mo5191a(InterfaceC7218e interfaceC7218e) {
-                        Object m6437c;
+                        Object m6437c = null;
                         m6437c = C1395b.m6437c(m27918g, c7216d, interfaceC7218e);
                         return m6437c;
                     }

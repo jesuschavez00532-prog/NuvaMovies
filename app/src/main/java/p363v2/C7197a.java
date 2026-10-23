@@ -696,7 +696,7 @@ public final class C7197a {
 
     /* renamed from: q */
     private final ArrayList m27839q(String str, boolean z10) {
-        boolean z11;
+        boolean z11 = false;
         List m27748R;
         String m6122a = C1352g.f5080a.m6122a(m27838p(str, z10));
         ArrayList arrayList = new ArrayList();
@@ -836,7 +836,7 @@ public final class C7197a {
 
     /* renamed from: B */
     public final void m27842B(String str) {
-        boolean z10;
+        boolean z10 = false;
         N1Random n1Random;
         AbstractC5868k.m23674f(str, "result");
         if (str.length() > 0) {
@@ -866,12 +866,12 @@ public final class C7197a {
 
     /* renamed from: b */
     public final DomainInfo m27845b(String str, String str2, String str3) {
-        boolean z10;
-        boolean z11;
-        boolean z12;
-        boolean z13;
-        boolean z14;
-        boolean z15;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
+        boolean z13 = false;
+        boolean z14 = false;
+        boolean z15 = false;
         AbstractC5868k.m23674f(str, "internalDomainMain");
         AbstractC5868k.m23674f(str2, "internalDomainSpare");
         AbstractC5868k.m23674f(str3, "domainKey");
@@ -965,13 +965,13 @@ public final class C7197a {
     public final DomainInfo m27846c() {
         List m27748R;
         List<String> m27748R2;
-        boolean z10;
-        boolean z11;
-        boolean z12;
-        boolean z13;
-        boolean z14;
-        boolean z15;
-        boolean z16;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
+        boolean z13 = false;
+        boolean z14 = false;
+        boolean z15 = false;
+        boolean z16 = false;
         m27748R = AbstractC7167u.m27748R(f26921e, new String[]{"|"}, false, 0, 6, null);
         m27748R2 = AbstractC7167u.m27748R(f26922f, new String[]{"|"}, false, 0, 6, null);
         Iterator it = m27748R.iterator();
@@ -1097,11 +1097,11 @@ public final class C7197a {
 
     /* renamed from: k */
     public final String m27854k(String str) {
-        String str2;
-        String str3;
-        boolean z10;
+        String str2 = null;
+        String str3 = null;
+        boolean z10 = false;
         List<String> m27748R;
-        boolean z11;
+        boolean z11 = false;
         AbstractC5868k.m23674f(str, "domainKey");
         int hashCode = str.hashCode();
         if (hashCode != -1075513399) {
@@ -1153,8 +1153,8 @@ public final class C7197a {
 
     /* renamed from: m */
     public final boolean m27856m() {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         if (f26928l.length() > 0) {
             z10 = true;
         } else {
@@ -1197,9 +1197,9 @@ public final class C7197a {
 
     /* renamed from: s */
     public final void m27859s() {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         List m27748R;
         List m27748R2;
         f26910E = "";
@@ -1255,8 +1255,8 @@ public final class C7197a {
 
     /* renamed from: t */
     public final void m27860t(DomainInfo domainInfo, String str) {
-        String m7011w;
-        String m7011w2;
+        String m7011w = null;
+        String m7011w2 = null;
         AbstractC5868k.m23674f(domainInfo, "domainInfo");
         AbstractC5868k.m23674f(str, "domainKey");
         String m27838p = m27838p(str, true);
@@ -1291,7 +1291,7 @@ public final class C7197a {
 
     /* renamed from: u */
     public final void m27861u(V1Result v1Result) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(v1Result, "v1Result");
         String log = v1Result.getLog();
         if (log != null && log.length() != 0) {
@@ -1308,8 +1308,8 @@ public final class C7197a {
 
     /* renamed from: v */
     public final void m27862v(String str, String str2, int i10) {
-        String m7011w;
-        String m7011w2;
+        String m7011w = null;
+        String m7011w2 = null;
         AbstractC5868k.m23674f(str, "mainUrl");
         AbstractC5868k.m23674f(str2, "spareUrl");
         if (i10 != 1) {
@@ -1339,7 +1339,7 @@ public final class C7197a {
 
     /* renamed from: w */
     public final void m27863w(V1Result v1Result) {
-        boolean z10;
+        boolean z10 = false;
         LogResult logResult;
         AbstractC5868k.m23674f(v1Result, "v1Result");
         String log = v1Result.getLog();
@@ -1365,9 +1365,9 @@ public final class C7197a {
 
     /* renamed from: x */
     public final void m27864x(LogResult logResult) {
-        boolean z10;
-        Object obj;
-        boolean z11;
+        boolean z10 = false;
+        Object obj = null;
+        boolean z11 = false;
         CharSequence m27758b0;
         CharSequence m27758b02;
         CharSequence m27758b03;
@@ -1379,19 +1379,19 @@ public final class C7197a {
         CharSequence m27758b09;
         CharSequence m27758b010;
         CharSequence m27758b011;
-        String str;
-        Object obj2;
-        String m7011w;
-        String m7011w2;
-        String m7011w3;
-        String m7011w4;
-        String m7011w5;
-        String m7011w6;
-        String m7011w7;
-        String m7011w8;
-        String m7011w9;
-        String m7011w10;
-        String m7011w11;
+        String str = null;
+        Object obj2 = null;
+        String m7011w = null;
+        String m7011w2 = null;
+        String m7011w3 = null;
+        String m7011w4 = null;
+        String m7011w5 = null;
+        String m7011w6 = null;
+        String m7011w7 = null;
+        String m7011w8 = null;
+        String m7011w9 = null;
+        String m7011w10 = null;
+        String m7011w11 = null;
         CharSequence m27758b012;
         CharSequence m27758b013;
         CharSequence m27758b014;
@@ -1403,17 +1403,17 @@ public final class C7197a {
         CharSequence m27758b020;
         CharSequence m27758b021;
         CharSequence m27758b022;
-        String m7011w12;
-        String m7011w13;
-        String m7011w14;
-        String m7011w15;
-        String m7011w16;
-        String m7011w17;
-        String m7011w18;
-        String m7011w19;
-        String m7011w20;
-        String m7011w21;
-        String m7011w22;
+        String m7011w12 = null;
+        String m7011w13 = null;
+        String m7011w14 = null;
+        String m7011w15 = null;
+        String m7011w16 = null;
+        String m7011w17 = null;
+        String m7011w18 = null;
+        String m7011w19 = null;
+        String m7011w20 = null;
+        String m7011w21 = null;
+        String m7011w22 = null;
         AbstractC5868k.m23674f(logResult, "logResult");
         ArrayList<Business> group = logResult.getGroup();
         if (group != null && !group.isEmpty()) {
@@ -1683,7 +1683,7 @@ public final class C7197a {
 
     /* renamed from: y */
     public final void m27865y(String str) {
-        boolean z10;
+        boolean z10 = false;
         N1Random n1Random;
         AbstractC5868k.m23674f(str, "result");
         String m6112a = AbstractC1346a.m6112a(str);

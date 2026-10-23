@@ -14,8 +14,8 @@ public abstract class AbstractC4819b {
 
     static {
         C4818a c4818a;
-        Object newInstance;
-        Object newInstance2;
+        Object newInstance = null;
+        Object newInstance2 = null;
         int m19906a = m19906a();
         if (m19906a >= 65544 || m19906a < 65536) {
             try {

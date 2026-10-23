@@ -145,7 +145,7 @@ public class C7709c {
         C7723q f28352d;
 
         /* renamed from: e */
-        Object f28353e;
+        Object f28353e = null;
 
         /* renamed from: f */
         boolean f28354f;
@@ -482,7 +482,7 @@ public class C7709c {
 
     /* renamed from: s */
     public Object m29804s(Class cls) {
-        Object cast;
+        Object cast = null;
         synchronized (this.f28331c) {
             cast = cls.cast(this.f28331c.remove(cls));
         }

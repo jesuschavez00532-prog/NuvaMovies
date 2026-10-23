@@ -303,7 +303,7 @@ public final class ViewOnClickListenerC5929g extends RelativeLayout implements V
         ViewGroup.MarginLayoutParams marginLayoutParams3;
         ViewGroup.LayoutParams layoutParams4;
         ViewGroup.MarginLayoutParams marginLayoutParams4;
-        Object obj;
+        Object obj = null;
         int i10 = R$id.mBtnPip;
         TextView textView = (TextView) m23996n(i10);
         ViewGroup.MarginLayoutParams marginLayoutParams5 = null;
@@ -523,7 +523,7 @@ public final class ViewOnClickListenerC5929g extends RelativeLayout implements V
 
     /* renamed from: O */
     private final void m23969O() {
-        String str;
+        String str = null;
         if (this.f23578l != null) {
             this.f23578l = null;
         }
@@ -800,9 +800,9 @@ public final class ViewOnClickListenerC5929g extends RelativeLayout implements V
     }
 
     private final void setChannelPip(String str) {
-        boolean z10;
-        boolean z11;
-        Object obj;
+        boolean z10 = false;
+        boolean z11 = false;
+        Object obj = null;
         C4842a c4842a = C4842a.f20329a;
         int i10 = 0;
         if (c4842a.m19920a().m19932I() && AbstractC5868k.m23669a(str, "av1")) {
@@ -860,7 +860,7 @@ public final class ViewOnClickListenerC5929g extends RelativeLayout implements V
     }
 
     private final void setChannelPost(String str) {
-        String str2;
+        String str2 = null;
         if (AbstractC6567a.m25637g(str) && AbstractC5868k.m23669a(str, this.f23571e)) {
             return;
         }

@@ -80,7 +80,7 @@ public final class C1356k {
 
     /* renamed from: e */
     public final String m6132e(List list) {
-        Object m7012x;
+        Object m7012x = null;
         AbstractC5868k.m23674f(list, "strings");
         m7012x = AbstractC1508t.m7012x(list, AbstractC6291c.f24632a);
         return (String) m7012x;

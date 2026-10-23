@@ -29,7 +29,7 @@ public final class C1352g {
 
     /* renamed from: a */
     public final String m6122a(String str) {
-        String str2;
+        String str2 = null;
         AbstractC5868k.m23674f(str, CacheEntity.KEY);
         if (f5082c == null) {
             f5082c = C7197a.f26917a.m27844a().getSharedPreferences("log", 0);

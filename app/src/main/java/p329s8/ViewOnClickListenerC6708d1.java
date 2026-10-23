@@ -153,8 +153,8 @@ public final class ViewOnClickListenerC6708d1 extends C7767e implements View.OnC
 
     /* renamed from: N9 */
     public final void m26290N9() {
-        String m3172j7;
-        String str;
+        String m3172j7 = null;
+        String str = null;
         ((TextView) m26288H9(R$id.mTvTime)).setText(m26285J9(new Date()));
         TextView textView = (TextView) m26288H9(R$id.mTvIP);
         UmengPush umengPush = this.f25756H0;

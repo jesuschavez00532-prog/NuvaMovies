@@ -194,9 +194,9 @@ public class C6690m {
 
     /* renamed from: u */
     public boolean m26143u(RectF rectF) {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         if (this.f25662l.getClass().equals(C6683f.class) && this.f25660j.getClass().equals(C6683f.class) && this.f25659i.getClass().equals(C6683f.class) && this.f25661k.getClass().equals(C6683f.class)) {
             z10 = true;
         } else {

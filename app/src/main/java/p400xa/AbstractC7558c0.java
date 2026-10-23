@@ -34,7 +34,7 @@ public abstract class AbstractC7558c0 {
 
         @Override // android.content.BroadcastReceiver
         public void onReceive(Context context, Intent intent) {
-            String stringExtra;
+            String stringExtra = null;
             if (AbstractC7558c0.f27757a != null && intent.getAction().equals("android.intent.action.CLOSE_SYSTEM_DIALOGS") && (stringExtra = intent.getStringExtra("reason")) != null && AbstractC7558c0.f27757a != null) {
                 if (stringExtra.equals("homekey")) {
                     AbstractC7558c0.f27757a.mo11975o1();

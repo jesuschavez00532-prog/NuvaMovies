@@ -121,7 +121,7 @@ public abstract class AbstractC5882y {
 
     /* renamed from: m */
     public static void m23713m(Object obj, String str) {
-        String name;
+        String name = null;
         if (obj == null) {
             name = "null";
         } else {

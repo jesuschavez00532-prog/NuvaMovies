@@ -51,7 +51,7 @@ public final class C6508n implements ImageDecoder.OnHeaderDecodedListener {
     }
 
     public C6508n(int i10, int i11, C4977h c4977h) {
-        boolean z10;
+        boolean z10 = false;
         this.f24971b = i10;
         this.f24972c = i11;
         this.f24973d = (EnumC4971b) c4977h.m20325c(C6646u.f25481f);

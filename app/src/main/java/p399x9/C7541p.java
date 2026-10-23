@@ -28,7 +28,7 @@ public final class C7541p extends AbstractC7527b {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: s */
     public static final void m28898s(C7541p c7541p, SameSeasonSeriesBean sameSeasonSeriesBean, C7531f c7531f, View view) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(c7541p, "this$0");
         AbstractC5868k.m23674f(sameSeasonSeriesBean, "$bean");
         AbstractC5868k.m23674f(c7531f, "$holder");

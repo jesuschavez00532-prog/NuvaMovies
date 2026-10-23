@@ -672,7 +672,7 @@ public final class C5465k0 extends AbstractC1196d<InterfaceC4274a> implements In
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: Ba */
     public static final void m22039Ba(C5465k0 c5465k0, AdapterView adapterView, View view, int i10, long j10) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(c5465k0, "this$0");
         C7709c.m29787d().m29801m(new HideContentFragmentEvent());
         Fragment m3133W6 = c5465k0.m3133W6();
@@ -849,7 +849,7 @@ public final class C5465k0 extends AbstractC1196d<InterfaceC4274a> implements In
 
     /* renamed from: Na */
     private final void m22055Na(int i10, boolean z10) {
-        boolean z11;
+        boolean z11 = false;
         int i11 = R$id.mLvChannelList;
         int firstVisiblePosition = ((MemoryListView) m22101W9(i11)).getFirstVisiblePosition();
         int lastVisiblePosition = ((MemoryListView) m22101W9(i11)).getLastVisiblePosition();
@@ -875,7 +875,7 @@ public final class C5465k0 extends AbstractC1196d<InterfaceC4274a> implements In
 
     /* renamed from: Oa */
     private final void m22057Oa(int i10, boolean z10) {
-        boolean z11;
+        boolean z11 = false;
         int i11 = R$id.mLvChannelList;
         int firstVisiblePosition = ((MemoryListView) m22101W9(i11)).getFirstVisiblePosition();
         int lastVisiblePosition = ((MemoryListView) m22101W9(i11)).getLastVisiblePosition();
@@ -1619,8 +1619,8 @@ public final class C5465k0 extends AbstractC1196d<InterfaceC4274a> implements In
     }
 
     public boolean onKeyDown(int i10, KeyEvent keyEvent) {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         AbstractC5868k.m23674f(keyEvent, "event");
         if (m30051p9() && keyEvent.getRepeatCount() == 0) {
             int i11 = R$id.mLvChannelList;
@@ -1796,9 +1796,9 @@ public final class C5465k0 extends AbstractC1196d<InterfaceC4274a> implements In
 
     /* renamed from: wa */
     public final void m22110wa(boolean z10, InterfaceC5642a interfaceC5642a) {
-        String str;
-        String str2;
-        boolean z11;
+        String str = null;
+        String str2 = null;
+        boolean z11 = false;
         AbstractC5868k.m23674f(interfaceC5642a, "callBack");
         m22102Wa();
         UserInfo m6887v = C1466m0.f5627a.m6887v();

@@ -595,7 +595,7 @@ public final class C4570a5 implements InterfaceC1439a, InterfaceC1404d0, Interfa
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: n0 */
     public static final void m19028n0(ObservableEmitter observableEmitter) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(observableEmitter, "it");
         C1427v c1427v = C1427v.f5519a;
         Channel m6531w = C1407f.f5458a.m6531w();

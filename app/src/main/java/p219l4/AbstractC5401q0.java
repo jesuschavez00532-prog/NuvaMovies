@@ -30,7 +30,7 @@ public abstract class AbstractC5401q0 {
 
     /* renamed from: b */
     private static void m21804b(Context context) {
-        Bundle bundle;
+        Bundle bundle = null;
         synchronized (f22033a) {
             if (f22034b) {
                 return;

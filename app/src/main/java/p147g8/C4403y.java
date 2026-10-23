@@ -113,7 +113,7 @@ public final class C4403y implements InterfaceC4151j, InterfaceC6440y, Interface
 
         /* renamed from: a */
         public final void m18480a(Boolean bool) {
-            boolean z10;
+            boolean z10 = false;
             InterfaceC4152k m18477s4 = C4403y.this.m18477s4();
             AbstractC5868k.m23673e(bool, "it");
             m18477s4.mo11511V0(bool.booleanValue());
@@ -424,7 +424,7 @@ public final class C4403y implements InterfaceC4151j, InterfaceC6440y, Interface
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: K4 */
     public final void m18444K4(C4377l c4377l, Match match) {
-        boolean z10;
+        boolean z10 = false;
         if (match.findFirstChannel() && match.compareToGameTime()) {
             z10 = true;
         } else {
@@ -552,7 +552,7 @@ public final class C4403y implements InterfaceC4151j, InterfaceC6440y, Interface
             Observable.fromCallable(new Callable() { // from class: g8.u
                 @Override // java.util.concurrent.Callable
                 public final Object call() {
-                    String m18450P4;
+                    String m18450P4 = null;
                     m18450P4 = C4403y.m18450P4(C4403y.this, match, firstChannel);
                     return m18450P4;
                 }
@@ -700,8 +700,8 @@ public final class C4403y implements InterfaceC4151j, InterfaceC6440y, Interface
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: q4 */
     public final boolean m18469q4(Match match) {
-        boolean z10;
-        String m20614g;
+        boolean z10 = false;
+        String m20614g = null;
         List m27748R;
         MatchChannel firstChannel = match.getFirstChannel();
         if (firstChannel == null) {

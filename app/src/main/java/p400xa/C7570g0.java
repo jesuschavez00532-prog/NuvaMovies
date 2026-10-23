@@ -206,7 +206,7 @@ public final class C7570g0 {
 
         /* renamed from: a */
         public final void m29029a(Boolean bool) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23673e(bool, "it");
             if (bool.booleanValue()) {
                 C7570g0.this.f27785g += 1.0f;
@@ -303,7 +303,7 @@ public final class C7570g0 {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: n */
     public final C7562d1 m29013n(String str, int i10, int i11) {
-        String hostAddress;
+        String hostAddress = null;
         Socket socket = new Socket();
         long elapsedRealtime = SystemClock.elapsedRealtime();
         String str2 = "";

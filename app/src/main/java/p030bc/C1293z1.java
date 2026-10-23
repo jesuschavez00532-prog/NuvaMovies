@@ -348,8 +348,8 @@ public final class C1293z1 {
     }
 
     public C1293z1() {
-        String second;
-        String first;
+        String second = null;
+        String first = null;
         b bVar = f4924d;
         DomainInfo m5887a = bVar.m5887a();
         String str = "";
@@ -851,7 +851,7 @@ public final class C1293z1 {
 
     /* renamed from: p2 */
     public static /* synthetic */ Observable m5776p2(C1293z1 c1293z1, String str, String str2, String str3, String str4, String str5, String str6, String str7, String str8, String[] strArr, String str9, int i10, Object obj) {
-        String str10;
+        String str10 = null;
         if ((i10 & 512) != 0) {
             str10 = "";
         } else {
@@ -915,7 +915,7 @@ public final class C1293z1 {
 
     /* renamed from: s2 */
     public static /* synthetic */ Observable m5788s2(C1293z1 c1293z1, String str, String str2, String str3, String str4, String str5, String str6, String str7, String str8, String[] strArr, String str9, int i10, Object obj) {
-        String str10;
+        String str10 = null;
         if ((i10 & 512) != 0) {
             str10 = "";
         } else {

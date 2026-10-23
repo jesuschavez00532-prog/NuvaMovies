@@ -51,8 +51,8 @@ public class C7680a {
 
     /* renamed from: d */
     private boolean m29472d() {
-        ApplicationInfo applicationInfo;
-        Bundle bundle;
+        ApplicationInfo applicationInfo = null;
+        Bundle bundle = null;
         try {
             PackageManager packageManager = this.f28115a.getPackageManager();
             if (packageManager != null && (applicationInfo = packageManager.getApplicationInfo(this.f28115a.getPackageName(), 128)) != null && (bundle = applicationInfo.metaData) != null && bundle.containsKey("firebase_data_collection_default_enabled")) {

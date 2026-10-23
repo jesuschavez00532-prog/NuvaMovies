@@ -67,9 +67,9 @@ public abstract class AbstractC7291k0 extends AbstractRunnableC5296i {
 
     @Override // java.lang.Runnable
     public final void run() {
-        Object m5971a;
+        Object m5971a = null;
         InterfaceC7271d1 interfaceC7271d1;
-        Object m5971a2;
+        Object m5971a2 = null;
         InterfaceC5297j interfaceC5297j = this.f21562b;
         try {
             InterfaceC4181d mo21179b = mo21179b();

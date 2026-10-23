@@ -25,7 +25,7 @@ public class C7341f extends C7340e {
     @Override // p373w.C7340e, p373w.InterfaceC7339d
     /* renamed from: b */
     public Object mo16818b() {
-        Object mo16818b;
+        Object mo16818b = null;
         synchronized (this.f27243c) {
             mo16818b = super.mo16818b();
         }

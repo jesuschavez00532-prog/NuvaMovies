@@ -55,7 +55,7 @@ public class C0104w implements InterfaceC0105x {
 
     /* renamed from: b */
     private synchronized String m467b(String str, SharedPreferences sharedPreferences) {
-        String m470e;
+        String m470e = null;
         m470e = m470e(UUID.randomUUID().toString());
         C7503f.m28716f().m28723i("Created new Crashlytics installation ID: " + m470e + " for FID: " + str);
         sharedPreferences.edit().putString("crashlytics.installation.id", m470e).putString("firebase.installation.id", str).apply();

@@ -88,7 +88,7 @@ public final class C0128d {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: i */
     public final String m504i() {
-        Object obj;
+        Object obj = null;
         ConnectivityManager connectivityManager;
         Context context = f380f;
         if (context != null) {

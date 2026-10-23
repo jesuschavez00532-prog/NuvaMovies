@@ -219,7 +219,7 @@ public class C6686i extends Drawable implements InterfaceC6320y, InterfaceC6693p
 
     /* renamed from: Z */
     private boolean m26069Z(int[] iArr) {
-        boolean z10;
+        boolean z10 = false;
         int color;
         int colorForState;
         int color2;
@@ -627,7 +627,7 @@ public class C6686i extends Drawable implements InterfaceC6320y, InterfaceC6693p
     /* JADX INFO: Access modifiers changed from: protected */
     @Override // android.graphics.drawable.Drawable, com.google.android.material.internal.C2587e.b
     public boolean onStateChange(int[] iArr) {
-        boolean z10;
+        boolean z10 = false;
         boolean m26069Z = m26069Z(iArr);
         boolean m26070a0 = m26070a0();
         if (!m26069Z && !m26070a0) {

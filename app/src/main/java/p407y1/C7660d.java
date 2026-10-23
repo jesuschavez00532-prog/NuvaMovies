@@ -88,7 +88,7 @@ public final class C7660d {
 
     /* renamed from: b */
     public List m29464b() {
-        ApplicationInfo m29461a;
+        ApplicationInfo m29461a = null;
         if (Log.isLoggable("ManifestParser", 3)) {
             Log.d("ManifestParser", "Loading Glide modules");
         }

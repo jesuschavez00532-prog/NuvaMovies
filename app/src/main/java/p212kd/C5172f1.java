@@ -76,7 +76,7 @@ public final class C5172f1 extends AbstractC7527b {
     public void mo5338e(C7531f c7531f, C5547a c5547a) {
         C5168e1 c5168e1;
         C5168e1 c5168e12;
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(c5547a, "bean");
         TextView textView = (TextView) c7531f.m28863b(R$id.tvSource);

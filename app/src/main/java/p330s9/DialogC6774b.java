@@ -111,7 +111,7 @@ public class DialogC6774b extends Dialog implements View.OnClickListener {
 
     @Override // android.app.Dialog
     protected void onCreate(Bundle bundle) {
-        String m25146h;
+        String m25146h = null;
         super.onCreate(bundle);
         setContentView(R$layout.dialog_normal_upgrade);
         WindowManager.LayoutParams attributes = getWindow().getAttributes();

@@ -445,7 +445,7 @@ public final class C6940h extends DialogInterfaceOnCancelListenerC0710d {
     /* renamed from: F7 */
     public void mo3085F7(Bundle bundle) {
         int i10 = 0;
-        boolean z10;
+        boolean z10 = false;
         List<SourceBean> sourceList;
         super.mo3085F7(bundle);
         int i11 = R$id.mRvAudio;

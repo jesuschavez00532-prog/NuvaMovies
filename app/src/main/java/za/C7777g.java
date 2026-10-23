@@ -39,17 +39,17 @@ public final class C7777g {
 
     /* renamed from: a */
     public final void m30113a(GetSlbInfoBeanResultData getSlbInfoBeanResultData) {
-        boolean z10;
-        String str;
-        String str2;
-        String str3;
-        String str4;
-        String str5;
-        String str6;
-        String str7;
-        String str8;
-        String str9;
-        String str10;
+        boolean z10 = false;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        String str4 = null;
+        String str5 = null;
+        String str6 = null;
+        String str7 = null;
+        String str8 = null;
+        String str9 = null;
+        String str10 = null;
         UrlListBeanResult urlListBeanResult;
         UrlListBeanResult urlListBeanResult2;
         AbstractC5868k.m23674f(getSlbInfoBeanResultData, "data");

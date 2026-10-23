@@ -425,7 +425,7 @@ public final class C7143y extends AbstractC7089d<InterfaceC5969e> implements Int
     @Override // p268od.InterfaceC5970f
     /* renamed from: r */
     public void mo24153r(List list, int i10) {
-        Object valueOf;
+        Object valueOf = null;
         AbstractC5868k.m23674f(list, "data");
         this.f26812B0 = false;
         m27650Q9().m28854l(list);

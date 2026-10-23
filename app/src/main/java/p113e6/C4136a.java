@@ -33,8 +33,8 @@ public class C4136a {
 
     /* renamed from: a */
     private String m17323a(Map map) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         StringBuilder sb2 = new StringBuilder();
         Iterator it = map.entrySet().iterator();
         Map.Entry entry = (Map.Entry) it.next();

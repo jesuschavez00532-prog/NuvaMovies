@@ -166,7 +166,7 @@ public final class C6714f1 extends C7767e {
 
     @Override // androidx.fragment.app.DialogInterfaceOnCancelListenerC0710d, android.content.DialogInterface.OnDismissListener
     public void onDismiss(DialogInterface dialogInterface) {
-        boolean z10;
+        boolean z10 = false;
         AbstractActivityC0302c abstractActivityC0302c;
         AbstractC0729o m3294d4;
         InterfaceC7251a interfaceC7251a;

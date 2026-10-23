@@ -177,7 +177,7 @@ public final class ViewOnClickListenerC5519x2 extends AbstractC1196d<C4630k4> im
         public void afterTextChanged(Editable editable) {
             CharSequence m27758b0;
             int i10 = 0;
-            boolean z10;
+            boolean z10 = false;
             ViewOnClickListenerC5519x2.this.f22431F0 = null;
             String obj = ((EditText) ViewOnClickListenerC5519x2.this.m22389N9(R$id.mEditSearch)).getText().toString();
             int length = obj.length() - 1;
@@ -788,7 +788,7 @@ public final class ViewOnClickListenerC5519x2 extends AbstractC1196d<C4630k4> im
     /* renamed from: ka */
     public static final void m22384ka(ViewOnClickListenerC5519x2 viewOnClickListenerC5519x2, View view, boolean z10) {
         int i10 = 0;
-        boolean z11;
+        boolean z11 = false;
         AbstractC5868k.m23674f(viewOnClickListenerC5519x2, "this$0");
         if (z10) {
             ((EditText) viewOnClickListenerC5519x2.m22389N9(R$id.mEditSearch)).setHint("");

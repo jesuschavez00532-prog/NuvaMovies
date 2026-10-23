@@ -160,7 +160,7 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
         @Override // ge.AbstractC4434a
         /* renamed from: l */
         public final Object mo2392l(Object obj) {
-            Object m18094c;
+            Object m18094c = null;
             m18094c = AbstractC4313d.m18094c();
             int i10 = this.f21005e;
             if (i10 != 0) {
@@ -237,7 +237,7 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
             @Override // ge.AbstractC4434a
             /* renamed from: l */
             public final Object mo2392l(Object obj) {
-                boolean z10;
+                boolean z10 = false;
                 AbstractC4313d.m18094c();
                 if (this.f21011e == 0) {
                     AbstractC1320p.m5976b(obj);
@@ -300,7 +300,7 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
         @Override // ge.AbstractC4434a
         /* renamed from: l */
         public final Object mo2392l(Object obj) {
-            Object m18094c;
+            Object m18094c = null;
             m18094c = AbstractC4313d.m18094c();
             int i10 = this.f21007e;
             if (i10 != 0) {
@@ -389,7 +389,7 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
         @Override // ge.AbstractC4434a
         /* renamed from: l */
         public final Object mo2392l(Object obj) {
-            Object m18094c;
+            Object m18094c = null;
             m18094c = AbstractC4313d.m18094c();
             int i10 = this.f21015e;
             if (i10 != 0) {
@@ -598,21 +598,21 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
     private final void m20710c4(StartPlayVODResultData startPlayVODResultData) {
         List<TotalMovieListItem> list;
         int i10 = 0;
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         List<String> list2;
-        boolean z12;
+        boolean z12 = false;
         ArrayList arrayList;
         ArrayList arrayList2;
-        String str;
-        boolean z13;
-        String str2;
-        String str3;
+        String str = null;
+        boolean z13 = false;
+        String str2 = null;
+        String str3 = null;
         int i11 = 0;
-        String str4;
+        String str4 = null;
         MovieList movieList;
         int i12 = 0;
-        String str5;
+        String str5 = null;
         MovieList movieList2;
         StartPlayVODResultDataItem startPlayVODResultDataItem;
         if (!AbstractC6567a.m25635e(startPlayVODResultData.getEpisodeList())) {
@@ -919,7 +919,7 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
     @Override // p171i3.InterfaceC4848c
     /* renamed from: J */
     public void mo19992J(boolean z10, SimpleProgramList simpleProgramList) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(simpleProgramList, "simpleProgramList");
         if (z10 || !AbstractC5868k.m23669a(this.f20994j, simpleProgramList)) {
             this.f20994j = simpleProgramList;
@@ -944,8 +944,8 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
     @Override // p171i3.InterfaceC4848c
     /* renamed from: Q1 */
     public void mo19993Q1() {
-        String string;
-        boolean z10;
+        String string = null;
+        boolean z10 = false;
         C7589m1.f27886a.m29154w();
         SimpleProgramList simpleProgramList = this.f20994j;
         if (simpleProgramList == null) {
@@ -994,7 +994,7 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
     @Override // p301qb.InterfaceC6426t0
     /* renamed from: S3 */
     public void mo20719S3(SubTitleResult subTitleResult, String str) {
-        String str2;
+        String str2 = null;
         AbstractC5868k.m23674f(subTitleResult, "result");
         AbstractC5868k.m23674f(str, "programId");
         int i10 = 0;
@@ -1074,7 +1074,7 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
 
     /* renamed from: h */
     public void m20723h() {
-        String str;
+        String str = null;
         if (m20705Q3().m23900q()) {
             InterfaceC4849d interfaceC4849d = this.f20986b;
             UDiskBean m23893h = m20705Q3().m23893h();
@@ -1089,7 +1089,7 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
 
     /* renamed from: h4 */
     public void m20724h4() {
-        String str;
+        String str = null;
         AssetData assetData;
         C1456h0 c1456h0 = C1456h0.f5574a;
         if (c1456h0.m6777m() != null && c1456h0.m6778n(C1456h0.a.VOD)) {

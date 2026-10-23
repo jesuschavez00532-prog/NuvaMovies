@@ -32,7 +32,7 @@ public final class C4140b implements Cloneable {
 
     /* renamed from: a */
     private String m17342a(String str, String str2, String str3) {
-        String str4;
+        String str4 = null;
         StringBuilder sb2 = new StringBuilder(this.f18177b * (this.f18176a + 1));
         for (int i10 = 0; i10 < this.f18177b; i10++) {
             for (int i11 = 0; i11 < this.f18176a; i11++) {

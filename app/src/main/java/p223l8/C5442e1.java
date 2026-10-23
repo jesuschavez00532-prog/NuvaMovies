@@ -483,8 +483,8 @@ public final class C5442e1 extends AbstractC1196d<InterfaceC4276c> implements In
 
         @Override // android.widget.AdapterView.OnItemSelectedListener
         public void onItemSelected(AdapterView adapterView, View view, int i10, long j10) {
-            boolean z10;
-            boolean z11;
+            boolean z10 = false;
+            boolean z11 = false;
             int size = C5442e1.this.f22126B0.size();
             if (size <= 0) {
                 return;
@@ -936,9 +936,9 @@ public final class C5442e1 extends AbstractC1196d<InterfaceC4276c> implements In
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: Ka */
     public final void m21876Ka() {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         AbstractC0738x m3534m = m3093I6().m3534m();
         AbstractC5868k.m23673e(m3534m, "childFragmentManager.beginTransaction()");
         int i10 = this.f22136L0;
@@ -1012,7 +1012,7 @@ public final class C5442e1 extends AbstractC1196d<InterfaceC4276c> implements In
 
     /* renamed from: Ma */
     private final void m21879Ma() {
-        boolean z10;
+        boolean z10 = false;
         AbstractC0738x m3534m = m3093I6().m3534m();
         AbstractC5868k.m23673e(m3534m, "childFragmentManager.beginTransaction()");
         C5525z1 c5525z1 = this.f22129E0;
@@ -1084,7 +1084,7 @@ public final class C5442e1 extends AbstractC1196d<InterfaceC4276c> implements In
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: Pa */
     public static final boolean m21885Pa(C5442e1 c5442e1, View view, int i10, KeyEvent keyEvent) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(c5442e1, "this$0");
         int action = keyEvent.getAction();
         boolean z11 = false;
@@ -1474,7 +1474,7 @@ public final class C5442e1 extends AbstractC1196d<InterfaceC4276c> implements In
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: rb */
     public final void m21925rb(int i10) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC0738x m3534m = m3093I6().m3534m();
         AbstractC5868k.m23673e(m3534m, "childFragmentManager.beginTransaction()");
         if (i10 == f22120V0) {
@@ -1621,8 +1621,8 @@ public final class C5442e1 extends AbstractC1196d<InterfaceC4276c> implements In
 
     /* renamed from: wa */
     private final void m21930wa() {
-        boolean z10;
-        String str;
+        boolean z10 = false;
+        String str = null;
         int i10 = this.f22136L0;
         boolean z11 = false;
         if (i10 == f22120V0 || i10 == f22121W0) {
@@ -1813,7 +1813,7 @@ public final class C5442e1 extends AbstractC1196d<InterfaceC4276c> implements In
     @Override // p130f8.InterfaceC4277d
     /* renamed from: D2 */
     public void mo17854D2(final Channel channel, final EpgDate epgDate, final EpgProgram epgProgram, final ReservationList reservationList) {
-        String format;
+        String format = null;
         AbstractC5868k.m23674f(channel, "channel");
         AbstractC5868k.m23674f(epgDate, "epgDate");
         AbstractC5868k.m23674f(epgProgram, "epgItem");
@@ -2359,7 +2359,7 @@ public final class C5442e1 extends AbstractC1196d<InterfaceC4276c> implements In
 
     /* renamed from: nb */
     public final void m21958nb(int i10) {
-        boolean z10;
+        boolean z10 = false;
         C1407f c1407f = C1407f.f5458a;
         if (i10 == c1407f.m6523o()) {
             z10 = true;
@@ -2451,12 +2451,12 @@ public final class C5442e1 extends AbstractC1196d<InterfaceC4276c> implements In
     }
 
     public boolean onKeyDown(int i10, KeyEvent keyEvent) {
-        boolean z10;
-        boolean z11;
-        boolean z12;
-        boolean z13;
-        boolean z14;
-        boolean z15;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
+        boolean z13 = false;
+        boolean z14 = false;
+        boolean z15 = false;
         AbstractC5868k.m23674f(keyEvent, "event");
         ViewOnClickListenerC5519x2 viewOnClickListenerC5519x2 = this.f22128D0;
         if (viewOnClickListenerC5519x2 != null) {
@@ -2652,8 +2652,8 @@ public final class C5442e1 extends AbstractC1196d<InterfaceC4276c> implements In
 
     @InterfaceC7719m(threadMode = ThreadMode.MAIN)
     public final void updateRestrictStateEvent(UpdateRestrictStateEvent updateRestrictStateEvent) {
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         AbstractC5868k.m23674f(updateRestrictStateEvent, "event");
         boolean z11 = false;
         this.f22140P0 = false;

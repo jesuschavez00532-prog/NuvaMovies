@@ -379,7 +379,7 @@ public final class C4695v3 implements InterfaceC4288o {
 
     /* renamed from: C */
     private final void m19392C(final Channel channel) {
-        boolean z10;
+        boolean z10 = false;
         C1456h0 c1456h0 = C1456h0.f5574a;
         C1456h0.a aVar = C1456h0.a.LIVE;
         List m6773i = c1456h0.m6773i(aVar);
@@ -440,8 +440,8 @@ public final class C4695v3 implements InterfaceC4288o {
     /* renamed from: E */
     public static final void m19394E(Channel channel, C4695v3 c4695v3, C5876s c5876s, C5874q c5874q, List list, ObservableEmitter observableEmitter) {
         int i10 = 0;
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         AbstractC5868k.m23674f(channel, "$playChannel");
         AbstractC5868k.m23674f(c4695v3, "this$0");
         AbstractC5868k.m23674f(c5876s, "$defaultQuality");

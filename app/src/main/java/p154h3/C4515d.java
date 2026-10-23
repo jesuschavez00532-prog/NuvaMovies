@@ -274,7 +274,7 @@ public final class C4515d extends AbstractC4512a<InterfaceC4985c> implements Int
     /* renamed from: n9 */
     public void mo5460n9() {
         int m27735E;
-        String substring;
+        String substring = null;
         m18892N9();
         TextView textView = (TextView) m18897K9(R$id.mTvNote1);
         C7615w c7615w = C7615w.f27995a;

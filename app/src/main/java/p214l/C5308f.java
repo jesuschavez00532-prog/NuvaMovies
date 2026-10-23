@@ -109,7 +109,7 @@ public class C5308f implements Cloneable {
 
     /* renamed from: h */
     public Object m21395h(long j10, Object obj) {
-        Object obj2;
+        Object obj2 = null;
         int m21384b = AbstractC5307e.m21384b(this.f21601b, this.f21603d, j10);
         if (m21384b >= 0 && (obj2 = this.f21602c[m21384b]) != f21599e) {
             return obj2;

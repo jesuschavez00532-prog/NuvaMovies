@@ -64,7 +64,7 @@ public class C7747c implements InterfaceC7749e {
                 this.f28528e.mo5022c(new InterfaceC1358b.a() { // from class: z3.b
                     @Override // p036c4.InterfaceC1358b.a
                     public final Object execute() {
-                        Object m29947d;
+                        Object m29947d = null;
                         m29947d = C7747c.this.m29947d(abstractC6667o, mo7891b);
                         return m29947d;
                     }

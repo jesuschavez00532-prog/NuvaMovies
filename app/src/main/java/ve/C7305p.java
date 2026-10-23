@@ -62,7 +62,7 @@ public final class C7305p extends AbstractC7324v0 {
     }
 
     static {
-        String str;
+        String str = null;
         int i10 = 0;
         Integer m27716c;
         try {
@@ -90,7 +90,7 @@ public final class C7305p extends AbstractC7324v0 {
     private final ExecutorService m28254A() {
         Class<?> cls;
         ExecutorService executorService;
-        Object obj;
+        Object obj = null;
         if (System.getSecurityManager() != null) {
             return m28257z();
         }
@@ -154,7 +154,7 @@ public final class C7305p extends AbstractC7324v0 {
 
     /* renamed from: C */
     private final int m28256C() {
-        boolean z10;
+        boolean z10 = false;
         int m25673a;
         Integer valueOf = Integer.valueOf(f27200c);
         if (valueOf.intValue() > 0) {

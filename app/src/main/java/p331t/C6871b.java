@@ -68,7 +68,7 @@ public final class C6871b {
 
     /* renamed from: b */
     public boolean m26780b() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this) {
             z10 = this.f26162a;
         }

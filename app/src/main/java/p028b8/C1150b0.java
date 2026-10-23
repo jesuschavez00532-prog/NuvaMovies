@@ -223,7 +223,7 @@ public final class C1150b0 extends BaseAdapter implements BaseAdapterImpl {
         @Override // p011aa.AbstractViewOnClickListenerC0123a
         /* renamed from: c */
         public void mo492c(View view) {
-            String m27728o;
+            String m27728o = null;
             String m6824c = C1464l0.f5622a.m6824c(this.f4526b.getGameTime(), "yyyy-MM-dd HH:mm");
             MatchDetailActivity.C2860a c2860a = MatchDetailActivity.f10864W;
             Context context = this.f4527c.f4510a;

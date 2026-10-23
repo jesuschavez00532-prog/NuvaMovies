@@ -30,7 +30,7 @@ public abstract class AbstractC5409u0 {
 
     /* renamed from: c */
     public final void m21816c() {
-        Object obj;
+        Object obj = null;
         synchronized (this) {
             obj = this.f22043a;
             if (this.f22044b) {

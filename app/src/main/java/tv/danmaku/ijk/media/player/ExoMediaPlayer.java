@@ -130,7 +130,7 @@ public class ExoMediaPlayer extends AbstractMediaPlayer {
     }
 
     private void updateSurfaceScreenOn() {
-        boolean z10;
+        boolean z10 = false;
         SurfaceHolder surfaceHolder = this.mSurfaceHolder;
         if (surfaceHolder != null) {
             if (this.mScreenOnWhilePlaying && this.mStayAwake) {

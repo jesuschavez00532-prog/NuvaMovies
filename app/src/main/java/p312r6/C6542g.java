@@ -36,7 +36,7 @@ public class C6542g implements InterfaceC6545j, InterfaceC6546k {
     private static final ThreadFactory f25162f = new ThreadFactory() { // from class: r6.b
         @Override // java.util.concurrent.ThreadFactory
         public final Thread newThread(Runnable runnable) {
-            Thread m25588m;
+            Thread m25588m = null;
             m25588m = C6542g.m25588m(runnable);
             return m25588m;
         }
@@ -90,7 +90,7 @@ public class C6542g implements InterfaceC6545j, InterfaceC6546k {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: j */
     public /* synthetic */ String m25585j() {
-        String byteArrayOutputStream;
+        String byteArrayOutputStream = null;
         synchronized (this) {
             C6553r c6553r = (C6553r) this.f25163a.get();
             List m25605c = c6553r.m25605c();
@@ -153,7 +153,7 @@ public class C6542g implements InterfaceC6545j, InterfaceC6546k {
         return AbstractC4250l.m17731c(this.f25167e, new Callable() { // from class: r6.d
             @Override // java.util.concurrent.Callable
             public final Object call() {
-                String m25585j;
+                String m25585j = null;
                 m25585j = C6542g.this.m25585j();
                 return m25585j;
             }

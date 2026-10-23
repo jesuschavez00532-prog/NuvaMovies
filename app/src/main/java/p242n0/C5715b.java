@@ -373,7 +373,7 @@ public final class C5715b {
         Integer num3;
         InterfaceC5660l interfaceC5660l2;
         Integer num4;
-        boolean z11;
+        boolean z11 = false;
         int i12 = 0;
         if ((i11 & 8) != 0) {
             num3 = null;
@@ -432,12 +432,12 @@ public final class C5715b {
 
     /* renamed from: d */
     public final void m23100d(Context context, String str, File file) {
-        Throwable th;
+        Throwable th = null;
         Exception e10 = null;
         File m23099b;
         File m23099b2;
         BufferedOutputStream bufferedOutputStream;
-        Throwable th2;
+        Throwable th2 = null;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         AbstractC5868k.m23674f(str, "url");
         if (file != null && !file.isDirectory()) {

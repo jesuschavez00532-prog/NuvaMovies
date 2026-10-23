@@ -204,7 +204,7 @@ public class DialogC4426c extends Dialog implements View.OnClickListener, Interf
         @Override // java.lang.Runnable
         public void run() {
             int i10 = 0;
-            String str;
+            String str = null;
             int i11 = 0;
             LinearLayout linearLayout = DialogC4426c.this.f19191q;
             int i12 = 0;
@@ -572,7 +572,7 @@ public class DialogC4426c extends Dialog implements View.OnClickListener, Interf
 
     /* renamed from: H */
     public String m18597H() {
-        String str;
+        String str = null;
         if (this.f19184j.getBoolean("is_baidu", true)) {
             str = AbstractC5148c.m20817d("http://www.baidu.com");
             if (TextUtils.isEmpty(str)) {

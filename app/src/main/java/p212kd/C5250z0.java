@@ -31,11 +31,11 @@ public final class C5250z0 extends AbstractC7526a {
     /* renamed from: g, reason: merged with bridge method [inline-methods] */
     public void mo21036b(C7532g c7532g, UmengPush umengPush) {
         Resources resources;
-        String title;
+        String title = null;
         Resources resources2;
-        String str;
+        String str = null;
         Resources resources3;
-        String string;
+        String string = null;
         List m27748R;
         Resources resources4;
         AbstractC5868k.m23674f(c7532g, "holder");

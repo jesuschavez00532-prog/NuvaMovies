@@ -92,9 +92,9 @@ public abstract class AbstractC4884q {
 
     /* renamed from: e */
     public static int m20078e(Context context, int i10) {
-        boolean z10;
-        boolean z11;
-        PackageInfo packageInfo;
+        boolean z10 = false;
+        boolean z11 = false;
+        PackageInfo packageInfo = null;
         try {
             context.getResources().getString(R$string.common_google_play_services_unknown_issue);
         } catch (Throwable unused) {
@@ -213,8 +213,8 @@ public abstract class AbstractC4884q {
     public static boolean m20083j(Context context, String str) {
         PackageInstaller packageInstaller;
         List allSessions;
-        String appPackageName;
-        ApplicationInfo applicationInfo;
+        String appPackageName = null;
+        ApplicationInfo applicationInfo = null;
         boolean equals = str.equals("com.google.android.gms");
         if (AbstractC6207k.m24769f()) {
             try {

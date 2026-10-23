@@ -52,9 +52,9 @@ final class C6943c extends AbstractC6944d implements Iterator, InterfaceC4181d, 
     @Override // p344te.AbstractC6944d
     /* renamed from: b */
     public Object mo26978b(Object obj, InterfaceC4181d interfaceC4181d) {
-        Object m18094c;
-        Object m18094c2;
-        Object m18094c3;
+        Object m18094c = null;
+        Object m18094c2 = null;
+        Object m18094c3 = null;
         this.f26313b = obj;
         this.f26312a = 3;
         this.f26315d = interfaceC4181d;
@@ -73,9 +73,9 @@ final class C6943c extends AbstractC6944d implements Iterator, InterfaceC4181d, 
     @Override // p344te.AbstractC6944d
     /* renamed from: c */
     public Object mo26979c(Iterator it, InterfaceC4181d interfaceC4181d) {
-        Object m18094c;
-        Object m18094c2;
-        Object m18094c3;
+        Object m18094c = null;
+        Object m18094c2 = null;
+        Object m18094c3 = null;
         if (!it.hasNext()) {
             return C1328x.f4998a;
         }

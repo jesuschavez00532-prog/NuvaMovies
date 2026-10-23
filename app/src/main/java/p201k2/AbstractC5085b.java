@@ -123,8 +123,8 @@ public abstract class AbstractC5085b {
 
     /* renamed from: g */
     public static String m20597g(Context context) {
-        ApplicationInfo applicationInfo;
-        Bundle bundle;
+        ApplicationInfo applicationInfo = null;
+        Bundle bundle = null;
         String str = "";
         try {
             if (context.getPackageName() != null && (applicationInfo = context.getPackageManager().getApplicationInfo(context.getPackageName(), 128)) != null && (bundle = applicationInfo.metaData) != null) {
@@ -148,7 +148,7 @@ public abstract class AbstractC5085b {
 
     /* renamed from: j */
     public static String m20600j(Context context) {
-        String str;
+        String str = null;
         if (Build.VERSION.SDK_INT >= 28) {
             str = Application.getProcessName();
         } else {

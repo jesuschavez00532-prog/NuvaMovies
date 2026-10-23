@@ -99,7 +99,7 @@ public final class FragmentC5129z extends Fragment implements InterfaceC5108e {
 
     @Override // android.app.Fragment
     public final void onCreate(Bundle bundle) {
-        Bundle bundle2;
+        Bundle bundle2 = null;
         super.onCreate(bundle);
         this.f21063b = 1;
         this.f21064c = bundle;

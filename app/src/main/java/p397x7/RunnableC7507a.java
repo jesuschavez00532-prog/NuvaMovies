@@ -114,7 +114,7 @@ public class RunnableC7507a implements Runnable {
 
     /* renamed from: d */
     public HttpURLConnection m28732d(String str) {
-        Throwable th;
+        Throwable th = null;
         HttpURLConnection httpURLConnection;
         HttpURLConnection httpURLConnection2 = null;
         try {

@@ -198,7 +198,7 @@ public final class C6482u implements InterfaceC5965a, InterfaceC5045b, Interface
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final ObservableSource mo542f(Integer num) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(num, "it");
             int intValue = num.intValue();
             if (4 <= intValue && intValue < 7) {
@@ -689,7 +689,7 @@ public final class C6482u implements InterfaceC5965a, InterfaceC5045b, Interface
     }
 
     public C6482u(AbstractC4817b abstractC4817b, InterfaceC5966b interfaceC5966b) {
-        String str;
+        String str = null;
         InterfaceC1312h m5965b;
         AbstractC5868k.m23674f(abstractC4817b, "fragment");
         AbstractC5868k.m23674f(interfaceC5966b, "view");
@@ -1360,8 +1360,8 @@ public final class C6482u implements InterfaceC5965a, InterfaceC5045b, Interface
     @Override // ca.InterfaceC1439a
     /* renamed from: n2 */
     public void mo6702n2() {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         Disposable disposable = this.f24883j;
         boolean z12 = true;
         if (disposable != null && !disposable.isDisposed()) {

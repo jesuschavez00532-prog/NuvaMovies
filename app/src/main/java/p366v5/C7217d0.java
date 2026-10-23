@@ -21,7 +21,7 @@ public class C7217d0 implements InterfaceC6922b, InterfaceC6921a {
     private static final InterfaceC6922b f26995d = new InterfaceC6922b() { // from class: v5.b0
         @Override // p338t6.InterfaceC6922b
         public final Object get() {
-            Object m27939g;
+            Object m27939g = null;
             m27939g = C7217d0.m27939g();
             return m27939g;
         }

@@ -206,13 +206,13 @@ public final class ViewOnClickListenerC4758c0 extends C7767e implements View.OnC
 
     /* renamed from: Q9 */
     private final void m19665Q9() {
-        String str;
-        String str2;
-        String str3;
-        String str4;
-        String customer;
-        String mobile;
-        String email;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        String str4 = null;
+        String customer = null;
+        String mobile = null;
+        String email = null;
         if (TextUtils.isEmpty(this.f20106I0)) {
             Context m3096J6 = m3096J6();
             Context m3096J62 = m3096J6();
@@ -444,11 +444,11 @@ public final class ViewOnClickListenerC4758c0 extends C7767e implements View.OnC
 
     /* renamed from: Y9 */
     private final void m19673Y9() {
-        String str;
-        String str2;
-        String str3;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
         GetAuthInfoResultData data;
-        String showFlag;
+        String showFlag = null;
         String str4 = "";
         try {
             String encode = URLEncoder.encode(this.f20105H0, Request.DEFAULT_CHARSET);
@@ -617,7 +617,7 @@ public final class ViewOnClickListenerC4758c0 extends C7767e implements View.OnC
     @Override // android.view.View.OnClickListener
     public void onClick(View view) {
         Context m3096J6;
-        String str;
+        String str = null;
         GetAuthInfoResultData data;
         if (AbstractC5868k.m23669a((Button) m19677L9(R$id.vod_feedback_submit), view)) {
             m19665Q9();
@@ -649,9 +649,9 @@ public final class ViewOnClickListenerC4758c0 extends C7767e implements View.OnC
 
     @Override // android.content.DialogInterface.OnKeyListener
     public boolean onKey(DialogInterface dialogInterface, int i10, KeyEvent keyEvent) {
-        boolean z10;
-        boolean z11;
-        boolean z12;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
         if (i10 != 21) {
             if (i10 != 22) {
                 if (i10 == 82) {

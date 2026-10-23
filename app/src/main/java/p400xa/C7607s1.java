@@ -26,12 +26,12 @@ public final class C7607s1 {
 
     /* renamed from: a */
     public final SeriesSeasonBean m29251a(String str) {
-        String str2;
+        String str2 = null;
         boolean m27722i;
-        String substring;
+        String substring = null;
         boolean m27722i2;
         boolean m27722i3;
-        String str3;
+        String str3 = null;
         boolean m27722i4;
         AbstractC5868k.m23674f(str, SerializableCookie.NAME);
         Matcher matcher = Pattern.compile(this.f27976a).matcher(str);

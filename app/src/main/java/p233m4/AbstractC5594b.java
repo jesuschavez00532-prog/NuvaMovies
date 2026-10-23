@@ -126,7 +126,7 @@ public abstract class AbstractC5594b {
 
     /* renamed from: k */
     public static Boolean m22720k(Parcel parcel, int i10) {
-        boolean z10;
+        boolean z10 = false;
         int m22728s = m22728s(parcel, i10);
         if (m22728s == 0) {
             return null;

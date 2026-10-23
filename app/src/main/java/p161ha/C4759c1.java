@@ -75,7 +75,7 @@ public final class C4759c1 extends C7767e {
     @Override // androidx.fragment.app.Fragment
     /* renamed from: k8 */
     public void mo3176k8(View view, Bundle bundle) {
-        String m6878m;
+        String m6878m = null;
         AbstractC5868k.m23674f(view, "view");
         super.mo3176k8(view, bundle);
         C1466m0 c1466m0 = C1466m0.f5627a;

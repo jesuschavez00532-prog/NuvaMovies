@@ -213,7 +213,7 @@ public final class C1224f {
 
     /* renamed from: F */
     public final Observable m5557F(String str, boolean z10) {
-        String str2;
+        String str2 = null;
         AbstractC5868k.m23674f(str, "queryType");
         C1293z1 c1293z1 = this.f4821d;
         String m5567P = m5567P();
@@ -380,8 +380,8 @@ public final class C1224f {
 
     /* renamed from: b */
     public final Observable m5579b(String str, String str2, String str3, int i10, String str4) {
-        boolean z10;
-        String str5;
+        boolean z10 = false;
+        String str5 = null;
         AbstractC5868k.m23674f(str4, "schedulerType");
         C1466m0 c1466m0 = C1466m0.f5627a;
         String m6884s = c1466m0.m6884s();
@@ -420,7 +420,7 @@ public final class C1224f {
 
     /* renamed from: c */
     public final Observable m5581c(String str, List list, boolean z10) {
-        String str2;
+        String str2 = null;
         AbstractC5868k.m23674f(str, "type");
         AbstractC5868k.m23674f(list, "contentId");
         C1293z1 c1293z1 = this.f4821d;
@@ -550,8 +550,8 @@ public final class C1224f {
 
     /* renamed from: k0 */
     public final Observable m5598k0(String str, String str2, String str3, String str4, String str5, String str6, String str7, String str8) {
-        boolean z10;
-        String str9;
+        boolean z10 = false;
+        String str9 = null;
         LoginBean loginBean;
         AbstractC5868k.m23674f(str, "accountType");
         AbstractC5868k.m23674f(str2, "userName");

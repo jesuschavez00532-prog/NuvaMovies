@@ -283,8 +283,8 @@ public final class C5783f extends AbstractC5774c<InterfaceC4729e> implements Int
     @Override // p251n9.AbstractC5774c
     /* renamed from: I9 */
     public boolean mo23265I9() {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         View childAt;
         AutoLinearLayout autoLinearLayout = (AutoLinearLayout) m23332U9(R$id.mLlCouponGetHint);
         if (autoLinearLayout != null && autoLinearLayout.hasFocus()) {
@@ -398,8 +398,8 @@ public final class C5783f extends AbstractC5774c<InterfaceC4729e> implements Int
     @Override // p251n9.AbstractC5774c
     /* renamed from: M9 */
     public boolean mo23276M9() {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         RecyclerViewTV recyclerViewTV = (RecyclerViewTV) m23332U9(R$id.mRvList);
         if (recyclerViewTV != null && recyclerViewTV.hasFocus()) {
             z10 = true;
@@ -424,7 +424,7 @@ public final class C5783f extends AbstractC5774c<InterfaceC4729e> implements Int
     @Override // p251n9.AbstractC5774c
     /* renamed from: N9 */
     public void mo23277N9() {
-        boolean z10;
+        boolean z10 = false;
         RecyclerViewTV recyclerViewTV;
         AutoLinearLayout autoLinearLayout = (AutoLinearLayout) m23332U9(R$id.mLlCouponGetHint);
         boolean z11 = true;

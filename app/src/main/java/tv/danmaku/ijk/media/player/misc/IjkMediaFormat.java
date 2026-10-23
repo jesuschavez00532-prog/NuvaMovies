@@ -74,7 +74,7 @@ public class IjkMediaFormat implements IMediaFormat {
         map.put(KEY_IJK_CODEC_PROFILE_LEVEL_UI, new Formatter() { // from class: tv.danmaku.ijk.media.player.misc.IjkMediaFormat.4
             @Override // tv.danmaku.ijk.media.player.misc.IjkMediaFormat.Formatter
             protected String doFormat(IjkMediaFormat ijkMediaFormat) {
-                String str;
+                String str = null;
                 switch (ijkMediaFormat.getInteger(IjkMediaMeta.IJKM_KEY_CODEC_PROFILE_ID)) {
                     case 44:
                         str = "CAVLC 4:4:4";

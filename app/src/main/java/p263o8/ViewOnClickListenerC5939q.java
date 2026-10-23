@@ -300,7 +300,7 @@ public final class ViewOnClickListenerC5939q extends AutoFrameLayout implements 
     }
 
     private final void setChannelPost(String str) {
-        String str2;
+        String str2 = null;
         if (AbstractC6567a.m25637g(str) && AbstractC5868k.m23669a(str, this.f23620b)) {
             return;
         }

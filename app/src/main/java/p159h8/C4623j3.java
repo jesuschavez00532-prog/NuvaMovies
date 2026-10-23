@@ -272,7 +272,7 @@ public final class C4623j3 implements InterfaceC4282i, InterfaceC6406m1 {
 
     /* renamed from: c4 */
     private final List m19282c4(StartPlayBTVResult startPlayBTVResult, List list) {
-        boolean z10;
+        boolean z10 = false;
         ArrayList arrayList = new ArrayList();
         StartPlayBTVResultData data = startPlayBTVResult.getData();
         AbstractC5868k.m23671c(data);
@@ -408,7 +408,7 @@ public final class C4623j3 implements InterfaceC4282i, InterfaceC6406m1 {
 
     /* renamed from: w4 */
     private final void m19293w4() {
-        boolean z10;
+        boolean z10 = false;
         this.f19844b.mo17927Q();
         Channel m21860a = C5435c2.f22079P0.m21860a();
         int m6523o = C1407f.f5458a.m6523o();
@@ -469,7 +469,7 @@ public final class C4623j3 implements InterfaceC4282i, InterfaceC6406m1 {
     @Override // p301qb.InterfaceC6406m1
     /* renamed from: f5 */
     public void mo19230f5(StartPlayBTVResult startPlayBTVResult) {
-        boolean z10;
+        boolean z10 = false;
         List<StartPlayBTVResultLicenseList> totalPlayUrlList;
         AbstractC5868k.m23674f(startPlayBTVResult, "result");
         StartPlayBTVResultData data = startPlayBTVResult.getData();

@@ -39,7 +39,7 @@ class C7371e implements InterfaceC7041a.b {
     @Override // p351u5.InterfaceC7041a.b
     /* renamed from: a */
     public void mo27143a(int i10, Bundle bundle) {
-        String string;
+        String string = null;
         C7503f.m28716f().m28723i(String.format(Locale.US, "Analytics listener received message. ID: %d, Extras: %s", Integer.valueOf(i10), bundle));
         if (bundle != null && (string = bundle.getString(SerializableCookie.NAME)) != null) {
             Bundle bundle2 = bundle.getBundle("params");

@@ -200,7 +200,7 @@ public abstract class AbstractC1334a extends C0551a {
     /* renamed from: G */
     private boolean m5992G(int i10, Rect rect) {
         C7458h0 c7458h0;
-        boolean z10;
+        boolean z10 = false;
         C7458h0 c7458h02;
         C5312j m6004y = m6004y();
         int i11 = this.f5021l;
@@ -344,7 +344,7 @@ public abstract class AbstractC1334a extends C0551a {
 
     /* renamed from: t */
     private C7458h0 m6002t(int i10) {
-        boolean z10;
+        boolean z10 = false;
         C7458h0 m28565K = C7458h0.m28565K();
         m28565K.m28608d0(true);
         m28565K.m28611f0(true);

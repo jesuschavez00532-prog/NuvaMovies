@@ -111,7 +111,7 @@ public abstract class AbstractC7167u extends AbstractC7166t {
 
     /* renamed from: C */
     static /* synthetic */ int m27733C(CharSequence charSequence, CharSequence charSequence2, int i10, int i11, boolean z10, boolean z11, int i12, Object obj) {
-        boolean z12;
+        boolean z12 = false;
         if ((i12 & 16) != 0) {
             z12 = false;
         } else {
@@ -144,7 +144,7 @@ public abstract class AbstractC7167u extends AbstractC7166t {
 
     /* renamed from: F */
     public static final int m27736F(CharSequence charSequence, char[] cArr, int i10, boolean z10) {
-        boolean z11;
+        boolean z11 = false;
         AbstractC5868k.m23674f(charSequence, "<this>");
         AbstractC5868k.m23674f(cArr, "chars");
         if (!z10 && cArr.length == 1 && (charSequence instanceof String)) {
@@ -282,7 +282,7 @@ public abstract class AbstractC7167u extends AbstractC7166t {
 
     /* renamed from: O */
     public static final void m27745O(int i10) {
-        boolean z10;
+        boolean z10 = false;
         if (i10 >= 0) {
             z10 = true;
         } else {
@@ -319,7 +319,7 @@ public abstract class AbstractC7167u extends AbstractC7166t {
 
     /* renamed from: Q */
     private static final List m27747Q(CharSequence charSequence, String str, boolean z10, int i10) {
-        boolean z11;
+        boolean z11 = false;
         m27745O(i10);
         int i11 = 0;
         int m27731A = m27731A(charSequence, str, 0, z10);
@@ -525,8 +525,8 @@ public abstract class AbstractC7167u extends AbstractC7166t {
     /* renamed from: w */
     public static final C1318n m27764w(CharSequence charSequence, Collection collection, int i10, boolean z10, boolean z11) {
         C6573a m25671f;
-        Object obj;
-        Object obj2;
+        Object obj = null;
+        Object obj2 = null;
         int m27691J;
         if (!z10 && collection.size() == 1) {
             String str = (String) AbstractC1498j.m6981y(collection);

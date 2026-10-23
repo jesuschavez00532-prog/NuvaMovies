@@ -143,7 +143,7 @@ public final class C6888f implements InterfaceC6883a {
 
     /* renamed from: g */
     private final File m26804g(String str) {
-        boolean z10;
+        boolean z10 = false;
         if (str != null && str.length() != 0) {
             z10 = false;
         } else {
@@ -275,7 +275,7 @@ public final class C6888f implements InterfaceC6883a {
 
     /* renamed from: n */
     private final void m26811n(Context context) {
-        boolean z10;
+        boolean z10 = false;
         String str = this.f26196f;
         if (str != null && str.length() != 0) {
             z10 = false;
@@ -306,7 +306,7 @@ public final class C6888f implements InterfaceC6883a {
     @Override // p332t0.InterfaceC6883a
     /* renamed from: b */
     public void mo26797b(final Context context, final String str, final AdInfo adInfo, final InterfaceC6607b interfaceC6607b) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         AbstractC5868k.m23674f(str, "adType");
         AbstractC5868k.m23674f(adInfo, "adInfo");

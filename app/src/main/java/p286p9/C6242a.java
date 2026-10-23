@@ -206,7 +206,7 @@ public class C6242a {
 
     /* renamed from: g */
     private void m24856g(String str, String str2, String str3, boolean z10, InterfaceC6563a interfaceC6563a) {
-        String language;
+        String language = null;
         this.f24457c = new a(interfaceC6563a, z10, str, str2, str3);
         if ("zh".equals(Locale.getDefault().getLanguage())) {
             language = "htv_zh";
@@ -219,7 +219,7 @@ public class C6242a {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: h */
     public void m24857h(String str, String str2, String str3, boolean z10, InterfaceC6563a interfaceC6563a) {
-        String language;
+        String language = null;
         this.f24458d = new c(interfaceC6563a, z10);
         if ("zh".equals(Locale.getDefault().getLanguage())) {
             language = "htv_zh";

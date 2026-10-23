@@ -237,7 +237,7 @@ public final class C4002r extends AbstractC7527b {
     @Override // p399x9.AbstractC7527b
     /* renamed from: t, reason: merged with bridge method [inline-methods] */
     public void mo5338e(final C7531f c7531f, final C4156a c4156a) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(c4156a, "bean");
         Drawable m27111a = AbstractC7026c.m27111a(m28850h(), R$drawable.bg_placehoder);

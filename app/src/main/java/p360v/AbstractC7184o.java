@@ -112,8 +112,8 @@ public abstract class AbstractC7184o implements Spannable {
             boolean equals;
             float letterSpacing;
             float letterSpacing2;
-            String fontFeatureSettings;
-            String fontFeatureSettings2;
+            String fontFeatureSettings = null;
+            String fontFeatureSettings2 = null;
             int i10 = Build.VERSION.SDK_INT;
             if ((i10 >= 23 && (this.f26877c != aVar.m27804b() || this.f26878d != aVar.m27805c())) || this.f26875a.getTextSize() != aVar.m27807e().getTextSize() || this.f26875a.getTextScaleX() != aVar.m27807e().getTextScaleX() || this.f26875a.getTextSkewX() != aVar.m27807e().getTextSkewX()) {
                 return false;
@@ -212,7 +212,7 @@ public abstract class AbstractC7184o implements Spannable {
         }
 
         public String toString() {
-            String fontVariationSettings;
+            String fontVariationSettings = null;
             LocaleList textLocales;
             float letterSpacing;
             boolean isElegantTextHeight;

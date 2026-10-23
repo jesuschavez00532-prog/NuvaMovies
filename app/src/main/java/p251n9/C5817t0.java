@@ -340,7 +340,7 @@ public final class C5817t0 extends AbstractC5774c<InterfaceC4747w> implements In
 
     /* renamed from: Fa */
     private final void m23440Fa() {
-        String str;
+        String str = null;
         C1466m0 c1466m0 = C1466m0.f5627a;
         UserInfo m6887v = c1466m0.m6887v();
         String str2 = null;
@@ -409,10 +409,10 @@ public final class C5817t0 extends AbstractC5774c<InterfaceC4747w> implements In
     /* renamed from: Ha */
     public final void m23442Ha(PackageInfo packageInfo) {
         GetAuthInfoResultData getAuthInfoResultData;
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         GetAuthInfoResultData data;
-        String str3;
+        String str3 = null;
         this.f23256H0 = packageInfo.getId();
         C7252a c7252a = C7252a.f27087a;
         GetAuthInfoResult m28073h = c7252a.m28073h();
@@ -509,7 +509,7 @@ public final class C5817t0 extends AbstractC5774c<InterfaceC4747w> implements In
 
     /* renamed from: h */
     private final void m23458h() {
-        String str;
+        String str = null;
         C1466m0 c1466m0 = C1466m0.f5627a;
         UserInfo m6887v = c1466m0.m6887v();
         String str2 = null;
@@ -666,10 +666,10 @@ public final class C5817t0 extends AbstractC5774c<InterfaceC4747w> implements In
 
     /* renamed from: va */
     private final void m23469va(ArrayList arrayList, HashMap hashMap) {
-        PackageInfo packageInfo;
-        PackageInfo packageInfo2;
-        String str;
-        PackageInfo packageInfo3;
+        PackageInfo packageInfo = null;
+        PackageInfo packageInfo2 = null;
+        String str = null;
+        PackageInfo packageInfo3 = null;
         AbstractC4509b.m18869b(this.f23250B0, "setCouponFocus", new Object[0]);
         int i10 = 0;
         for (Object obj : arrayList) {
@@ -849,8 +849,8 @@ public final class C5817t0 extends AbstractC5774c<InterfaceC4747w> implements In
     @Override // p251n9.AbstractC5774c
     /* renamed from: L9 */
     public boolean mo23233L9() {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         HorizontalGridView horizontalGridView = (HorizontalGridView) m23474fa(R$id.mGridTab);
         if (horizontalGridView != null && horizontalGridView.getVisibility() == 0) {
             z10 = true;
@@ -876,10 +876,10 @@ public final class C5817t0 extends AbstractC5774c<InterfaceC4747w> implements In
     /* renamed from: M9 */
     public boolean mo23276M9() {
         Boolean bool;
-        boolean z10;
-        boolean z11;
-        boolean z12;
-        boolean z13;
+        boolean z10 = false;
+        boolean z11 = false;
+        boolean z12 = false;
+        boolean z13 = false;
         View childAt;
         HorizontalGridView horizontalGridView;
         HorizontalGridView horizontalGridView2;
@@ -1063,7 +1063,7 @@ public final class C5817t0 extends AbstractC5774c<InterfaceC4747w> implements In
 
     /* renamed from: ma */
     public String m23476ma() {
-        boolean z10;
+        boolean z10 = false;
         GetAuthInfoResultData getAuthInfoResultData;
         if (this.f23258J0.length() == 0) {
             z10 = true;

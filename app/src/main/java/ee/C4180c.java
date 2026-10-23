@@ -31,7 +31,7 @@ public final class C4180c implements InterfaceC4184g, Serializable {
         @Override // me.InterfaceC5664p
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final String mo2391h(String str, InterfaceC4184g.b bVar) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(str, "acc");
             AbstractC5868k.m23674f(bVar, "element");
             if (str.length() == 0) {

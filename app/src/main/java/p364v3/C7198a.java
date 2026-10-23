@@ -39,7 +39,7 @@ public final class C7198a implements Provider, InterfaceC7031a {
 
     /* renamed from: c */
     public static Object m27891c(Object obj, Object obj2) {
-        boolean z10;
+        boolean z10 = false;
         if (obj != f26965c) {
             z10 = true;
         } else {

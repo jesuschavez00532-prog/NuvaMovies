@@ -69,7 +69,7 @@ public final class C1337a implements InterfaceRunnableC1340d {
 
     /* renamed from: c */
     private final C3921a m6096c(boolean z10) {
-        boolean z11;
+        boolean z11 = false;
         Response execute;
         long parseLong;
         C3921a c3921a = new C3921a();

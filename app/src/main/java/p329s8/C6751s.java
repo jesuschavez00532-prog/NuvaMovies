@@ -62,7 +62,7 @@ public final class C6751s extends C7767e {
 
     /* renamed from: W0 */
     private final void m26537W0() {
-        String str;
+        String str = null;
         TextView textView = (TextView) m26538I9(R$id.mTextSuccess);
         C5881x c5881x = C5881x.f23415a;
         String m3172j7 = m3172j7(R$string.phone_binding_success);

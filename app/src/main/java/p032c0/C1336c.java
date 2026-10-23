@@ -269,8 +269,8 @@ public class C1336c {
 
     /* renamed from: d */
     private boolean m6053d(View view, float f10, float f11) {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         if (view == null) {
             return false;
         }

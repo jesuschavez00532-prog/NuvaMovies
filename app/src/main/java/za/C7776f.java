@@ -149,7 +149,7 @@ public final class C7776f implements InterfaceC6372b0, InterfaceC6377d, Interfac
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final String mo542f(String str) {
-            String str2;
+            String str2 = null;
             AbstractC5868k.m23674f(str, "it");
             C1473s.f5656a.m6918b(0);
             C7252a.f27087a.m28078m((String) C7577i1.f27838b.m29084c().m29074f("key_device_tag", ""));
@@ -396,7 +396,7 @@ public final class C7776f implements InterfaceC6372b0, InterfaceC6377d, Interfac
         Observable compose = just.map(new Function() { // from class: za.b
             @Override // io.reactivex.functions.Function
             public final Object apply(Object obj) {
-                String m30078M;
+                String m30078M = null;
                 m30078M = C7776f.m30078M(InterfaceC5660l.this, obj);
                 return m30078M;
             }

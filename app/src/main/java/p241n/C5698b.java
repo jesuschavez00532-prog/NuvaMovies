@@ -112,7 +112,7 @@ public class C5698b extends AbstractC5706j {
     /* renamed from: b */
     public void mo22918b(C5562e c5562e) {
         C5701e[] c5701eArr;
-        boolean z10;
+        boolean z10 = false;
         int i10 = 0;
         int i11 = 0;
         C5701e[] c5701eArr2 = this.f22787C;

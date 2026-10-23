@@ -305,11 +305,11 @@ public final class C5487p2 extends AbstractC1196d<InterfaceC4292s> implements In
     @Override // p130f8.InterfaceC4293t
     /* renamed from: o3 */
     public void mo17959o3() {
-        String str;
-        String str2;
-        String str3;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
         Team team_b;
-        String teamLogo;
+        String teamLogo = null;
         Team team_b2;
         Team team_a;
         Team team_a2;
@@ -369,19 +369,19 @@ public final class C5487p2 extends AbstractC1196d<InterfaceC4292s> implements In
     @Override // p130f8.InterfaceC4293t
     /* renamed from: t3 */
     public void mo17960t3(ArrayList arrayList) {
-        String str;
-        String str2;
-        String str3;
-        String str4;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        String str4 = null;
         List m6988g;
         Team team_b;
-        String teamLogo;
+        String teamLogo = null;
         Team team_b2;
-        String teamName;
+        String teamName = null;
         Team team_a;
-        String teamLogo2;
+        String teamLogo2 = null;
         Team team_a2;
-        String teamName2;
+        String teamName2 = null;
         AbstractC5868k.m23674f(arrayList, "historyStats");
         if (!this.f22293z0) {
             ((ViewStub) m22141I9(R$id.mVbConfrontationRecords)).inflate();

@@ -112,7 +112,7 @@ public class C4269e {
 
     /* renamed from: C */
     private void m17753C(String str, long j10) {
-        boolean z10;
+        boolean z10 = false;
         List<File> m17805p = this.f18590b.m17805p(str, f18588h);
         if (m17805p.isEmpty()) {
             C7503f.m28716f().m28723i("Session " + str + " has no events.");
@@ -278,7 +278,7 @@ public class C4269e {
 
     /* renamed from: m */
     private static String m17767m(int i10, boolean z10) {
-        String str;
+        String str = null;
         String format = String.format(Locale.US, "%010d", Integer.valueOf(i10));
         if (z10) {
             str = "_";

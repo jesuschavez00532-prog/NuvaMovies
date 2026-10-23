@@ -210,7 +210,7 @@ public final class C5015a0 implements InterfaceC4747w, InterfaceC6371b, Interfac
 
     /* renamed from: Q3 */
     private final void m20384Q3(final List list) {
-        boolean z10;
+        boolean z10 = false;
         if (list != null && !list.isEmpty()) {
             z10 = false;
         } else {
@@ -294,7 +294,7 @@ public final class C5015a0 implements InterfaceC4747w, InterfaceC6371b, Interfac
     @Override // ca.InterfaceC1439a
     /* renamed from: B0 */
     public void mo6701B0() {
-        String str;
+        String str = null;
         C1466m0 c1466m0 = C1466m0.f5627a;
         String str2 = c1466m0.m6878m() + "isHasCouponQualification";
         String str3 = c1466m0.m6878m() + "couponQualificationTime";
@@ -320,8 +320,8 @@ public final class C5015a0 implements InterfaceC4747w, InterfaceC6371b, Interfac
     @Override // p301qb.InterfaceC6371b
     /* renamed from: J5 */
     public void mo20389J5(ApkQueryCouponResult apkQueryCouponResult) {
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         AbstractC5868k.m23674f(apkQueryCouponResult, "apkQueryCouponResult");
         C4297a c4297a = C4297a.f18620a;
         QueryCouponData data = apkQueryCouponResult.getData();

@@ -162,7 +162,7 @@ public final class ExecutorServiceC5626a implements ExecutorService, Executor {
 
     @Override // java.util.concurrent.Executor
     public synchronized void execute(Runnable runnable) {
-        String m22874h;
+        String m22874h = null;
         AbstractC5868k.m23674f(runnable, "r");
         StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
         AbstractC5868k.m23673e(stackTrace, "currentThread().stackTrace");

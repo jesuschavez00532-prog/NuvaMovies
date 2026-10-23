@@ -901,7 +901,7 @@ public class C4202c extends AbstractC4205f implements InterfaceC6320y {
 
     @Override // p121f.AbstractC4205f, android.graphics.drawable.Drawable
     protected boolean onStateChange(int[] iArr) {
-        boolean z10;
+        boolean z10 = false;
         int m17530F = this.f18389o.m17530F(iArr);
         if (m17530F != m17543c() && (m17518r(m17530F) || m17544g(m17530F))) {
             z10 = true;

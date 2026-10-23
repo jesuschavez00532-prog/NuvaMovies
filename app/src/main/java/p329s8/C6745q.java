@@ -417,7 +417,7 @@ public final class C6745q extends C7767e implements InterfaceC5537e, InterfaceC5
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: da */
     public static final void m26510da(C6745q c6745q, View view) {
-        String str;
+        String str = null;
         CharSequence m27758b0;
         Resources resources;
         AbstractC5868k.m23674f(c6745q, "this$0");
@@ -472,8 +472,8 @@ public final class C6745q extends C7767e implements InterfaceC5537e, InterfaceC5
 
     /* renamed from: h */
     private final void m26514h() {
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         C4300d c4300d = C4300d.f18678a;
         Pair m18021a = c4300d.m18021a();
         String str2 = null;
@@ -583,7 +583,7 @@ public final class C6745q extends C7767e implements InterfaceC5537e, InterfaceC5
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: na */
     public static final void m26520na(C6745q c6745q) {
-        String str;
+        String str = null;
         Resources resources;
         AbstractC5868k.m23674f(c6745q, "this$0");
         TextView textView = (TextView) c6745q.m26523Q9(R$id.mTextGetCode);
@@ -600,7 +600,7 @@ public final class C6745q extends C7767e implements InterfaceC5537e, InterfaceC5
     private final void m26521oa() {
         CharSequence m27758b0;
         CharSequence m27758b02;
-        String str;
+        String str = null;
         Editable text = ((EditText) m26523Q9(R$id.mEditPhoneNum)).getText();
         AbstractC5868k.m23673e(text, "mEditPhoneNum.text");
         m27758b0 = AbstractC7167u.m27758b0(text);

@@ -246,7 +246,7 @@ public class C7283h1 implements InterfaceC7271d1, InterfaceC7302o, InterfaceC730
         @Override // kotlinx.coroutines.internal.AbstractC5264c
         /* renamed from: i, reason: merged with bridge method [inline-methods] */
         public Object mo21177g(C5271j c5271j) {
-            boolean z10;
+            boolean z10 = false;
             if (this.f27175e.m28172M() == this.f27176f) {
                 z10 = true;
             } else {
@@ -306,7 +306,7 @@ public class C7283h1 implements InterfaceC7271d1, InterfaceC7302o, InterfaceC730
 
     /* renamed from: D */
     private final Throwable m28141D(Object obj) {
-        boolean z10;
+        boolean z10 = false;
         if (obj != null) {
             z10 = obj instanceof Throwable;
         } else {
@@ -326,10 +326,10 @@ public class C7283h1 implements InterfaceC7271d1, InterfaceC7302o, InterfaceC730
 
     /* renamed from: E */
     private final Object m28142E(b bVar, Object obj) {
-        Object obj2;
-        Throwable th;
+        Object obj2 = null;
+        Throwable th = null;
         boolean m28191g;
-        Throwable m28145H;
+        Throwable m28145H = null;
         if (!(obj instanceof C7311r)) {
             obj2 = null;
         } else {
@@ -748,7 +748,7 @@ public class C7283h1 implements InterfaceC7271d1, InterfaceC7302o, InterfaceC730
     private final Object m28163o0(InterfaceC7333y0 interfaceC7333y0, Object obj) {
         C5280s c5280s;
         InterfaceC7333y0 interfaceC7333y02;
-        Object obj2;
+        Object obj2 = null;
         C5280s c5280s2;
         C5280s c5280s3;
         C7295l1 m28146K = m28146K(interfaceC7333y0);
@@ -831,7 +831,7 @@ public class C7283h1 implements InterfaceC7271d1, InterfaceC7302o, InterfaceC730
     /* renamed from: x */
     private final Object m28166x(Object obj) {
         C5280s c5280s;
-        Object m28161n0;
+        Object m28161n0 = null;
         C5280s c5280s2;
         do {
             Object m28172M = m28172M();
@@ -935,7 +935,7 @@ public class C7283h1 implements InterfaceC7271d1, InterfaceC7302o, InterfaceC730
 
     /* renamed from: T */
     public final Object m28176T(Object obj) {
-        Object m28161n0;
+        Object m28161n0 = null;
         C5280s c5280s;
         C5280s c5280s2;
         do {
@@ -985,7 +985,7 @@ public class C7283h1 implements InterfaceC7271d1, InterfaceC7302o, InterfaceC730
 
     /* renamed from: e0 */
     public final void m28179e0(AbstractC7280g1 abstractC7280g1) {
-        Object m28172M;
+        Object m28172M = null;
         AtomicReferenceFieldUpdater atomicReferenceFieldUpdater;
         C7306p0 c7306p0;
         do {
@@ -1061,7 +1061,7 @@ public class C7283h1 implements InterfaceC7271d1, InterfaceC7302o, InterfaceC730
 
     /* renamed from: i0 */
     protected final CancellationException m28181i0(Throwable th, String str) {
-        Throwable th2;
+        Throwable th2 = null;
         if (!(th instanceof CancellationException)) {
             th2 = null;
         } else {
@@ -1095,7 +1095,7 @@ public class C7283h1 implements InterfaceC7271d1, InterfaceC7302o, InterfaceC730
     @Override // ve.InterfaceC7304o1
     /* renamed from: q */
     public CancellationException mo28183q() {
-        Throwable th;
+        Throwable th = null;
         Object m28172M = m28172M();
         Throwable th2 = null;
         if (m28172M instanceof b) {
@@ -1120,7 +1120,7 @@ public class C7283h1 implements InterfaceC7271d1, InterfaceC7302o, InterfaceC730
     @Override // ve.InterfaceC7271d1
     /* renamed from: r */
     public final InterfaceC7300n0 mo28116r(boolean z10, boolean z11, InterfaceC5660l interfaceC5660l) {
-        Throwable th;
+        Throwable th = null;
         Throwable th2 = null;
         AbstractC7280g1 abstractC7280g1 = null;
         while (true) {
@@ -1227,7 +1227,7 @@ public class C7283h1 implements InterfaceC7271d1, InterfaceC7302o, InterfaceC730
 
     /* renamed from: v */
     public final boolean m28184v(Object obj) {
-        Object obj2;
+        Object obj2 = null;
         C5280s c5280s;
         C5280s c5280s2;
         C5280s c5280s3;

@@ -30,9 +30,9 @@ final class RunnableC5103a0 implements Runnable {
         int i12 = 0;
         int i13 = 0;
         int i14 = 0;
-        Bundle bundle;
-        Bundle bundle2;
-        Bundle bundle3;
+        Bundle bundle = null;
+        Bundle bundle2 = null;
+        Bundle bundle3 = null;
         C5105b0 c5105b0 = this.f21029c;
         i10 = c5105b0.f21036p0;
         if (i10 > 0) {

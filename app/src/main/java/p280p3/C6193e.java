@@ -244,7 +244,7 @@ public final class C6193e extends View {
 
     @Override // android.view.View
     protected void onDraw(Canvas canvas) {
-        String string;
+        String string = null;
         AbstractC5868k.m23674f(canvas, "canvas");
         super.onDraw(canvas);
         getPaint().setColor(Color.parseColor("#ff9500"));

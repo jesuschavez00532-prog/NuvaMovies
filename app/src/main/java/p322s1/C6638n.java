@@ -297,7 +297,7 @@ public final class C6638n implements ImageHeaderParser {
 
     /* renamed from: i */
     private boolean m25912i(byte[] bArr, int i10) {
-        boolean z10;
+        boolean z10 = false;
         if (bArr != null && i10 > f25464a.length) {
             z10 = true;
         } else {
@@ -438,7 +438,7 @@ public final class C6638n implements ImageHeaderParser {
 
     /* renamed from: m */
     private ImageHeaderParser.ImageType m25916m(c cVar, int i10) {
-        boolean z10;
+        boolean z10 = false;
         if (((cVar.mo25917a() << 16) | cVar.mo25917a()) != 1718909296) {
             return ImageHeaderParser.ImageType.UNKNOWN;
         }

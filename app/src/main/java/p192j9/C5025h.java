@@ -330,7 +330,7 @@ public final class C5025h implements InterfaceC4729e, InterfaceC6371b, Interface
 
     /* renamed from: c4 */
     private final void m20428c4(final List list) {
-        boolean z10;
+        boolean z10 = false;
         if (list != null && !list.isEmpty()) {
             z10 = false;
         } else {
@@ -382,8 +382,8 @@ public final class C5025h implements InterfaceC4729e, InterfaceC6371b, Interface
     /* renamed from: J5 */
     public void mo20389J5(ApkQueryCouponResult apkQueryCouponResult) {
         List<CouponCodeList> list;
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         AbstractC5868k.m23674f(apkQueryCouponResult, "apkQueryCouponResult");
         this.f20801b.mo19595J();
         C1466m0 c1466m0 = C1466m0.f5627a;

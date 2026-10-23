@@ -70,7 +70,7 @@ public final class C1098b {
 
     /* renamed from: g */
     public static String m5046g(Bundle bundle) {
-        String string;
+        String string = null;
         for (EnumC1096a enumC1096a : EnumC1096a.values()) {
             if (bundle.containsKey(enumC1096a.f4402a) && (string = bundle.getString(enumC1096a.f4402a)) != null && m5049n(string) == null) {
                 return string;
@@ -111,7 +111,7 @@ public final class C1098b {
 
     /* renamed from: c */
     public final C1098b m5050c(C1098b c1098b) {
-        boolean z10;
+        boolean z10 = false;
         EnumMap enumMap = new EnumMap(EnumC1096a.class);
         for (EnumC1096a enumC1096a : EnumC1096a.values()) {
             Boolean bool = (Boolean) this.f4404a.get(enumC1096a);
@@ -224,7 +224,7 @@ public final class C1098b {
     }
 
     public final String toString() {
-        String str;
+        String str = null;
         StringBuilder sb2 = new StringBuilder("settings: ");
         EnumC1096a[] values = EnumC1096a.values();
         int length = values.length;

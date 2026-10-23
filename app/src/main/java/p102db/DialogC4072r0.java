@@ -98,7 +98,7 @@ public final class DialogC4072r0 extends Dialog implements C7069a.a {
 
     /* renamed from: e */
     public static /* synthetic */ void m17098e(DialogC4072r0 dialogC4072r0, a aVar, NetConnectStatusView.EnumC3019a enumC3019a, String str, long j10, boolean z10, int i10, Object obj) {
-        boolean z11;
+        boolean z11 = false;
         if ((i10 & 4) != 0) {
             str = "";
         }
@@ -185,10 +185,10 @@ public final class DialogC4072r0 extends Dialog implements C7069a.a {
 
     /* renamed from: d */
     public final void m17104d(a aVar, NetConnectStatusView.EnumC3019a enumC3019a, String str, long j10, boolean z10) {
-        boolean z11;
-        String string;
-        boolean z12;
-        boolean z13;
+        boolean z11 = false;
+        String string = null;
+        boolean z12 = false;
+        boolean z13 = false;
         AbstractC5868k.m23674f(aVar, "channel");
         AbstractC5868k.m23674f(enumC3019a, "state");
         AbstractC5868k.m23674f(str, "errCode");

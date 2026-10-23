@@ -99,7 +99,7 @@ abstract class AbstractC7006g {
 
         @Override // java.lang.Runnable
         public void run() {
-            Object obj;
+            Object obj = null;
             try {
                 obj = this.f26364a.call();
             } catch (Exception unused) {

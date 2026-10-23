@@ -69,7 +69,7 @@ public final class C4768f1 extends C7767e {
         @Override // p315r9.InterfaceC6563a
         /* renamed from: b */
         public void mo19703b() {
-            boolean z10;
+            boolean z10 = false;
             if (C4768f1.this.m3075C6() != null) {
                 AbstractActivityC0712e m3075C6 = C4768f1.this.m3075C6();
                 if (m3075C6 != null) {
@@ -86,7 +86,7 @@ public final class C4768f1 extends C7767e {
         @Override // p315r9.InterfaceC6563a
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void mo19702a(UpdateBean updateBean) {
-            boolean z10;
+            boolean z10 = false;
             if (C4768f1.this.m3075C6() != null) {
                 AbstractActivityC0712e m3075C6 = C4768f1.this.m3075C6();
                 if (m3075C6 != null) {
@@ -106,7 +106,7 @@ public final class C4768f1 extends C7767e {
 
         @Override // p315r9.InterfaceC6563a
         public void onError(Throwable th) {
-            boolean z10;
+            boolean z10 = false;
             if (C4768f1.this.m3075C6() != null) {
                 AbstractActivityC0712e m3075C6 = C4768f1.this.m3075C6();
                 if (m3075C6 != null) {
@@ -245,7 +245,7 @@ public final class C4768f1 extends C7767e {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: Q9 */
     public final void m19697Q9(AbstractActivityC0712e abstractActivityC0712e, UpdateBean updateBean) {
-        String m6870i;
+        String m6870i = null;
         if (updateBean == null) {
             return;
         }
@@ -360,7 +360,7 @@ public final class C4768f1 extends C7767e {
     @Override // androidx.fragment.app.Fragment
     /* renamed from: k8 */
     public void mo3176k8(View view, Bundle bundle) {
-        String m6870i;
+        String m6870i = null;
         Window window;
         AbstractC5868k.m23674f(view, "view");
         Dialog m3280r9 = m3280r9();

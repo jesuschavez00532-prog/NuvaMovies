@@ -378,7 +378,7 @@ class C5325l implements RunnableC5321h.b, AbstractC4219a.f {
 
     /* renamed from: i */
     void m21560i() {
-        boolean z10;
+        boolean z10 = false;
         C5329p c5329p;
         synchronized (this) {
             this.f21776b.mo17649c();
@@ -490,7 +490,7 @@ class C5325l implements RunnableC5321h.b, AbstractC4219a.f {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: r */
     public synchronized void m21566r(InterfaceC0013i interfaceC0013i) {
-        boolean z10;
+        boolean z10 = false;
         this.f21776b.mo17649c();
         this.f21775a.m21573k(interfaceC0013i);
         if (this.f21775a.isEmpty()) {

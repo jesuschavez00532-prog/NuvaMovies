@@ -33,7 +33,7 @@ public final class C5096m {
         @Override // me.InterfaceC5642a
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final String invoke() {
-            String obj;
+            String obj = null;
             String m23718c = C5884b.m23718c();
             if (m23718c == null || (obj = AbstractC7157k.m27699b0(m23718c).toString()) == null) {
                 return "";

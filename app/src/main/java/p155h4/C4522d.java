@@ -90,10 +90,10 @@ public class C4522d {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: d */
     public static /* bridge */ /* synthetic */ void m18912d(C4522d c4522d, Message message) {
-        String str;
-        String str2;
-        String str3;
-        String str4;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        String str4 = null;
         if (message != null) {
             Object obj = message.obj;
             if (obj instanceof Intent) {
@@ -284,7 +284,7 @@ public class C4522d {
 
     /* renamed from: g */
     private static synchronized String m18914g() {
-        String num;
+        String num = null;
         synchronized (C4522d.class) {
             int i10 = f19545h;
             f19545h = i10 + 1;
@@ -307,7 +307,7 @@ public class C4522d {
 
     /* renamed from: i */
     private final void m18916i(String str, Bundle bundle) {
-        String str2;
+        String str2 = null;
         synchronized (this.f19549a) {
             C4247j c4247j = (C4247j) this.f19549a.remove(str);
             if (c4247j == null) {

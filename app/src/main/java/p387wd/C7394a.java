@@ -26,7 +26,7 @@ public final class C7394a extends Drawable {
     private final float f27408c;
 
     public C7394a() {
-        String str;
+        String str = null;
         Paint paint = new Paint(1);
         this.f27406a = paint;
         if (C4842a.f20329a.m19920a().mo19960i(AbstractApplicationC7689d.f28135d.m29494a()).equals("com.android.flutv")) {

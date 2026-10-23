@@ -414,12 +414,12 @@ public final class ViewOnClickListenerC4802v extends C7767e implements View.OnCl
 
     /* renamed from: U9 */
     public static final boolean m19842U9(ViewOnClickListenerC4802v viewOnClickListenerC4802v, DialogInterface dialogInterface, int i10, KeyEvent keyEvent) {
-        String str;
-        String str2;
-        String str3;
-        String string;
-        String string2;
-        String string3;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        String string = null;
+        String string2 = null;
+        String string3 = null;
         AbstractC5868k.m23674f(viewOnClickListenerC4802v, "this$0");
         if (keyEvent.getAction() == 0 && keyEvent.getKeyCode() == 4) {
             C7556b1 c7556b1 = C7556b1.f27754a;
@@ -723,13 +723,13 @@ public final class ViewOnClickListenerC4802v extends C7767e implements View.OnCl
 
     @Override // android.view.View.OnClickListener
     public void onClick(View view) {
-        String str;
-        String str2;
-        String str3;
-        String str4;
-        String string;
-        String string2;
-        String string3;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        String str4 = null;
+        String string = null;
+        String string2 = null;
+        String string3 = null;
         AbstractC5868k.m23674f(view, "v");
         int id2 = view.getId();
         int i10 = R$id.btnDelete;

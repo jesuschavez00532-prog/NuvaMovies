@@ -150,7 +150,7 @@ public final class C5810q extends AbstractC5774c<InterfaceC4735k> implements Int
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: X9 */
     public static final void m23423X9(C5810q c5810q, View view) {
-        String str;
+        String str = null;
         GetAuthInfoResultData data;
         AbstractC5868k.m23674f(c5810q, "this$0");
         Context m3096J6 = c5810q.m3096J6();
@@ -169,10 +169,10 @@ public final class C5810q extends AbstractC5774c<InterfaceC4735k> implements Int
 
     /* renamed from: Y9 */
     private final void m23424Y9() {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         GetAuthInfoResultData data;
-        String showFlag;
+        String showFlag = null;
         C5881x c5881x = C5881x.f23415a;
         Object[] objArr = new Object[8];
         objArr[0] = C4300d.f18678a.m18049o();

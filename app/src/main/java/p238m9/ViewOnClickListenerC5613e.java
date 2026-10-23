@@ -119,7 +119,7 @@ public final class ViewOnClickListenerC5613e extends C7767e implements View.OnCl
     @Override // androidx.fragment.app.Fragment
     /* renamed from: k8 */
     public void mo3176k8(View view, Bundle bundle) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(view, "view");
         super.mo3176k8(view, bundle);
         TextView textView = (TextView) m22791H9(R$id.daysForBind);

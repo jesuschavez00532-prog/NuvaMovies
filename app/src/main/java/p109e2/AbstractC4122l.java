@@ -258,7 +258,7 @@ public abstract class AbstractC4122l {
 
     /* renamed from: y */
     public static String m17252y(byte[] bArr) {
-        String m17233f;
+        String m17233f = null;
         char[] cArr = f18090b;
         synchronized (cArr) {
             m17233f = m17233f(bArr, cArr);

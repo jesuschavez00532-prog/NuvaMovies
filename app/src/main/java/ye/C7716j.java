@@ -11,7 +11,7 @@ final class C7716j {
     private static final List f28375d = new ArrayList();
 
     /* renamed from: a */
-    Object f28376a;
+    Object f28376a = null;
 
     /* renamed from: b */
     C7723q f28377b;

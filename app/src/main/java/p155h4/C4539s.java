@@ -18,7 +18,7 @@ final class C4539s {
 
     /* JADX INFO: Access modifiers changed from: package-private */
     public C4539s(IBinder iBinder) {
-        String str;
+        String str = null;
         String interfaceDescriptor = iBinder.getInterfaceDescriptor();
         if ("android.os.IMessenger".equals(interfaceDescriptor)) {
             this.f19580a = new Messenger(iBinder);

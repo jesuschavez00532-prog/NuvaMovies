@@ -61,8 +61,8 @@ public abstract class AbstractC4865g0 {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: c */
     public static /* synthetic */ String m20034c(boolean z10, String str, AbstractBinderC4857c0 abstractBinderC4857c0) {
-        boolean z11;
-        String str2;
+        boolean z11 = false;
+        String str2 = null;
         if (!z10 && m20037f(str, abstractBinderC4857c0, true, false).f20386a) {
             z11 = true;
         } else {

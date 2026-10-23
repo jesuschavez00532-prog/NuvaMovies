@@ -9,7 +9,7 @@ import ee.InterfaceC4184g;
 public abstract class AbstractC4443j extends AbstractC4434a {
     public AbstractC4443j(InterfaceC4181d interfaceC4181d) {
         super(interfaceC4181d);
-        boolean z10;
+        boolean z10 = false;
         if (interfaceC4181d != null) {
             if (interfaceC4181d.mo17487e() == C4185h.f18299a) {
                 z10 = true;

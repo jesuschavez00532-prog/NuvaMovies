@@ -51,7 +51,7 @@ public final class C0152f1 extends AbstractC0166j {
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final Boolean mo542f(Long l10) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(l10, "it");
             if (l10.longValue() == 0 && this.f439a) {
                 z10 = true;
@@ -91,8 +91,8 @@ public final class C0152f1 extends AbstractC0166j {
         @Override // p343tb.AbstractC6929a, io.reactivex.Observer
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void onNext(HeartBeatResult heartBeatResult) {
-            boolean z10;
-            String userToken;
+            boolean z10 = false;
+            String userToken = null;
             AbstractC5868k.m23674f(heartBeatResult, "t");
             super.onNext(heartBeatResult);
             C1466m0 c1466m0 = C1466m0.f5627a;

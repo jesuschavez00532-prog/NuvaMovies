@@ -99,8 +99,8 @@ public final class C7610t1 {
 
         @Override // android.database.ContentObserver
         public void onChange(boolean z10) {
-            boolean z11;
-            String str;
+            boolean z11 = false;
+            String str = null;
             int i10 = 0;
             super.onChange(z10);
             Context context = C7610t1.f27987d;
@@ -176,7 +176,7 @@ public final class C7610t1 {
 
     /* renamed from: g */
     private final String[] m29265g(Context context) {
-        boolean z10;
+        boolean z10 = false;
         if (f27990g.length == 0) {
             z10 = true;
         } else {

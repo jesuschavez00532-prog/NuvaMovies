@@ -25,7 +25,7 @@ public final class C6609d implements InterfaceC6608c {
     @Override // p321s0.InterfaceC6608c
     /* renamed from: a */
     public List mo25819a(String str, List list, String str2) {
-        boolean z10;
+        boolean z10 = false;
         boolean m27723j;
         AbstractC5868k.m23674f(str, "adType");
         AbstractC5868k.m23674f(list, "adInfos");
@@ -107,7 +107,7 @@ public final class C6609d implements InterfaceC6608c {
     @Override // p321s0.InterfaceC6608c
     /* renamed from: b */
     public AdInfo mo25820b(String str, List list, String str2) {
-        boolean z10;
+        boolean z10 = false;
         List list2;
         boolean m27723j;
         AbstractC5868k.m23674f(str, "adType");

@@ -57,7 +57,7 @@ public class C6553r {
         OffsetDateTime atOffset;
         LocalDateTime localDateTime;
         DateTimeFormatter dateTimeFormatter;
-        String format;
+        String format = null;
         if (Build.VERSION.SDK_INT >= 26) {
             instant = new Date(j10).toInstant();
             zoneOffset = ZoneOffset.UTC;

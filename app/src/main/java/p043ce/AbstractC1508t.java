@@ -85,7 +85,7 @@ public abstract class AbstractC1508t extends AbstractC1507s {
 
     /* renamed from: B */
     public static List m6997B(Iterable iterable, int i10) {
-        boolean z10;
+        boolean z10 = false;
         List m6990i;
         List m6983b;
         List m6999D;
@@ -142,7 +142,7 @@ public abstract class AbstractC1508t extends AbstractC1507s {
     public static List m6999D(Iterable iterable) {
         List m6990i;
         List m6985d;
-        Object next;
+        Object next = null;
         List m6983b;
         List m7001F;
         AbstractC5868k.m23674f(iterable, "<this>");
@@ -188,7 +188,7 @@ public abstract class AbstractC1508t extends AbstractC1507s {
 
     /* renamed from: G */
     public static Set m7002G(Iterable iterable) {
-        Object next;
+        Object next = null;
         int m6932a;
         AbstractC5868k.m23674f(iterable, "<this>");
         if (iterable instanceof Collection) {

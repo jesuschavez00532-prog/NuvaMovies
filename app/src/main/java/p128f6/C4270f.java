@@ -33,8 +33,8 @@ public class C4270f {
     private final File f18597f;
 
     public C4270f(Context context) {
-        String str;
-        String processName;
+        String str = null;
+        String processName = null;
         File filesDir = context.getFilesDir();
         this.f18592a = filesDir;
         if (m17791v()) {

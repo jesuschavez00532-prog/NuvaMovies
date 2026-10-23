@@ -46,7 +46,7 @@ public abstract class AbstractC4440g {
     /* renamed from: d */
     public static final StackTraceElement m18636d(AbstractC4434a abstractC4434a) {
         int i10 = 0;
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(abstractC4434a, "<this>");
         InterfaceC4439f m18634b = m18634b(abstractC4434a);
         if (m18634b == null) {

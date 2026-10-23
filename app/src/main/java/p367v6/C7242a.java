@@ -164,8 +164,8 @@ final class C7242a extends AbstractC7245d {
     }
 
     public boolean equals(Object obj) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         if (obj == this) {
             return true;
         }

@@ -120,7 +120,7 @@ public final class C7615w {
 
         /* renamed from: a */
         public final void m29320a(ConfigResult configResult) {
-            String str;
+            String str = null;
             ConfigData data = configResult.getData();
             if (data != null) {
                 str = data.getConfig();
@@ -175,8 +175,8 @@ public final class C7615w {
 
         /* renamed from: a */
         public final void m29321a(ConfigResult configResult) {
-            String str;
-            boolean z10;
+            String str = null;
+            boolean z10 = false;
             Log.d(C7615w.f27996b, " .subscribe({:" + configResult);
             Gson m27114a = AbstractC7027d.m27114a();
             ConfigInfoBean configInfoBean = null;
@@ -291,7 +291,7 @@ public final class C7615w {
         @Override // me.InterfaceC5660l
         /* renamed from: a */
         public final List mo542f(GetEmailSuffixResult getEmailSuffixResult) {
-            String str;
+            String str = null;
             List m27748R;
             AbstractC5868k.m23674f(getEmailSuffixResult, "it");
             EmailSuffixData data = getEmailSuffixResult.getData();
@@ -437,23 +437,23 @@ public final class C7615w {
 
     /* renamed from: L */
     private final void m29279L(ConfigInfoBean configInfoBean, InterfaceC5660l interfaceC5660l, InterfaceC5660l interfaceC5660l2, InterfaceC5660l interfaceC5660l3, boolean z10) {
-        String str;
-        String str2;
-        String str3;
-        String str4;
-        String str5;
-        String str6;
-        String str7;
-        String str8;
-        String str9;
-        String str10;
-        String str11;
-        String downloadSpeed;
-        String downloadNumber;
-        String str12;
-        String str13;
-        String str14;
-        String str15;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        String str4 = null;
+        String str5 = null;
+        String str6 = null;
+        String str7 = null;
+        String str8 = null;
+        String str9 = null;
+        String str10 = null;
+        String str11 = null;
+        String downloadSpeed = null;
+        String downloadNumber = null;
+        String str12 = null;
+        String str13 = null;
+        String str14 = null;
+        String str15 = null;
         String str16 = null;
         if (configInfoBean != null) {
             str = configInfoBean.getOfficialWebsiteLink();
@@ -595,7 +595,7 @@ public final class C7615w {
     static /* synthetic */ void m29280M(C7615w c7615w, ConfigInfoBean configInfoBean, InterfaceC5660l interfaceC5660l, InterfaceC5660l interfaceC5660l2, InterfaceC5660l interfaceC5660l3, boolean z10, int i10, Object obj) {
         InterfaceC5660l interfaceC5660l4;
         InterfaceC5660l interfaceC5660l5;
-        boolean z11;
+        boolean z11 = false;
         if ((i10 & 4) != 0) {
             interfaceC5660l4 = null;
         } else {

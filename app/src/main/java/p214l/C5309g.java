@@ -67,7 +67,7 @@ public class C5309g {
 
     /* renamed from: d */
     public final Object m21407d(Object obj) {
-        Object put;
+        Object put = null;
         if (obj != null) {
             synchronized (this) {
                 Object obj2 = this.f21604a.get(obj);
@@ -107,7 +107,7 @@ public class C5309g {
 
     /* renamed from: f */
     public final Object m21409f(Object obj, Object obj2) {
-        Object put;
+        Object put = null;
         if (obj != null && obj2 != null) {
             synchronized (this) {
                 this.f21607d++;
@@ -128,7 +128,7 @@ public class C5309g {
 
     /* renamed from: g */
     public final Object m21410g(Object obj) {
-        Object remove;
+        Object remove = null;
         if (obj != null) {
             synchronized (this) {
                 remove = this.f21604a.remove(obj);

@@ -208,8 +208,8 @@ public class C5701e {
 
     /* renamed from: l */
     public boolean m22937l(C5701e c5701e) {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         boolean z12 = false;
         if (c5701e == null) {
             return false;

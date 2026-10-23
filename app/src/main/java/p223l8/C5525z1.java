@@ -248,7 +248,7 @@ public final class C5525z1 extends AbstractC1196d<InterfaceC4280g> implements In
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: V9 */
     public final void m22408V9(int i10) {
-        String str;
+        String str = null;
         InterfaceC4280g interfaceC4280g = (InterfaceC4280g) m5478w9();
         C1168k0 c1168k0 = this.f22457y0;
         if (c1168k0 != null) {
@@ -385,7 +385,7 @@ public final class C5525z1 extends AbstractC1196d<InterfaceC4280g> implements In
 
     /* renamed from: fa */
     private final void m22418fa() {
-        String str;
+        String str = null;
         int selectedItemPosition = ((MemoryListView) m22420M9(R$id.mLvDate)).getSelectedItemPosition();
         if (selectedItemPosition < 0) {
             return;
@@ -440,7 +440,7 @@ public final class C5525z1 extends AbstractC1196d<InterfaceC4280g> implements In
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: ga */
     public static final void m22419ga(C5525z1 c5525z1) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(c5525z1, "this$0");
         InterfaceC4280g interfaceC4280g = (InterfaceC4280g) c5525z1.m5478w9();
         C1168k0 c1168k0 = c5525z1.f22457y0;

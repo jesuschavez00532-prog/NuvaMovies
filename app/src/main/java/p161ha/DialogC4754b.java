@@ -144,7 +144,7 @@ public final class DialogC4754b extends Dialog implements View.OnClickListener {
 
     @Override // android.view.View.OnClickListener
     public void onClick(View view) {
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(view, "v");
         if (view.getId() == R$id.mIvAd) {
             AdInfo adInfo = this.f20093a;

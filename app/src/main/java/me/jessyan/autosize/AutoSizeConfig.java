@@ -78,7 +78,7 @@ public final class AutoSizeConfig {
         new Thread(new Runnable() { // from class: me.jessyan.autosize.AutoSizeConfig.2
             @Override // java.lang.Runnable
             public void run() {
-                Bundle bundle;
+                Bundle bundle = null;
                 try {
                     ApplicationInfo applicationInfo = context.getPackageManager().getApplicationInfo(context.getPackageName(), 128);
                     if (applicationInfo != null && (bundle = applicationInfo.metaData) != null) {
@@ -102,7 +102,7 @@ public final class AutoSizeConfig {
     }
 
     public int getDesignHeightInDp() {
-        boolean z10;
+        boolean z10 = false;
         if (this.mDesignHeightInDp > 0) {
             z10 = true;
         } else {
@@ -113,7 +113,7 @@ public final class AutoSizeConfig {
     }
 
     public int getDesignWidthInDp() {
-        boolean z10;
+        boolean z10 = false;
         if (this.mDesignWidthInDp > 0) {
             z10 = true;
         } else {
@@ -239,7 +239,7 @@ public final class AutoSizeConfig {
     }
 
     public AutoSizeConfig setDesignHeightInDp(int i10) {
-        boolean z10;
+        boolean z10 = false;
         if (i10 > 0) {
             z10 = true;
         } else {
@@ -251,7 +251,7 @@ public final class AutoSizeConfig {
     }
 
     public AutoSizeConfig setDesignWidthInDp(int i10) {
-        boolean z10;
+        boolean z10 = false;
         if (i10 > 0) {
             z10 = true;
         } else {
@@ -284,7 +284,7 @@ public final class AutoSizeConfig {
     }
 
     public AutoSizeConfig setScreenHeight(int i10) {
-        boolean z10;
+        boolean z10 = false;
         if (i10 > 0) {
             z10 = true;
         } else {
@@ -296,7 +296,7 @@ public final class AutoSizeConfig {
     }
 
     public AutoSizeConfig setScreenWidth(int i10) {
-        boolean z10;
+        boolean z10 = false;
         if (i10 > 0) {
             z10 = true;
         } else {
@@ -308,7 +308,7 @@ public final class AutoSizeConfig {
     }
 
     public AutoSizeConfig setStatusBarHeight(int i10) {
-        boolean z10;
+        boolean z10 = false;
         if (i10 > 0) {
             z10 = true;
         } else {
@@ -374,7 +374,7 @@ public final class AutoSizeConfig {
         application.registerComponentCallbacks(new ComponentCallbacks() { // from class: me.jessyan.autosize.AutoSizeConfig.1
             @Override // android.content.ComponentCallbacks
             public void onConfigurationChanged(Configuration configuration2) {
-                boolean z11;
+                boolean z11 = false;
                 if (configuration2 != null) {
                     if (configuration2.fontScale > 0.0f) {
                         AutoSizeConfig.this.mInitScaledDensity = Resources.getSystem().getDisplayMetrics().scaledDensity;

@@ -284,8 +284,8 @@ public abstract class AbstractC5358c {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: h0 */
     public final void m21660h0(int i10, IInterface iInterface) {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         C5387l1 c5387l1;
         C5387l1 c5387l12;
         boolean z12 = false;
@@ -485,7 +485,7 @@ public abstract class AbstractC5358c {
 
     /* renamed from: c */
     public boolean m21679c() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f21908m) {
             int i10 = this.f21915t;
             z10 = true;
@@ -601,7 +601,7 @@ public abstract class AbstractC5358c {
     public abstract int mo9658i();
 
     public boolean isConnected() {
-        boolean z10;
+        boolean z10 = false;
         synchronized (this.f21908m) {
             if (this.f21915t == 4) {
                 z10 = true;

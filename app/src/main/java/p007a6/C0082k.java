@@ -575,7 +575,7 @@ public class C0082k {
     /* JADX WARN: Multi-variable type inference failed */
     /* renamed from: w */
     private void m324w(boolean z10, InterfaceC4557i interfaceC4557i) {
-        String str;
+        String str = null;
         ArrayList arrayList = new ArrayList(this.f239l.m426n());
         if (arrayList.size() <= z10) {
             C7503f.m28716f().m28723i("No open sessions to be closed.");

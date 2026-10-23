@@ -50,7 +50,7 @@ class C7378e {
 
     /* renamed from: b */
     public synchronized boolean m28484b() {
-        boolean z10;
+        boolean z10 = false;
         if (this.f27380c != 0) {
             if (this.f27378a.m11040a() <= this.f27379b) {
                 z10 = false;

@@ -78,11 +78,11 @@ public final class C6351a implements InterfaceC6238a, InterfaceC6444z0 {
 
     /* renamed from: Y0 */
     private final void m25130Y0() {
-        String str;
-        String str2;
-        String str3;
-        String str4;
-        String str5;
+        String str = null;
+        String str2 = null;
+        String str3 = null;
+        String str4 = null;
+        String str5 = null;
         AutoLoginBean autoLoginBean = this.f24706c;
         String str6 = null;
         if (autoLoginBean != null) {

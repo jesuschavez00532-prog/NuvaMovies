@@ -108,7 +108,7 @@ public final class C7779b extends AbstractC7780c {
         @Override // me.InterfaceC5642a
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final String invoke() {
-            boolean z10;
+            boolean z10 = false;
             String language = Locale.getDefault().getLanguage();
             if (language != null && language.length() != 0) {
                 z10 = false;

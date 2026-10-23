@@ -149,7 +149,7 @@ final class C6519f extends AbstractC6525l {
     public boolean equals(Object obj) {
         Integer num;
         byte[] mo25512f;
-        String str;
+        String str = null;
         if (obj == this) {
             return true;
         }

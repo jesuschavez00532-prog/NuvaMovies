@@ -317,10 +317,10 @@ public final class C6702b1 extends C7767e implements InterfaceC5538f, InterfaceC
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: Y9 */
     public static final void m26263Y9(final C6702b1 c6702b1, View view) {
-        String str;
+        String str = null;
         CharSequence m27758b0;
-        String m28987e;
-        String str2;
+        String m28987e = null;
+        String str2 = null;
         Resources resources;
         AbstractC5868k.m23674f(c6702b1, "this$0");
         int i10 = R$id.mTextGetCode;
@@ -440,7 +440,7 @@ public final class C6702b1 extends C7767e implements InterfaceC5538f, InterfaceC
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: fa */
     public static final void m26270fa(C6702b1 c6702b1) {
-        String str;
+        String str = null;
         Resources resources;
         AbstractC5868k.m23674f(c6702b1, "this$0");
         TextView textView = (TextView) c6702b1.m26274N9(R$id.mTextGetCode);
@@ -456,7 +456,7 @@ public final class C6702b1 extends C7767e implements InterfaceC5538f, InterfaceC
     /* renamed from: ga */
     private final void m26271ga() {
         CharSequence m27758b0;
-        String m28987e;
+        String m28987e = null;
         CharSequence m27758b02;
         if (this.f25735O0) {
             UserInfo m6887v = C1466m0.f5627a.m6887v();
@@ -493,8 +493,8 @@ public final class C6702b1 extends C7767e implements InterfaceC5538f, InterfaceC
 
     /* renamed from: h */
     private final void m26272h() {
-        String str;
-        boolean z10;
+        String str = null;
+        boolean z10 = false;
         C4300d c4300d = C4300d.f18678a;
         Pair m18021a = c4300d.m18021a();
         String str2 = null;
@@ -539,7 +539,7 @@ public final class C6702b1 extends C7767e implements InterfaceC5538f, InterfaceC
     /* renamed from: ha */
     private final boolean m26273ha() {
         CharSequence m27758b0;
-        String obj;
+        String obj = null;
         if (this.f25735O0) {
             UserInfo m6887v = C1466m0.f5627a.m6887v();
             if (m6887v == null || (obj = m6887v.getMobile()) == null) {
@@ -584,7 +584,7 @@ public final class C6702b1 extends C7767e implements InterfaceC5538f, InterfaceC
     /* renamed from: F1 */
     public void mo25222F1() {
         CharSequence m27758b0;
-        String m28987e;
+        String m28987e = null;
         CharSequence m27758b02;
         if (this.f25735O0) {
             UserInfo m6887v = C1466m0.f5627a.m6887v();
@@ -655,7 +655,7 @@ public final class C6702b1 extends C7767e implements InterfaceC5538f, InterfaceC
     @Override // p301qb.InterfaceC6413p
     /* renamed from: U4 */
     public void mo25223U4(String str) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str, Constants.KEY_ERROR_CODE);
         C7559c1 c7559c1 = C7559c1.f27762a;
         Context m3096J6 = m3096J6();

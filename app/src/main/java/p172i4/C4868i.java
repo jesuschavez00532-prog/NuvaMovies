@@ -194,7 +194,7 @@ public class C4868i extends C4870j {
     /* renamed from: t */
     final void m20056t(Context context, int i10, String str, PendingIntent pendingIntent) {
         int i11 = 0;
-        String str2;
+        String str2 = null;
         NotificationChannel notificationChannel;
         CharSequence name;
         Log.w("GoogleApiAvailability", String.format("GMS core API Availability. ConnectionResult=%s, tag=%s", Integer.valueOf(i10), null), new IllegalArgumentException());

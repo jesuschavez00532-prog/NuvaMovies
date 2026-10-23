@@ -86,8 +86,8 @@ public final class C7730d {
     /* renamed from: b */
     public static /* synthetic */ void m29861b(C7730d c7730d, String str, HashMap hashMap, long j10, long j11, boolean z10, boolean z11, int i10, Object obj) {
         long j12;
-        boolean z12;
-        boolean z13;
+        boolean z12 = false;
+        boolean z13 = false;
         if ((i10 & 8) != 0) {
             j12 = 0;
         } else {
@@ -109,7 +109,7 @@ public final class C7730d {
     /* renamed from: d */
     public static /* synthetic */ EventDbModel m29862d(C7730d c7730d, String str, HashMap hashMap, long j10, long j11, boolean z10, int i10, Object obj) {
         long j12;
-        boolean z11;
+        boolean z11 = false;
         if ((i10 & 8) != 0) {
             j12 = 0;
         } else {
@@ -125,7 +125,7 @@ public final class C7730d {
 
     /* renamed from: a */
     public final synchronized void m29863a(String str, HashMap hashMap, long j10, long j11, boolean z10, boolean z11) {
-        boolean z12;
+        boolean z12 = false;
         AbstractC5868k.m23674f(str, "eventId");
         AbstractC5868k.m23674f(hashMap, "parameters");
         if (str.length() > 0) {

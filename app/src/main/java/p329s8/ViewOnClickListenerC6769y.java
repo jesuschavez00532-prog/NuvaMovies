@@ -142,7 +142,7 @@ public final class ViewOnClickListenerC6769y extends C7767e implements View.OnCl
 
         /* renamed from: a */
         public final void m26641a(ArrayList arrayList) {
-            boolean z10;
+            boolean z10 = false;
             AbstractC5868k.m23674f(arrayList, "it");
             C7615w c7615w = C7615w.f27995a;
             String m29317x = c7615w.m29317x(ViewOnClickListenerC6769y.this.f26045H0);
@@ -232,8 +232,8 @@ public final class ViewOnClickListenerC6769y extends C7767e implements View.OnCl
 
         @Override // android.text.TextWatcher
         public void afterTextChanged(Editable editable) {
-            boolean z10;
-            boolean z11;
+            boolean z10 = false;
+            boolean z11 = false;
             boolean z12 = false;
             String m26627R9 = ViewOnClickListenerC6769y.m26627R9(ViewOnClickListenerC6769y.this, false, 1, null);
             TextView textView = (TextView) ViewOnClickListenerC6769y.this.m26638M9(R$id.mTextGetCode);
@@ -274,8 +274,8 @@ public final class ViewOnClickListenerC6769y extends C7767e implements View.OnCl
 
         @Override // android.text.TextWatcher
         public void afterTextChanged(Editable editable) {
-            boolean z10;
-            boolean z11;
+            boolean z10 = false;
+            boolean z11 = false;
             boolean z12 = false;
             String m26627R9 = ViewOnClickListenerC6769y.m26627R9(ViewOnClickListenerC6769y.this, false, 1, null);
             TextView textView = (TextView) ViewOnClickListenerC6769y.this.m26638M9(R$id.mTextGetCode);
@@ -429,7 +429,7 @@ public final class ViewOnClickListenerC6769y extends C7767e implements View.OnCl
 
     /* renamed from: Q9 */
     private final String m26626Q9(boolean z10) {
-        String m27728o;
+        String m27728o = null;
         m27728o = AbstractC7166t.m27728o(((AutoCompleteEditView) m26638M9(R$id.mEditNewEmail)).getText().toString(), " ", "", false, 4, null);
         return m27728o;
     }
@@ -451,7 +451,7 @@ public final class ViewOnClickListenerC6769y extends C7767e implements View.OnCl
     /* renamed from: T9 */
     private final String m26629T9(String str) {
         int m27735E;
-        boolean z10;
+        boolean z10 = false;
         StringBuilder sb2 = new StringBuilder();
         if (!TextUtils.isEmpty(str)) {
             m27735E = AbstractC7167u.m27735E(str, "@", 0, false, 6, null);
@@ -482,7 +482,7 @@ public final class ViewOnClickListenerC6769y extends C7767e implements View.OnCl
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: V9 */
     public static final void m26630V9(ViewOnClickListenerC6769y viewOnClickListenerC6769y, View view) {
-        String str;
+        String str = null;
         Resources resources;
         AbstractC5868k.m23674f(viewOnClickListenerC6769y, "this$0");
         int i10 = R$id.mTextGetCode;
@@ -611,7 +611,7 @@ public final class ViewOnClickListenerC6769y extends C7767e implements View.OnCl
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: ba */
     public static final void m26636ba(ViewOnClickListenerC6769y viewOnClickListenerC6769y) {
-        String str;
+        String str = null;
         Resources resources;
         AbstractC5868k.m23674f(viewOnClickListenerC6769y, "this$0");
         TextView textView = (TextView) viewOnClickListenerC6769y.m26638M9(R$id.mTextGetCode);
@@ -825,7 +825,7 @@ public final class ViewOnClickListenerC6769y extends C7767e implements View.OnCl
     @Override // la.InterfaceC5535c
     /* renamed from: k */
     public void mo22445k(String str) {
-        String m28982c;
+        String m28982c = null;
         DialogC6728k0 dialogC6728k0;
         AbstractC5868k.m23674f(str, "errCode");
         boolean z10 = true;

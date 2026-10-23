@@ -35,7 +35,7 @@ public abstract class AbstractC1350e {
 
     /* renamed from: a */
     public static final String m6119a(String str, String str2) {
-        boolean z10;
+        boolean z10 = false;
         AbstractC5868k.m23674f(str2, "domainKey");
         String m27854k = C7197a.f26917a.m27854k(str2);
         boolean z11 = true;

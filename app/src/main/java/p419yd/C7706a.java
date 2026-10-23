@@ -39,7 +39,7 @@ public class C7706a {
 
     /* renamed from: e */
     private void m29775e(Context context) {
-        Bundle bundle;
+        Bundle bundle = null;
         try {
             ApplicationInfo applicationInfo = context.getPackageManager().getApplicationInfo(context.getPackageName(), 128);
             if (applicationInfo != null && (bundle = applicationInfo.metaData) != null) {

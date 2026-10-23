@@ -97,8 +97,8 @@ public class C5223s0 extends AbstractC5243x0 {
         @Override // p101da.ViewOnClickListenerC4019e.a
         /* renamed from: n2 */
         public void mo17008n2() {
-            String str;
-            String str2;
+            String str = null;
+            String str2 = null;
             C4160d.b bVar = C4160d.f18217d;
             AbstractActivityC0302c abstractActivityC0302c = this.f21347a;
             String string = abstractActivityC0302c.getString(R$string.pwd_set_suc);
@@ -392,7 +392,7 @@ public class C5223s0 extends AbstractC5243x0 {
     /* renamed from: m */
     public static final void m21071m(C5550d c5550d, PosterView posterView, C5203n0 c5203n0, C5223s0 c5223s0, int i10, View view) {
         ContentList contentList;
-        String str;
+        String str = null;
         AbstractC5868k.m23674f(c5550d, "$data");
         AbstractC5868k.m23674f(posterView, "$posterView");
         AbstractC5868k.m23674f(c5203n0, "$adappter");

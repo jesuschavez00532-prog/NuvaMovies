@@ -46,9 +46,9 @@ public final class C5620l extends C7767e {
 
         @Override // android.content.DialogInterface.OnKeyListener
         public boolean onKey(DialogInterface dialogInterface, int i10, KeyEvent keyEvent) {
-            boolean z10;
-            boolean z11;
-            boolean z12;
+            boolean z10 = false;
+            boolean z11 = false;
+            boolean z12 = false;
             if (i10 != 4) {
                 if (i10 == 23) {
                     if (keyEvent != null && keyEvent.getAction() == 0) {

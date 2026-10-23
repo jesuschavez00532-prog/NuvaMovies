@@ -272,7 +272,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
         this.mSHCallback = new IRenderView.IRenderCallback() { // from class: tv.danmaku.ijk.media.player.widget.IjkVideoView.9
             @Override // tv.danmaku.ijk.media.player.widget.media.IRenderView.IRenderCallback
             public void onSurfaceChanged(IRenderView.ISurfaceHolder iSurfaceHolder, int i10, int i11, int i12) {
-                boolean z10;
+                boolean z10 = false;
                 if (iSurfaceHolder.getRenderView() == IjkVideoView.this.mRenderView) {
                     IjkVideoView.this.mSurfaceWidth = i11;
                     IjkVideoView.this.mSurfaceHeight = i12;
@@ -957,7 +957,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
         this.mSHCallback = new IRenderView.IRenderCallback() { // from class: tv.danmaku.ijk.media.player.widget.IjkVideoView.9
             @Override // tv.danmaku.ijk.media.player.widget.media.IRenderView.IRenderCallback
             public void onSurfaceChanged(IRenderView.ISurfaceHolder iSurfaceHolder, int i10, int i11, int i12) {
-                boolean z10;
+                boolean z10 = false;
                 if (iSurfaceHolder.getRenderView() == IjkVideoView.this.mRenderView) {
                     IjkVideoView.this.mSurfaceWidth = i11;
                     IjkVideoView.this.mSurfaceHeight = i12;
@@ -1206,7 +1206,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
         this.mSHCallback = new IRenderView.IRenderCallback() { // from class: tv.danmaku.ijk.media.player.widget.IjkVideoView.9
             @Override // tv.danmaku.ijk.media.player.widget.media.IRenderView.IRenderCallback
             public void onSurfaceChanged(IRenderView.ISurfaceHolder iSurfaceHolder, int i102, int i11, int i12) {
-                boolean z10;
+                boolean z10 = false;
                 if (iSurfaceHolder.getRenderView() == IjkVideoView.this.mRenderView) {
                     IjkVideoView.this.mSurfaceWidth = i11;
                     IjkVideoView.this.mSurfaceHeight = i12;
@@ -1456,7 +1456,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
         this.mSHCallback = new IRenderView.IRenderCallback() { // from class: tv.danmaku.ijk.media.player.widget.IjkVideoView.9
             @Override // tv.danmaku.ijk.media.player.widget.media.IRenderView.IRenderCallback
             public void onSurfaceChanged(IRenderView.ISurfaceHolder iSurfaceHolder, int i102, int i112, int i12) {
-                boolean z10;
+                boolean z10 = false;
                 if (iSurfaceHolder.getRenderView() == IjkVideoView.this.mRenderView) {
                     IjkVideoView.this.mSurfaceWidth = i112;
                     IjkVideoView.this.mSurfaceHeight = i12;

@@ -14,7 +14,7 @@ public abstract class AbstractC7285i0 {
     /* renamed from: a */
     public static final Object m28228a(long j10, InterfaceC4181d interfaceC4181d) {
         InterfaceC4181d m18093b;
-        Object m18094c;
+        Object m18094c = null;
         if (j10 > 0) {
             m18093b = AbstractC4312c.m18093b(interfaceC4181d);
             C7284i c7284i = new C7284i(m18093b, 1);

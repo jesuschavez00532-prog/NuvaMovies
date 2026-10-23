@@ -128,8 +128,8 @@ public final class C4014z extends AbstractC7527b {
     @Override // p399x9.AbstractC7527b
     /* renamed from: e */
     protected void mo5338e(final C7531f c7531f, Object obj) {
-        String str;
-        String str2;
+        String str = null;
+        String str2 = null;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(obj, "bean");
         String str3 = null;

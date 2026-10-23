@@ -205,8 +205,8 @@ public final class C5826y extends AbstractC5774c<InterfaceC4739o> implements Int
     @Override // p251n9.AbstractC5774c
     /* renamed from: H9 */
     protected boolean mo23232H9() {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         View childAt;
         AbstractC5774c abstractC5774c = this.f23294E0;
         if (abstractC5774c != null && abstractC5774c.mo23276M9()) {
@@ -268,7 +268,7 @@ public final class C5826y extends AbstractC5774c<InterfaceC4739o> implements Int
     /* renamed from: O9 */
     public void mo23245O9() {
         View view;
-        boolean z10;
+        boolean z10 = false;
         View childAt;
         View childAt2;
         int i10 = R$id.recyclerView;
@@ -434,8 +434,8 @@ public final class C5826y extends AbstractC5774c<InterfaceC4739o> implements Int
 
     @Override // p251n9.AbstractC5774c
     public boolean onKeyDown(int i10, KeyEvent keyEvent) {
-        boolean z10;
-        boolean z11;
+        boolean z10 = false;
+        boolean z11 = false;
         AbstractC5868k.m23674f(keyEvent, "event");
         if (i10 == 22 && !((RecyclerView) m23517U9(R$id.recyclerView)).hasFocus()) {
             AbstractC5774c abstractC5774c = this.f23294E0;

@@ -409,7 +409,7 @@ public final class C4334b implements Closeable {
 
     /* renamed from: E */
     private void m18155E(String str) {
-        String substring;
+        String substring = null;
         int indexOf = str.indexOf(32);
         if (indexOf != -1) {
             int i10 = indexOf + 1;

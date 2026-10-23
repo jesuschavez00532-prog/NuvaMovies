@@ -9,7 +9,7 @@ public final class C4231b extends IllegalStateException {
 
     /* renamed from: a */
     public static IllegalStateException m17690a(AbstractC4245i abstractC4245i) {
-        String str;
+        String str = null;
         if (!abstractC4245i.mo17711m()) {
             return new IllegalStateException("DuplicateTaskCompletionException can only be created from completed Task.");
         }
