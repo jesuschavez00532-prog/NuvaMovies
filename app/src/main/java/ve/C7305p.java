@@ -63,7 +63,7 @@ public final class C7305p extends AbstractC7324v0 {
 
     static {
         String str;
-        int i10;
+        int i10 = 0;
         Integer m27716c;
         try {
             str = System.getProperty("kotlinx.coroutines.default.parallelism");

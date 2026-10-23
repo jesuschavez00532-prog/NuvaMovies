@@ -107,7 +107,7 @@ public class C1132d {
     public Map m5136g(String str, boolean z10) {
         File m5134b;
         FileInputStream fileInputStream;
-        Exception e10;
+        Exception e10 = null;
         if (z10) {
             m5134b = m5133a(str);
         } else {

@@ -37,7 +37,7 @@ public class C4194i extends AbstractC4187b {
     /* renamed from: d */
     public float mo17500d() {
         int[] iArr;
-        float f10;
+        float f10 = 0.0f;
         if (this.f18346a == AbstractC4187b.a.NOT_ME) {
             return 0.01f;
         }

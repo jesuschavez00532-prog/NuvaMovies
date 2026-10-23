@@ -344,7 +344,7 @@ public final class C1192c extends AbstractC7768f<InterfaceC7381a> implements Int
 
     /* renamed from: R9 */
     public final void m5457R9() {
-        int i10;
+        int i10 = 0;
         if (this.f4736K0) {
             int i11 = this.f4734I0;
             List list = this.f4731F0;
@@ -373,10 +373,10 @@ public final class C1192c extends AbstractC7768f<InterfaceC7381a> implements Int
     @Override // p382w8.InterfaceC7382b
     /* renamed from: W0 */
     public void mo5458W0() {
-        int i10;
+        int i10 = 0;
         List list;
         GetColumnContentsResultData getColumnContentsResultData;
-        int i11;
+        int i11 = 0;
         if (!this.f4729D0) {
             return;
         }
@@ -532,7 +532,7 @@ public final class C1192c extends AbstractC7768f<InterfaceC7381a> implements Int
     @Override // p430z9.AbstractC7765c
     /* renamed from: q9 */
     protected void mo5463q9() {
-        int i10;
+        int i10 = 0;
         if (this.f4733H0.size() > 0) {
             int size = this.f4732G0.size();
             List list = this.f4731F0;

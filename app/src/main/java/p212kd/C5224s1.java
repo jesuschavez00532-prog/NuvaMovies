@@ -70,8 +70,8 @@ public final class C5224s1 extends AbstractC5243x0 {
     /* renamed from: b */
     public void mo21032b(C5203n0 c5203n0, Context context, C5550d c5550d, int i10, RecyclerView recyclerView) {
         C5249z c5249z;
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         AbstractC5868k.m23674f(c5203n0, "homeVodAdapter");
         AbstractC5868k.m23674f(context, C3384f.f14563X);
         AbstractC5868k.m23674f(c5550d, "data");

@@ -111,16 +111,16 @@ public abstract class AbstractC5697a {
         boolean z11;
         int m23003r;
         int m22987j;
-        int i12;
-        int i13;
-        int i14;
-        int i15;
+        int i12 = 0;
+        int i13 = 0;
+        int i14 = 0;
+        int i15 = 0;
         int m23003r2;
         int m23003r3;
-        int i16;
-        int i17;
-        int i18;
-        int i19;
+        int i16 = 0;
+        int i17 = 0;
+        int i18 = 0;
+        int i19 = 0;
         int i20 = 0;
         if (!c5702f.f22828i0) {
             return 0;
@@ -245,7 +245,7 @@ public abstract class AbstractC5697a {
     /* renamed from: e */
     private static int m22906e(C5702f c5702f, int i10) {
         C5701e c5701e;
-        float f10;
+        float f10 = 0.0f;
         int i11 = i10 * 2;
         C5701e[] c5701eArr = c5702f.f22787C;
         C5701e c5701e2 = c5701eArr[i11];

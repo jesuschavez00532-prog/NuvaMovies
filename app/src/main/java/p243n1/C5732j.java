@@ -56,7 +56,7 @@ public final class C5732j {
         int f23017h = 4194304;
 
         static {
-            int i10;
+            int i10 = 0;
             if (Build.VERSION.SDK_INT < 26) {
                 i10 = 4;
             } else {
@@ -116,7 +116,7 @@ public final class C5732j {
     }
 
     C5732j(a aVar) {
-        int i10;
+        int i10 = 0;
         boolean z10;
         this.f23007c = aVar.f23010a;
         if (m23137e(aVar.f23011b)) {

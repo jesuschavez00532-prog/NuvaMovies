@@ -733,7 +733,7 @@ public final class C1407f {
     /* renamed from: k */
     public final void m6516k(ArrayList arrayList) {
         List<Channel> list;
-        int i10;
+        int i10 = 0;
         List<Channel> channelList;
         AbstractC5868k.m23674f(arrayList, "freeColumnList");
         if (C1466m0.f5627a.m6836I() && f5463f != -1) {
@@ -911,7 +911,7 @@ public final class C1407f {
 
     /* renamed from: w */
     public final Channel m6531w() {
-        int i10;
+        int i10 = 0;
         Channel channel = f5457B;
         if (channel != null) {
             return channel;

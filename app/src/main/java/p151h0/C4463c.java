@@ -433,10 +433,10 @@ public class C4463c extends AbstractC4485n {
     @Override // p151h0.AbstractC4485n
     /* renamed from: o */
     public Animator mo18669o(ViewGroup viewGroup, C4497u c4497u, C4497u c4497u2) {
-        int i10;
+        int i10 = 0;
         View view;
         ObjectAnimator m18716a;
-        int i11;
+        int i11 = 0;
         Rect rect;
         Rect rect2;
         ObjectAnimator objectAnimator;

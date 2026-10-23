@@ -622,7 +622,7 @@ public class BlockingQueueC5736a extends AbstractQueue implements BlockingQueue,
 
     @Override // java.util.Queue
     public Object poll() {
-        int i10;
+        int i10 = 0;
         AtomicInteger atomicInteger = this.f23025b;
         Object obj = null;
         if (atomicInteger.get() == 0) {
@@ -653,7 +653,7 @@ public class BlockingQueueC5736a extends AbstractQueue implements BlockingQueue,
 
     @Override // java.util.Queue, java.util.concurrent.BlockingQueue
     public boolean offer(Object obj) {
-        int i10;
+        int i10 = 0;
         obj.getClass();
         AtomicInteger atomicInteger = this.f23025b;
         if (atomicInteger.get() == this.f23024a) {

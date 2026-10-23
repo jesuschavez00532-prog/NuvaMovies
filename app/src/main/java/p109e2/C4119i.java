@@ -36,7 +36,7 @@ public class C4119i extends FilterInputStream {
     }
 
     @Override // java.io.FilterInputStream, java.io.InputStream
-    public int available() {
+    public int available() throws java.io.IOException {
         int i10 = this.f18085a;
         if (i10 == Integer.MIN_VALUE) {
             return super.available();
@@ -51,7 +51,7 @@ public class C4119i extends FilterInputStream {
     }
 
     @Override // java.io.FilterInputStream, java.io.InputStream
-    public int read() {
+    public int read() throws java.io.IOException {
         if (m17220a(1L) == -1) {
             return -1;
         }
@@ -67,7 +67,7 @@ public class C4119i extends FilterInputStream {
     }
 
     @Override // java.io.FilterInputStream, java.io.InputStream
-    public long skip(long j10) {
+    public long skip(long j10) throws java.io.IOException {
         long m17220a = m17220a(j10);
         if (m17220a == -1) {
             return 0L;
@@ -78,7 +78,7 @@ public class C4119i extends FilterInputStream {
     }
 
     @Override // java.io.FilterInputStream, java.io.InputStream
-    public int read(byte[] bArr, int i10, int i11) {
+    public int read(byte[] bArr, int i10, int i11) throws java.io.IOException {
         int m17220a = (int) m17220a(i11);
         if (m17220a == -1) {
             return -1;

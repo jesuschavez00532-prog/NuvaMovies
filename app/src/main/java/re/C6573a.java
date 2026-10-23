@@ -103,7 +103,7 @@ public class C6573a implements Iterable, InterfaceC5974a {
 
     public String toString() {
         StringBuilder sb2;
-        int i10;
+        int i10 = 0;
         if (this.f25194c > 0) {
             sb2 = new StringBuilder();
             sb2.append(this.f25192a);

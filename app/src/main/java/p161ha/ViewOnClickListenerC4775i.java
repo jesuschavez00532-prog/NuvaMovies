@@ -124,7 +124,7 @@ public final class ViewOnClickListenerC4775i extends C7767e implements View.OnCl
 
     /* renamed from: M9 */
     public final void m19766M9() {
-        int i10;
+        int i10 = 0;
         if (!TextUtils.isEmpty(this.f20166N0)) {
             ((TextView) m19761H9(R$id.mDialogTitle)).setText(this.f20166N0);
         }

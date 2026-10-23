@@ -184,7 +184,7 @@ public final class ViewOnClickListenerC4018d extends C7767e implements View.OnCl
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: W9 */
     public final void m16975W9(boolean z10) {
-        int i10;
+        int i10 = 0;
         LoadingView loadingView = (LoadingView) m16981J9(R$id.mLoadingView);
         if (z10) {
             i10 = 0;

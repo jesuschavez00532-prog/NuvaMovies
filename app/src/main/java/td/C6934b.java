@@ -91,7 +91,7 @@ public final class C6934b extends DialogInterfaceOnCancelListenerC0710d {
 
     /* renamed from: L9 */
     private final void m26935L9(AssetData assetData) {
-        int i10;
+        int i10 = 0;
         ImageView imageView = (ImageView) m26937G9(R$id.mIvSupportSubtitle);
         int i11 = 0;
         if (assetData.getMoreSubtitle() == 1) {

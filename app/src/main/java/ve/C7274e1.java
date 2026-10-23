@@ -37,7 +37,7 @@ public final class C7274e1 extends CancellationException {
     }
 
     public int hashCode() {
-        int i10;
+        int i10 = 0;
         String message = getMessage();
         AbstractC5868k.m23671c(message);
         int hashCode = ((message.hashCode() * 31) + this.f27163a.hashCode()) * 31;

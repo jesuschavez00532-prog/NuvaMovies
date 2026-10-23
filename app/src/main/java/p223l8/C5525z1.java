@@ -147,8 +147,8 @@ public final class C5525z1 extends AbstractC1196d<InterfaceC4280g> implements In
     /* JADX WARN: Can't fix incorrect switch cases order, some code will duplicate */
     /* renamed from: T9 */
     private final boolean m22406T9(View view, int i10, KeyEvent keyEvent) {
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         int action = keyEvent.getAction();
         int i13 = 0;
         if (action == 0) {
@@ -211,7 +211,7 @@ public final class C5525z1 extends AbstractC1196d<InterfaceC4280g> implements In
     /* JADX WARN: Can't fix incorrect switch cases order, some code will duplicate */
     /* renamed from: U9 */
     private final boolean m22407U9(View view, int i10, KeyEvent keyEvent) {
-        int i11;
+        int i11 = 0;
         if (keyEvent.getAction() == 0) {
             switch (i10) {
                 case 20:

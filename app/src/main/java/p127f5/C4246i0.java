@@ -125,7 +125,7 @@ public final class C4246i0 extends AbstractC4245i {
     @Override // p127f5.AbstractC4245i
     /* renamed from: i */
     public final Exception mo17707i() {
-        Exception exc;
+        Exception exc = null;
         synchronized (this.f18540a) {
             exc = this.f18545f;
         }

@@ -25,7 +25,7 @@ public abstract class AbstractC4447b {
 
     /* renamed from: a */
     public float m18643a() {
-        int i10;
+        int i10 = 0;
         int i11 = this.f19265b;
         if (i11 <= 0 || (i10 = this.f19264a) <= 4) {
             return 0.01f;

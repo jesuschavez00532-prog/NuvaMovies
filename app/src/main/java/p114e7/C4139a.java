@@ -141,7 +141,7 @@ public final class C4139a implements Cloneable {
     }
 
     public String toString() {
-        char c10;
+        char c10 = '\0';
         StringBuilder sb2 = new StringBuilder(this.f18175b);
         for (int i10 = 0; i10 < this.f18175b; i10++) {
             if ((i10 & 7) == 0) {

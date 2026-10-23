@@ -335,7 +335,7 @@ public final class C7705h {
 
         @Override // java.lang.Runnable
         public final void run() {
-            int i10;
+            int i10 = 0;
             Env env = this.f28293b;
             C7629a c7629a = C7705h.this.f28260d;
             if (c7629a != null) {

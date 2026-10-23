@@ -261,7 +261,7 @@ public final class C4719z3 implements InterfaceC4290q, InterfaceC6370a1 {
     /* renamed from: q4 */
     public final void m19570q4(MatchPromotion matchPromotion) {
         List list;
-        int i10;
+        int i10 = 0;
         if (matchPromotion == null) {
             return;
         }

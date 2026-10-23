@@ -205,7 +205,7 @@ public final class C5435c2 extends AbstractC1196d<InterfaceC4282i> implements In
 
             /* renamed from: a */
             public final void m21865a(boolean z10) {
-                int i10;
+                int i10 = 0;
                 C5435c2 c5435c2 = this.f22101a;
                 if (z10) {
                     i10 = this.f22102b;

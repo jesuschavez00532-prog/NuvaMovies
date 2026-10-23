@@ -16,18 +16,18 @@ final class C6221b extends OutputStream {
     }
 
     @Override // java.io.OutputStream
-    public void write(int i10) {
+    public void write(int i10) throws java.io.IOException {
         this.f24417a++;
     }
 
     @Override // java.io.OutputStream
-    public void write(byte[] bArr) {
+    public void write(byte[] bArr) throws java.io.IOException {
         this.f24417a += bArr.length;
     }
 
     @Override // java.io.OutputStream
-    public void write(byte[] bArr, int i10, int i11) {
-        int i12;
+    public void write(byte[] bArr, int i10, int i11) throws java.io.IOException {
+        int i12 = 0;
         if (i10 >= 0 && i10 <= bArr.length && i11 >= 0 && (i12 = i10 + i11) <= bArr.length && i12 >= 0) {
             this.f24417a += i11;
             return;

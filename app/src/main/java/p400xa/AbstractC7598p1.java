@@ -176,7 +176,7 @@ public abstract class AbstractC7598p1 {
 
     /* renamed from: j */
     private static List m29246j(List list, int i10) {
-        int i11;
+        int i11 = 0;
         int size = list.size();
         if (size % i10 == 0) {
             i11 = size / i10;

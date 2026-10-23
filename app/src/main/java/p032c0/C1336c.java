@@ -384,10 +384,10 @@ public class C1336c {
 
     /* renamed from: j */
     private int m6059j(View view, int i10, int i11, int i12, int i13) {
-        float f10;
-        float f11;
-        float f12;
-        float f13;
+        float f10 = 0.0f;
+        float f11 = 0.0f;
+        float f12 = 0.0f;
+        float f13 = 0.0f;
         int m6055f = m6055f(i12, (int) this.f5042n, (int) this.f5041m);
         int m6055f2 = m6055f(i13, (int) this.f5042n, (int) this.f5041m);
         int abs = Math.abs(i10);
@@ -515,7 +515,7 @@ public class C1336c {
 
     /* renamed from: t */
     private int m6067t(int i10, int i11) {
-        int i12;
+        int i12 = 0;
         if (i10 < this.f5049u.getLeft() + this.f5043o) {
             i12 = 1;
         } else {
@@ -700,7 +700,7 @@ public class C1336c {
 
     /* renamed from: z */
     public void m6082z(MotionEvent motionEvent) {
-        int i10;
+        int i10 = 0;
         int actionMasked = motionEvent.getActionMasked();
         int actionIndex = motionEvent.getActionIndex();
         if (actionMasked == 0) {

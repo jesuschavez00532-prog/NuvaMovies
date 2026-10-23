@@ -123,7 +123,7 @@ public final class C3999p0 extends AbstractC7527b {
     @Override // p399x9.AbstractC7527b
     /* renamed from: s, reason: merged with bridge method [inline-methods] */
     public void mo5338e(C7531f c7531f, final C4011w c4011w) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(c4011w, "bean");
         final int adapterPosition = c7531f.getAdapterPosition();

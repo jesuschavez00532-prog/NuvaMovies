@@ -369,7 +369,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
 
             /* renamed from: a */
             public final void m22288a(boolean z10) {
-                int i10;
+                int i10 = 0;
                 C5498s1 c5498s1 = this.f22350a;
                 if (z10) {
                     i10 = this.f22351b;
@@ -1919,7 +1919,7 @@ public final class C5498s1 extends AbstractC7766d<InterfaceC4278e> implements In
 
     /* renamed from: ub */
     private final void m22222ub() {
-        int i10;
+        int i10 = 0;
         if (AbstractC5868k.m23669a(this.f22329V0, "NewVoiceLive") && C1407f.f5458a.m6530v()) {
             i10 = R$string.voice_channel_loading;
         } else {

@@ -415,7 +415,7 @@ public final class C6273k implements InterfaceC5844d, InterfaceC6437x, Interface
     @Override // p301qb.InterfaceC6442y1
     /* renamed from: F2 */
     public void mo24932F2(FilterByContentResultData filterByContentResultData) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(filterByContentResultData, "result");
         this.f24518b.mo16199b();
         if (this.f24525i <= 1) {

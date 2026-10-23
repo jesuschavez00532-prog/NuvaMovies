@@ -39,7 +39,7 @@ public class C5698b extends AbstractC5706j {
     /* renamed from: U */
     public void mo22917U() {
         C5709m m22931f;
-        float f10;
+        float f10 = 0.0f;
         C5709m c5709m;
         int i10 = this.f22736x0;
         float f11 = Float.MAX_VALUE;
@@ -113,8 +113,8 @@ public class C5698b extends AbstractC5706j {
     public void mo22918b(C5562e c5562e) {
         C5701e[] c5701eArr;
         boolean z10;
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         C5701e[] c5701eArr2 = this.f22787C;
         c5701eArr2[0] = this.f22851u;
         c5701eArr2[2] = this.f22852v;

@@ -383,7 +383,7 @@ public final class C5031n implements InterfaceC4733i, InterfaceC6387g0, Interfac
     @Override // p160h9.InterfaceC4733i
     /* renamed from: m1 */
     public void mo19605m1(List list, FavoriteList favoriteList) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(list, "ids");
         if (favoriteList != null) {
             i10 = favoriteList.getId();
@@ -433,7 +433,7 @@ public final class C5031n implements InterfaceC4733i, InterfaceC6387g0, Interfac
     @Override // p301qb.InterfaceC6425t
     /* renamed from: p */
     public void mo20456p(FavoriteList favoriteList) {
-        int i10;
+        int i10 = 0;
         if (favoriteList != null) {
             i10 = favoriteList.getId();
         } else {

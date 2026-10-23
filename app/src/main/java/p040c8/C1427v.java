@@ -182,7 +182,7 @@ public final class C1427v implements InterfaceC7623a {
         @Override // me.InterfaceC5664p
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final Integer mo2391h(EpgProgram epgProgram, EpgProgram epgProgram2) {
-            int i10;
+            int i10 = 0;
             String startTime = epgProgram.getStartTime();
             if (startTime != null) {
                 String startTime2 = epgProgram2.getStartTime();
@@ -1066,7 +1066,7 @@ public final class C1427v implements InterfaceC7623a {
 
     /* renamed from: Z */
     public final ArrayList m6639Z(long j10, boolean z10) {
-        int i10;
+        int i10 = 0;
         if (z10) {
             i10 = -6;
         } else {

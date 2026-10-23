@@ -65,8 +65,8 @@ public final class ViewOnClickListenerC5784f0 extends AbstractC5774c<InterfaceC4
 
     /* renamed from: da */
     private final void m23345da(int i10) {
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         ImageView imageView = (ImageView) m23350S9(R$id.ivSubtitleColorBlack);
         int i13 = 0;
         if (imageView != null) {
@@ -134,8 +134,8 @@ public final class ViewOnClickListenerC5784f0 extends AbstractC5774c<InterfaceC4
 
     /* renamed from: ga */
     private final void m23348ga(int i10) {
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         ImageView imageView = (ImageView) m23350S9(R$id.ivSubtitleSizeBig);
         int i13 = 0;
         if (imageView != null) {

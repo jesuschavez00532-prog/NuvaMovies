@@ -108,7 +108,7 @@ public final class C1166j0 extends RecyclerView.AbstractC0789h {
     @Override // androidx.recyclerview.widget.RecyclerView.AbstractC0789h
     /* renamed from: c, reason: merged with bridge method [inline-methods] */
     public void onBindViewHolder(final b bVar, final int i10) {
-        int i11;
+        int i11 = 0;
         AbstractC5868k.m23674f(bVar, "holder");
         String str = (String) this.f4605b.get(i10);
         if (AbstractC5868k.m23669a(str, "UHD")) {

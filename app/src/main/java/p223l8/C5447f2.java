@@ -250,7 +250,7 @@ public final class C5447f2 extends AbstractC1196d<InterfaceC4284k> implements In
     @Override // p115e8.InterfaceC4149h
     /* renamed from: f2 */
     public boolean mo17362f2() {
-        int i10;
+        int i10 = 0;
         RecyclerView.AbstractC0789h adapter = ((RecyclerView) m22003I9(R$id.mRvMatchEvent)).getAdapter();
         if (adapter != null) {
             i10 = adapter.getItemCount();

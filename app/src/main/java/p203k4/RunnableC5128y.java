@@ -25,11 +25,11 @@ final class RunnableC5128y implements Runnable {
 
     @Override // java.lang.Runnable
     public final void run() {
-        int i10;
-        int i11;
-        int i12;
-        int i13;
-        int i14;
+        int i10 = 0;
+        int i11 = 0;
+        int i12 = 0;
+        int i13 = 0;
+        int i14 = 0;
         Bundle bundle;
         Bundle bundle2;
         Bundle bundle3;

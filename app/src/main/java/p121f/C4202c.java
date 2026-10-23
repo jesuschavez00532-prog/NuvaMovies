@@ -221,7 +221,7 @@ public class C4202c extends AbstractC4205f implements InterfaceC6320y {
 
         e(AnimationDrawable animationDrawable, boolean z10, boolean z11) {
             super();
-            int i10;
+            int i10 = 0;
             int numberOfFrames = animationDrawable.getNumberOfFrames();
             if (z10) {
                 i10 = numberOfFrames - 1;
@@ -306,7 +306,7 @@ public class C4202c extends AbstractC4205f implements InterfaceC6320y {
 
         @Override // android.animation.TimeInterpolator
         public float getInterpolation(float f10) {
-            float f11;
+            float f11 = 0.0f;
             int i10 = (int) ((f10 * this.f18402c) + 0.5f);
             int i11 = this.f18401b;
             int[] iArr = this.f18400a;

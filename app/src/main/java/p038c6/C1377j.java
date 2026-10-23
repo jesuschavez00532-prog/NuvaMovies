@@ -232,7 +232,7 @@ final class C1377j extends AbstractC1366a0.e.c {
     }
 
     public int hashCode() {
-        int i10;
+        int i10 = 0;
         int hashCode = (((((this.f5307a ^ 1000003) * 1000003) ^ this.f5308b.hashCode()) * 1000003) ^ this.f5309c) * 1000003;
         long j10 = this.f5310d;
         int i11 = (hashCode ^ ((int) (j10 ^ (j10 >>> 32)))) * 1000003;

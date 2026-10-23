@@ -101,7 +101,7 @@ public final class C7610t1 {
         public void onChange(boolean z10) {
             boolean z11;
             String str;
-            int i10;
+            int i10 = 0;
             super.onChange(z10);
             Context context = C7610t1.f27987d;
             AbstractC5868k.m23671c(context);

@@ -65,7 +65,7 @@ public class C5231u0 extends C5223s0 {
     @Override // p212kd.C5223s0
     /* renamed from: g */
     public void mo21077g(C5203n0 c5203n0, C5550d c5550d, List list) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(c5203n0, "adappter");
         AbstractC5868k.m23674f(c5550d, "extra");
         super.mo21077g(c5203n0, c5550d, list);

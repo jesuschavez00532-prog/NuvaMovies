@@ -209,7 +209,7 @@ public final class C7154h implements InterfaceC7153g {
 
     @Override // p359ue.InterfaceC7153g
     public InterfaceC7153g next() {
-        int i10;
+        int i10 = 0;
         InterfaceC7153g m27685d;
         int end = m27669d().end();
         if (m27669d().end() == m27669d().start()) {

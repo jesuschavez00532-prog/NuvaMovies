@@ -42,7 +42,7 @@ public abstract class AbstractC6198b {
 
     /* renamed from: c */
     public static boolean m24745c(Object[] objArr, Object obj) {
-        int i10;
+        int i10 = 0;
         if (objArr != null) {
             i10 = objArr.length;
         } else {

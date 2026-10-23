@@ -1111,7 +1111,7 @@ public final class C7523p implements InterfaceC1439a, InterfaceC6377d, Interface
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: p6 */
     public final void m28780p6(UpdateBean updateBean) {
-        int i10;
+        int i10 = 0;
         String m6870i;
         if (updateBean == null) {
             return;

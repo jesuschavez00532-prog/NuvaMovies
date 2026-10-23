@@ -110,7 +110,7 @@ public abstract class AbstractC1334a extends C0551a {
         @Override // p389x.C7464k0
         /* renamed from: d */
         public C7458h0 mo6031d(int i10) {
-            int i11;
+            int i11 = 0;
             if (i10 == 2) {
                 i11 = AbstractC1334a.this.f5020k;
             } else {
@@ -263,7 +263,7 @@ public abstract class AbstractC1334a extends C0551a {
 
     /* renamed from: S */
     private boolean m5995S(int i10) {
-        int i11;
+        int i11 = 0;
         if (!this.f5017h.isEnabled() || !this.f5017h.isTouchExplorationEnabled() || (i11 = this.f5020k) == i10) {
             return false;
         }
@@ -511,7 +511,7 @@ public abstract class AbstractC1334a extends C0551a {
 
     /* renamed from: T */
     public final boolean m6018T(int i10) {
-        int i11;
+        int i11 = 0;
         if ((!this.f5018i.isFocused() && !this.f5018i.requestFocus()) || (i11 = this.f5021l) == i10) {
             return false;
         }

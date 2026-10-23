@@ -61,7 +61,7 @@ public final class DialogC6196h extends Dialog {
 
     /* renamed from: c */
     private final void m24738c() {
-        int i10;
+        int i10 = 0;
         int i11 = R$id.mBtCancel;
         ((Button) findViewById(i11)).setVisibility(0);
         int i12 = this.f24364a;

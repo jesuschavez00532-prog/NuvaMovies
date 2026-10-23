@@ -258,7 +258,7 @@ public class ViewOnClickListenerC6735m1 extends C7767e implements View.OnClickLi
 
     /* renamed from: N9 */
     public final void m26439N9(boolean z10) {
-        int i10;
+        int i10 = 0;
         LoadingView loadingView = (LoadingView) m26437H9(R$id.mLoadingView);
         if (z10) {
             i10 = 0;

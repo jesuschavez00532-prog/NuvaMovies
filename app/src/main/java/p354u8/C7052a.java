@@ -130,9 +130,9 @@ public final class C7052a extends RecyclerView.AbstractC0789h {
 
         /* renamed from: a */
         public final void m27172a(View view) {
-            int i10;
+            int i10 = 0;
             ViewGroup.LayoutParams layoutParams;
-            int i11;
+            int i11 = 0;
             AbstractC5868k.m23674f(view, "it");
             C7052a.this.f26441h = view;
             RecyclerView recyclerView = C7052a.this.f26443j;
@@ -188,9 +188,9 @@ public final class C7052a extends RecyclerView.AbstractC0789h {
 
         /* renamed from: a */
         public final void m27173a(View view) {
-            int i10;
+            int i10 = 0;
             ViewGroup.LayoutParams layoutParams;
-            int i11;
+            int i11 = 0;
             AbstractC5868k.m23674f(view, "it");
             C7052a.this.f26441h = view;
             RecyclerView recyclerView = C7052a.this.f26443j;
@@ -294,8 +294,8 @@ public final class C7052a extends RecyclerView.AbstractC0789h {
     @Override // androidx.recyclerview.widget.RecyclerView.AbstractC0789h
     /* renamed from: k, reason: merged with bridge method [inline-methods] */
     public void onBindViewHolder(C7060i c7060i, int i10) {
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         AbstractC5868k.m23674f(c7060i, "holder");
         ChildColumn childColumn = (ChildColumn) this.f26434a.get(i10);
         c7060i.m27211d().setText(AbstractC5091h.m20660c(childColumn.getName(), childColumn.getAlias()));

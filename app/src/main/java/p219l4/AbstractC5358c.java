@@ -213,8 +213,8 @@ public abstract class AbstractC5358c {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: c0 */
     public static /* bridge */ /* synthetic */ void m21656c0(AbstractC5358c abstractC5358c, int i10) {
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         synchronized (abstractC5358c.f21908m) {
             i11 = abstractC5358c.f21915t;
         }

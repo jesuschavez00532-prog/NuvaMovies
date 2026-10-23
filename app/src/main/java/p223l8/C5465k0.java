@@ -466,7 +466,7 @@ public final class C5465k0 extends AbstractC1196d<InterfaceC4274a> implements In
 
         /* renamed from: a */
         public final void m22123a(View view) {
-            int i10;
+            int i10 = 0;
             AbstractC5868k.m23674f(view, "it");
             C7589m1.f27886a.m29149r();
             C1466m0 c1466m0 = C1466m0.f5627a;

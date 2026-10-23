@@ -123,8 +123,8 @@ public class C4175c extends TextureView implements InterfaceC4173a {
 
         /* renamed from: d */
         public void m17455d(InterfaceC4173a.a aVar) {
-            int i10;
-            int i11;
+            int i10 = 0;
+            int i11 = 0;
             if (this.f18271h.get() != null) {
                 i10 = ((C4175c) this.f18271h.get()).getView().getWidth();
                 i11 = ((C4175c) this.f18271h.get()).getView().getHeight();

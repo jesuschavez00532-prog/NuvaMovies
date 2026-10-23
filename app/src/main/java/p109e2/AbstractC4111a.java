@@ -197,7 +197,7 @@ public abstract class AbstractC4111a {
         }
 
         @Override // java.io.InputStream
-        public int available() {
+        public int available() throws java.io.IOException {
             return this.f18063a.remaining();
         }
 
@@ -212,7 +212,7 @@ public abstract class AbstractC4111a {
         }
 
         @Override // java.io.InputStream
-        public int read() {
+        public int read() throws java.io.IOException {
             if (this.f18063a.hasRemaining()) {
                 return this.f18063a.get() & 255;
             }
@@ -230,7 +230,7 @@ public abstract class AbstractC4111a {
         }
 
         @Override // java.io.InputStream
-        public long skip(long j10) {
+        public long skip(long j10) throws java.io.IOException {
             if (!this.f18063a.hasRemaining()) {
                 return -1L;
             }
@@ -240,7 +240,7 @@ public abstract class AbstractC4111a {
         }
 
         @Override // java.io.InputStream
-        public int read(byte[] bArr, int i10, int i11) {
+        public int read(byte[] bArr, int i10, int i11) throws java.io.IOException {
             if (!this.f18063a.hasRemaining()) {
                 return -1;
             }

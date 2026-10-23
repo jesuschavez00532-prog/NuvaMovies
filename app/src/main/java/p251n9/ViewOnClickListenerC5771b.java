@@ -89,7 +89,7 @@ public final class ViewOnClickListenerC5771b extends AbstractC5774c<InterfaceC47
             String str7;
             String str8;
             String str9;
-            int i10;
+            int i10 = 0;
             String str10;
             String str11;
             String str12;

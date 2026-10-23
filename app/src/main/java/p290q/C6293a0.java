@@ -119,7 +119,7 @@ public class C6293a0 extends Drawable implements Drawable.Callback, InterfaceC63
 
     @Override // android.graphics.drawable.Drawable
     public int getChangingConfigurations() {
-        int i10;
+        int i10 = 0;
         int changingConfigurations = super.getChangingConfigurations();
         C6299d0 c6299d0 = this.f24638d;
         if (c6299d0 != null) {

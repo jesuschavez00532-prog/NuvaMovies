@@ -45,7 +45,7 @@ public final class RunnableC7276f0 extends AbstractC7312r0 implements Runnable {
 
     /* renamed from: a0 */
     private final synchronized Thread m28131a0() {
-        Thread thread;
+        Thread thread = null;
         thread = _thread;
         if (thread == null) {
             thread = new Thread(this, "kotlinx.coroutines.DefaultExecutor");

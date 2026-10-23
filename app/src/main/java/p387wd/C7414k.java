@@ -401,7 +401,7 @@ public final class C7414k extends PopupWindow {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: z */
     public final void m28526z(int i10) {
-        int i11;
+        int i11 = 0;
         StringBuilder sb2;
         String string = this.f27433a.getString(R$string.message_number_hint);
         AbstractC5868k.m23673e(string, "activity.getString(R.string.message_number_hint)");

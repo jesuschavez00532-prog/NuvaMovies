@@ -500,7 +500,7 @@ public final class C4375k implements InterfaceC4147f, InterfaceC6400k1, Interfac
     @Override // p301qb.InterfaceC6400k1
     /* renamed from: q2 */
     public void mo18314q2(ShelveMatchList shelveMatchList) {
-        int i10;
+        int i10 = 0;
         List<ShelveMatch> matchList;
         if (shelveMatchList != null && (matchList = shelveMatchList.getMatchList()) != null) {
             i10 = matchList.size();

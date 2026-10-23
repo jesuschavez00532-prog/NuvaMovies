@@ -173,7 +173,7 @@ public final class C0231c implements InterfaceC0229a {
     @Override // ad.InterfaceC0229a
     /* renamed from: d */
     public void mo801d(int i10, String str, Context context, Integer num) {
-        int i11;
+        int i11 = 0;
         AbstractC5868k.m23674f(str, "value");
         C7705h m29771a = C7705h.f28256m.m29771a();
         if (num != null) {

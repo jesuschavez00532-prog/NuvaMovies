@@ -597,7 +597,7 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
     /* renamed from: c4 */
     private final void m20710c4(StartPlayVODResultData startPlayVODResultData) {
         List<TotalMovieListItem> list;
-        int i10;
+        int i10 = 0;
         boolean z10;
         boolean z11;
         List<String> list2;
@@ -608,10 +608,10 @@ public final class C5100d implements InterfaceC4848c, InterfaceC6393i0, Interfac
         boolean z13;
         String str2;
         String str3;
-        int i11;
+        int i11 = 0;
         String str4;
         MovieList movieList;
-        int i12;
+        int i12 = 0;
         String str5;
         MovieList movieList2;
         StartPlayVODResultDataItem startPlayVODResultDataItem;

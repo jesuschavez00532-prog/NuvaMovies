@@ -23,7 +23,7 @@ public final class C1183t extends AbstractC7527b {
     @Override // p399x9.AbstractC7527b
     /* renamed from: p, reason: merged with bridge method [inline-methods] */
     public void mo5338e(C7531f c7531f, TeamEvent teamEvent) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(teamEvent, "bean");
         String eventType = teamEvent.getEventType();

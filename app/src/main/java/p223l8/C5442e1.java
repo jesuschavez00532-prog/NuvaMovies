@@ -1567,7 +1567,7 @@ public final class C5442e1 extends AbstractC1196d<InterfaceC4276c> implements In
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: sb */
     public static final void m21927sb(C5442e1 c5442e1, View view, boolean z10) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(c5442e1, "this$0");
         FrameLayout frameLayout = (FrameLayout) c5442e1.m21946Z9(R$id.mAflRightArrow);
         if (z10) {

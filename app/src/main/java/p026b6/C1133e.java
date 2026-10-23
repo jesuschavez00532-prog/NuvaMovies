@@ -104,7 +104,7 @@ public class C1133e implements Closeable {
         }
 
         @Override // java.io.InputStream
-        public int read(byte[] bArr, int i10, int i11) {
+        public int read(byte[] bArr, int i10, int i11) throws java.io.IOException {
             C1133e.m5153r(bArr, "buffer");
             if ((i10 | i11) >= 0 && i11 <= bArr.length - i10) {
                 int i12 = this.f4443b;
@@ -128,7 +128,7 @@ public class C1133e implements Closeable {
         }
 
         @Override // java.io.InputStream
-        public int read() {
+        public int read() throws java.io.IOException {
             if (this.f4443b == 0) {
                 return -1;
             }
@@ -382,7 +382,7 @@ public class C1133e implements Closeable {
     /* renamed from: f */
     public synchronized void m5162f(byte[] bArr, int i10, int i11) {
         int m5143F;
-        int i12;
+        int i12 = 0;
         m5153r(bArr, "buffer");
         if ((i10 | i11) >= 0 && i11 <= bArr.length - i10) {
             m5151l(i11);

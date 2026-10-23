@@ -136,7 +136,7 @@ public final class C6482u implements InterfaceC5965a, InterfaceC5045b, Interface
         @Override // me.InterfaceC5660l
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
         public final List mo542f(List list) {
-            int i10;
+            int i10 = 0;
             AbstractC5868k.m23674f(list, "recommends");
             C6482u.this.m25369W5().mo24135u4(list.size());
             ArrayList arrayList = new ArrayList();
@@ -1403,7 +1403,7 @@ public final class C6482u implements InterfaceC5965a, InterfaceC5045b, Interface
     @Override // p301qb.InterfaceC6399k0
     /* renamed from: n4 */
     public void mo25215n4(GetNextColumnResult getNextColumnResult, String str) {
-        int i10;
+        int i10 = 0;
         GetNextColumnData getNextColumnData;
         ArrayList<HomeRecommend> arrayList;
         AbstractC5868k.m23674f(getNextColumnResult, "result");

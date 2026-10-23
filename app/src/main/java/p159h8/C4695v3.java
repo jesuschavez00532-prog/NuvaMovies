@@ -439,7 +439,7 @@ public final class C4695v3 implements InterfaceC4288o {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: E */
     public static final void m19394E(Channel channel, C4695v3 c4695v3, C5876s c5876s, C5874q c5874q, List list, ObservableEmitter observableEmitter) {
-        int i10;
+        int i10 = 0;
         String str;
         String str2;
         AbstractC5868k.m23674f(channel, "$playChannel");

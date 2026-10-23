@@ -112,7 +112,7 @@ public final class C6279q implements InterfaceC5851k, InterfaceC6375c0 {
     @Override // p301qb.InterfaceC6375c0
     /* renamed from: L2 */
     public void mo23209L2(GetColumnContentsResult getColumnContentsResult, int i10) {
-        int i11;
+        int i11 = 0;
         List<ChildColumn> childColumnList;
         AbstractC5868k.m23674f(getColumnContentsResult, "result");
         this.f24565b.mo16341b();

@@ -91,7 +91,7 @@ public final class C3974d extends AbstractC7527b {
 
     /* renamed from: z */
     private final void m16840z(TextView textView, CouponCodeList couponCodeList) {
-        float f10;
+        float f10 = 0.0f;
         Float f11;
         String couponCurrency = couponCodeList.getCouponCurrency();
         if (couponCurrency == null) {

@@ -75,7 +75,7 @@ public abstract class AbstractC1484b extends AbstractC1482a implements List {
 
         /* renamed from: e */
         public final int m6929e(Collection collection) {
-            int i10;
+            int i10 = 0;
             AbstractC5868k.m23674f(collection, C3325bt.f14194aL);
             int i11 = 1;
             for (Object obj : collection) {

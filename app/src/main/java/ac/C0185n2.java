@@ -26,7 +26,7 @@ public final class C0185n2 extends AbstractC0166j {
         @Override // p343tb.AbstractC6929a, io.reactivex.Observer
         /* renamed from: c, reason: merged with bridge method [inline-methods] */
         public void onNext(StartPlayVODResult startPlayVODResult) {
-            int i10;
+            int i10 = 0;
             AbstractC5868k.m23674f(startPlayVODResult, "t");
             super.onNext(startPlayVODResult);
             InterfaceC6412o1 interfaceC6412o1 = (InterfaceC6412o1) C0185n2.this.m618a();
@@ -41,7 +41,7 @@ public final class C0185n2 extends AbstractC0166j {
 
         @Override // p343tb.AbstractC6929a, io.reactivex.Observer
         public void onError(Throwable th) {
-            int i10;
+            int i10 = 0;
             AbstractC5868k.m23674f(th, "e");
             super.onError(th);
             String m25644a = AbstractC6570d.m25644a(th, "EA7", "500", "ea14");

@@ -173,8 +173,8 @@ public final class C1159g extends BaseAdapter implements BaseAdapterImpl {
     public View getView(int i10, View view, ViewGroup viewGroup) {
         a aVar;
         View view2;
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         if (view == null) {
             view2 = LayoutInflater.from(this.f4572a).inflate(R$layout.layout_home_channel_item, viewGroup, false);
             aVar = new a(this, view2);

@@ -40,7 +40,7 @@ public final class C7530e extends AbstractC7527b {
         @Override // p011aa.AbstractViewOnClickListenerC0123a
         /* renamed from: c */
         public void mo492c(View view) {
-            int i10;
+            int i10 = 0;
             boolean z10 = true;
             this.f27672b.setSelected(!r5.isSelected());
             if (this.f27672b.isSelected()) {

@@ -237,7 +237,7 @@ public class C5309g {
     }
 
     public final synchronized String toString() {
-        int i10;
+        int i10 = 0;
         int i11 = this.f21610g;
         int i12 = this.f21611h + i11;
         if (i12 != 0) {

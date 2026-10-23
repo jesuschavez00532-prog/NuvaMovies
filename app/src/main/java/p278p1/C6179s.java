@@ -104,7 +104,7 @@ public class C6179s {
 
     /* renamed from: a */
     private void m24677a(Class cls, Class cls2, InterfaceC6176p interfaceC6176p, boolean z10) {
-        int i10;
+        int i10 = 0;
         b bVar = new b(cls, cls2, interfaceC6176p);
         List list = this.f24303a;
         if (z10) {

@@ -472,7 +472,7 @@ public final class ViewOnClickListenerC6731l0 extends C7767e implements Interfac
 
     /* renamed from: T9 */
     private final void m26416T9(boolean z10) {
-        int i10;
+        int i10 = 0;
         LoadingView loadingView = (LoadingView) m26418H9(R$id.mLoadingView);
         if (z10) {
             i10 = 0;
@@ -489,7 +489,7 @@ public final class ViewOnClickListenerC6731l0 extends C7767e implements Interfac
     /* renamed from: U9 */
     private final void m26417U9(String str, boolean z10) {
         Resources m3154d7;
-        int i10;
+        int i10 = 0;
         int i11 = R$id.mTextNotify;
         ((AutoFocusedTextView) m26418H9(i11)).setText(str);
         AutoFocusedTextView autoFocusedTextView = (AutoFocusedTextView) m26418H9(i11);

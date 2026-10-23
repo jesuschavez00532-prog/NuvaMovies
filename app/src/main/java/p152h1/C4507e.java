@@ -127,12 +127,12 @@ public class C4507e implements InterfaceC4503a {
     private void m18857b(C4504b c4504b) {
         boolean z10;
         boolean booleanValue;
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         boolean z11;
-        int i12;
-        int i13;
-        int i14;
+        int i12 = 0;
+        int i13 = 0;
+        int i14 = 0;
         int[] iArr = this.f19510j;
         int i15 = c4504b.f19475d;
         int i16 = this.f19516p;
@@ -331,8 +331,8 @@ public class C4507e implements InterfaceC4503a {
     /* JADX WARN: Type inference failed for: r7v17 */
     /* renamed from: d */
     private void m18859d(C4504b c4504b) {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         short s10;
         C4507e c4507e = this;
         if (c4504b != null) {
@@ -528,8 +528,8 @@ public class C4507e implements InterfaceC4503a {
 
     /* renamed from: j */
     private Bitmap m18863j(C4504b c4504b, C4504b c4504b2) {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         Bitmap bitmap;
         int[] iArr = this.f19510j;
         int i12 = 0;
@@ -751,7 +751,7 @@ public class C4507e implements InterfaceC4503a {
     @Override // p152h1.InterfaceC4503a
     /* renamed from: v */
     public int mo18823v() {
-        int i10;
+        int i10 = 0;
         if (this.f19512l.f19485c > 0 && (i10 = this.f19511k) >= 0) {
             return m18864e(i10);
         }

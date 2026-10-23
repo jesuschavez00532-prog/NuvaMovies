@@ -71,7 +71,7 @@ public final class C5576i implements InterfaceC5569b {
         }
 
         public int hashCode() {
-            int i10;
+            int i10 = 0;
             int i11 = this.f22590b * 31;
             Class cls = this.f22591c;
             if (cls != null) {

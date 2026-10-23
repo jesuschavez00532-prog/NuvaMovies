@@ -429,7 +429,7 @@ public class C5311i {
     }
 
     public Object put(Object obj, Object obj2) {
-        int i10;
+        int i10 = 0;
         int m21430e;
         int i11 = this.f21633c;
         if (obj == null) {

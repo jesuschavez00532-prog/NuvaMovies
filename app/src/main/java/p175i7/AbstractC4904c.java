@@ -509,7 +509,7 @@ public abstract class AbstractC4904c {
 
     /* renamed from: u */
     static void m20131u(int i10, C4139a c4139a) {
-        int i11;
+        int i11 = 0;
         int i12 = i10 << 3;
         if (c4139a.m17338h() <= i12) {
             for (int i13 = 0; i13 < 4 && c4139a.m17338h() < i12; i13++) {

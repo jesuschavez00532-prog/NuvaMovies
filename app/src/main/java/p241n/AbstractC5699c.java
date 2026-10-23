@@ -9,9 +9,9 @@ public abstract class AbstractC5699c {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: a */
     public static void m22921a(C5703g c5703g, C5562e c5562e, int i10) {
-        int i11;
+        int i11 = 0;
         C5700d[] c5700dArr;
-        int i12;
+        int i12 = 0;
         if (i10 == 0) {
             i11 = c5703g.f22867D0;
             c5700dArr = c5703g.f22870G0;

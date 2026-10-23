@@ -97,7 +97,7 @@ public final class C6463d0 implements InterfaceC5969e, InterfaceC6391h1 {
     /* renamed from: L5 */
     public void mo25205L5(PersonSearchResult personSearchResult, String str, String str2) {
         List<PersonDetailInfo> list;
-        int i10;
+        int i10 = 0;
         List<PersonDetailInfo> list2;
         AbstractC5868k.m23674f(str, "searchStr");
         AbstractC5868k.m23674f(str2, "searchType");

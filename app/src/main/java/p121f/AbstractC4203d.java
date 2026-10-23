@@ -244,7 +244,7 @@ public abstract class AbstractC4203d extends Drawable implements Drawable.Callba
         /* JADX INFO: Access modifiers changed from: package-private */
         public d(d dVar, AbstractC4203d abstractC4203d, Resources resources) {
             Resources resources2;
-            int i10;
+            int i10 = 0;
             this.f18434i = false;
             this.f18437l = false;
             this.f18449x = true;
@@ -574,7 +574,7 @@ public abstract class AbstractC4203d extends Drawable implements Drawable.Callba
 
         /* renamed from: n */
         public final int m17565n() {
-            int i10;
+            int i10 = 0;
             if (this.f18443r) {
                 return this.f18444s;
             }

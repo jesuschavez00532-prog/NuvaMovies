@@ -25,6 +25,9 @@ jobs:
       - name: Exclude app files with broken imports
         run: python3 scripts/generate_excludes.py
 
+      - name: Fix jadx decompiler artifacts in Java sources
+        run: python3 scripts/fix_jadx_errors.py
+
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 

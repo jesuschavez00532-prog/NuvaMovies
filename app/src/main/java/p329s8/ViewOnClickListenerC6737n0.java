@@ -488,7 +488,7 @@ public final class ViewOnClickListenerC6737n0 extends C7767e implements Interfac
 
     /* renamed from: V9 */
     private final void m26453V9(boolean z10) {
-        int i10;
+        int i10 = 0;
         LoadingView loadingView = (LoadingView) m26455I9(R$id.mLoadingView);
         if (z10) {
             i10 = 0;

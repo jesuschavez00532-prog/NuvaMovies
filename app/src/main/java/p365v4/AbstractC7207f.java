@@ -11,7 +11,7 @@ import androidx.core.content.AbstractC0547a;
 public abstract class AbstractC7207f extends AbstractC0547a {
     /* renamed from: l */
     public static Intent m27904l(Context context, BroadcastReceiver broadcastReceiver, IntentFilter intentFilter) {
-        int i10;
+        int i10 = 0;
         Intent registerReceiver;
         if (AbstractC7206e.m27903a()) {
             if (true != AbstractC7206e.m27903a()) {

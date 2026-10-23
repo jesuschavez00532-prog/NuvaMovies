@@ -316,7 +316,7 @@ public class C7284i extends AbstractC7291k0 implements InterfaceC7281h, Interfac
     @Override // ve.InterfaceC7281h
     /* renamed from: g */
     public void mo28137g(AbstractC7329x abstractC7329x, Object obj) {
-        int i10;
+        int i10 = 0;
         InterfaceC4181d interfaceC4181d = this.f27180e;
         AbstractC7329x abstractC7329x2 = null;
         if (!(interfaceC4181d instanceof C5265d)) {

@@ -100,7 +100,7 @@ public final class ViewOnClickListenerC5133a extends C7767e implements View.OnCl
 
     @Override // android.view.View.OnClickListener
     public void onClick(View view) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(view, "v");
         mo3278o9();
         if (AbstractC5868k.m23669a(view, (TextView) m20764H9(R$id.tvFav))) {

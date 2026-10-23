@@ -169,7 +169,7 @@ public final class C1098b {
 
     /* renamed from: h */
     public final String m5054h() {
-        char c10;
+        char c10 = '\0';
         StringBuilder sb2 = new StringBuilder("G1");
         EnumC1096a[] enumC1096aArr = EnumC1096a.f4400d;
         int length = enumC1096aArr.length;

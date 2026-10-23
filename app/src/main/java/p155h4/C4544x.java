@@ -58,7 +58,7 @@ public final class C4544x {
 
     /* renamed from: f */
     private final synchronized int m18938f() {
-        int i10;
+        int i10 = 0;
         i10 = this.f19590d;
         this.f19590d = i10 + 1;
         return i10;

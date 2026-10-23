@@ -131,7 +131,7 @@ final class C1388u extends AbstractC1366a0.e.AbstractC7817e {
     }
 
     public int hashCode() {
-        int i10;
+        int i10 = 0;
         int hashCode = (((((this.f5409a ^ 1000003) * 1000003) ^ this.f5410b.hashCode()) * 1000003) ^ this.f5411c.hashCode()) * 1000003;
         if (this.f5412d) {
             i10 = 1231;

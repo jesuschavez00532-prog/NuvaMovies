@@ -23,9 +23,9 @@ abstract class AbstractC5887b {
     /* renamed from: a */
     public static int m23738a(float f10) {
         boolean z10;
-        float f11;
+        float f11 = 0.0f;
         boolean z11;
-        float f12;
+        float f12 = 0.0f;
         if (f10 < 1.0f) {
             return -16777216;
         }
@@ -121,7 +121,7 @@ abstract class AbstractC5887b {
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: h */
     public static float m23745h(float f10) {
-        float f11;
+        float f11 = 0.0f;
         if (f10 > 8.0f) {
             double d10 = f10;
             Double.isNaN(d10);

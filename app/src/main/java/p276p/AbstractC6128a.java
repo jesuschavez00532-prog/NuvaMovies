@@ -11,9 +11,9 @@ public abstract class AbstractC6128a {
 
     /* renamed from: a */
     public static int m24422a(double d10, double d11, double d12) {
-        double d13;
-        double d14;
-        double d15;
+        double d13 = 0.0;
+        double d14 = 0.0;
+        double d15 = 0.0;
         double d16 = (((3.2406d * d10) + ((-1.5372d) * d11)) + ((-0.4986d) * d12)) / 100.0d;
         double d17 = ((((-0.9689d) * d10) + (1.8758d * d11)) + (0.0415d * d12)) / 100.0d;
         double d18 = (((0.0557d * d10) + ((-0.204d) * d11)) + (1.057d * d12)) / 100.0d;

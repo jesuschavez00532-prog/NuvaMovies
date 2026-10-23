@@ -1305,7 +1305,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: F5 */
     public static final void m19141F5(Channel channel, C4598f2 c4598f2, C5876s c5876s, C5874q c5874q, List list, ObservableEmitter observableEmitter) {
-        int i10;
+        int i10 = 0;
         String str;
         String str2;
         AbstractC5868k.m23674f(channel, "$playChannel");
@@ -1394,7 +1394,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
 
     /* renamed from: H6 */
     private final void m19145H6(boolean z10) {
-        int i10;
+        int i10 = 0;
         AbstractActivityC0712e m3075C6 = this.f19752a.m3075C6();
         boolean z11 = false;
         if (m3075C6 != null && !m3075C6.isFinishing()) {
@@ -2440,7 +2440,7 @@ public final class C4598f2 implements InterfaceC4278e, InterfaceC6406m1, Interfa
     /* renamed from: f5 */
     public void mo19230f5(StartPlayBTVResult startPlayBTVResult) {
         boolean z10;
-        int i10;
+        int i10 = 0;
         List<StartPlayBTVResultLicenseList> totalPlayUrlList;
         AbstractC5868k.m23674f(startPlayBTVResult, "result");
         StartPlayBTVResultData data = startPlayBTVResult.getData();

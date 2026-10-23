@@ -236,7 +236,7 @@ public final class C5304b implements Collection, Set {
 
     @Override // java.util.Collection, java.util.Set
     public boolean add(Object obj) {
-        int i10;
+        int i10 = 0;
         int m21363k;
         if (obj == null) {
             m21363k = m21364n();

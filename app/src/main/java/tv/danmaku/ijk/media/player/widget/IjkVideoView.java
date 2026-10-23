@@ -543,7 +543,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
     }
 
     protected boolean isInPlaybackState() {
-        int i10;
+        int i10 = 0;
         if (this.mMediaPlayer != null && (i10 = this.mCurrentState) != -1 && i10 != 0 && i10 != 1 && i10 != 5) {
             return true;
         }
@@ -681,8 +681,8 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
     }
 
     public void setRenderView(IRenderView iRenderView) {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         if (this.mRenderView != null) {
             IMediaPlayer iMediaPlayer = this.mMediaPlayer;
             if (iMediaPlayer != null) {

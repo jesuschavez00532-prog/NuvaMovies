@@ -1794,9 +1794,9 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
         /* renamed from: a */
         public final void m27591a(Integer num) {
-            int i10;
-            int i11;
-            int i12;
+            int i10 = 0;
+            int i11 = 0;
+            int i12 = 0;
             if (num != null && num.intValue() == 2) {
                 TextView textView = (TextView) C7121n1.this.m27561ua(R$id.mTvSubtitle);
                 if (textView != null) {
@@ -2238,7 +2238,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     /* renamed from: Fc */
     private final void m27363Fc(final HashMap hashMap, String str, boolean z10) {
         boolean z11;
-        int i10;
+        int i10 = 0;
         String str2;
         String str3;
         String name;
@@ -2358,7 +2358,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
         boolean z10;
         Iterator it;
         String str;
-        int i10;
+        int i10 = 0;
         String str2;
         String str3;
         String str4;
@@ -2591,8 +2591,8 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     /* renamed from: Kd */
     public final boolean m27388Kd(List list, int i10) {
         boolean z10;
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         QualityBean quality_fhd;
         String str;
         List<SimpleProgramList> simpleProgramList;
@@ -2901,14 +2901,14 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     public static final void m27417Rc(AssetData assetData, int i10, C7121n1 c7121n1, SimpleProgramList simpleProgramList, int i11, C5876s c5876s) {
         Album album;
         Integer num;
-        int i12;
+        int i12 = 0;
         String str;
         String str2;
         String str3;
         String str4;
-        int i13;
+        int i13 = 0;
         String str5;
-        int i14;
+        int i14 = 0;
         String str6;
         String str7;
         Link link;
@@ -3121,7 +3121,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     private final void m27421Sc(boolean z10) {
         long currentProgress;
         long j10;
-        int i10;
+        int i10 = 0;
         C4176d c4176d = this.f26703z1;
         C4176d c4176d2 = null;
         if (c4176d == null) {
@@ -3348,7 +3348,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: cd */
     private final void m27451cd() {
-        int i10;
+        int i10 = 0;
         List<SimpleProgramList> simpleProgramList;
         m27442Yb().m5497g();
         C6940h c6940h = this.f26698w1;
@@ -3570,9 +3570,9 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     /* renamed from: hd */
     public static final void m27469hd(C7121n1 c7121n1, ObservableEmitter observableEmitter) {
         String str;
-        int i10;
+        int i10 = 0;
         Album album;
-        int i11;
+        int i11 = 0;
         AbstractC5868k.m23674f(c7121n1, "this$0");
         AbstractC5868k.m23674f(observableEmitter, "it");
         AudioInfoUtil audioInfoUtil = AudioInfoUtil.INSTANCE;
@@ -3684,9 +3684,9 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     /* renamed from: ld */
     public static final void m27483ld(C7121n1 c7121n1, ObservableEmitter observableEmitter) {
         String str;
-        int i10;
+        int i10 = 0;
         Album album;
-        int i11;
+        int i11 = 0;
         AbstractC5868k.m23674f(c7121n1, "this$0");
         AbstractC5868k.m23674f(observableEmitter, "it");
         AudioInfoUtil audioInfoUtil = AudioInfoUtil.INSTANCE;
@@ -3797,7 +3797,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
         boolean z10;
         Iterator it;
         String str;
-        int i10;
+        int i10 = 0;
         String str2;
         String str3;
         String str4;
@@ -4110,12 +4110,12 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: wc */
     public static final List m27523wc(C7121n1 c7121n1, StartPlayVODResultData startPlayVODResultData, C5878u c5878u, C5878u c5878u2) {
-        int i10;
+        int i10 = 0;
         StartPlayVODResultDataItem startPlayVODResultDataItem;
         boolean z10;
         boolean z11;
         boolean z12;
-        int i11;
+        int i11 = 0;
         List<SubTitleItemData> list;
         List<TotalMovieListItem> list2;
         String programContentId;
@@ -4125,7 +4125,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
         List<TotalMovieListItem> totalMovieList;
         List<TotalMovieListItem> totalMovieList2;
         List<TotalMovieListItem> totalMovieList3;
-        int i12;
+        int i12 = 0;
         StartPlayVODResultDataItem startPlayVODResultDataItem2;
         StartPlayVODResultDataItem startPlayVODResultDataItem3;
         List<TotalMovieListItem> totalMovieList4;
@@ -4304,7 +4304,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: yd */
     public final void m27531yd(int i10) {
-        int i11;
+        int i11 = 0;
         C5876s c5876s = new C5876s();
         c5876s.f23410a = i10;
         m27442Yb().m5497g();
@@ -4559,8 +4559,8 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     @Override // bd.InterfaceC1294a
     /* renamed from: P3 */
     public void mo5898P3(long j10) {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         List<SimpleProgramList> simpleProgramList;
         SimpleProgramList simpleProgramList2;
         List<SimpleProgramList> simpleProgramList3;
@@ -4612,7 +4612,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: Pc */
     public final void m27543Pc(boolean z10) {
-        int i10;
+        int i10 = 0;
         if (!this.f26646H0) {
             if (this.f26703z1 == null) {
                 AbstractC5868k.m23686r("mVideoView");
@@ -4895,7 +4895,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     /* renamed from: Y1 */
     public void mo24156Y1(final StartPlayVODResultData startPlayVODResultData, int i10) {
         boolean z10;
-        int i11;
+        int i11 = 0;
         String str;
         AbstractC5868k.m23674f(startPlayVODResultData, "result1");
         if (this.f26677b1) {
@@ -5105,10 +5105,10 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: ad */
     public final void m27550ad(AssetData assetData, boolean z10) {
-        int i10;
+        int i10 = 0;
         SimpleProgramList simpleProgramList;
         String str;
-        int i11;
+        int i11 = 0;
         AbstractC5868k.m23674f(assetData, "detailData");
         this.f26632A0 = assetData;
         this.f26656M0 = z10;
@@ -5264,7 +5264,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     public final void m27554dc(List list) {
         String str;
         String str2;
-        int i10;
+        int i10 = 0;
         Object m7008t;
         Object m7008t2;
         String str3;
@@ -5498,9 +5498,9 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: jc */
     public final void m27556jc(AwakenVoiceAssistEvent awakenVoiceAssistEvent) {
-        int i10;
+        int i10 = 0;
         List<SimpleProgramList> simpleProgramList;
-        int i11;
+        int i11 = 0;
         List<SimpleProgramList> simpleProgramList2;
         AbstractC5868k.m23674f(awakenVoiceAssistEvent, "event");
         C4176d c4176d = null;
@@ -5653,8 +5653,8 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
 
     /* renamed from: l6 */
     public final void m27558l6(boolean z10) {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         this.f26660O0 = z10;
         int i12 = R$id.mInfoBar;
         ((MFInfoBar) m27561ua(i12)).m12195P(z10);
@@ -5881,7 +5881,7 @@ public final class C7121n1 extends AbstractC1196d<C6465e0> implements InterfaceC
     /* renamed from: pc */
     public final void m27560pc(final HashMap hashMap, String str) {
         boolean z10;
-        int i10;
+        int i10 = 0;
         String str2;
         String str3;
         String name;

@@ -454,7 +454,7 @@ public abstract class AbstractC7167u extends AbstractC7166t {
 
     /* renamed from: b0 */
     public static CharSequence m27758b0(CharSequence charSequence) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(charSequence, "<this>");
         int length = charSequence.length() - 1;
         int i11 = 0;

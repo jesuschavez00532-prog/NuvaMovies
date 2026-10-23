@@ -149,7 +149,7 @@ public final class C6367k extends AbstractC6358b {
     @Override // qa.AbstractC6358b
     /* renamed from: e */
     public void mo25163e(boolean z10) {
-        int i10;
+        int i10 = 0;
         HorizontalGridView horizontalGridView = this.f24774a;
         if (z10) {
             i10 = 0;

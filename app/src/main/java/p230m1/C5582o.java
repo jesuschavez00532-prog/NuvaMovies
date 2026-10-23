@@ -109,7 +109,7 @@ public class C5582o implements InterfaceC5579l {
         }
 
         public int hashCode() {
-            int i10;
+            int i10 = 0;
             int i11 = this.f22613b * 31;
             Bitmap.Config config = this.f22614c;
             if (config != null) {

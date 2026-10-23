@@ -594,7 +594,7 @@ public class C5223s0 extends AbstractC5243x0 {
 
     /* renamed from: g */
     public void mo21077g(C5203n0 c5203n0, C5550d c5550d, List list) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(c5203n0, "adappter");
         AbstractC5868k.m23674f(c5550d, "extra");
         if (list != null) {

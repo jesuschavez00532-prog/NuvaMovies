@@ -170,7 +170,7 @@ final class C1386s extends AbstractC1366a0.e.d.c {
 
     public int hashCode() {
         int hashCode;
-        int i10;
+        int i10 = 0;
         Double d10 = this.f5395a;
         if (d10 == null) {
             hashCode = 0;

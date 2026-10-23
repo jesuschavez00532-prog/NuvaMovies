@@ -40,7 +40,7 @@ public final class C4114d extends InputStream {
     }
 
     @Override // java.io.InputStream
-    public int available() {
+    public int available() throws java.io.IOException {
         return this.f18072a.available();
     }
 
@@ -55,7 +55,7 @@ public final class C4114d extends InputStream {
     }
 
     @Override // java.io.InputStream, java.io.Closeable, java.lang.AutoCloseable
-    public void close() {
+    public void close() throws java.io.IOException {
         this.f18072a.close();
     }
 
@@ -75,7 +75,7 @@ public final class C4114d extends InputStream {
     }
 
     @Override // java.io.InputStream
-    public int read() {
+    public int read() throws java.io.IOException {
         try {
             return this.f18072a.read();
         } catch (IOException e10) {
@@ -90,7 +90,7 @@ public final class C4114d extends InputStream {
     }
 
     @Override // java.io.InputStream
-    public long skip(long j10) {
+    public long skip(long j10) throws java.io.IOException {
         try {
             return this.f18072a.skip(j10);
         } catch (IOException e10) {
@@ -100,7 +100,7 @@ public final class C4114d extends InputStream {
     }
 
     @Override // java.io.InputStream
-    public int read(byte[] bArr) {
+    public int read(byte[] bArr) throws java.io.IOException {
         try {
             return this.f18072a.read(bArr);
         } catch (IOException e10) {
@@ -110,7 +110,7 @@ public final class C4114d extends InputStream {
     }
 
     @Override // java.io.InputStream
-    public int read(byte[] bArr, int i10, int i11) {
+    public int read(byte[] bArr, int i10, int i11) throws java.io.IOException {
         try {
             return this.f18072a.read(bArr, i10, i11);
         } catch (IOException e10) {

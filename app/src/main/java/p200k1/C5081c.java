@@ -92,7 +92,7 @@ public class C5081c implements InterfaceC1604d {
 
     /* renamed from: g */
     private InputStream m20583g() {
-        int i10;
+        int i10 = 0;
         InputStream m20588d = this.f20928b.m20588d(this.f20927a);
         if (m20588d != null) {
             i10 = this.f20928b.m20587a(this.f20927a);

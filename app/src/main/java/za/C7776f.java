@@ -440,7 +440,7 @@ public final class C7776f implements InterfaceC6372b0, InterfaceC6377d, Interfac
 
     /* renamed from: X */
     private final void m30081X(final boolean z10, final ActiveResult activeResult, final LoginResult loginResult, final String str) {
-        int i10;
+        int i10 = 0;
         if (z10) {
             i10 = 1;
         } else {
@@ -579,7 +579,7 @@ public final class C7776f implements InterfaceC6372b0, InterfaceC6377d, Interfac
 
     /* renamed from: t */
     private final void m30092t() {
-        int i10;
+        int i10 = 0;
         C7577i1.f fVar = C7577i1.f27838b;
         C7577i1 m29084c = fVar.m29084c();
         C4300d c4300d = C4300d.f18678a;

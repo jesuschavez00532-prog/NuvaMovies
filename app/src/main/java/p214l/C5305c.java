@@ -86,8 +86,8 @@ public final class C5305c {
 
     /* renamed from: f */
     public void m21373f(int i10) {
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         if (i10 <= 0) {
             return;
         }

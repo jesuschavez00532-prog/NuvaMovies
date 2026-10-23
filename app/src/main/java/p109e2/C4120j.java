@@ -38,7 +38,7 @@ public class C4120j {
     }
 
     public int hashCode() {
-        int i10;
+        int i10 = 0;
         int hashCode = ((this.f18086a.hashCode() * 31) + this.f18087b.hashCode()) * 31;
         Class cls = this.f18088c;
         if (cls != null) {

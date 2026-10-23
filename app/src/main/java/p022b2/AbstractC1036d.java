@@ -123,7 +123,7 @@ public abstract class AbstractC1036d implements InterfaceC1042j {
 
         /* renamed from: f */
         private int m4847f() {
-            int i10;
+            int i10 = 0;
             int paddingTop = this.f4282a.getPaddingTop() + this.f4282a.getPaddingBottom();
             ViewGroup.LayoutParams layoutParams = this.f4282a.getLayoutParams();
             if (layoutParams != null) {
@@ -136,7 +136,7 @@ public abstract class AbstractC1036d implements InterfaceC1042j {
 
         /* renamed from: g */
         private int m4848g() {
-            int i10;
+            int i10 = 0;
             int paddingLeft = this.f4282a.getPaddingLeft() + this.f4282a.getPaddingRight();
             ViewGroup.LayoutParams layoutParams = this.f4282a.getLayoutParams();
             if (layoutParams != null) {

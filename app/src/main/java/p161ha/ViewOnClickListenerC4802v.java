@@ -399,7 +399,7 @@ public final class ViewOnClickListenerC4802v extends C7767e implements View.OnCl
 
     /* renamed from: S9 */
     public static final void m19841S9(ViewOnClickListenerC4802v viewOnClickListenerC4802v) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(viewOnClickListenerC4802v, "this$0");
         int i11 = R$id.mGridDevice;
         ViewGroup.LayoutParams layoutParams = ((VerticalGridView) viewOnClickListenerC4802v.m19843J9(i11)).getLayoutParams();

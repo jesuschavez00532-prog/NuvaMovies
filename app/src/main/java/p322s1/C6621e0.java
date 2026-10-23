@@ -111,7 +111,7 @@ public class C6621e0 extends FilterInputStream {
     }
 
     @Override // java.io.FilterInputStream, java.io.InputStream, java.io.Closeable, java.lang.AutoCloseable
-    public void close() {
+    public void close() throws java.io.IOException {
         if (this.f25425a != null) {
             this.f25430f.put(this.f25425a);
             this.f25425a = null;
@@ -221,8 +221,8 @@ public class C6621e0 extends FilterInputStream {
 
     @Override // java.io.FilterInputStream, java.io.InputStream
     public synchronized int read(byte[] bArr, int i10, int i11) {
-        int i12;
-        int i13;
+        int i12 = 0;
+        int i13 = 0;
         byte[] bArr2 = this.f25425a;
         if (bArr2 == null) {
             throw m25844d();

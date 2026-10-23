@@ -137,7 +137,7 @@ public class IjkMediaCodecInfo {
 
     @TargetApi(16)
     public static IjkMediaCodecInfo setupCandidate(MediaCodecInfo mediaCodecInfo, String str) {
-        int i10;
+        int i10 = 0;
         if (mediaCodecInfo == null) {
             return null;
         }
@@ -177,8 +177,8 @@ public class IjkMediaCodecInfo {
 
     @TargetApi(16)
     public void dumpProfileLevels(String str) {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         MediaCodecInfo.CodecProfileLevel[] codecProfileLevelArr;
         try {
             MediaCodecInfo.CodecCapabilities capabilitiesForType = this.mCodecInfo.getCapabilitiesForType(str);

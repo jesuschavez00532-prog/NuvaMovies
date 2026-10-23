@@ -176,7 +176,7 @@ public final class ViewOnClickListenerC5519x2 extends AbstractC1196d<C4630k4> im
         @Override // android.text.TextWatcher
         public void afterTextChanged(Editable editable) {
             CharSequence m27758b0;
-            int i10;
+            int i10 = 0;
             boolean z10;
             ViewOnClickListenerC5519x2.this.f22431F0 = null;
             String obj = ((EditText) ViewOnClickListenerC5519x2.this.m22389N9(R$id.mEditSearch)).getText().toString();
@@ -787,7 +787,7 @@ public final class ViewOnClickListenerC5519x2 extends AbstractC1196d<C4630k4> im
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: ka */
     public static final void m22384ka(ViewOnClickListenerC5519x2 viewOnClickListenerC5519x2, View view, boolean z10) {
-        int i10;
+        int i10 = 0;
         boolean z11;
         AbstractC5868k.m23674f(viewOnClickListenerC5519x2, "this$0");
         if (z10) {
@@ -864,7 +864,7 @@ public final class ViewOnClickListenerC5519x2 extends AbstractC1196d<C4630k4> im
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: oa */
     public final void m22388oa(boolean z10) {
-        int i10;
+        int i10 = 0;
         int i11 = R$id.mLayoutResult;
         if (((RelativeLayout) m22389N9(i11)) != null) {
             RelativeLayout relativeLayout = (RelativeLayout) m22389N9(i11);

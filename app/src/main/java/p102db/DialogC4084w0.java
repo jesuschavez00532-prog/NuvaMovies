@@ -69,7 +69,7 @@ public final class DialogC4084w0 extends Dialog {
     private final void m17113d() {
         String m6878m;
         Context context;
-        int i10;
+        int i10 = 0;
         String str;
         C1466m0 c1466m0 = C1466m0.f5627a;
         if (AbstractC5868k.m23669a(c1466m0.m6860d(), CdnType.DIGITAL_TYPE_PEERSTAR)) {

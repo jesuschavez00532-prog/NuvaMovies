@@ -111,8 +111,8 @@ public final class ViewOnClickListenerC5622n extends C7767e implements View.OnCl
     @Override // androidx.fragment.app.Fragment
     /* renamed from: g8 */
     public void mo3164g8() {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         Window window;
         super.mo3164g8();
         Dialog m3280r9 = m3280r9();

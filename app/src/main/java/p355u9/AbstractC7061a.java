@@ -31,7 +31,7 @@ public abstract class AbstractC7061a {
     /* renamed from: a */
     public static String m27212a(byte[] bArr) {
         boolean z10;
-        int i10;
+        int i10 = 0;
         char[] cArr = new char[((bArr.length + 2) / 3) * 4];
         int i11 = 0;
         int i12 = 0;

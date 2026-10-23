@@ -220,7 +220,7 @@ public final class C3981g0 extends AbstractC7527b {
     public void mo5338e(final C7531f c7531f, final PackageInfo packageInfo) {
         Collection m6985d;
         String m16854C;
-        double d10;
+        double d10 = 0.0;
         boolean z10;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(packageInfo, "bean");

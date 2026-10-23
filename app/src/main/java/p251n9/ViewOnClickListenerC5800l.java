@@ -331,7 +331,7 @@ public final class ViewOnClickListenerC5800l extends AbstractC5774c<InterfaceC47
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: ha */
     public static final void m23402ha(ViewOnClickListenerC5800l viewOnClickListenerC5800l, View view, boolean z10) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(viewOnClickListenerC5800l, "this$0");
         if (viewOnClickListenerC5800l.f23216E0) {
             if (z10) {
@@ -488,7 +488,7 @@ public final class ViewOnClickListenerC5800l extends AbstractC5774c<InterfaceC47
     @Override // p160h9.InterfaceC4734j
     /* renamed from: I */
     public void mo19609I(GetFavoritesResultData getFavoritesResultData) {
-        int i10;
+        int i10 = 0;
         if (getFavoritesResultData != null) {
             List<FavoriteList> favoriteList = getFavoritesResultData.getFavoriteList();
             if (favoriteList != null) {

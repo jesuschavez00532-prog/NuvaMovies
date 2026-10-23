@@ -50,7 +50,7 @@ public final class C5242x extends RecyclerView.AbstractC0789h {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: f */
     public static final void m21109f(C5242x c5242x, C5549c c5549c, View view) {
-        int i10;
+        int i10 = 0;
         String str;
         AbstractC5868k.m23674f(c5242x, "this$0");
         AbstractC5868k.m23674f(c5549c, "$data");

@@ -29,7 +29,7 @@ public class C4899c implements InterfaceC4900d {
 
     /* renamed from: c */
     private static StackTraceElement[] m20101c(StackTraceElement[] stackTraceElementArr, int i10) {
-        int i11;
+        int i11 = 0;
         HashMap hashMap = new HashMap();
         StackTraceElement[] stackTraceElementArr2 = new StackTraceElement[stackTraceElementArr.length];
         int i12 = 0;

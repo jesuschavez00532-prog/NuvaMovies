@@ -30,7 +30,7 @@ public final class C3982h extends AbstractC7527b {
 
     /* renamed from: r */
     private final void m16870r(TextView textView, AvailableCouponCodeList availableCouponCodeList) {
-        float f10;
+        float f10 = 0.0f;
         Float f11;
         String couponCurrency = availableCouponCodeList.getCouponCurrency();
         if (couponCurrency == null) {

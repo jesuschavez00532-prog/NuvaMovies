@@ -535,7 +535,7 @@ public final class C5781e0 extends AbstractC5774c<InterfaceC4743s> implements In
     @Override // p160h9.InterfaceC4744t
     /* renamed from: i0 */
     public void mo19628i0(GetOrderInfoResult getOrderInfoResult) {
-        int i10;
+        int i10 = 0;
         List list;
         int m6992k;
         AbstractC5868k.m23674f(getOrderInfoResult, "data");

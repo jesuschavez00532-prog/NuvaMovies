@@ -81,8 +81,8 @@ public abstract class AbstractC7653c {
 
     /* renamed from: e */
     public static void m29443e(EditorInfo editorInfo, CharSequence charSequence, int i10) {
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         AbstractC7342g.m28327g(charSequence);
         if (Build.VERSION.SDK_INT >= 30) {
             a.m29447a(editorInfo, charSequence, i10);
@@ -143,7 +143,7 @@ public abstract class AbstractC7653c {
 
     /* renamed from: h */
     private static void m29446h(EditorInfo editorInfo, CharSequence charSequence, int i10, int i11) {
-        int i12;
+        int i12 = 0;
         CharSequence subSequence;
         int i13 = i11 - i10;
         if (i13 > 1024) {

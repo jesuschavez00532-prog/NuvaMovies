@@ -99,7 +99,7 @@ public final class C5019c0 implements InterfaceC4722a0, InterfaceC6429u0, Interf
     @Override // p160h9.InterfaceC4722a0
     /* renamed from: D2 */
     public void mo19576D2(List list, SubscribeData subscribeData) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(list, "ids");
         if (subscribeData != null) {
             i10 = subscribeData.getSubscribeId();
@@ -119,7 +119,7 @@ public final class C5019c0 implements InterfaceC4722a0, InterfaceC6429u0, Interf
     @Override // p301qb.InterfaceC6419r
     /* renamed from: E */
     public void mo20411E(SubscribeData subscribeData) {
-        int i10;
+        int i10 = 0;
         if (subscribeData != null) {
             i10 = subscribeData.getSubscribeId();
         } else {

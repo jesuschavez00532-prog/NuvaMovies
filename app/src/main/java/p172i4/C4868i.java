@@ -193,7 +193,7 @@ public class C4868i extends C4870j {
 
     /* renamed from: t */
     final void m20056t(Context context, int i10, String str, PendingIntent pendingIntent) {
-        int i11;
+        int i11 = 0;
         String str2;
         NotificationChannel notificationChannel;
         CharSequence name;

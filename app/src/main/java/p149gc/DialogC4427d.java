@@ -198,9 +198,9 @@ public class DialogC4427d extends Dialog implements View.OnClickListener, TextWa
 
     /* renamed from: g */
     public void m18612g(boolean z10) {
-        int i10;
-        int i11;
-        int i12;
+        int i10 = 0;
+        int i11 = 0;
+        int i12 = 0;
         TextView textView = this.f19216i;
         if (z10) {
             i10 = R$string.enter_code_redemption;

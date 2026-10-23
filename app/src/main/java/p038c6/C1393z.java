@@ -63,7 +63,7 @@ public final class C1393z extends AbstractC1370c0.c {
     }
 
     public int hashCode() {
-        int i10;
+        int i10 = 0;
         int hashCode = (((this.f5437a.hashCode() ^ 1000003) * 1000003) ^ this.f5438b.hashCode()) * 1000003;
         if (this.f5439c) {
             i10 = 1231;

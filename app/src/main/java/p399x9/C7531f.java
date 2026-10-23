@@ -60,7 +60,7 @@ public final class C7531f extends RecyclerView.AbstractC0787f0 {
 
     /* renamed from: f */
     public final C7531f m28867f(int i10, boolean z10) {
-        int i11;
+        int i11 = 0;
         View view = (View) m28863b(i10);
         if (z10) {
             i11 = 0;

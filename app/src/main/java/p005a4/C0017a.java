@@ -41,7 +41,7 @@ public class C0017a implements InterfaceC0052r0 {
     @Override // p005a4.InterfaceC0052r0
     /* renamed from: a */
     public void mo138a(AbstractC6667o abstractC6667o, int i10, boolean z10) {
-        int i11;
+        int i11 = 0;
         Uri.Builder builder = new Uri.Builder();
         builder.appendQueryParameter("backendName", abstractC6667o.mo26004b());
         builder.appendQueryParameter(Progress.PRIORITY, String.valueOf(AbstractC4130a.m17312a(abstractC6667o.mo26006d())));
@@ -75,7 +75,7 @@ public class C0017a implements InterfaceC0052r0 {
 
     /* renamed from: c */
     boolean m140c(Intent intent) {
-        int i10;
+        int i10 = 0;
         if (Build.VERSION.SDK_INT >= 23) {
             i10 = 603979776;
         } else {

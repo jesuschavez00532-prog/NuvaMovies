@@ -105,13 +105,13 @@ public final class ExecutorServiceC5626a implements ExecutorService, Executor {
         ThreadPoolExecutor threadPoolExecutor;
         ThreadPoolExecutor threadPoolExecutor2;
         ThreadPoolExecutor threadPoolExecutor3;
-        int i10;
+        int i10 = 0;
         ThreadPoolExecutor threadPoolExecutor4;
-        int i11;
+        int i11 = 0;
         ThreadPoolExecutor threadPoolExecutor5;
         ThreadPoolExecutor threadPoolExecutor6;
         ThreadPoolExecutor threadPoolExecutor7;
-        int i12;
+        int i12 = 0;
         threadPoolExecutor = AbstractC5637l.f22714g;
         int activeCount = threadPoolExecutor.getActiveCount();
         threadPoolExecutor2 = AbstractC5637l.f22714g;

@@ -64,7 +64,7 @@ public final class C7532g {
 
     /* renamed from: f */
     public final C7532g m28873f(int i10, boolean z10) {
-        int i11;
+        int i11 = 0;
         View view = (View) m28870c(i10);
         if (z10) {
             i11 = 0;

@@ -174,7 +174,7 @@ public final class C4513b extends AbstractC4512a<InterfaceC4983a> implements Int
     @Override // p186j3.InterfaceC4984b
     /* renamed from: g */
     public void mo18887g(boolean z10) {
-        int i10;
+        int i10 = 0;
         LoadingView loadingView = (LoadingView) m18882J9(R$id.mLoading);
         if (z10) {
             i10 = 0;

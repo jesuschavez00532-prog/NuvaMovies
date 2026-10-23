@@ -374,7 +374,7 @@ public final class C5715b {
         InterfaceC5660l interfaceC5660l2;
         Integer num4;
         boolean z11;
-        int i12;
+        int i12 = 0;
         if ((i11 & 8) != 0) {
             num3 = null;
         } else {
@@ -433,7 +433,7 @@ public final class C5715b {
     /* renamed from: d */
     public final void m23100d(Context context, String str, File file) {
         Throwable th;
-        Exception e10;
+        Exception e10 = null;
         File m23099b;
         File m23099b2;
         BufferedOutputStream bufferedOutputStream;

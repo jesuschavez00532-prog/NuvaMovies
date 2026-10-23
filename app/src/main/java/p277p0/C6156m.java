@@ -837,7 +837,7 @@ public final class C6156m {
         InterfaceC5660l interfaceC5660l2;
         Integer num4;
         boolean z11;
-        int i12;
+        int i12 = 0;
         if ((i11 & 16) != 0) {
             num3 = null;
         } else {

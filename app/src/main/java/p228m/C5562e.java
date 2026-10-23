@@ -250,7 +250,7 @@ public class C5562e {
 
     /* renamed from: v */
     private int m22571v(a aVar) {
-        float f10;
+        float f10 = 0.0f;
         boolean z10;
         int i10 = 0;
         while (true) {

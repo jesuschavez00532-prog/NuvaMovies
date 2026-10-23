@@ -17,7 +17,7 @@ public class ThreadFactoryC1440a implements ThreadFactory {
     private final String f5551c;
 
     public ThreadFactoryC1440a() {
-        ThreadGroup threadGroup;
+        ThreadGroup threadGroup = null;
         SecurityManager securityManager = System.getSecurityManager();
         if (securityManager != null) {
             threadGroup = securityManager.getThreadGroup();

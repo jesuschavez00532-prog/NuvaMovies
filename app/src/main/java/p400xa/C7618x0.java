@@ -336,8 +336,8 @@ public final class C7618x0 {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: s */
     public final void m29353s(Context context) {
-        double d10;
-        double d11;
+        double d10 = 0.0;
+        double d11 = 0.0;
         String str;
         f28048r = false;
         f28049s = 0;

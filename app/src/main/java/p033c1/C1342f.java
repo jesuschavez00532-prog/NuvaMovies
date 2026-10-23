@@ -81,7 +81,7 @@ public class C1342f extends SSLSocketFactory {
     }
 
     @Override // javax.net.ssl.SSLSocketFactory
-    public Socket createSocket(Socket socket, String str, int i10, boolean z10) {
+    public Socket createSocket(Socket socket, String str, int i10, boolean z10) throws java.io.IOException {
         Socket createSocket = this.f5071a.createSocket(socket, str, i10, z10);
         if (createSocket instanceof SSLSocket) {
             m6108a((SSLSocket) createSocket);
@@ -100,7 +100,7 @@ public class C1342f extends SSLSocketFactory {
     }
 
     @Override // javax.net.SocketFactory
-    public Socket createSocket(String str, int i10) {
+    public Socket createSocket(String str, int i10) throws java.io.IOException {
         Socket createSocket = this.f5071a.createSocket(str, i10);
         if (createSocket instanceof SSLSocket) {
             m6108a((SSLSocket) createSocket);
@@ -109,7 +109,7 @@ public class C1342f extends SSLSocketFactory {
     }
 
     @Override // javax.net.SocketFactory
-    public Socket createSocket(String str, int i10, InetAddress inetAddress, int i11) {
+    public Socket createSocket(String str, int i10, InetAddress inetAddress, int i11) throws java.io.IOException {
         Socket createSocket = this.f5071a.createSocket(str, i10, inetAddress, i11);
         if (createSocket instanceof SSLSocket) {
             m6108a((SSLSocket) createSocket);
@@ -118,7 +118,7 @@ public class C1342f extends SSLSocketFactory {
     }
 
     @Override // javax.net.SocketFactory
-    public Socket createSocket(InetAddress inetAddress, int i10) {
+    public Socket createSocket(InetAddress inetAddress, int i10) throws java.io.IOException {
         Socket createSocket = this.f5071a.createSocket(inetAddress, i10);
         if (createSocket instanceof SSLSocket) {
             m6108a((SSLSocket) createSocket);
@@ -127,7 +127,7 @@ public class C1342f extends SSLSocketFactory {
     }
 
     @Override // javax.net.SocketFactory
-    public Socket createSocket(InetAddress inetAddress, int i10, InetAddress inetAddress2, int i11) {
+    public Socket createSocket(InetAddress inetAddress, int i10, InetAddress inetAddress2, int i11) throws java.io.IOException {
         Socket createSocket = this.f5071a.createSocket(inetAddress, i10, inetAddress2, i11);
         if (createSocket instanceof SSLSocket) {
             m6108a((SSLSocket) createSocket);

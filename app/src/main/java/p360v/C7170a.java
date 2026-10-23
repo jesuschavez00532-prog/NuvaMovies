@@ -484,7 +484,7 @@ public final class C7170a {
     /* renamed from: i */
     public CharSequence m27777i(CharSequence charSequence, InterfaceC7185p interfaceC7185p, boolean z10) {
         InterfaceC7185p interfaceC7185p2;
-        char c10;
+        char c10 = '\0';
         InterfaceC7185p interfaceC7185p3;
         if (charSequence == null) {
             return null;

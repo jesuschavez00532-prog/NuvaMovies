@@ -83,7 +83,7 @@ public abstract class AbstractC7724a extends BaseAdapter implements Filterable, 
     }
 
     public AbstractC7724a(Context context, Cursor cursor, boolean z10) {
-        int i10;
+        int i10 = 0;
         if (z10) {
             i10 = 1;
         } else {
@@ -114,7 +114,7 @@ public abstract class AbstractC7724a extends BaseAdapter implements Filterable, 
 
     /* renamed from: f */
     void m29839f(Context context, Cursor cursor, int i10) {
-        int i11;
+        int i11 = 0;
         boolean z10 = false;
         if ((i10 & 1) == 1) {
             i10 |= 2;

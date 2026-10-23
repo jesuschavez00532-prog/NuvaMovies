@@ -256,8 +256,8 @@ public abstract class AbstractC6135h {
         /* JADX WARN: Can't fix incorrect switch cases order, some code will duplicate */
         /* renamed from: a */
         private static void m24448a(Path path, float[] fArr, char c10, char c11, float[] fArr2) {
-            int i10;
-            int i11;
+            int i10 = 0;
+            int i11 = 0;
             float f10 = 0.0f;
             float f11 = 0.0f;
             float f12 = 0.0f;
@@ -590,8 +590,8 @@ public abstract class AbstractC6135h {
 
         /* renamed from: c */
         private static void m24450c(Path path, float f10, float f11, float f12, float f13, float f14, float f15, float f16, boolean z10, boolean z11) {
-            double d10;
-            double d11;
+            double d10 = 0.0;
+            double d11 = 0.0;
             boolean z12;
             double radians = Math.toRadians(f16);
             double cos = Math.cos(radians);

@@ -146,7 +146,7 @@ public final class C4094b {
 
     /* renamed from: g */
     public final EnumC7254b m17144g() {
-        int i10;
+        int i10 = 0;
         if (f18001d == -1) {
             SharedPreferences sharedPreferences = f18004g;
             if (sharedPreferences == null) {
@@ -169,7 +169,7 @@ public final class C4094b {
 
     /* renamed from: h */
     public final EnumC7254b m17145h() {
-        int i10;
+        int i10 = 0;
         if (f18000c == -1) {
             SharedPreferences sharedPreferences = f18004g;
             if (sharedPreferences == null) {

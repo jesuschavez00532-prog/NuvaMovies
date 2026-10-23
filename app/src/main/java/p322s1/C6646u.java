@@ -168,13 +168,13 @@ public final class C6646u {
 
     /* renamed from: c */
     private static void m25935c(ImageHeaderParser.ImageType imageType, InterfaceC6613a0 interfaceC6613a0, b bVar, InterfaceC5571d interfaceC5571d, AbstractC6640o abstractC6640o, int i10, int i11, int i12, int i13, int i14, BitmapFactory.Options options) {
-        int i15;
-        int i16;
+        int i15 = 0;
+        int i16 = 0;
         int min;
-        int i17;
+        int i17 = 0;
         int floor;
         double floor2;
-        int i18;
+        int i18 = 0;
         if (i11 > 0 && i12 > 0) {
             if (m25944r(i10)) {
                 i16 = i11;
@@ -295,9 +295,9 @@ public final class C6646u {
     /* renamed from: h */
     private Bitmap m25937h(InterfaceC6613a0 interfaceC6613a0, BitmapFactory.Options options, AbstractC6640o abstractC6640o, EnumC4971b enumC4971b, EnumC4978i enumC4978i, boolean z10, int i10, int i11, boolean z11, b bVar) {
         boolean z12;
-        int i12;
-        int i13;
-        int i14;
+        int i12 = 0;
+        int i13 = 0;
+        int i14 = 0;
         String str;
         ColorSpace.Named named;
         ColorSpace colorSpace;
@@ -305,7 +305,7 @@ public final class C6646u {
         ColorSpace colorSpace3;
         ColorSpace colorSpace4;
         boolean isWideGamut;
-        float f10;
+        float f10 = 0.0f;
         int round;
         int round2;
         long m17210b = AbstractC4117g.m17210b();
@@ -523,7 +523,7 @@ public final class C6646u {
 
     /* renamed from: s */
     private static boolean m25945s(BitmapFactory.Options options) {
-        int i10;
+        int i10 = 0;
         int i11 = options.inTargetDensity;
         if (i11 > 0 && (i10 = options.inDensity) > 0 && i11 != i10) {
             return true;

@@ -568,7 +568,7 @@ public final class C5783f extends AbstractC5774c<InterfaceC4729e> implements Int
     @Override // p160h9.InterfaceC4730f
     /* renamed from: d2 */
     public void mo19599d2(List list) {
-        int i10;
+        int i10 = 0;
         if (list != null) {
             i10 = list.size();
         } else {

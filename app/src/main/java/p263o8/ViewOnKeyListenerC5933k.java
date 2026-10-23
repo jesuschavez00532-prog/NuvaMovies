@@ -318,7 +318,7 @@ public final class ViewOnKeyListenerC5933k extends LinearLayout implements View.
 
     /* renamed from: o */
     private final void m24013o(EpgProgram epgProgram) {
-        int i10;
+        int i10 = 0;
         EpgDate epgDate;
         a aVar;
         int selectedItemPosition = ((MemoryListView) m24026e(R$id.mMlvDate)).getSelectedItemPosition();

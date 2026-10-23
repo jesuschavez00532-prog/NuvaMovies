@@ -180,7 +180,7 @@ public final class C4168g extends AutoFrameLayout {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: o */
     public static final void m17417o(C4168g c4168g) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(c4168g, "this$0");
         if (c4168g.f18241f) {
             long j10 = c4168g.f18238c;

@@ -37,7 +37,7 @@ public class C4451f extends AbstractC4447b {
     @Override // gf.AbstractC4447b
     /* renamed from: b */
     protected int mo18642b(byte[] bArr, int i10) {
-        int i11;
+        int i11 = 0;
         int i12 = bArr[i10] & 255;
         if (i12 < 176 || (i11 = bArr[i10 + 1] & 255) < 161) {
             return -1;

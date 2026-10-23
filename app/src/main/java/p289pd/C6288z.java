@@ -238,8 +238,8 @@ public final class C6288z implements InterfaceC5856p, InterfaceC6420r0, Interfac
 
     /* renamed from: Y3 */
     private final void m25023Y3() {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         if (AbstractC6567a.m25635e(this.f24621g)) {
             return;
         }
@@ -290,7 +290,7 @@ public final class C6288z implements InterfaceC5856p, InterfaceC6420r0, Interfac
     /* renamed from: D0 */
     public void mo23655D0() {
         ChildColumn childColumn;
-        int i10;
+        int i10 = 0;
         Object m20485a = C5044a.f20862a.m20485a(C4300d.f18678a.m18031f());
         Integer num = null;
         if (m20485a instanceof ChildColumn) {

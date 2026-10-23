@@ -107,8 +107,8 @@ public class C4174b extends SurfaceView implements InterfaceC4173a {
 
         /* renamed from: b */
         public void m17449b(InterfaceC4173a.a aVar) {
-            int i10;
-            int i11;
+            int i10 = 0;
+            int i11 = 0;
             if (this.f18257f.get() != null) {
                 i10 = ((C4174b) this.f18257f.get()).getView().getWidth();
                 i11 = ((C4174b) this.f18257f.get()).getView().getHeight();

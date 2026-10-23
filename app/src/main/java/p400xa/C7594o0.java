@@ -211,7 +211,7 @@ public final class C7594o0 {
         Integer num3;
         Integer num4;
         AbstractC5323j abstractC5323j2;
-        int i12;
+        int i12 = 0;
         if ((i11 & 8) != 0) {
             num3 = null;
         } else {
@@ -337,7 +337,7 @@ public final class C7594o0 {
         Drawable drawable2;
         Integer num2;
         AbstractC5323j abstractC5323j2;
-        int i12;
+        int i12 = 0;
         if ((i11 & 8) != 0) {
             drawable2 = null;
         } else {
@@ -368,7 +368,7 @@ public final class C7594o0 {
         Integer num3;
         Integer num4;
         AbstractC5323j abstractC5323j2;
-        int i12;
+        int i12 = 0;
         if ((i11 & 8) != 0) {
             num3 = null;
         } else {
@@ -407,7 +407,7 @@ public final class C7594o0 {
 
     /* renamed from: l */
     public static /* synthetic */ void m29203l(C7594o0 c7594o0, String str, ImageView imageView, Context context, int i10, int i11, int i12, Object obj) {
-        int i13;
+        int i13 = 0;
         if ((i12 & 16) != 0) {
             i13 = 0;
         } else {
@@ -418,7 +418,7 @@ public final class C7594o0 {
 
     /* renamed from: m */
     public static /* synthetic */ void m29204m(C7594o0 c7594o0, String str, ImageView imageView, Context context, Drawable drawable, int i10, String str2, int i11, Object obj) {
-        int i12;
+        int i12 = 0;
         if ((i11 & 16) != 0) {
             i12 = 0;
         } else {
@@ -432,7 +432,7 @@ public final class C7594o0 {
 
     /* renamed from: p */
     public static /* synthetic */ void m29205p(C7594o0 c7594o0, List list, a aVar, ImageView imageView, Context context, int i10, int i11, int i12, Object obj) {
-        int i13;
+        int i13 = 0;
         if ((i12 & 32) != 0) {
             i13 = 0;
         } else {
@@ -443,7 +443,7 @@ public final class C7594o0 {
 
     /* renamed from: q */
     public static /* synthetic */ void m29206q(C7594o0 c7594o0, List list, a aVar, ImageView imageView, Context context, Drawable drawable, int i10, int i11, Object obj) {
-        int i12;
+        int i12 = 0;
         if ((i11 & 32) != 0) {
             i12 = 0;
         } else {

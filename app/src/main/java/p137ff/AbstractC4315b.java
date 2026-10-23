@@ -62,7 +62,7 @@ public abstract class AbstractC4315b {
 
     /* renamed from: d */
     public void m18098d(byte[] bArr, int i10, int i11) {
-        int i12;
+        int i12 = 0;
         if (this.f18760b > 1000) {
             this.f18763e = true;
         }

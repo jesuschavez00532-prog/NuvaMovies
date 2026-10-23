@@ -290,7 +290,7 @@ public final class C7110k extends AbstractC7766d<InterfaceC5965a> implements Int
     /* renamed from: b5 */
     public boolean mo494b5() {
         boolean z10;
-        int i10;
+        int i10 = 0;
         boolean z11;
         int i11 = R$id.mListView;
         VerticalGridView verticalGridView = (VerticalGridView) m27336F9(i11);
@@ -346,7 +346,7 @@ public final class C7110k extends AbstractC7766d<InterfaceC5965a> implements Int
     @Override // p268od.InterfaceC5966b
     /* renamed from: g */
     public void mo24130g(boolean z10) {
-        int i10;
+        int i10 = 0;
         LoadingView loadingView = (LoadingView) m27336F9(R$id.mLoadingView);
         if (z10) {
             i10 = 0;

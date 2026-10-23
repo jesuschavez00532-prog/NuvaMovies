@@ -460,7 +460,7 @@ public final class C6758u0 extends C7767e implements InterfaceC6241d, InterfaceC
 
     /* renamed from: fa */
     private final void m26560fa(boolean z10) {
-        int i10;
+        int i10 = 0;
         LoadingView loadingView = (LoadingView) m26564M9(R$id.mLoadingView);
         if (z10) {
             i10 = 0;

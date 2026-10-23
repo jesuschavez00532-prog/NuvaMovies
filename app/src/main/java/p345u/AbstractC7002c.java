@@ -115,10 +115,10 @@ public abstract class AbstractC7002c {
 
     /* renamed from: f */
     static AbstractC7005f.b[] m27018f(Context context, C7003d c7003d, String str, CancellationSignal cancellationSignal) {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         Uri withAppendedId;
-        int i12;
+        int i12 = 0;
         boolean z10;
         ArrayList arrayList = new ArrayList();
         Uri build = new Uri.Builder().scheme("content").authority(str).build();

@@ -225,8 +225,8 @@ public class C6217d {
 
     /* renamed from: i */
     public void m24805i(Context context, TextPaint textPaint, AbstractC6219f abstractC6219f) {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         m24806j(context, textPaint, abstractC6219f);
         ColorStateList colorStateList = this.f24393b;
         if (colorStateList != null) {
@@ -259,7 +259,7 @@ public class C6217d {
     /* renamed from: k */
     public void m24807k(TextPaint textPaint, Typeface typeface) {
         boolean z10;
-        float f10;
+        float f10 = 0.0f;
         textPaint.setTypeface(typeface);
         int style = (typeface.getStyle() ^ (-1)) & this.f24396e;
         if ((style & 1) != 0) {

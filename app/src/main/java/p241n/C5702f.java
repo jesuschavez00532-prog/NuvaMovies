@@ -746,7 +746,7 @@ public class C5702f {
     /* JADX WARN: Unsupported multi-entry loop pattern (BACK_EDGE: B:38:0x0087 -> B:31:0x0088). Please report as a decompilation issue!!! */
     /* renamed from: Y */
     public void m22972Y(String str) {
-        float f10;
+        float f10 = 0.0f;
         int i10 = 0;
         if (str != null && str.length() != 0) {
             int length = str.length();
@@ -811,8 +811,8 @@ public class C5702f {
 
     /* renamed from: a0 */
     public void m22974a0(int i10, int i11, int i12, int i13) {
-        int i14;
-        int i15;
+        int i14 = 0;
+        int i15 = 0;
         int i16 = i12 - i10;
         int i17 = i13 - i11;
         this.f22795K = i10;

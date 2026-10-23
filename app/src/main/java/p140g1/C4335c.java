@@ -85,9 +85,9 @@ class C4335c implements Closeable {
 
     /* renamed from: d */
     public String m18202d() {
-        int i10;
+        int i10 = 0;
         byte[] bArr;
-        int i11;
+        int i11 = 0;
         synchronized (this.f18874a) {
             if (this.f18876c != null) {
                 if (this.f18877d >= this.f18878e) {

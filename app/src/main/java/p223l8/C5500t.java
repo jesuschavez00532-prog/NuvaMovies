@@ -1208,7 +1208,7 @@ public final class C5500t extends AbstractC7766d<C4570a5> implements InterfaceC4
 
     /* renamed from: xa */
     public final void m22351xa(boolean z10) {
-        int i10;
+        int i10 = 0;
         if (!this.f22397M0) {
             return;
         }

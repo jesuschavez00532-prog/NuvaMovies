@@ -72,16 +72,16 @@ public class C5709m extends AbstractC5711o {
     @Override // p241n.AbstractC5711o
     /* renamed from: f */
     public void mo23062f() {
-        int i10;
+        int i10 = 0;
         C5709m c5709m;
         C5709m c5709m2;
         C5709m c5709m3;
         C5709m c5709m4;
         C5709m c5709m5;
         C5709m c5709m6;
-        float f10;
+        float f10 = 0.0f;
         float m22949D;
-        float f11;
+        float f11 = 0.0f;
         C5709m c5709m7;
         boolean z10 = true;
         if (this.f22925b == 1 || (i10 = this.f22916i) == 4) {

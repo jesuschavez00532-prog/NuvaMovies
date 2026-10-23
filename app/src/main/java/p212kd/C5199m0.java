@@ -221,7 +221,7 @@ public final class C5199m0 extends AbstractC7528c {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: x */
     public static final boolean m20995x(C7531f c7531f, C5199m0 c5199m0, View view, int i10, KeyEvent keyEvent) {
-        int i11;
+        int i11 = 0;
         AbstractC5868k.m23674f(c7531f, "$holder");
         AbstractC5868k.m23674f(c5199m0, "this$0");
         int i12 = 6;
@@ -305,8 +305,8 @@ public final class C5199m0 extends AbstractC7528c {
     @Override // p399x9.AbstractC7527b
     /* renamed from: u, reason: merged with bridge method [inline-methods] */
     public void mo5338e(final C7531f c7531f, final AssetList assetList) {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         AbstractC5868k.m23674f(c7531f, "holder");
         AbstractC5868k.m23674f(assetList, "bean");
         TextView textView = (TextView) c7531f.m28863b(R$id.mTextName);

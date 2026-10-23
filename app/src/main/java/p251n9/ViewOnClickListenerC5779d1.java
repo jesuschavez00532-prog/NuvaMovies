@@ -224,7 +224,7 @@ public final class ViewOnClickListenerC5779d1 extends AbstractC5774c<InterfaceC4
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: ga */
     public static final void m23290ga(ViewOnClickListenerC5779d1 viewOnClickListenerC5779d1, View view, boolean z10) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(viewOnClickListenerC5779d1, "this$0");
         if (viewOnClickListenerC5779d1.f23139C0) {
             if (z10) {
@@ -439,7 +439,7 @@ public final class ViewOnClickListenerC5779d1 extends AbstractC5774c<InterfaceC4
     @Override // p160h9.InterfaceC4724b0
     /* renamed from: W */
     public void mo19579W(SubscribeListData subscribeListData) {
-        int i10;
+        int i10 = 0;
         if (subscribeListData != null) {
             ArrayList<SubscribeData> subscribeList = subscribeListData.getSubscribeList();
             if (subscribeList != null) {

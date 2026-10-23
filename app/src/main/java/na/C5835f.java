@@ -191,7 +191,7 @@ public final class C5835f implements InterfaceC1439a, InterfaceC6388g1, Interfac
     /* renamed from: o2 */
     public void mo23609o2(GetLiveDataResultData getLiveDataResultData) {
         List<Channel> list;
-        int i10;
+        int i10 = 0;
         Integer channelListTotalSize;
         List<Channel> channelList;
         List<Channel> list2;

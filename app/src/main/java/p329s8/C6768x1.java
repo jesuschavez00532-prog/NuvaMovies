@@ -651,7 +651,7 @@ public final class C6768x1 extends C7767e implements InterfaceC5537e, InterfaceC
 
     /* renamed from: la */
     private final void m26599la(boolean z10) {
-        int i10;
+        int i10 = 0;
         LoadingView loadingView = (LoadingView) m26607Q9(R$id.mLoadingView);
         if (z10) {
             i10 = 0;

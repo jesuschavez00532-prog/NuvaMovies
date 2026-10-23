@@ -971,7 +971,7 @@ public abstract class AbstractC4485n implements Cloneable {
         View view;
         Animator animator;
         C4497u c4497u;
-        int i10;
+        int i10 = 0;
         Animator animator2;
         C4497u c4497u2;
         C5303a m18743z = m18743z();

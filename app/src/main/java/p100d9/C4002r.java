@@ -169,7 +169,7 @@ public final class C4002r extends AbstractC7527b {
 
     /* renamed from: y */
     private final int m16917y(View view) {
-        int i10;
+        int i10 = 0;
         View view2;
         RecyclerView recyclerView = this.f17756j;
         if (recyclerView != null) {

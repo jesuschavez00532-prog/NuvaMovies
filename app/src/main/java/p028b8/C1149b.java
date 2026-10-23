@@ -264,7 +264,7 @@ public final class C1149b extends BaseAdapter implements BaseAdapterImpl {
     /* renamed from: k */
     public final void m5220k(boolean z10, View view) {
         C4053l.b bVar;
-        int i10;
+        int i10 = 0;
         C4053l c4053l = new C4053l();
         c4053l.m17069ea(view);
         if (z10) {

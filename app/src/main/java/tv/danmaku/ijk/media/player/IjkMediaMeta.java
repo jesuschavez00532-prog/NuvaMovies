@@ -183,7 +183,7 @@ public class IjkMediaMeta {
         }
 
         public String getFpsInline() {
-            int i10;
+            int i10 = 0;
             int i11 = this.mFpsNum;
             if (i11 > 0 && (i10 = this.mFpsDen) > 0) {
                 return String.valueOf(i11 / i10);

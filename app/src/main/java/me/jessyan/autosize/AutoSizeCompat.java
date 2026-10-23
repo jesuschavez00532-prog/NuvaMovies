@@ -163,7 +163,7 @@ public final class AutoSizeCompat {
     }
 
     public static void cancelAdapt(Resources resources) {
-        float f10;
+        float f10 = 0.0f;
         Preconditions.checkMainThread();
         float initXdpi = AutoSizeConfig.getInstance().getInitXdpi();
         int i10 = C56531.$SwitchMap$me$jessyan$autosize$unit$Subunits[AutoSizeConfig.getInstance().getUnitsManager().getSupportSubunits().ordinal()];

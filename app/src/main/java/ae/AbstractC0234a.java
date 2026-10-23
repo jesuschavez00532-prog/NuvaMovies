@@ -479,7 +479,7 @@ public abstract class AbstractC0234a {
 
         /* renamed from: g */
         private int m857g(byte[] bArr, int i10) {
-            int i11;
+            int i11 = 0;
             int i12 = 0;
             while (true) {
                 int i13 = i12 + 1;
@@ -745,17 +745,17 @@ public abstract class AbstractC0234a {
             }
 
             @Override // java.io.FilterOutputStream, java.io.OutputStream
-            public void write(int i10) {
+            public void write(int i10) throws java.io.IOException {
                 write(new byte[]{(byte) i10}, 0, 1);
             }
 
             @Override // java.io.FilterOutputStream, java.io.OutputStream
-            public void write(byte[] bArr) {
+            public void write(byte[] bArr) throws java.io.IOException {
                 write(bArr, 0, bArr.length);
             }
 
             @Override // java.io.FilterOutputStream, java.io.OutputStream
-            public void write(byte[] bArr, int i10, int i11) {
+            public void write(byte[] bArr, int i10, int i11) throws java.io.IOException {
                 if (i11 == 0) {
                     return;
                 }
@@ -905,7 +905,7 @@ public abstract class AbstractC0234a {
         }
 
         @Override // java.io.Closeable, java.lang.AutoCloseable
-        public void close() {
+        public void close() throws java.io.IOException {
             InputStream inputStream = this.f701c;
             if (inputStream != null) {
                 inputStream.close();

@@ -64,7 +64,7 @@ public final class AutoSize {
         float scaledDensity;
         int screenWidthDp;
         int screenHeightDp;
-        float f11;
+        float f11 = 0.0f;
         int screenHeight2;
         float initScaledDensity;
         int screenHeight3;
@@ -188,7 +188,7 @@ public final class AutoSize {
     }
 
     public static void cancelAdapt(Activity activity) {
-        float f10;
+        float f10 = 0.0f;
         Preconditions.checkMainThread();
         float initXdpi = AutoSizeConfig.getInstance().getInitXdpi();
         int i10 = C56521.$SwitchMap$me$jessyan$autosize$unit$Subunits[AutoSizeConfig.getInstance().getUnitsManager().getSupportSubunits().ordinal()];

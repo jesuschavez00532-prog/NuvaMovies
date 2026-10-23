@@ -273,7 +273,7 @@ final class C1374g extends AbstractC1366a0.e {
 
     public int hashCode() {
         int hashCode;
-        int i10;
+        int i10 = 0;
         int hashCode2;
         int hashCode3;
         int hashCode4;

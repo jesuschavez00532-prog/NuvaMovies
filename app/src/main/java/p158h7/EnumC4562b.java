@@ -33,7 +33,7 @@ public enum EnumC4562b {
 
     /* renamed from: b */
     public int m18986b(C4563c c4563c) {
-        char c10;
+        char c10 = '\0';
         int m18992f = c4563c.m18992f();
         if (m18992f <= 9) {
             c10 = 0;

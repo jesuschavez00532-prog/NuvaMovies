@@ -177,7 +177,7 @@ public final class C7584l {
 
     /* renamed from: g */
     public final void m29109g(ChildColumn childColumn) {
-        int i10;
+        int i10 = 0;
         boolean z10;
         boolean z11;
         AbstractC5868k.m23674f(childColumn, "column");

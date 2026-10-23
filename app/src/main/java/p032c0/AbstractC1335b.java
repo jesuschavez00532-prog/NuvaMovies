@@ -317,8 +317,8 @@ abstract class AbstractC1335b {
 
     /* renamed from: l */
     private static int m6044l(int i10, Rect rect, Rect rect2) {
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         if (i10 != 17) {
             if (i10 != 33) {
                 if (i10 != 66) {
@@ -350,8 +350,8 @@ abstract class AbstractC1335b {
 
     /* renamed from: n */
     private static int m6046n(int i10, Rect rect, Rect rect2) {
-        int i11;
-        int i12;
+        int i11 = 0;
+        int i12 = 0;
         if (i10 != 17) {
             if (i10 != 33) {
                 if (i10 != 66) {

@@ -185,7 +185,7 @@ public final class C7124o1 extends AbstractC7089d<InterfaceC5972h> implements In
         @Override // com.open.leanback.widget.AbstractC3057h
         /* renamed from: a */
         public void mo11995a(RecyclerView recyclerView, RecyclerView.AbstractC0787f0 abstractC0787f0, int i10, int i11) {
-            int i12;
+            int i12 = 0;
             super.mo11995a(recyclerView, abstractC0787f0, i10, i11);
             RecyclerView.AbstractC0789h adapter = ((VerticalGridView) C7124o1.this.m27610J9(R$id.mVgvShowResult)).getAdapter();
             if (adapter != null) {

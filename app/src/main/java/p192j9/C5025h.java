@@ -170,7 +170,7 @@ public final class C5025h implements InterfaceC4729e, InterfaceC6371b, Interface
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: Q3 */
     public static final int m20422Q3(AvailableCouponCodeList availableCouponCodeList, AvailableCouponCodeList availableCouponCodeList2) {
-        float f10;
+        float f10 = 0.0f;
         Float f11;
         Float f12;
         String couponCurrency = availableCouponCodeList.getCouponCurrency();
@@ -218,13 +218,13 @@ public final class C5025h implements InterfaceC4729e, InterfaceC6371b, Interface
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: W3 */
     public static final int m20424W3(CouponCodeList couponCodeList, CouponCodeList couponCodeList2) {
-        float f10;
+        float f10 = 0.0f;
         Float f11;
         Float f12;
-        float f13;
+        float f13 = 0.0f;
         Float f14;
         Float f15;
-        float f16;
+        float f16 = 0.0f;
         Float f17;
         Float f18;
         if (TextUtils.equals(couponCodeList.getStatus(), MessageService.MSG_DB_READY_REPORT) && !TextUtils.equals(couponCodeList2.getStatus(), MessageService.MSG_DB_READY_REPORT)) {

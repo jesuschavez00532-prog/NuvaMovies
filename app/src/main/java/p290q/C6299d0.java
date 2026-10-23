@@ -46,7 +46,7 @@ public final class C6299d0 extends Drawable.ConstantState {
 
     @Override // android.graphics.drawable.Drawable.ConstantState
     public int getChangingConfigurations() {
-        int i10;
+        int i10 = 0;
         int i11 = this.f24642a;
         Drawable.ConstantState constantState = this.f24643b;
         if (constantState != null) {

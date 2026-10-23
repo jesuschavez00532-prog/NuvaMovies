@@ -1824,7 +1824,7 @@ public final class C7702e {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: n0 */
     public final boolean m29645n0() {
-        int i10;
+        int i10 = 0;
         if (this.f28194n != null && (i10 = this.f28189i) != -1 && i10 != 0 && i10 != 1) {
             return true;
         }
@@ -2603,7 +2603,7 @@ public final class C7702e {
 
     /* renamed from: s0 */
     public final int m29688s0(String str) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23675g(str, SerializableCookie.NAME);
         this.f28182b = true;
         m29609N0(4);

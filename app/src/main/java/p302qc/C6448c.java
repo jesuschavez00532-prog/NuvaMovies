@@ -277,7 +277,7 @@ public class C6448c {
         int m27735E;
         String str2;
         String str3;
-        int i10;
+        int i10 = 0;
         this.f24788a = str;
         this.f24789b = intent;
         this.f24790c = str;

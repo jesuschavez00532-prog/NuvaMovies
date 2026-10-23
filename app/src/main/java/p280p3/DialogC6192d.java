@@ -359,7 +359,7 @@ public final class DialogC6192d extends Dialog implements InterfaceC4849d {
     @Override // p171i3.InterfaceC4849d
     /* renamed from: g */
     public void mo20013g(boolean z10) {
-        int i10;
+        int i10 = 0;
         LoadingView loadingView = (LoadingView) findViewById(R$id.mLoadingView);
         if (z10) {
             i10 = 0;

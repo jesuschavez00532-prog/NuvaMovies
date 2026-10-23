@@ -219,7 +219,7 @@ public final class ViewOnClickListenerC5820v extends AbstractC5774c<InterfaceC47
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: ga */
     public static final void m23494ga(ViewOnClickListenerC5820v viewOnClickListenerC5820v, View view, boolean z10) {
-        int i10;
+        int i10 = 0;
         AbstractC5868k.m23674f(viewOnClickListenerC5820v, "this$0");
         if (viewOnClickListenerC5820v.f23277D0) {
             if (z10) {
@@ -551,7 +551,7 @@ public final class ViewOnClickListenerC5820v extends AbstractC5774c<InterfaceC47
     @Override // p160h9.InterfaceC4738n
     /* renamed from: r5 */
     public void mo19620r5(List list) {
-        int i10;
+        int i10 = 0;
         if (list != null) {
             i10 = list.size();
         } else {

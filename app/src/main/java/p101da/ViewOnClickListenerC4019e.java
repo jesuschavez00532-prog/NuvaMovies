@@ -122,7 +122,7 @@ public final class ViewOnClickListenerC4019e extends C7767e implements View.OnCl
 
     /* renamed from: M9 */
     private final void m16995M9(boolean z10) {
-        int i10;
+        int i10 = 0;
         LoadingView loadingView = (LoadingView) m16998H9(R$id.mLoadingView);
         if (z10) {
             i10 = 0;

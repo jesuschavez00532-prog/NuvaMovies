@@ -87,7 +87,7 @@ public class C5886a {
 
     /* renamed from: d */
     static C5886a m23724d(int i10, C5897l c5897l) {
-        float f10;
+        float f10 = 0.0f;
         float[] m23743f = AbstractC5887b.m23743f(i10);
         float[][] fArr = AbstractC5887b.f23429a;
         float f11 = m23743f[0];
@@ -266,7 +266,7 @@ public class C5886a {
 
     /* renamed from: o */
     int m23736o(C5897l c5897l) {
-        float f10;
+        float f10 = 0.0f;
         if (m23732i() != 0.0d && m23734k() != 0.0d) {
             float m23732i = m23732i();
             double m23734k = m23734k();

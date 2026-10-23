@@ -132,7 +132,7 @@ public final class C6467f0 implements InterfaceC5972h, InterfaceC6391h1 {
     /* renamed from: h1 */
     public void mo25207h1(ResourceSearchResult resourceSearchResult, String str, String str2) {
         List<AssetList> list;
-        int i10;
+        int i10 = 0;
         List<AssetList> list2;
         AbstractC5868k.m23674f(str, "searchStr");
         AbstractC5868k.m23674f(str2, "searchType");

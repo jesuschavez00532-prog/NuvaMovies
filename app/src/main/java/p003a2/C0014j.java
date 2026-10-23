@@ -533,20 +533,20 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
     @Override // p003a2.InterfaceC0008d
     /* renamed from: d */
     public boolean mo89d(InterfaceC0008d interfaceC0008d) {
-        int i10;
-        int i11;
+        int i10 = 0;
+        int i11 = 0;
         Object obj;
         Class cls;
         AbstractC0005a abstractC0005a;
         EnumC1591h enumC1591h;
-        int i12;
-        int i13;
-        int i14;
+        int i12 = 0;
+        int i13 = 0;
+        int i14 = 0;
         Object obj2;
         Class cls2;
         AbstractC0005a abstractC0005a2;
         EnumC1591h enumC1591h2;
-        int i15;
+        int i15 = 0;
         if (!(interfaceC0008d instanceof C0014j)) {
             return false;
         }
@@ -655,7 +655,7 @@ public final class C0014j implements InterfaceC0008d, InterfaceC1041i, Interface
     @Override // p003a2.InterfaceC0008d
     /* renamed from: h */
     public void mo93h() {
-        int i10;
+        int i10 = 0;
         synchronized (this.f69d) {
             m113i();
             this.f68c.mo17649c();

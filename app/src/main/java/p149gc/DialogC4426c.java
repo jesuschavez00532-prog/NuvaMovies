@@ -203,9 +203,9 @@ public class DialogC4426c extends Dialog implements View.OnClickListener, Interf
 
         @Override // java.lang.Runnable
         public void run() {
-            int i10;
+            int i10 = 0;
             String str;
-            int i11;
+            int i11 = 0;
             LinearLayout linearLayout = DialogC4426c.this.f19191q;
             int i12 = 0;
             if (this.f19203a == 0) {

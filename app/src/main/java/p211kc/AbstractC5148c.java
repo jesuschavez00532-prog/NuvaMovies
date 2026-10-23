@@ -31,7 +31,7 @@ public abstract class AbstractC5148c {
 
     /* renamed from: c */
     public static String m20816c(boolean z10, boolean z11, int i10) {
-        char c10;
+        char c10 = '\0';
         int i11 = i10 / 60000;
         if (i11 < 0) {
             i11 = -i11;

@@ -104,7 +104,7 @@ public final class C4334b implements Closeable {
 
         @Override // java.util.concurrent.ThreadFactory
         public synchronized Thread newThread(Runnable runnable) {
-            Thread thread;
+            Thread thread = null;
             thread = new Thread(runnable, "glide-disk-lru-cache-thread");
             thread.setPriority(1);
             return thread;

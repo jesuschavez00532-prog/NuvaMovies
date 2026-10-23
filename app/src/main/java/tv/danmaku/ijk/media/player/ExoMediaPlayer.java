@@ -375,7 +375,7 @@ public class ExoMediaPlayer extends AbstractMediaPlayer {
         this.mHandler.post(new Runnable() { // from class: tv.danmaku.ijk.media.player.ExoMediaPlayer.14
             @Override // java.lang.Runnable
             public void run() {
-                int i10;
+                int i10 = 0;
                 SimpleExoPlayer simpleExoPlayer = ExoMediaPlayer.this.mPlayer;
                 if (z10) {
                     i10 = 2;

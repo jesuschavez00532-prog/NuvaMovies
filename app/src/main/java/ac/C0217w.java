@@ -34,7 +34,7 @@ public final class C0217w extends AbstractC0166j {
 
         @Override // p343tb.AbstractC6929a, io.reactivex.Observer
         public void onError(Throwable th) {
-            int i10;
+            int i10 = 0;
             AbstractC5868k.m23674f(th, "e");
             super.onError(th);
             String m25644a = AbstractC6570d.m25644a(th, "EA7", "500", "500");

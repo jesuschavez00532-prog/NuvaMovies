@@ -126,7 +126,7 @@ public abstract class AbstractC1043k extends AbstractC1033a {
 
         /* renamed from: f */
         private int m4867f() {
-            int i10;
+            int i10 = 0;
             int paddingTop = this.f4296a.getPaddingTop() + this.f4296a.getPaddingBottom();
             ViewGroup.LayoutParams layoutParams = this.f4296a.getLayoutParams();
             if (layoutParams != null) {
@@ -139,7 +139,7 @@ public abstract class AbstractC1043k extends AbstractC1033a {
 
         /* renamed from: g */
         private int m4868g() {
-            int i10;
+            int i10 = 0;
             int paddingLeft = this.f4296a.getPaddingLeft() + this.f4296a.getPaddingRight();
             ViewGroup.LayoutParams layoutParams = this.f4296a.getLayoutParams();
             if (layoutParams != null) {

@@ -51,7 +51,7 @@ public final class C3980g extends AbstractC7527b {
 
     /* renamed from: w */
     private final void m16849w(TextView textView, CouponCodeList couponCodeList) {
-        float f10;
+        float f10 = 0.0f;
         Float f11;
         String couponCurrency = couponCodeList.getCouponCurrency();
         if (couponCurrency == null) {

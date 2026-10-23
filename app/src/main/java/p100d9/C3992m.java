@@ -249,7 +249,7 @@ public final class C3992m extends AbstractC7527b {
 
     /* renamed from: y */
     private final int m16894y(View view) {
-        int i10;
+        int i10 = 0;
         View view2;
         RecyclerView recyclerView = this.f17726j;
         if (recyclerView != null) {

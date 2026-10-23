@@ -142,7 +142,7 @@ public final class C6366j extends AbstractC6358b {
     @Override // qa.AbstractC6358b
     /* renamed from: e */
     public void mo25163e(boolean z10) {
-        int i10;
+        int i10 = 0;
         SelectionView selectionView = this.f24769a;
         if (z10) {
             i10 = 0;

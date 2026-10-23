@@ -66,7 +66,7 @@ public class C5700d {
 
     /* renamed from: b */
     private void m22923b() {
-        int i10;
+        int i10 = 0;
         int i11 = this.f22750l * 2;
         C5702f c5702f = this.f22739a;
         boolean z10 = false;
@@ -145,7 +145,7 @@ public class C5700d {
 
     /* renamed from: c */
     private static boolean m22924c(C5702f c5702f, int i10) {
-        int i11;
+        int i11 = 0;
         if (c5702f.m22947C() != 8 && c5702f.f22789E[i10] == C5702f.b.MATCH_CONSTRAINT && ((i11 = c5702f.f22823g[i10]) == 0 || i11 == 3)) {
             return true;
         }

@@ -55,7 +55,7 @@ public final class C7691a implements Interceptor {
     public Response intercept(Interceptor.Chain chain) {
         String str;
         String str2;
-        int i10;
+        int i10 = 0;
         boolean m27763v;
         AbstractC5868k.m23674f(chain, "chain");
         Request request = chain.request();

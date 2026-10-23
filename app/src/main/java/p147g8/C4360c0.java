@@ -286,7 +286,7 @@ public final class C4360c0 implements InterfaceC4153l, InterfaceC6400k1, Interfa
     /* renamed from: s4 */
     public final void m18307s4(MatchPromotion matchPromotion) {
         List list;
-        int i10;
+        int i10 = 0;
         if (matchPromotion == null) {
             return;
         }

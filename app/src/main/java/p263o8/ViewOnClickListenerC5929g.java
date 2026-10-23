@@ -877,7 +877,7 @@ public final class ViewOnClickListenerC5929g extends RelativeLayout implements V
     }
 
     private final void setFavStatus(boolean z10) {
-        int i10;
+        int i10 = 0;
         ImageView imageView = (ImageView) m23996n(R$id.mInfoFav);
         if (imageView != null) {
             if (z10) {
@@ -1423,7 +1423,7 @@ public final class ViewOnClickListenerC5929g extends RelativeLayout implements V
     }
 
     public final void setLockStatus(boolean z10) {
-        int i10;
+        int i10 = 0;
         ImageView imageView = (ImageView) m23996n(R$id.mInfoLock);
         if (imageView != null) {
             if (z10) {

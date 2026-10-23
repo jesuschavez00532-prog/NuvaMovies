@@ -42,7 +42,7 @@ public class C0047p implements InterfaceC0052r0 {
     private boolean m186d(JobScheduler jobScheduler, int i10, int i11) {
         List allPendingJobs;
         PersistableBundle extras;
-        int i12;
+        int i12 = 0;
         int id2;
         allPendingJobs = jobScheduler.getAllPendingJobs();
         Iterator it = allPendingJobs.iterator();

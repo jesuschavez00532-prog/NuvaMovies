@@ -166,7 +166,7 @@ public final class ViewOnClickListenerC6740o0 extends C7767e implements View.OnC
 
     /* renamed from: L9 */
     private final void m26482L9(boolean z10) {
-        int i10;
+        int i10 = 0;
         LoadingView loadingView = (LoadingView) m26487H9(R$id.mLoadingView);
         if (z10) {
             i10 = 0;

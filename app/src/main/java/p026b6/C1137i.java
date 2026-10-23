@@ -48,7 +48,7 @@ public class C1137i {
         private final boolean f4464c;
 
         public a(boolean z10) {
-            int i10;
+            int i10 = 0;
             this.f4464c = z10;
             if (z10) {
                 i10 = 8192;

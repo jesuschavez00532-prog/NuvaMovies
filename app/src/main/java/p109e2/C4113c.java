@@ -48,7 +48,7 @@ public final class C4113c extends FilterInputStream {
     }
 
     @Override // java.io.FilterInputStream, java.io.InputStream
-    public int read(byte[] bArr) {
+    public int read(byte[] bArr) throws java.io.IOException {
         return read(bArr, 0, bArr.length);
     }
 

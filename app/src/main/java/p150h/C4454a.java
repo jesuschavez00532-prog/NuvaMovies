@@ -308,7 +308,7 @@ public class C4454a implements InterfaceMenuItemC6491b {
 
     @Override // android.view.MenuItem
     public MenuItem setChecked(boolean z10) {
-        int i10;
+        int i10 = 0;
         int i11 = this.f19292t & (-3);
         if (z10) {
             i10 = 2;
@@ -321,7 +321,7 @@ public class C4454a implements InterfaceMenuItemC6491b {
 
     @Override // android.view.MenuItem
     public MenuItem setEnabled(boolean z10) {
-        int i10;
+        int i10 = 0;
         int i11 = this.f19292t & (-17);
         if (z10) {
             i10 = 16;
