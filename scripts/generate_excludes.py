@@ -80,6 +80,8 @@ FORCE_EXCLUDE_SIMPLE = {
     "EnumC4971b",
     # lockInterruptibly/await in lambda without throws
     "C6482u",
+    # static initializer cannot complete normally (jadx bytecode artifact)
+    "AbstractC6211o",
     # IBinder incompatible
     "C4867h0",
     # RemoteException / IOException / Throwable / Exception unreported
