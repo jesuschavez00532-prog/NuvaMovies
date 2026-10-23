@@ -36,7 +36,7 @@ final class C7717k {
 
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: b */
-    public synchronized C7716j m29823b() {
+    public synchronized C7716j m29823b() throws InterruptedException {
         C7716j c7716j;
         c7716j = this.f28379a;
         if (c7716j != null) {
@@ -51,7 +51,7 @@ final class C7717k {
 
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: c */
-    public synchronized C7716j m29824c(int i10) {
+    public synchronized C7716j m29824c(int i10) throws InterruptedException {
         if (this.f28379a == null) {
             wait(i10);
         }

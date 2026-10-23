@@ -165,6 +165,40 @@ def fix_stream_method_throws(content):
     
     return content
 
+def fix_wait_throws(content):
+    """Add throws InterruptedException to synchronized methods calling wait() directly.
+    Pattern: synchronized method that calls wait() without try-catch.
+    """
+    # Only process files with wait( calls
+    if 'wait(' not in content and 'wait()' not in content:
+        return content
+    
+    # Look for synchronized method signatures that contain bare wait() calls
+    # Strategy: find methods ending in ) { that don't have throws and contain wait()
+    # We use a line-by-line approach for safety
+    lines = content.split('\n')
+    result = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        # Match synchronized method signatures without throws
+        if (re.search(r'synchronized\s+\w', line) and 
+            re.search(r'\)\s*\{', line) and 
+            'throws' not in line and
+            not re.search(r'(public|private|protected)\s+class', line)):
+            # Check if the method body (next ~20 lines) contains a bare wait( not in try
+            method_body = '\n'.join(lines[i:i+30])
+            # Find wait( that's NOT preceded by try { in the same scope
+            if re.search(r'\bwait\s*\(', method_body):
+                # Check it's not inside a try block by looking for try before wait
+                try_before_wait = re.search(r'try\s*\{.*\bwait\s*\(', method_body, re.DOTALL)
+                if not try_before_wait:
+                    # Add throws InterruptedException
+                    line = re.sub(r'\)\s*\{', ') throws InterruptedException {', line, count=1)
+        result.append(line)
+        i += 1
+    return '\n'.join(result)
+
 def fix_interrupted_exception(content, filepath):
     """Fix methods that throw InterruptedException without declaring it.
     Covers: BlockingQueue overrides, methods calling lockInterruptibly/awaitNanos/await.
@@ -234,6 +268,7 @@ def process_file(filepath, content):
     content = fix_socket_factory_throws(content)
     content = fix_on_transact_throws(content)
     content = fix_stream_method_throws(content)
+    content = fix_wait_throws(content)
     content = fix_interrupted_exception(content, filepath)
     
     return content, content != original
