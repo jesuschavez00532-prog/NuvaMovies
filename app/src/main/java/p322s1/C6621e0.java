@@ -98,12 +98,12 @@ public class C6621e0 extends FilterInputStream {
     }
 
     /* renamed from: b */
-    public synchronized void m25845b() {
+    public synchronized void m25845b() throws java.io.IOException {
         this.f25427c = this.f25425a.length;
     }
 
     /* renamed from: c */
-    public synchronized void m25846c() {
+    public synchronized void m25846c() throws java.io.IOException {
         if (this.f25425a != null) {
             this.f25430f.put(this.f25425a);
             this.f25425a = null;

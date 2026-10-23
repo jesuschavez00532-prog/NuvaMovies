@@ -46,7 +46,7 @@ public abstract class AbstractC4222a {
 
         @Override // io.reactivex.functions.Consumer
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
-        public void accept(String str) {
+        public void accept(String str) throws java.io.IOException {
             C7586l1 c7586l1 = C7586l1.f27877a;
             Context context = AbstractApplicationC7689d.f28136e;
             c7586l1.m29115e(context, context.getString(R$string.download_storage_insufficient), 1, 17);
@@ -62,7 +62,7 @@ public abstract class AbstractC4222a {
 
         @Override // io.reactivex.functions.Consumer
         /* renamed from: a, reason: merged with bridge method [inline-methods] */
-        public void accept(Throwable th) {
+        public void accept(Throwable th) throws java.io.IOException {
         }
     }
 

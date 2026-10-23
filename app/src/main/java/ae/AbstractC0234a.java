@@ -873,7 +873,7 @@ public abstract class AbstractC0234a {
         }
 
         /* renamed from: l */
-        private void m865l(OutputStream outputStream, long j10) {
+        private void m865l(OutputStream outputStream, long j10) throws java.io.IOException {
             if (this.f707i) {
                 GZIPOutputStream gZIPOutputStream = new GZIPOutputStream(outputStream);
                 m864h(gZIPOutputStream, -1L);
@@ -884,7 +884,7 @@ public abstract class AbstractC0234a {
         }
 
         /* renamed from: m */
-        private void m866m(OutputStream outputStream, long j10) {
+        private void m866m(OutputStream outputStream, long j10) throws java.io.IOException {
             if (this.f705g != l.HEAD && this.f706h) {
                 b bVar = new b(outputStream);
                 m865l(bVar, -1L);

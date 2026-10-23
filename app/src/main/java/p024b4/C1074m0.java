@@ -794,7 +794,7 @@ public class C1074m0 implements InterfaceC1055d, InterfaceC1358b, InterfaceC1053
     }
 
     @Override // java.io.Closeable, java.lang.AutoCloseable
-    public void close() {
+    public void close() throws java.io.IOException {
         this.f4353a.close();
     }
 

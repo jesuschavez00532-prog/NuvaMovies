@@ -94,7 +94,7 @@ public class AndroidMediaPlayer extends AbstractMediaPlayer {
         }
 
         @Override // android.media.MediaPlayer.OnTimedTextListener
-        public void onTimedText(MediaPlayer mediaPlayer, TimedText timedText) {
+        public void onTimedText(MediaPlayer mediaPlayer, TimedText timedText) throws java.io.IOException {
             IjkTimedText ijkTimedText;
             if (this.mWeakMediaPlayer.get() == null) {
                 return;
@@ -108,7 +108,7 @@ public class AndroidMediaPlayer extends AbstractMediaPlayer {
         }
 
         @Override // android.media.MediaPlayer.OnVideoSizeChangedListener
-        public void onVideoSizeChanged(MediaPlayer mediaPlayer, int i10, int i11) {
+        public void onVideoSizeChanged(MediaPlayer mediaPlayer, int i10, int i11) throws java.io.IOException {
             if (this.mWeakMediaPlayer.get() == null) {
                 return;
             }
@@ -126,7 +126,7 @@ public class AndroidMediaPlayer extends AbstractMediaPlayer {
         }
 
         @Override // java.io.Closeable, java.lang.AutoCloseable
-        public void close() {
+        public void close() throws java.io.IOException {
             this.mMediaDataSource.close();
         }
 

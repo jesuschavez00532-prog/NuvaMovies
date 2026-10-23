@@ -46,7 +46,7 @@ public final class C6167g implements InterfaceC6175o {
 
         @Override // p278p1.InterfaceC6176p
         /* renamed from: c */
-        public void mo7347c() {
+        public void mo7347c() throws java.io.IOException {
         }
 
         @Override // p278p1.InterfaceC6176p
@@ -57,7 +57,7 @@ public final class C6167g implements InterfaceC6175o {
 
         @Override // p278p1.C6167g.e
         /* renamed from: e, reason: merged with bridge method [inline-methods] */
-        public void close(AssetFileDescriptor assetFileDescriptor) {
+        public void close(AssetFileDescriptor assetFileDescriptor) throws java.io.IOException {
             assetFileDescriptor.close();
         }
 
@@ -129,7 +129,7 @@ public final class C6167g implements InterfaceC6175o {
 
         @Override // p278p1.InterfaceC6176p
         /* renamed from: c */
-        public void mo7347c() {
+        public void mo7347c() throws java.io.IOException {
         }
 
         @Override // p278p1.InterfaceC6176p
@@ -140,7 +140,7 @@ public final class C6167g implements InterfaceC6175o {
 
         @Override // p278p1.C6167g.e
         /* renamed from: e, reason: merged with bridge method [inline-methods] */
-        public void close(InputStream inputStream) {
+        public void close(InputStream inputStream) throws java.io.IOException {
             inputStream.close();
         }
 

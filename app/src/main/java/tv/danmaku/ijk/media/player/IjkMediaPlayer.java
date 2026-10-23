@@ -1052,7 +1052,7 @@ public final class IjkMediaPlayer extends AbstractMediaPlayer {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct add '--show-bad-code' argument
     */
-    public void setDataSource(android.content.Context r8, android.net.Uri r9, java.util.Map<java.lang.String, java.lang.String> r10) {
+    public void setDataSource(android.content.Context r8, android.net.Uri r9, java.util.Map<java.lang.String, java.lang.String> r10) throws java.io.IOException {
         /*
             r7 = this;
             java.lang.String r0 = r9.getScheme()

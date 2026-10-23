@@ -77,12 +77,12 @@ public final class C6928a {
     }
 
     /* renamed from: b */
-    public final void m26919b(ImageView imageView, long j10) {
+    public final void m26919b(ImageView imageView, long j10) throws java.io.IOException {
         AbstractC5868k.m23674f(imageView, "imageView");
     }
 
     /* renamed from: c */
-    public final void m26920c() {
+    public final void m26920c() throws java.io.IOException {
         f26270f = "";
         InputStream inputStream = f26271g;
         if (inputStream != null) {

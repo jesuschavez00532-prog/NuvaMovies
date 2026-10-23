@@ -487,7 +487,7 @@ public final class C4334b implements Closeable {
     }
 
     /* renamed from: H */
-    private static void m18157H(File file, File file2, boolean z10) {
+    private static void m18157H(File file, File file2, boolean z10) throws java.io.IOException {
         if (z10) {
             m18170s(file2);
         }
@@ -499,14 +499,14 @@ public final class C4334b implements Closeable {
 
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: I */
-    public void m18158I() {
+    public void m18158I() throws java.io.IOException {
         while (this.f18849h > this.f18847f) {
             m18173G((String) ((Map.Entry) this.f18851j.entrySet().iterator().next()).getKey());
         }
     }
 
     /* renamed from: m */
-    private void m18167m() {
+    private void m18167m() throws java.io.IOException {
         if (this.f18850i != null) {
         } else {
             throw new IllegalStateException("cache is closed");
@@ -514,7 +514,7 @@ public final class C4334b implements Closeable {
     }
 
     /* renamed from: n */
-    private static void m18168n(Writer writer) {
+    private static void m18168n(Writer writer) throws java.io.IOException {
         StrictMode.ThreadPolicy.Builder permitUnbufferedIo;
         if (Build.VERSION.SDK_INT < 26) {
             writer.close();
@@ -594,7 +594,7 @@ public final class C4334b implements Closeable {
     }
 
     /* renamed from: s */
-    private static void m18170s(File file) {
+    private static void m18170s(File file) throws java.io.IOException {
         if (file.exists() && !file.delete()) {
             throw new IOException();
         }
@@ -625,7 +625,7 @@ public final class C4334b implements Closeable {
     }
 
     /* renamed from: y */
-    private static void m18172y(Writer writer) {
+    private static void m18172y(Writer writer) throws java.io.IOException {
         StrictMode.ThreadPolicy.Builder permitUnbufferedIo;
         if (Build.VERSION.SDK_INT < 26) {
             writer.flush();

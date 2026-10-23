@@ -53,7 +53,7 @@ class C4335c implements Closeable {
     }
 
     /* renamed from: b */
-    private void m18200b() {
+    private void m18200b() throws java.io.IOException {
         InputStream inputStream = this.f18874a;
         byte[] bArr = this.f18876c;
         int read = inputStream.read(bArr, 0, bArr.length);
@@ -74,7 +74,7 @@ class C4335c implements Closeable {
     }
 
     @Override // java.io.Closeable, java.lang.AutoCloseable
-    public void close() {
+    public void close() throws java.io.IOException {
         synchronized (this.f18874a) {
             if (this.f18876c != null) {
                 this.f18876c = null;

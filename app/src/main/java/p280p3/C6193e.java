@@ -229,7 +229,7 @@ public final class C6193e extends View {
     }
 
     @Override // android.view.View
-    protected void onAttachedToWindow() {
+    protected void onAttachedToWindow() throws java.io.IOException {
         super.onAttachedToWindow();
         if (this.f24352i == 0) {
             getAnimator().start();
@@ -237,13 +237,13 @@ public final class C6193e extends View {
     }
 
     @Override // android.view.View
-    protected void onDetachedFromWindow() {
+    protected void onDetachedFromWindow() throws java.io.IOException {
         super.onDetachedFromWindow();
         getAnimator().cancel();
     }
 
     @Override // android.view.View
-    protected void onDraw(Canvas canvas) {
+    protected void onDraw(Canvas canvas) throws java.io.IOException {
         String string = null;
         AbstractC5868k.m23674f(canvas, "canvas");
         super.onDraw(canvas);

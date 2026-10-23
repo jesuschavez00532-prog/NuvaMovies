@@ -106,7 +106,7 @@ public final class C6165e implements InterfaceC6175o {
 
             @Override // p278p1.C6165e.a
             /* renamed from: c, reason: merged with bridge method [inline-methods] */
-            public void close(InputStream inputStream) {
+            public void close(InputStream inputStream) throws java.io.IOException {
                 inputStream.close();
             }
 

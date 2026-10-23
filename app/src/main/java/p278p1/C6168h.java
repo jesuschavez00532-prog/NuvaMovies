@@ -34,7 +34,7 @@ public class C6168h implements InterfaceC6175o {
 
         @Override // p278p1.InterfaceC6176p
         /* renamed from: c */
-        public final void mo7347c() {
+        public final void mo7347c() throws java.io.IOException {
         }
 
         @Override // p278p1.InterfaceC6176p
@@ -62,7 +62,7 @@ public class C6168h implements InterfaceC6175o {
 
             @Override // p278p1.C6168h.d
             /* renamed from: c, reason: merged with bridge method [inline-methods] */
-            public void close(ParcelFileDescriptor parcelFileDescriptor) {
+            public void close(ParcelFileDescriptor parcelFileDescriptor) throws java.io.IOException {
                 parcelFileDescriptor.close();
             }
 
@@ -170,7 +170,7 @@ public class C6168h implements InterfaceC6175o {
 
             @Override // p278p1.C6168h.d
             /* renamed from: c, reason: merged with bridge method [inline-methods] */
-            public void close(InputStream inputStream) {
+            public void close(InputStream inputStream) throws java.io.IOException {
                 inputStream.close();
             }
 

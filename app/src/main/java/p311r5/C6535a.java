@@ -53,7 +53,7 @@ public class C6535a {
     }
 
     /* renamed from: a */
-    public void m25572a(Canvas canvas, Matrix matrix, RectF rectF, int i10, float f10, float f11) {
+    public void m25572a(Canvas canvas, Matrix matrix, RectF rectF, int i10, float f10, float f11) throws java.io.IOException {
         boolean z10 = false;
         if (f11 < 0.0f) {
             z10 = true;

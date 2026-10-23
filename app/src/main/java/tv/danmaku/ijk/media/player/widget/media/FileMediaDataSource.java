@@ -16,7 +16,7 @@ public class FileMediaDataSource implements IMediaDataSource {
     }
 
     @Override // tv.danmaku.ijk.media.player.misc.IMediaDataSource
-    public void close() {
+    public void close() throws java.io.IOException {
         this.mFileSize = 0L;
         RandomAccessFile randomAccessFile = this.mFile;
         if (randomAccessFile != null) {

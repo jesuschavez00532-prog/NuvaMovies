@@ -27,7 +27,7 @@ public abstract class AbstractC6673u implements Closeable {
     public abstract C6672t mo26014b();
 
     @Override // java.io.Closeable, java.lang.AutoCloseable
-    public void close() {
+    public void close() throws java.io.IOException {
         mo26013a().close();
     }
 }

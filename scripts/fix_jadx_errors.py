@@ -236,6 +236,44 @@ def fix_interrupted_exception(content, filepath):
     
     return content
 
+def fix_close_throws(content):
+    """Add throws IOException to methods that call .close() outside try/catch.
+    Pattern: method body calls inputStream.close() or similar without try/catch wrapping it.
+    """
+    if '.close()' not in content:
+        return content
+
+    lines = content.split('\n')
+    result = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        # Find method signatures: public/protected/private ... methodName(...) {
+        # that DON'T have throws and DON'T have void/non-void with try/catch
+        if (re.search(r'(public|protected|private)\s+(?:final\s+)?(?:static\s+)?(?:synchronized\s+)?void\s+\w+\s*\([^)]*\)\s*\{', line) and
+                'throws' not in line and
+                'class ' not in line and
+                'interface ' not in line and
+                '@' not in line):
+            # Look ahead 30 lines for bare .close() not inside try
+            end = min(i + 40, len(lines))
+            body = '\n'.join(lines[i:end])
+            # Check for bare close() - not preceded by try { in the same method scope
+            if re.search(r'\.(close|flush)\(\)', body):
+                # Check if there's a try block around the close call
+                # Simple heuristic: count try blocks vs close calls
+                try_count = len(re.findall(r'\btry\s*\{', body))
+                close_count = len(re.findall(r'\.(close|flush)\(\)', body))
+                catch_io = len(re.findall(r'catch\s*\([^)]*IOException', body))
+                catch_any = len(re.findall(r'catch\s*\([^)]*(?:Exception|Throwable)', body))
+                # If more close calls than try blocks protecting them, likely bare
+                if close_count > try_count and catch_io == 0 and catch_any < close_count:
+                    line = re.sub(r'\)\s*\{(\s*)$', ') throws java.io.IOException {\\1', line)
+        result.append(line)
+        i += 1
+    return '\n'.join(result)
+
+
 def process_file(filepath, content):
     original = content
     
@@ -245,7 +283,7 @@ def process_file(filepath, content):
     content = fix_stream_method_throws(content)
     content = fix_wait_throws(content)
     content = fix_interrupted_exception(content, filepath)
-    
+    content = fix_close_throws(content)
     return content, content != original
 
 def main():

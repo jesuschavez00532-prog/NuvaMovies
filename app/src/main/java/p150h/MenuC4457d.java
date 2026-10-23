@@ -54,13 +54,13 @@ public class MenuC4457d extends AbstractC4455b implements Menu {
     }
 
     @Override // android.view.Menu
-    public void clear() {
+    public void clear() throws java.io.IOException {
         m18653e();
         this.f19307d.clear();
     }
 
     @Override // android.view.Menu
-    public void close() {
+    public void close() throws java.io.IOException {
         this.f19307d.close();
     }
 

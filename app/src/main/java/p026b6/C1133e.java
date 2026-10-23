@@ -266,7 +266,7 @@ public class C1133e implements Closeable {
     }
 
     /* renamed from: n */
-    private static void m5152n(File file) {
+    private static void m5152n(File file) throws java.io.IOException {
         File file2 = new File(file.getPath() + ".tmp");
         RandomAccessFile m5154s = m5154s(file2);
         try {
@@ -337,7 +337,7 @@ public class C1133e implements Closeable {
     }
 
     /* renamed from: A */
-    public synchronized void m5159A() {
+    public synchronized void m5159A() throws java.io.IOException {
         if (!m5165q()) {
             if (this.f4432c == 1) {
                 m5163h();
@@ -370,7 +370,7 @@ public class C1133e implements Closeable {
     }
 
     @Override // java.io.Closeable, java.lang.AutoCloseable
-    public synchronized void close() {
+    public synchronized void close() throws java.io.IOException {
         this.f4430a.close();
     }
 

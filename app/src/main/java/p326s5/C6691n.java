@@ -211,7 +211,7 @@ public class C6691n {
     }
 
     /* renamed from: l */
-    private void m26187l(int i10) {
+    private void m26187l(int i10) throws java.io.IOException {
         this.f25680f[0] = this.f25675a[i10].m26203h();
         this.f25680f[1] = this.f25675a[i10].m26204i();
         this.f25676b[i10].mapPoints(this.f25680f);
@@ -224,12 +224,12 @@ public class C6691n {
     }
 
     /* renamed from: d */
-    public void m26188d(C6690m c6690m, float f10, RectF rectF, Path path) {
+    public void m26188d(C6690m c6690m, float f10, RectF rectF, Path path) throws java.io.IOException {
         m26189e(c6690m, f10, rectF, null, path);
     }
 
     /* renamed from: e */
-    public void m26189e(C6690m c6690m, float f10, RectF rectF, a aVar, Path path) {
+    public void m26189e(C6690m c6690m, float f10, RectF rectF, a aVar, Path path) throws java.io.IOException {
         path.rewind();
         b bVar = new b(c6690m, f10, rectF, aVar, path);
         for (int i10 = 0; i10 < 4; i10++) {

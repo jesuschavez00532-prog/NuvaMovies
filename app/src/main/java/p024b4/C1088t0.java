@@ -143,13 +143,13 @@ public final class C1088t0 extends SQLiteOpenHelper {
     }
 
     /* renamed from: r */
-    private void m5038r(SQLiteDatabase sQLiteDatabase, int i10) {
+    private void m5038r(SQLiteDatabase sQLiteDatabase, int i10) throws java.io.IOException {
         m5032f(sQLiteDatabase);
         m5039s(sQLiteDatabase, 0, i10);
     }
 
     /* renamed from: s */
-    private void m5039s(SQLiteDatabase sQLiteDatabase, int i10, int i11) {
+    private void m5039s(SQLiteDatabase sQLiteDatabase, int i10, int i11) throws java.io.IOException {
         List list = f4387j;
         if (i11 <= list.size()) {
             while (i10 < i11) {
@@ -162,7 +162,7 @@ public final class C1088t0 extends SQLiteOpenHelper {
     }
 
     @Override // android.database.sqlite.SQLiteOpenHelper
-    public void onConfigure(SQLiteDatabase sQLiteDatabase) {
+    public void onConfigure(SQLiteDatabase sQLiteDatabase) throws java.io.IOException {
         this.f4389b = true;
         sQLiteDatabase.rawQuery("PRAGMA busy_timeout=0;", new String[0]).close();
         sQLiteDatabase.setForeignKeyConstraintsEnabled(true);

@@ -68,14 +68,14 @@ public abstract class AbstractC7724a extends BaseAdapter implements Filterable, 
         }
 
         @Override // android.database.DataSetObserver
-        public void onChanged() {
+        public void onChanged() throws java.io.IOException {
             AbstractC7724a abstractC7724a = AbstractC7724a.this;
             abstractC7724a.f28407a = true;
             abstractC7724a.notifyDataSetChanged();
         }
 
         @Override // android.database.DataSetObserver
-        public void onInvalidated() {
+        public void onInvalidated() throws java.io.IOException {
             AbstractC7724a abstractC7724a = AbstractC7724a.this;
             abstractC7724a.f28407a = false;
             abstractC7724a.notifyDataSetInvalidated();
@@ -93,7 +93,7 @@ public abstract class AbstractC7724a extends BaseAdapter implements Filterable, 
     }
 
     /* renamed from: a */
-    public void mo1818a(Cursor cursor) {
+    public void mo1818a(Cursor cursor) throws java.io.IOException {
         Cursor m29842j = m29842j(cursor);
         if (m29842j != null) {
             m29842j.close();
