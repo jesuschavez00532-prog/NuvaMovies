@@ -9,7 +9,7 @@ import java.io.InputStream;
 /* loaded from: classes3.dex */
 public abstract class AbstractC6446a {
     /* renamed from: a */
-    public static final InputStream m25231a(Context context, String str) {
+    public static final InputStream m25231a(Context context, String str) throws java.io.IOException {
         Resources resources;
         AssetManager assets;
         if (str == null || context == null || (resources = context.getResources()) == null || (assets = resources.getAssets()) == null) {
