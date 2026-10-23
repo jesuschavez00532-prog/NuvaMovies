@@ -82,6 +82,7 @@ FORCE_EXCLUDE_SIMPLE = {
     "C4867h0",
     # RemoteException / IOException / Throwable / Exception unreported
     "AbstractBinderC7494b", "AbstractC7493a", "C1342f", "C4119i", "AbstractC7158l", "AbstractC1320p", "C1353h", "AbstractC1349d", "AbstractC7062b", "C4092b", "AbstractC4171c", "AbstractC7361a", "AbstractC1432a",
+    "InterfaceC4520c",
     # not enclosing class
     "C5907c", "AbstractC5907c", "C7217d0", "C6569c", "AbstractC7029f",
     # Schedulers.m20294io
