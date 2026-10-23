@@ -14,7 +14,7 @@ import p355u9.AbstractC7061a;
 /* loaded from: classes2.dex */
 public abstract class AbstractC7551a {
     /* renamed from: a */
-    public static String m28931a(String str, String str2, IvParameterSpec ivParameterSpec) {
+    public static String m28931a(String str, String str2, IvParameterSpec ivParameterSpec) throws Exception {
         try {
             Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
             cipher.init(1, new SecretKeySpec(str2.getBytes(), "AES"), ivParameterSpec);
