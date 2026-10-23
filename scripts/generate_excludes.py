@@ -74,22 +74,44 @@ def main():
                 importers[fqn] = set()
             importers[fqn].add(rel)
 
-    # Step 5: BFS cascade
+    # Step 5: BFS cascade - also propagate through same-package references
     queue = list(excluded)
     visited = set(excluded)
     total_cascade = 0
 
+    # Build package -> set of classes in that package
+    pkg_classes = {}
+    for rel in files:
+        pkg = rel.rsplit("/", 1)[0] if "/" in rel else ""
+        cls = os.path.basename(rel).replace(".java", "")
+        if pkg not in pkg_classes:
+            pkg_classes[pkg] = set()
+        pkg_classes[pkg].add((cls, rel))
+
     while queue:
         excl_rel = queue.pop()
-        # What FQN does this file define?
         fqn = excl_rel.replace("/", ".").replace(".java", "")
-        # Who imports this FQN?
+        excl_cls = os.path.basename(excl_rel).replace(".java", "")
+        excl_pkg = excl_rel.rsplit("/", 1)[0] if "/" in excl_rel else ""
+
+        # Propagate via explicit imports
         for importer_rel in importers.get(fqn, set()):
             if importer_rel not in visited:
                 visited.add(importer_rel)
                 excluded.add(importer_rel)
                 queue.append(importer_rel)
                 total_cascade += 1
+
+        # Propagate via same-package usage (no import needed)
+        for (cls2, rel2) in pkg_classes.get(excl_pkg, set()):
+            if rel2 not in visited:
+                content2 = files.get(rel2, "")
+                # Check if this file references the excluded class by simple name
+                if re.search(rf'\b{re.escape(excl_cls)}\b', content2):
+                    visited.add(rel2)
+                    excluded.add(rel2)
+                    queue.append(rel2)
+                    total_cascade += 1
 
     print(f"Cascade: +{total_cascade} files (total: {len(excluded)})", flush=True)
 
