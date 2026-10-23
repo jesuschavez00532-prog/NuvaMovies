@@ -29,6 +29,40 @@ DIRECT_BAD_RE = re.compile(
     r")", re.MULTILINE
 )
 
+# Files with jadx decompile errors (unfixable by import analysis)
+FORCE_EXCLUDE_SIMPLE = {
+    "C5596a",      # r0 variable not declared (jadx artifact)
+    "C5886a",      # r9,r11 variables not declared (jadx artifact)
+    "AbstractC7186q",  # interface expected here (interface->class conversion issue)
+    "AbstractC6629i0", # interface expected here
+    "ExecutorServiceC5901a", # interface expected here
+    "C5885c",      # android.os.ServiceManager (hidden API)
+    "C7364d",      # AbstractC7363c not found (same-pkg not cascaded)
+    "C7671g",      # AbstractC7670f not found
+    "C4881o0",     # AbstractC4879n0 not found
+    "C4252n",      # AbstractC4251m not found
+    "LoadingView", # com.module.R$styleable not found
+    "C3890R",      # com.google.android.youtube.tv.R reference
+    "AbstractC4111a", # th variable not declared (jadx)
+    "C4113c",      # FilterInputStream.in protected access
+    "AbstractC4116f", # non-static this in static context
+    "AbstractC1339c", # non-static this
+    "AbstractC1348c", # non-static this
+    "C1088t0",     # non-static this
+    "C1049a",      # weaker access override
+    "C1318n",      # bad operand char+Object
+    "SubTitleFileList", # boolean/int incompatible
+    "ViewOnFocusChangeListenerC5935m", # anonymous Runnable type
+    "C6553r",      # Object to String incompatible
+    "C4307b",      # FlowableTransformer incompatible
+    "AbstractC4306a", # Function/Predicate not abstract
+    "InterfaceC1029a", # abstract override issue
+    "C1030b",      # non-static Parcelable.Creator
+    "RunnableC4259u", "RunnableC4255q", "RunnableC4261w",
+    "RunnableC4234c0", "RunnableC4263y", "RunnableC4257s",
+    "RunnableC4230a0", # private access in same class
+}
+
 IMPORT_RE = re.compile(r"^import\s+([\w.]+)\s*;", re.MULTILINE)
 
 def get_simple(rel):
@@ -77,10 +111,13 @@ def main():
             simple_to_rels[simple] = set()
         simple_to_rels[simple].add(rel)
 
-    # Pass 1: Direct bad imports
+    # Pass 1: Direct bad imports + force excludes
     excluded = set()
     for rel, content in files.items():
         if DIRECT_BAD_RE.search(content):
+            excluded.add(rel)
+        # Force-exclude known bad jadx decompile files by simple name
+        if get_simple(rel) in FORCE_EXCLUDE_SIMPLE:
             excluded.add(rel)
     print(f"Pass 1: {len(excluded)} direct bad imports", flush=True)
 
