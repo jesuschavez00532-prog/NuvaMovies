@@ -30,17 +30,17 @@ public class C6533d {
     }
 
     /* renamed from: c */
-    public ApplicationInfo m25565c(String str, int i10) {
+    public ApplicationInfo m25565c(String str, int i10) throws android.content.pm.PackageManager.NameNotFoundException {
         return this.f25142a.getPackageManager().getApplicationInfo(str, i10);
     }
 
     /* renamed from: d */
-    public CharSequence m25566d(String str) {
+    public CharSequence m25566d(String str) throws android.content.pm.PackageManager.NameNotFoundException {
         return this.f25142a.getPackageManager().getApplicationLabel(this.f25142a.getPackageManager().getApplicationInfo(str, 0));
     }
 
     /* renamed from: e */
-    public PackageInfo m25567e(String str, int i10) {
+    public PackageInfo m25567e(String str, int i10) throws android.content.pm.PackageManager.NameNotFoundException {
         return this.f25142a.getPackageManager().getPackageInfo(str, i10);
     }
 
