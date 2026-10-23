@@ -31,36 +31,63 @@ DIRECT_BAD_RE = re.compile(
 
 # Files with jadx decompile errors (unfixable by import analysis)
 FORCE_EXCLUDE_SIMPLE = {
-    "C5596a",      # r0 variable not declared (jadx artifact)
-    "C5886a",      # r9,r11 variables not declared (jadx artifact)
-    "AbstractC7186q",  # interface expected here (interface->class conversion issue)
-    "AbstractC6629i0", # interface expected here
-    "ExecutorServiceC5901a", # interface expected here
-    "C5885c",      # android.os.ServiceManager (hidden API)
-    "C7364d",      # AbstractC7363c not found (same-pkg not cascaded)
-    "C7671g",      # AbstractC7670f not found
-    "C4881o0",     # AbstractC4879n0 not found
-    "C4252n",      # AbstractC4251m not found
-    "LoadingView", # com.module.R$styleable not found
-    "C3890R",      # com.google.android.youtube.tv.R reference
-    "AbstractC4111a", # th variable not declared (jadx)
-    "C4113c",      # FilterInputStream.in protected access
-    "AbstractC4116f", # non-static this in static context
-    "AbstractC1339c", # non-static this
-    "AbstractC1348c", # non-static this
-    "C1088t0",     # non-static this
-    "C1049a",      # weaker access override
-    "C1318n",      # bad operand char+Object
-    "SubTitleFileList", # boolean/int incompatible
-    "ViewOnFocusChangeListenerC5935m", # anonymous Runnable type
-    "C6553r",      # Object to String incompatible
-    "C4307b",      # FlowableTransformer incompatible
-    "AbstractC4306a", # Function/Predicate not abstract
-    "InterfaceC1029a", # abstract override issue
-    "C1030b",      # non-static Parcelable.Creator
+    # r0/r1/r2/r6/r9/r11 variables not declared (jadx artifact)
+    "C5596a", "C5886a", "AbstractC4488o0", "C4481l", "C5709m",
+    "ViewOnTouchListenerC5130a", "C1441a",
+    # interface expected here (interface->class conversion issue)
+    "AbstractC7186q", "AbstractC6629i0", "ExecutorServiceC5901a", "C7222g",
+    # hidden/restricted API
+    "C5885c",
+    # cannot find symbol - same-pkg not cascaded
+    "C7364d", "C7671g", "C4881o0", "C4252n",
+    # R class references
+    "LoadingView", "C3890R",
+    # jadx th variable
+    "AbstractC4111a", "C5255c",
+    # FilterInputStream.in protected access
+    "C4113c", "C6621e0",
+    # non-static this in static context
+    "AbstractC4116f", "AbstractC1339c", "AbstractC1348c", "C1088t0",
+    "AbstractC0102u", "AbstractC1453g", "C5334u", "AbstractC4219a",
+    "AbstractC5323j", "C6951k",
+    # weaker access override
+    "C1049a", "C6655c", "C5254b", "C5259g",
+    # bad operator / incompatible types
+    "C1318n", "SubTitleFileList", "C5548b", "C5766b",
+    "C4497u", "AbstractC5697a", "C7709c", "C5573f", "C5575h",
+    "AbstractC4130a",
+    # anonymous Runnable/type issues
+    "ViewOnFocusChangeListenerC5935m", "C6553r",
+    # FlowableTransformer/Observer/Function abstract issues
+    "C4307b", "AbstractC4306a", "C5260h", "C5258f", "C5253a",
+    "C5254b", "C5259g", "C7783c",
+    # InterfaceC1029a abstract issue
+    "InterfaceC1029a", "C1030b",
+    # Runnable private access issues
     "RunnableC4259u", "RunnableC4255q", "RunnableC4261w",
-    "RunnableC4234c0", "RunnableC4263y", "RunnableC4257s",
-    "RunnableC4230a0", # private access in same class
+    "RunnableC4234c0", "RunnableC4263y", "RunnableC4257s", "RunnableC4230a0",
+    # AsyncTask/Property/TypeEvaluator override
+    "AsyncTaskC7064d", "C4475i", "C4481l",
+    # HttpException method not found
+    "AbstractC6927a", "AbstractC7354a",
+    # missing method body
+    "C5076a",
+    # Dialog no-arg constructor
+    "AbstractDialogC4756b1",
+    # EnumC4971b issues
+    "EnumC4971b",
+    # IBinder incompatible
+    "C4867h0",
+    # AbstractBinderC7494b RemoteException
+    "AbstractBinderC7494b",
+    # not enclosing class
+    "C5907c", "AbstractC5907c", "C7217d0", "C6569c",
+    # Schedulers.m20294io
+    "AbstractC7782b", "C7783c",
+    # CallAdapter.Factory
+    "C5260h",
+    # r2 package issue
+    "C5241n",
 }
 
 IMPORT_RE = re.compile(r"^import\s+([\w.]+)\s*;", re.MULTILINE)
