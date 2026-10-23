@@ -20,7 +20,7 @@ public class C6141n extends C6142o {
     @Override // p276p.C6142o
     /* renamed from: b */
     public Typeface mo24468b(Context context, AbstractC5891f.b bVar, Resources resources, int i10) {
-        int i11;
+        int i11 = 0;
         try {
             AbstractC5891f.c[] m23775a = bVar.m23775a();
             int length = m23775a.length;
@@ -68,7 +68,7 @@ public class C6141n extends C6142o {
     @Override // p276p.C6142o
     /* renamed from: c */
     public Typeface mo24469c(Context context, CancellationSignal cancellationSignal, AbstractC7005f.b[] bVarArr, int i10) {
-        int i11;
+        int i11 = 0;
         ParcelFileDescriptor openFileDescriptor;
         ContentResolver contentResolver = context.getContentResolver();
         try {

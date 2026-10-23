@@ -49,10 +49,10 @@ public final class C6134g {
 
     /* renamed from: d */
     public static C6134g m24436d(Insets insets) {
-        int i10;
-        int i11;
-        int i12;
-        int i13;
+        int i10 = 0;
+        int i11 = 0;
+        int i12 = 0;
+        int i13 = 0;
         i10 = insets.left;
         i11 = insets.top;
         i12 = insets.right;

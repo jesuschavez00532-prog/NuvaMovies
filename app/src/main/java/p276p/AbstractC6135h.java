@@ -258,14 +258,14 @@ public abstract class AbstractC6135h {
         private static void m24448a(Path path, float[] fArr, char c10, char c11, float[] fArr2) {
             int i10;
             int i11;
-            float f10;
-            float f11;
-            float f12;
-            float f13;
-            float f14;
-            float f15;
-            float f16;
-            float f17;
+            float f10 = 0.0f;
+            float f11 = 0.0f;
+            float f12 = 0.0f;
+            float f13 = 0.0f;
+            float f14 = 0.0f;
+            float f15 = 0.0f;
+            float f16 = 0.0f;
+            float f17 = 0.0f;
             char c12 = c11;
             float f18 = fArr[0];
             float f19 = fArr[1];

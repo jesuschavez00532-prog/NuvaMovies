@@ -87,9 +87,9 @@ public class C6142o {
 
     /* renamed from: g */
     private static Object m24493g(Object[] objArr, int i10, c cVar) {
-        int i11;
+        int i11 = 0;
         boolean z10;
-        int i12;
+        int i12 = 0;
         if ((i10 & 1) == 0) {
             i11 = 400;
         } else {
