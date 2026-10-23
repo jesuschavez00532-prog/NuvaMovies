@@ -54,7 +54,7 @@ public class C6692o {
 
         @Override // p326s5.C6692o.g
         /* renamed from: a */
-        public void mo26210a(Matrix matrix, C6535a c6535a, int i10, Canvas canvas) {
+        public void mo26210a(Matrix matrix, C6535a c6535a, int i10, Canvas canvas) throws java.io.IOException {
             Iterator it = this.f25695b.iterator();
             while (it.hasNext()) {
                 ((g) it.next()).mo26210a(this.f25696c, c6535a, i10, canvas);
@@ -76,7 +76,7 @@ public class C6692o {
 
         @Override // p326s5.C6692o.g
         /* renamed from: a */
-        public void mo26210a(Matrix matrix, C6535a c6535a, int i10, Canvas canvas) {
+        public void mo26210a(Matrix matrix, C6535a c6535a, int i10, Canvas canvas) throws java.io.IOException {
             c6535a.m25572a(canvas, matrix, new RectF(this.f25698b.m26221k(), this.f25698b.m26225o(), this.f25698b.m26222l(), this.f25698b.m26220j()), i10, this.f25698b.m26223m(), this.f25698b.m26224n());
         }
     }
@@ -102,7 +102,7 @@ public class C6692o {
 
         @Override // p326s5.C6692o.g
         /* renamed from: a */
-        public void mo26210a(Matrix matrix, C6535a c6535a, int i10, Canvas canvas) {
+        public void mo26210a(Matrix matrix, C6535a c6535a, int i10, Canvas canvas) throws java.io.IOException {
             RectF rectF = new RectF(0.0f, 0.0f, (float) Math.hypot(this.f25699b.f25710c - this.f25701d, this.f25699b.f25709b - this.f25700c), 0.0f);
             Matrix matrix2 = new Matrix(matrix);
             matrix2.preTranslate(this.f25700c, this.f25701d);
@@ -273,10 +273,10 @@ public class C6692o {
         }
 
         /* renamed from: a */
-        public abstract void mo26210a(Matrix matrix, C6535a c6535a, int i10, Canvas canvas);
+        public abstract void mo26210a(Matrix matrix, C6535a c6535a, int i10, Canvas canvas) throws java.io.IOException;
 
         /* renamed from: b */
-        public final void m26237b(C6535a c6535a, int i10, Canvas canvas) {
+        public final void m26237b(C6535a c6535a, int i10, Canvas canvas) throws java.io.IOException {
             mo26210a(f25712a, c6535a, i10, canvas);
         }
     }

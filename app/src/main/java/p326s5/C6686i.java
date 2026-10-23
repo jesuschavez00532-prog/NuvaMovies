@@ -337,8 +337,12 @@ public class C6686i extends Drawable implements InterfaceC6320y, InterfaceC6693p
             canvas.drawPath(this.f25607f, this.f25616o.m25574c());
         }
         for (int i10 = 0; i10 < 4; i10++) {
-            this.f25603b[i10].m26237b(this.f25616o, this.f25602a.f25643r, canvas);
-            this.f25604c[i10].m26237b(this.f25616o, this.f25602a.f25643r, canvas);
+            try {
+                this.f25603b[i10].m26237b(this.f25616o, this.f25602a.f25643r, canvas);
+                this.f25604c[i10].m26237b(this.f25616o, this.f25602a.f25643r, canvas);
+            } catch (java.io.IOException e) {
+                android.util.Log.e("C6686i", "draw error", e);
+            }
         }
         int m26112y = m26112y();
         int m26113z = m26113z();
