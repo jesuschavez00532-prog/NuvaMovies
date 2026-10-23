@@ -50,7 +50,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: a */
-    static void m20111a(String str, C4139a c4139a, String str2) {
+    static void m20111a(String str, C4139a c4139a, String str2) throws p098d7.C3963c {
         try {
             for (byte b10 : str.getBytes(str2)) {
                 c4139a.m17335d(b10, 8);
@@ -61,7 +61,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: b */
-    static void m20112b(CharSequence charSequence, C4139a c4139a) {
+    static void m20112b(CharSequence charSequence, C4139a c4139a) throws p098d7.C3963c {
         int length = charSequence.length();
         int i10 = 0;
         while (i10 < length) {
@@ -87,7 +87,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: c */
-    static void m20113c(String str, EnumC4562b enumC4562b, C4139a c4139a, String str2) {
+    static void m20113c(String str, EnumC4562b enumC4562b, C4139a c4139a, String str2) throws p098d7.C3963c {
         int i10 = a.f20420a[enumC4562b.ordinal()];
         if (i10 != 1) {
             if (i10 != 2) {
@@ -184,7 +184,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: f */
-    static void m20116f(int i10, C4563c c4563c, EnumC4562b enumC4562b, C4139a c4139a) {
+    static void m20116f(int i10, C4563c c4563c, EnumC4562b enumC4562b, C4139a c4139a) throws p098d7.C3963c {
         int m18986b = enumC4562b.m18986b(c4563c);
         int i11 = 1 << m18986b;
         if (i10 < i11) {
@@ -195,12 +195,12 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: g */
-    static void m20117g(EnumC4562b enumC4562b, C4139a c4139a) {
+    static void m20117g(EnumC4562b enumC4562b, C4139a c4139a) throws p098d7.C3963c {
         c4139a.m17335d(enumC4562b.m18985a(), 4);
     }
 
     /* renamed from: h */
-    static void m20118h(CharSequence charSequence, C4139a c4139a) {
+    static void m20118h(CharSequence charSequence, C4139a c4139a) throws p098d7.C3963c {
         int length = charSequence.length();
         int i10 = 0;
         while (i10 < length) {
@@ -222,17 +222,17 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: i */
-    private static int m20119i(EnumC4562b enumC4562b, C4139a c4139a, C4139a c4139a2, C4563c c4563c) {
+    private static int m20119i(EnumC4562b enumC4562b, C4139a c4139a, C4139a c4139a2, C4563c c4563c) throws p098d7.C3963c {
         return c4139a.m17338h() + enumC4562b.m18986b(c4563c) + c4139a2.m17338h();
     }
 
     /* renamed from: j */
-    private static int m20120j(C4903b c4903b) {
+    private static int m20120j(C4903b c4903b) throws p098d7.C3963c {
         return AbstractC4905d.m20133a(c4903b) + AbstractC4905d.m20135c(c4903b) + AbstractC4905d.m20136d(c4903b) + AbstractC4905d.m20137e(c4903b);
     }
 
     /* renamed from: k */
-    private static int m20121k(C4139a c4139a, EnumC4561a enumC4561a, C4563c c4563c, C4903b c4903b) {
+    private static int m20121k(C4139a c4139a, EnumC4561a enumC4561a, C4563c c4563c, C4903b c4903b) throws p098d7.C3963c {
         int i10 = Integer.MAX_VALUE;
         int i11 = -1;
         for (int i12 = 0; i12 < 8; i12++) {
@@ -247,7 +247,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: l */
-    private static EnumC4562b m20122l(String str, String str2) {
+    private static EnumC4562b m20122l(String str, String str2) throws p098d7.C3963c {
         if ("Shift_JIS".equals(str2) && m20129s(str)) {
             return EnumC4562b.KANJI;
         }
@@ -273,7 +273,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: m */
-    private static C4563c m20123m(int i10, EnumC4561a enumC4561a) {
+    private static C4563c m20123m(int i10, EnumC4561a enumC4561a) throws p098d7.C3963c {
         for (int i11 = 1; i11 <= 40; i11++) {
             C4563c m18988e = C4563c.m18988e(i11);
             if (m20132v(i10, m18988e, enumC4561a)) {
@@ -376,7 +376,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: o */
-    static byte[] m20125o(byte[] bArr, int i10) {
+    static byte[] m20125o(byte[] bArr, int i10) throws p098d7.C3963c {
         int length = bArr.length;
         int[] iArr = new int[length + i10];
         for (int i11 = 0; i11 < length; i11++) {
@@ -391,7 +391,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: p */
-    static int m20126p(int i10) {
+    static int m20126p(int i10) throws p098d7.C3963c {
         int[] iArr = f20419a;
         if (i10 < iArr.length) {
             return iArr[i10];
@@ -400,7 +400,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: q */
-    static void m20127q(int i10, int i11, int i12, int i13, int[] iArr, int[] iArr2) {
+    static void m20127q(int i10, int i11, int i12, int i13, int[] iArr, int[] iArr2) throws p098d7.C3963c {
         if (i13 < i12) {
             int i14 = i10 % i12;
             int i15 = i12 - i14;
@@ -433,7 +433,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: r */
-    static C4139a m20128r(C4139a c4139a, int i10, int i11, int i12) {
+    static C4139a m20128r(C4139a c4139a, int i10, int i11, int i12) throws p098d7.C3963c {
         if (c4139a.m17339i() == i11) {
             ArrayList arrayList = new ArrayList(i12);
             int i13 = 0;
@@ -483,7 +483,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: s */
-    private static boolean m20129s(String str) {
+    private static boolean m20129s(String str) throws p098d7.C3963c {
         try {
             byte[] bytes = str.getBytes("Shift_JIS");
             int length = bytes.length;
@@ -503,12 +503,12 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: t */
-    private static C4563c m20130t(EnumC4561a enumC4561a, EnumC4562b enumC4562b, C4139a c4139a, C4139a c4139a2) {
+    private static C4563c m20130t(EnumC4561a enumC4561a, EnumC4562b enumC4562b, C4139a c4139a, C4139a c4139a2) throws p098d7.C3963c {
         return m20123m(m20119i(enumC4562b, c4139a, c4139a2, m20123m(m20119i(enumC4562b, c4139a, c4139a2, C4563c.m18988e(1)), enumC4561a)), enumC4561a);
     }
 
     /* renamed from: u */
-    static void m20131u(int i10, C4139a c4139a) {
+    static void m20131u(int i10, C4139a c4139a) throws p098d7.C3963c {
         int i11 = 0;
         int i12 = i10 << 3;
         if (c4139a.m17338h() <= i12) {

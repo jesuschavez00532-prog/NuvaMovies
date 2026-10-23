@@ -193,7 +193,7 @@ public class C7376c {
     }
 
     /* renamed from: n */
-    private AbstractC7377d m28471n(HttpURLConnection httpURLConnection) {
+    private AbstractC7377d m28471n(HttpURLConnection httpURLConnection) throws java.io.IOException {
         InputStream inputStream = httpURLConnection.getInputStream();
         JsonReader jsonReader = new JsonReader(new InputStreamReader(inputStream, f27369e));
         AbstractC7379f.a m28486a = AbstractC7379f.m28486a();

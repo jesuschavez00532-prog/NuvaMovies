@@ -10,7 +10,7 @@ import java.io.FileReader;
 /* loaded from: classes2.dex */
 public class C3965b {
     /* renamed from: a */
-    private ChannelEpg m16822a(JsonReader jsonReader) {
+    private ChannelEpg m16822a(JsonReader jsonReader) throws java.io.IOException {
         ChannelEpg m16814e = C3964a.m16814e();
         jsonReader.beginObject();
         while (jsonReader.hasNext()) {
@@ -67,7 +67,7 @@ public class C3965b {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct add '--show-bad-code' argument
     */
-    private void m16823b(com.google.gson.stream.JsonReader r6, com.request.bean.ChannelEpg r7) {
+    private void m16823b(com.google.gson.stream.JsonReader r6, com.request.bean.ChannelEpg r7) throws java.io.IOException {
         /*
             r5 = this;
             java.util.ArrayList r0 = new java.util.ArrayList

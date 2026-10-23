@@ -24,7 +24,7 @@ public abstract class AbstractC4906e {
 
     /* JADX INFO: Access modifiers changed from: package-private */
     /* renamed from: a */
-    public static void m20141a(C4139a c4139a, EnumC4561a enumC4561a, C4563c c4563c, int i10, C4903b c4903b) {
+    public static void m20141a(C4139a c4139a, EnumC4561a enumC4561a, C4563c c4563c, int i10, C4903b c4903b) throws p098d7.C3963c {
         m20143c(c4903b);
         m20144d(c4563c, c4903b);
         m20152l(enumC4561a, i10, c4903b);
@@ -33,7 +33,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: b */
-    static int m20142b(int i10, int i11) {
+    static int m20142b(int i10, int i11) throws p098d7.C3963c {
         if (i11 != 0) {
             int m20154n = m20154n(i11);
             int i12 = i10 << (m20154n - 1);
@@ -46,12 +46,12 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: c */
-    static void m20143c(C4903b c4903b) {
+    static void m20143c(C4903b c4903b) throws p098d7.C3963c {
         c4903b.m20104a((byte) -1);
     }
 
     /* renamed from: d */
-    static void m20144d(C4563c c4563c, C4903b c4903b) {
+    static void m20144d(C4563c c4563c, C4903b c4903b) throws p098d7.C3963c {
         m20150j(c4903b);
         m20145e(c4903b);
         m20158r(c4563c, c4903b);
@@ -59,7 +59,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: e */
-    private static void m20145e(C4903b c4903b) {
+    private static void m20145e(C4903b c4903b) throws p098d7.C3963c {
         if (c4903b.m20105b(8, c4903b.m20107d() - 8) != 0) {
             c4903b.m20109f(8, c4903b.m20107d() - 8, 1);
             return;
@@ -68,7 +68,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: f */
-    static void m20146f(C4139a c4139a, int i10, C4903b c4903b) {
+    static void m20146f(C4139a c4139a, int i10, C4903b c4903b) throws p098d7.C3963c {
         boolean z10 = false;
         int m20108e = c4903b.m20108e() - 1;
         int m20107d = c4903b.m20107d() - 1;
@@ -107,7 +107,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: g */
-    private static void m20147g(int i10, int i11, C4903b c4903b) {
+    private static void m20147g(int i10, int i11, C4903b c4903b) throws p098d7.C3963c {
         for (int i12 = 0; i12 < 8; i12++) {
             int i13 = i10 + i12;
             if (m20155o(c4903b.m20105b(i13, i11))) {
@@ -151,7 +151,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: k */
-    private static void m20151k(C4903b c4903b) {
+    private static void m20151k(C4903b c4903b) throws p098d7.C3963c {
         int i10 = 8;
         while (i10 < c4903b.m20108e() - 8) {
             int i11 = i10 + 1;
@@ -167,7 +167,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: l */
-    static void m20152l(EnumC4561a enumC4561a, int i10, C4903b c4903b) {
+    static void m20152l(EnumC4561a enumC4561a, int i10, C4903b c4903b) throws p098d7.C3963c {
         C4139a c4139a = new C4139a();
         m20156p(enumC4561a, i10, c4139a);
         for (int i11 = 0; i11 < c4139a.m17338h(); i11++) {
@@ -183,7 +183,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: m */
-    private static void m20153m(int i10, int i11, C4903b c4903b) {
+    private static void m20153m(int i10, int i11, C4903b c4903b) throws p098d7.C3963c {
         for (int i12 = 0; i12 < 7; i12++) {
             int i13 = i11 + i12;
             if (m20155o(c4903b.m20105b(i10, i13))) {
@@ -195,17 +195,17 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: n */
-    static int m20154n(int i10) {
+    static int m20154n(int i10) throws p098d7.C3963c {
         return 32 - Integer.numberOfLeadingZeros(i10);
     }
 
     /* renamed from: o */
-    private static boolean m20155o(int i10) {
+    private static boolean m20155o(int i10) throws p098d7.C3963c {
         return i10 == -1;
     }
 
     /* renamed from: p */
-    static void m20156p(EnumC4561a enumC4561a, int i10, C4139a c4139a) {
+    static void m20156p(EnumC4561a enumC4561a, int i10, C4139a c4139a) throws p098d7.C3963c {
         if (C4907f.m20160b(i10)) {
             int m18984a = (enumC4561a.m18984a() << 3) | i10;
             c4139a.m17335d(m18984a, 5);
@@ -222,7 +222,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: q */
-    static void m20157q(C4563c c4563c, C4139a c4139a) {
+    static void m20157q(C4563c c4563c, C4139a c4139a) throws p098d7.C3963c {
         c4139a.m17335d(c4563c.m18992f(), 6);
         c4139a.m17335d(m20142b(c4563c.m18992f(), 7973), 12);
         if (c4139a.m17338h() == 18) {

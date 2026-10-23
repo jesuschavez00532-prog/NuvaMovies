@@ -8,7 +8,7 @@ import p097d6.C3960g;
 public final /* synthetic */ class C3959f implements C3960g.a {
     @Override // p097d6.C3960g.a
     /* renamed from: a */
-    public final Object mo16781a(JsonReader jsonReader) {
+    public final Object mo16781a(JsonReader jsonReader) throws java.io.IOException {
         return C3960g.m16786b(jsonReader);
     }
 }

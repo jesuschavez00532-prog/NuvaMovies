@@ -26,7 +26,7 @@ final class C5557c implements Converter {
 
     @Override // retrofit2.Converter
     /* renamed from: b, reason: merged with bridge method [inline-methods] */
-    public Object mo22520a(ResponseBody responseBody) {
+    public Object mo22520a(ResponseBody responseBody) throws java.io.IOException {
         JsonReader newJsonReader = this.f22514a.newJsonReader(responseBody.charStream());
         try {
             Object read2 = this.f22515b.read2(newJsonReader);

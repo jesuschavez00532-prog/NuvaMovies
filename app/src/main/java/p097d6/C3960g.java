@@ -34,7 +34,7 @@ public class C3960g {
 
     /* JADX WARN: Failed to find 'out' block for switch in B:5:0x0019. Please report as an issue. */
     /* renamed from: A */
-    private static AbstractC1366a0 m16782A(JsonReader jsonReader) {
+    private static AbstractC1366a0 m16782A(JsonReader jsonReader) throws java.io.IOException {
         AbstractC1366a0.b m6165b = AbstractC1366a0.m6165b();
         jsonReader.beginObject();
         while (jsonReader.hasNext()) {
@@ -219,7 +219,7 @@ public class C3960g {
                     m6223a.mo6259f(m16793k(jsonReader, new a() { // from class: d6.a
                         @Override // p097d6.C3960g.a
                         /* renamed from: a */
-                        public final Object mo16781a(JsonReader jsonReader2) {
+                        public final Object mo16781a(JsonReader jsonReader2) throws java.io.IOException {
                             AbstractC1366a0.e.d m16796n;
                             m16796n = C3960g.m16796n(jsonReader2);
                             return m16796n;
@@ -439,7 +439,7 @@ public class C3960g {
     }
 
     /* renamed from: k */
-    private static C1368b0 m16793k(JsonReader jsonReader, a aVar) {
+    private static C1368b0 m16793k(JsonReader jsonReader, a aVar) throws java.io.IOException {
         ArrayList arrayList = new ArrayList();
         jsonReader.beginArray();
         while (jsonReader.hasNext()) {
@@ -690,7 +690,7 @@ public class C3960g {
                     m6294a.mo6305e(m16793k(jsonReader, new a() { // from class: d6.c
                         @Override // p097d6.C3960g.a
                         /* renamed from: a */
-                        public final Object mo16781a(JsonReader jsonReader2) {
+                        public final Object mo16781a(JsonReader jsonReader2) throws java.io.IOException {
                             AbstractC1366a0.c m16794l;
                             m16794l = C3960g.m16794l(jsonReader2);
                             return m16794l;
@@ -701,7 +701,7 @@ public class C3960g {
                     m6294a.mo6303c(m16793k(jsonReader, new a() { // from class: d6.c
                         @Override // p097d6.C3960g.a
                         /* renamed from: a */
-                        public final Object mo16781a(JsonReader jsonReader2) {
+                        public final Object mo16781a(JsonReader jsonReader2) throws java.io.IOException {
                             AbstractC1366a0.c m16794l;
                             m16794l = C3960g.m16794l(jsonReader2);
                             return m16794l;
@@ -901,7 +901,7 @@ public class C3960g {
                     m6307a.mo6330f(m16793k(jsonReader, new a() { // from class: d6.d
                         @Override // p097d6.C3960g.a
                         /* renamed from: a */
-                        public final Object mo16781a(JsonReader jsonReader2) {
+                        public final Object mo16781a(JsonReader jsonReader2) throws java.io.IOException {
                             AbstractC1366a0.e.d.a.b.AbstractC7812e m16805w;
                             m16805w = C3960g.m16805w(jsonReader2);
                             return m16805w;
@@ -915,7 +915,7 @@ public class C3960g {
                     m6307a.mo6327c(m16793k(jsonReader, new a() { // from class: d6.e
                         @Override // p097d6.C3960g.a
                         /* renamed from: a */
-                        public final Object mo16781a(JsonReader jsonReader2) {
+                        public final Object mo16781a(JsonReader jsonReader2) throws java.io.IOException {
                             AbstractC1366a0.e.d.a.b.AbstractC7806a m16798p;
                             m16798p = C3960g.m16798p(jsonReader2);
                             return m16798p;
@@ -1217,7 +1217,7 @@ public class C3960g {
                 m6211a.mo6215b(m16793k(jsonReader, new a() { // from class: d6.b
                     @Override // p097d6.C3960g.a
                     /* renamed from: a */
-                    public final Object mo16781a(JsonReader jsonReader2) {
+                    public final Object mo16781a(JsonReader jsonReader2) throws java.io.IOException {
                         AbstractC1366a0.d.b m16806x;
                         m16806x = C3960g.m16806x(jsonReader2);
                         return m16806x;
