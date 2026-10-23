@@ -14,7 +14,7 @@ public abstract class AbstractC6527n {
     }
 
     /* renamed from: b */
-    public static AbstractC6527n m25554b(Reader reader) {
+    public static AbstractC6527n m25554b(Reader reader) throws java.io.IOException {
         JsonReader jsonReader = new JsonReader(reader);
         try {
             jsonReader.beginObject();
