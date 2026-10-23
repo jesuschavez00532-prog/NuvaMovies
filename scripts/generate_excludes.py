@@ -80,8 +80,8 @@ FORCE_EXCLUDE_SIMPLE = {
     "EnumC4971b",
     # IBinder incompatible
     "C4867h0",
-    # RemoteException / IOException unreported
-    "AbstractBinderC7494b", "AbstractC7493a", "C1342f", "C4119i", "AbstractC7158l",
+    # RemoteException / IOException / Throwable unreported
+    "AbstractBinderC7494b", "AbstractC7493a", "C1342f", "C4119i", "AbstractC7158l", "AbstractC1320p",
     # not enclosing class
     "C5907c", "AbstractC5907c", "C7217d0", "C6569c", "AbstractC7029f",
     # Schedulers.m20294io
