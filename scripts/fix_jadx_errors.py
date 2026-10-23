@@ -167,17 +167,40 @@ def fix_stream_method_throws(content):
 
 def fix_interrupted_exception(content, filepath):
     """Fix methods that throw InterruptedException without declaring it.
-    Heuristic: if method body contains 'throw new InterruptedException' or
-    'throw e10' where e10 is caught as InterruptedException, add throws.
-    This is complex - we use a simple targeted approach.
+    Covers: BlockingQueue overrides, methods calling lockInterruptibly/awaitNanos/await.
     """
-    # If file contains 'throw new InterruptedException' without throws in the containing method
-    # We scan method-by-method - simplified: check if any method has the pattern
+    # BlockingQueue interface method overrides - these all declare throws InterruptedException
+    blocking_queue_methods = [
+        # offer(E, long, TimeUnit)
+        (r'public\s+(\w+)\s+(offer)\s*\([^)]*TimeUnit[^)]*\)\s*\{',
+         'throws InterruptedException'),
+        # poll(long, TimeUnit)
+        (r'public\s+(\w+)\s+(poll)\s*\([^)]*TimeUnit[^)]*\)\s*\{',
+         'throws InterruptedException'),
+        # put(E)
+        (r'public\s+void\s+(put)\s*\([^)]*\)\s*\{',
+         'throws InterruptedException'),
+        # take()
+        (r'public\s+(\w+)\s+(take)\s*\(\s*\)\s*\{',
+         'throws InterruptedException'),
+        # drainTo is not interruptible - skip
+    ]
     
-    # Pattern: method declaration (public/protected/private ... methodName(...)) {
-    # followed eventually by throw new InterruptedException
-    # We add throws InterruptedException, TimeoutException if not present
+    # Only process files that implement BlockingQueue
+    is_blocking_queue = 'implements' in content and 'BlockingQueue' in content
     
+    if is_blocking_queue:
+        for pattern, throws_clause in blocking_queue_methods:
+            def add_throws_bq(m, tc=throws_clause):
+                sig = m.group(0)
+                if 'throws' in sig:
+                    return sig
+                sig = sig.rstrip()
+                if sig.endswith('{'):
+                    sig = sig[:-1].rstrip() + f' {tc} {{'
+                return sig
+            content = re.sub(pattern, add_throws_bq, content)
+
     def add_interrupted_throws(m):
         sig = m.group(0)
         if 'throws' in sig:
@@ -195,7 +218,6 @@ def fix_interrupted_exception(content, filepath):
         return content
     
     # Target specific method patterns that we know cause issues
-    # Methods that call .poll(timeout, unit) or .await(timeout, unit) or throw new Interrupted/Timeout
     content = re.sub(
         r'(public|protected|private)\s+(?:static\s+)?(?:final\s+)?(?:synchronized\s+)?'
         r'(?:\w+(?:<[^>]*>)?)\s+\w+\s*\([^)]*TimeUnit[^)]*\)\s*\{',

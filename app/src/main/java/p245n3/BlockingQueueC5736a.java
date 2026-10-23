@@ -366,7 +366,7 @@ public class BlockingQueueC5736a extends AbstractQueue implements BlockingQueue,
     }
 
     @Override // java.util.concurrent.BlockingQueue
-    public boolean offer(Object obj, long j10, TimeUnit timeUnit) {
+    public boolean offer(Object obj, long j10, TimeUnit timeUnit) throws InterruptedException {
         obj.getClass();
         long nanos = timeUnit.toNanos(j10);
         ReentrantLock reentrantLock = this.f23030g;
@@ -426,7 +426,7 @@ public class BlockingQueueC5736a extends AbstractQueue implements BlockingQueue,
     }
 
     @Override // java.util.concurrent.BlockingQueue
-    public Object poll(long j10, TimeUnit timeUnit) {
+    public Object poll(long j10, TimeUnit timeUnit) throws InterruptedException {
         long nanos = timeUnit.toNanos(j10);
         AtomicInteger atomicInteger = this.f23025b;
         ReentrantLock reentrantLock = this.f23028e;
@@ -454,7 +454,7 @@ public class BlockingQueueC5736a extends AbstractQueue implements BlockingQueue,
     }
 
     @Override // java.util.concurrent.BlockingQueue
-    public void put(Object obj) {
+    public void put(Object obj) throws InterruptedException {
         obj.getClass();
         b bVar = new b(obj);
         ReentrantLock reentrantLock = this.f23030g;
@@ -512,7 +512,7 @@ public class BlockingQueueC5736a extends AbstractQueue implements BlockingQueue,
     }
 
     @Override // java.util.concurrent.BlockingQueue
-    public Object take() {
+    public Object take() throws InterruptedException {
         AtomicInteger atomicInteger = this.f23025b;
         ReentrantLock reentrantLock = this.f23028e;
         reentrantLock.lockInterruptibly();

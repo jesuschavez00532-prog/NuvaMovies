@@ -78,6 +78,8 @@ FORCE_EXCLUDE_SIMPLE = {
     "AbstractDialogC4756b1",
     # EnumC4971b
     "EnumC4971b",
+    # lockInterruptibly/await in lambda without throws
+    "C6482u",
     # IBinder incompatible
     "C4867h0",
     # RemoteException / IOException / Throwable / Exception unreported
