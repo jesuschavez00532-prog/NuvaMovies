@@ -22,7 +22,10 @@ DIRECT_BAD_RE = re.compile(
     r"com\.raizlabs\.|com\.open\.leanback\.|kotlinx\.coroutines\.internal\.|"
     r"anet\.|com\.lzy\.|com\.titan\.|com\.qiniu\.android\.dns\.|"
     r"org\.android\.|com\.taobao\.|tv\.danmaku\.|"
-    r"com\.google\.android\.gms\.internal\.|com\.google\.android\.youtube\."
+    r"com\.google\.android\.gms\.internal\.|com\.google\.android\.youtube\.|"
+    r"com\.google\.android\.gms\.auth\.|com\.google\.android\.gms\.measurement\.|"
+    r"com\.google\.android\.gms\.common\.|com\.swlauthnew\.|"
+    r"android\.support\.v4\.|org\.xutils\."
     r")", re.MULTILINE
 )
 
