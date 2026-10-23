@@ -31,7 +31,7 @@ public abstract class AbstractC4172d {
     }
 
     /* renamed from: d */
-    public void m17439d(InputStream inputStream, OutputStream outputStream) {
+    public void m17439d(InputStream inputStream, OutputStream outputStream) throws java.io.IOException {
         byte[] bArr = new byte[mo17128b()];
         m17440f(outputStream);
         while (true) {
@@ -59,7 +59,7 @@ public abstract class AbstractC4172d {
     }
 
     /* renamed from: e */
-    protected abstract void mo17129e(OutputStream outputStream, byte[] bArr, int i10, int i11);
+    protected abstract void mo17129e(OutputStream outputStream, byte[] bArr, int i10, int i11) throws java.io.IOException;
 
     /* renamed from: f */
     protected void m17440f(OutputStream outputStream) throws java.io.IOException {

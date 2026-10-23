@@ -19,7 +19,7 @@ public abstract class AbstractC4171c {
     protected abstract void mo17126c(PushbackInputStream pushbackInputStream, OutputStream outputStream, int i10);
 
     /* renamed from: d */
-    public void m17431d(InputStream inputStream, OutputStream outputStream) {
+    public void m17431d(InputStream inputStream, OutputStream outputStream) throws java.io.IOException {
         PushbackInputStream pushbackInputStream = new PushbackInputStream(inputStream);
         m17433f(pushbackInputStream, outputStream);
         while (true) {
@@ -44,7 +44,7 @@ public abstract class AbstractC4171c {
     }
 
     /* renamed from: e */
-    public byte[] m17432e(String str) {
+    public byte[] m17432e(String str) throws java.io.IOException {
         byte[] bArr = new byte[str.length()];
         str.getBytes(0, str.length(), bArr, 0);
         InputStream byteArrayInputStream = new ByteArrayInputStream(bArr);
