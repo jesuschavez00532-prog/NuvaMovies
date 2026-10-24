@@ -30,6 +30,11 @@ DIRECT_BAD_RE = re.compile(
 )
 
 # Files with jadx decompile errors (unfixable by import analysis)
+# Classes that must NEVER be excluded regardless of imports - critical app entry points
+NEVER_EXCLUDE_SIMPLE = {
+    "AppWrapper",           # Application class - ClassNotFoundException crashes app
+}
+
 FORCE_EXCLUDE_SIMPLE = {
     # r0/r1/r2/r6/r9/r11 variables not declared (jadx artifact)
     "C5596a", "C5886a", "AbstractC4488o0", "C4481l", "C5709m",
@@ -82,6 +87,9 @@ FORCE_EXCLUDE_SIMPLE = {
     "C6482u",
     # static initializer cannot complete normally (jadx bytecode artifact)
     "AbstractC6211o",
+    # AppWrapper is the Application class - must NOT be excluded even if it has bad imports
+    # (we use a stub version now, but keeping the name here as documentation)
+
     # IBinder incompatible
     "C4867h0",
     # RemoteException / IOException / Throwable / Exception unreported
@@ -150,10 +158,14 @@ def main():
     # Pass 1: Direct bad imports + force excludes
     excluded = set()
     for rel, content in files.items():
+        simple = get_simple(rel)
+        # Skip files that must NEVER be excluded (critical app classes)
+        if simple in NEVER_EXCLUDE_SIMPLE:
+            continue
         if DIRECT_BAD_RE.search(content):
             excluded.add(rel)
         # Force-exclude known bad jadx decompile files by simple name
-        if get_simple(rel) in FORCE_EXCLUDE_SIMPLE:
+        if simple in FORCE_EXCLUDE_SIMPLE:
             excluded.add(rel)
     print(f"Pass 1: {len(excluded)} direct bad imports", flush=True)
 
@@ -193,7 +205,7 @@ def main():
 
         # Files that explicitly import this FQN
         for importer_rel in importers.get(fqn, set()):
-            if importer_rel not in visited:
+            if importer_rel not in visited and get_simple(importer_rel) not in NEVER_EXCLUDE_SIMPLE:
                 visited.add(importer_rel)
                 excluded.add(importer_rel)
                 queue.append(importer_rel)
@@ -201,7 +213,7 @@ def main():
 
         # Files in the same package that reference this simple name
         for pkg_rel in pkg_to_rels.get(pkg, set()):
-            if pkg_rel not in visited and pkg_rel != excl_rel:
+            if pkg_rel not in visited and pkg_rel != excl_rel and get_simple(pkg_rel) not in NEVER_EXCLUDE_SIMPLE:
                 content = files.get(pkg_rel, "")
                 if re.search(r'\b' + re.escape(simple) + r'\b', content):
                     visited.add(pkg_rel)
