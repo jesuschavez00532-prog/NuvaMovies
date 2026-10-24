@@ -71,6 +71,7 @@ android {
                 exclude 'com/uyumao/**'
                 exclude 'com/youth/**'
                 exclude 'com/zhy/**'
+                exclude 'me/jessyan/**'
             }
         }
     }
