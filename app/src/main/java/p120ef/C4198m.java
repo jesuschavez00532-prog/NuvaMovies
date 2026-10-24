@@ -72,7 +72,7 @@ public class C4198m extends AbstractC4187b {
     @Override // p120ef.AbstractC4187b
     /* renamed from: f */
     public AbstractC4187b.a mo17502f(byte[] bArr, int i10, int i11) {
-        AbstractC4187b.a aVar;
+        AbstractC4187b.a aVar = null;
         int i12 = i11 + i10;
         while (i10 < i12) {
             short m19911b = this.f18377b.m19911b(bArr[i10]);
