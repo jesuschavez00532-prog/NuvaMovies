@@ -13,7 +13,7 @@ import p175i7.C4907f;
 /* loaded from: classes.dex */
 public final class C4354a {
     /* renamed from: b */
-    private static C4140b m18277b(C4907f c4907f, int i10, int i11, int i12) {
+    private static C4140b m18277b(C4907f c4907f, int i10, int i11, int i12) throws p098d7.C3963c {
         C4903b m20161a = c4907f.m20161a();
         if (m20161a != null) {
             int m20108e = m20161a.m20108e();
@@ -47,7 +47,7 @@ public final class C4354a {
     }
 
     /* renamed from: a */
-    public C4140b m18278a(String str, EnumC3961a enumC3961a, int i10, int i11, Map map) {
+    public C4140b m18278a(String str, EnumC3961a enumC3961a, int i10, int i11, Map map) throws p098d7.C3963c {
         if (!str.isEmpty()) {
             if (enumC3961a == EnumC3961a.QR_CODE) {
                 if (i10 >= 0 && i11 >= 0) {

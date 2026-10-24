@@ -109,7 +109,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: d */
-    private static void m20114d(EnumC4141c enumC4141c, C4139a c4139a) {
+    private static void m20114d(EnumC4141c enumC4141c, C4139a c4139a) throws p098d7.C3963c {
         c4139a.m17335d(EnumC4562b.ECI.m18985a(), 4);
         c4139a.m17335d(enumC4141c.m17350b(), 8);
     }
@@ -121,7 +121,7 @@ public abstract class AbstractC4904c {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct add '--show-bad-code' argument
     */
-    static void m20115e(java.lang.String r6, p114e7.C4139a r7) {
+    static void m20115e(java.lang.String r6, p114e7.C4139a r7) throws p098d7.C3963c {
         /*
             java.lang.String r0 = "Shift_JIS"
             byte[] r6 = r6.getBytes(r0)     // Catch: java.io.UnsupportedEncodingException -> L4d
@@ -541,7 +541,7 @@ public abstract class AbstractC4904c {
     }
 
     /* renamed from: v */
-    private static boolean m20132v(int i10, C4563c c4563c, EnumC4561a enumC4561a) {
+    private static boolean m20132v(int i10, C4563c c4563c, EnumC4561a enumC4561a) throws p098d7.C3963c {
         if (c4563c.m18991d() - c4563c.m18990c(enumC4561a).m18998d() >= (i10 + 7) / 8) {
             return true;
         }

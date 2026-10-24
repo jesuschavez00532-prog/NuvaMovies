@@ -119,7 +119,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: h */
-    private static void m20148h(int i10, int i11, C4903b c4903b) {
+    private static void m20148h(int i10, int i11, C4903b c4903b) throws p098d7.C3963c {
         for (int i12 = 0; i12 < 5; i12++) {
             for (int i13 = 0; i13 < 5; i13++) {
                 c4903b.m20109f(i10 + i13, i11 + i12, f20422b[i12][i13]);
@@ -128,7 +128,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: i */
-    private static void m20149i(int i10, int i11, C4903b c4903b) {
+    private static void m20149i(int i10, int i11, C4903b c4903b) throws p098d7.C3963c {
         for (int i12 = 0; i12 < 7; i12++) {
             for (int i13 = 0; i13 < 7; i13++) {
                 c4903b.m20109f(i10 + i13, i11 + i12, f20421a[i12][i13]);
@@ -137,7 +137,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: j */
-    private static void m20150j(C4903b c4903b) {
+    private static void m20150j(C4903b c4903b) throws p098d7.C3963c {
         int length = f20421a[0].length;
         m20149i(0, 0, c4903b);
         m20149i(c4903b.m20108e() - length, 0, c4903b);
@@ -232,7 +232,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: r */
-    private static void m20158r(C4563c c4563c, C4903b c4903b) {
+    private static void m20158r(C4563c c4563c, C4903b c4903b) throws p098d7.C3963c {
         if (c4563c.m18992f() < 2) {
             return;
         }
@@ -247,7 +247,7 @@ public abstract class AbstractC4906e {
     }
 
     /* renamed from: s */
-    static void m20159s(C4563c c4563c, C4903b c4903b) {
+    static void m20159s(C4563c c4563c, C4903b c4903b) throws p098d7.C3963c {
         if (c4563c.m18992f() < 7) {
             return;
         }
