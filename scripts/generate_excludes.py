@@ -223,24 +223,13 @@ def main():
 
     print(f"Cascade: +{cascade_count} (total excluded: {len(excluded)})", flush=True)
 
-    # Generate excludes
-    lines = [f"                exclude '{rel}'" for rel in sorted(excluded)]
-
-    with open(BUILD_GRADLE, "r", encoding="utf-8") as f:
-        content = f.read()
-
-    if MARKER not in content:
-        print(f"ERROR: marker not found. Searching...", flush=True)
-        for i, line in enumerate(content.split("\n")):
-            if "zhy" in line:
-                print(f"  Line {i}: {repr(line)}")
-        sys.exit(1)
-
-    new_content = content.replace(MARKER, MARKER + "\n" + "\n".join(lines))
-    with open(BUILD_GRADLE, "w", encoding="utf-8") as f:
-        f.write(new_content)
-
-    print(f"Done: injected {len(lines)} excludes", flush=True)
+    # Write excludes to a separate file instead of injecting into build.gradle
+    # This avoids the Groovy "Method too large" error
+    excludes_file = "app/excludes.txt"
+    with open(excludes_file, "w", encoding="utf-8") as f:
+        for rel in sorted(excluded):
+            f.write(rel + "\n")
+    print(f"Done: wrote {len(excluded)} excludes to {excludes_file}", flush=True)
 
 if __name__ == "__main__":
     main()
