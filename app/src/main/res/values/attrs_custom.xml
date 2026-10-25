@@ -26,6 +26,7 @@
     <attr name="noticeType" format="string|reference|integer" />
     <attr name="numberOfColumns" format="integer" />
     <attr name="numberOfRows" format="integer" />
+    <attr name="rowHeight" format="dimension" />
     <attr name="parentDuplicateVisibility" format="boolean" />
     <attr name="popHeight" format="dimension|integer" />
     <attr name="popWidth" format="dimension|integer" />
