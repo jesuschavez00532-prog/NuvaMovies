@@ -158,9 +158,8 @@ dependencies {
     // MMKV
     implementation 'com.tencent:mmkv:1.2.13'
 
-    // Firebase
+    // Firebase - Crashlytics removed: decompiled APK has no build ID, crashes on init
     implementation platform('com.google.firebase:firebase-bom:30.3.1')
-    implementation 'com.google.firebase:firebase-crashlytics'
     implementation 'com.google.firebase:firebase-analytics'
 
     // umeng - common and asms only, umcrash included as decompiled source
