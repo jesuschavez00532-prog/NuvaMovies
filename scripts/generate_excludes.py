@@ -16,9 +16,17 @@ EXCLUDED_TOP = {
     "androidx","android","io","kotlinx","org",
 }
 
-# Pattern for obfuscated 3rd-party packages: p<digits><letters> (e.g. p005a4, p335t3, p424z3)
-# These are ALL decompiled 3rd-party library internals - never app code
-OBFUSCATED_PKG_RE = re.compile(r'^p\d+[a-z]\d*$')
+# Whitelist of top-level packages that are actual app code (everything else is excluded)
+# All pNNN, two-letter packages (ma, ac, ba, tv...), Andoid, etc. are decompiled 3rd-party
+APP_PKG_WHITELIST = {
+    "com", "tv",  # tv is kept for tv.danmaku (ijkplayer) but that's excluded via EXCLUDED_TOP patterns
+}
+
+# Pattern for ANY obfuscated top-level package:
+# - starts with p + digits (p000a, p178ia, p030bc, p290q, p212kd, ...)
+# - OR is a 1-3 lowercase letter package without digits (ma, ac, ba, za, tc, va, ...)
+# - OR is a single-letter package (a, b, ... handled by 1-2 char match)
+OBFUSCATED_PKG_RE = re.compile(r'^(p\d+|[a-z]{1,3}|[A-Z][a-z]+)$')
 
 DIRECT_BAD_RE = re.compile(
     r"^import\s+("
