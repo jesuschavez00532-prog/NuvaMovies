@@ -16,6 +16,10 @@ EXCLUDED_TOP = {
     "androidx","android","io","kotlinx","org",
 }
 
+# Pattern for obfuscated 3rd-party packages: p<digits><letters> (e.g. p005a4, p335t3, p424z3)
+# These are ALL decompiled 3rd-party library internals - never app code
+OBFUSCATED_PKG_RE = re.compile(r'^p\d+[a-z]\d*$')
+
 DIRECT_BAD_RE = re.compile(
     r"^import\s+("
     r"androidx\.|com\.umeng\.|com\.bumptech\.|com\.zhy\.|"
@@ -128,6 +132,10 @@ def main():
             top = rel.split("/")[0]
             if top in EXCLUDED_TOP:
                 continue
+            # Skip obfuscated 3rd-party packages (p<digits><letters> pattern)
+            # These are decompiled library internals already compiled into AARs
+            if OBFUSCATED_PKG_RE.match(top):
+                continue
             try:
                 with open(full, "r", encoding="utf-8", errors="ignore") as f:
                     files[rel] = f.read()
@@ -223,13 +231,28 @@ def main():
 
     print(f"Cascade: +{cascade_count} (total excluded: {len(excluded)})", flush=True)
 
+    # Also collect all pNNN package files to exclude (skipped during indexing)
+    pnnn_excludes = []
+    for root, _, fnames in os.walk(JAVA_ROOT):
+        for fname in fnames:
+            if not fname.endswith(".java"):
+                continue
+            full = os.path.join(root, fname)
+            rel = full.replace(JAVA_ROOT + "/", "").replace(JAVA_ROOT + os.sep, "").replace("\\", "/")
+            top = rel.split("/")[0]
+            if OBFUSCATED_PKG_RE.match(top):
+                pnnn_excludes.append(rel)
+
     # Write excludes to a separate file instead of injecting into build.gradle
     # This avoids the Groovy "Method too large" error
     excludes_file = "app/excludes.txt"
     with open(excludes_file, "w", encoding="utf-8") as f:
         for rel in sorted(excluded):
             f.write(rel + "\n")
-    print(f"Done: wrote {len(excluded)} excludes to {excludes_file}", flush=True)
+        for rel in sorted(pnnn_excludes):
+            f.write(rel + "\n")
+    total = len(excluded) + len(pnnn_excludes)
+    print(f"Done: wrote {total} excludes to {excludes_file} ({len(excluded)} BFS + {len(pnnn_excludes)} pNNN packages)", flush=True)
 
 if __name__ == "__main__":
     main()
