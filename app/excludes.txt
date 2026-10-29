@@ -136,13 +136,10 @@ com/dcs/bean/V1Bean.java
 com/dcs/bean/V1Data.java
 com/dcs/bean/V1Result.java
 com/download/R$styleable.java
-com/download/activity/DownloadActivity.java
-com/download/activity/LocalPlayActivity.java
 com/download/bean/DownloadModel.java
 com/download/bean/DownloadParams.java
 com/download/bean/LocalPlayBean.java
 com/download/bean/UDiskBean.java
-com/download/permission/OverlayActivity.java
 com/download/util/AutoDownloadObserver.java
 com/download/view/C1662a.java
 com/download/view/C1663b.java
@@ -894,7 +891,6 @@ com/google/gson/stream/JsonReader.java
 com/interactive/brasiliptv/R$styleable.java
 com/interactive/brasiliptv/p061ui/activity/GuidePageActivity.java
 com/interactive/brasiliptv/p061ui/activity/WelcomeActivity.java
-com/interactive/brasiliptv/service/MyFirebaseMessagingService.java
 com/interactive/brasiliptv/utils/CustomLayoutInflater.java
 com/ixuea/android/downloader/p062db/DefaultDownloadDBController.java
 com/live/R$styleable.java
@@ -1057,7 +1053,6 @@ com/module/playsetting/view/C2979b.java
 com/module/playsetting/view/PlaySettingView.java
 com/module/previewseekbar/C2984d.java
 com/module/previewseekbar/PreviewSeekBar.java
-com/module/receiver/ReportService.java
 com/module/utils/glide/MyOkHttpGlideModule.java
 com/module/view/AdvertiseLayout.java
 com/module/view/AutoEmailCompleteRecyclerView.java

@@ -92,7 +92,7 @@
         <activity android:name="com.module.ui.activity.CommonWebActivity" android:screenOrientation="landscape"/>
         <activity android:name="com.module.ui.activity.WebActivity" android:screenOrientation="landscape"/>
         <service android:name="com.module.receiver.ReportService" android:process=":channel"/>
-        <provider android:authorities="com.android.mgstv.therouter.TheRouteContentProvider" android:exported="false" android:name="com.therouter.InnerTheRouterContentProvider" tools:replace="android:authorities"/>
+        <provider android:authorities="com.android.mgstv.therouter.TheRouteContentProvider" android:exported="false" android:name="com.therouter.InnerTheRouterContentProvider" tools:node="remove"/>
         <provider android:authorities="com.android.mgstv.downloadFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.mobile.provider.DownloadFileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
         </provider>
@@ -145,28 +145,24 @@
             <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
             <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
         </service>
-        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
-            </intent-filter>
-        </receiver>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" tools:node="remove"/>
         <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
             <intent-filter android:priority="-500">
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>
         </service>
         <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
-        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
-        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
-        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver" tools:node="remove"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService" tools:node="remove"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" tools:node="remove"/>
         <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
         <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
             <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
         </service>
-        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
-        <service android:exported="false" android:name="com.bytedance.boost_multidex.OptimizeService" android:process=":boost_multidex"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" tools:node="remove"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" tools:node="remove"/>
+        <service android:exported="false" android:name="com.bytedance.boost_multidex.OptimizeService" android:process=":boost_multidex" tools:node="remove"/>
         <service android:exported="false" android:name="com.umeng.message.component.UmengIntentService" tools:node="remove">
             <intent-filter>
                 <action android:name="org.agoo.android.intent.action.RECEIVE"/>

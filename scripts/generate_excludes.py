@@ -46,6 +46,13 @@ DIRECT_BAD_RE = re.compile(
 NEVER_EXCLUDE_SIMPLE = {
     "AppWrapper",              # Application class - ClassNotFoundException crashes app
     "DownloadFileProvider",    # ContentProvider declared in manifest - must exist at runtime
+    # Activities declared in manifest - must exist at runtime
+    "DownloadActivity",
+    "LocalPlayActivity",
+    "OverlayActivity",
+    # Services declared in manifest - must exist at runtime
+    "ReportService",
+    "MyFirebaseMessagingService",
 }
 
 FORCE_EXCLUDE_SIMPLE = {
