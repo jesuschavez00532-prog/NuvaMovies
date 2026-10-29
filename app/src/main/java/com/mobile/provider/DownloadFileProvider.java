@@ -1,7 +1,8 @@
 package com.mobile.provider;
 
-import androidx.core.content.AbstractC0549c;
+import androidx.core.content.FileProvider;
 
-/* loaded from: classes2.dex */
-public class DownloadFileProvider extends AbstractC0549c {
+/* renamed from: com.mobile.provider.DownloadFileProvider */
+/* Original class extended FileProvider (decompiled as AbstractC0549c) */
+public class DownloadFileProvider extends FileProvider {
 }
