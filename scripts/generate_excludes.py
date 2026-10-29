@@ -16,17 +16,15 @@ EXCLUDED_TOP = {
     "androidx","android","io","kotlinx","org",
 }
 
-# Whitelist of top-level packages that are actual app code (everything else is excluded)
-# All pNNN, two-letter packages (ma, ac, ba, tv...), Andoid, etc. are decompiled 3rd-party
-APP_PKG_WHITELIST = {
-    "com", "tv",  # tv is kept for tv.danmaku (ijkplayer) but that's excluded via EXCLUDED_TOP patterns
-}
-
 # Pattern for ANY obfuscated top-level package:
-# - starts with p + digits (p000a, p178ia, p030bc, p290q, p212kd, ...)
-# - OR is a 1-3 lowercase letter package without digits (ma, ac, ba, za, tc, va, ...)
-# - OR is a single-letter package (a, b, ... handled by 1-2 char match)
-OBFUSCATED_PKG_RE = re.compile(r'^(p\d+|[a-z]{1,3}|[A-Z][a-z]+)$')
+# - starts with p + digits + optional alphanumeric suffix (p000a, p178ia, p424z3, p030bc, p290q...)
+# - OR is a 1-3 lowercase letter package (ma, ac, ba, ne, ca, ge, be, ee, af, me, ...)
+# - OR starts with uppercase (Andoid - jadx typo)
+# NOTE: 'com' and 'tv' are real app packages - checked separately via APP_PKG_WHITELIST
+OBFUSCATED_PKG_RE = re.compile(r'^(p\d+\w*|[a-z]{1,3}|[A-Z][a-z]+)$')
+
+# Real top-level packages that contain actual app code - NOT excluded even if regex matches
+APP_PKG_WHITELIST = {"com", "tv"}
 
 DIRECT_BAD_RE = re.compile(
     r"^import\s+("
@@ -37,7 +35,9 @@ DIRECT_BAD_RE = re.compile(
     r"com\.google\.android\.gms\.internal\.|com\.google\.android\.youtube\.|"
     r"com\.google\.android\.gms\.auth\.|com\.google\.android\.gms\.measurement\.|"
     r"com\.google\.android\.gms\.common\.|com\.swlauthnew\.|"
-    r"android\.support\.v4\.|org\.xutils\."
+    r"android\.support\.v4\.|org\.xutils\.|"
+    r"p\d+\w*\.|"
+    r"(?:ac|ad|ae|af|ba|bb|bd|be|bf|ca|cc|cd|cf|de|ec|ee|ga|gb|gd|ge|gf|id|ie|je|ke|la|lb|lc|ma|mc|md|me|na|nc|ne|nf|np|pa|pe|qa|re|sa|sb|sc|sd|se|tc|td|ua|va|vc|ve|ye|za)\."
     r")", re.MULTILINE
 )
 
@@ -140,9 +140,9 @@ def main():
             top = rel.split("/")[0]
             if top in EXCLUDED_TOP:
                 continue
-            # Skip obfuscated 3rd-party packages (p<digits><letters> pattern)
-            # These are decompiled library internals already compiled into AARs
-            if OBFUSCATED_PKG_RE.match(top):
+            # Skip obfuscated 3rd-party packages (pNNN, 2-3 letter packages like ma/ac/ne)
+            # but keep real app packages (com, tv) even if they match the pattern
+            if OBFUSCATED_PKG_RE.match(top) and top not in APP_PKG_WHITELIST:
                 continue
             try:
                 with open(full, "r", encoding="utf-8", errors="ignore") as f:
@@ -248,7 +248,7 @@ def main():
             full = os.path.join(root, fname)
             rel = full.replace(JAVA_ROOT + "/", "").replace(JAVA_ROOT + os.sep, "").replace("\\", "/")
             top = rel.split("/")[0]
-            if OBFUSCATED_PKG_RE.match(top):
+            if OBFUSCATED_PKG_RE.match(top) and top not in APP_PKG_WHITELIST:
                 pnnn_excludes.append(rel)
 
     # Write excludes to a separate file instead of injecting into build.gradle
