@@ -1009,7 +1009,6 @@ com/mine/p068ui/activity/UserCenterActivity.java
 com/mine/p068ui/activity/UserCenterActivity__TheRouter__Autowired.java
 com/mine/p068ui/fragment/CouponFragment__TheRouter__Autowired.java
 com/mobile/autoupdate/R$styleable.java
-com/mobile/provider/DownloadFileProvider.java
 com/mobile/view/ScrollTextView.java
 com/mobile/view/UpgradeProgressView.java
 com/module/R$styleable.java

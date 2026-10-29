@@ -44,7 +44,8 @@ DIRECT_BAD_RE = re.compile(
 # Files with jadx decompile errors (unfixable by import analysis)
 # Classes that must NEVER be excluded regardless of imports - critical app entry points
 NEVER_EXCLUDE_SIMPLE = {
-    "AppWrapper",           # Application class - ClassNotFoundException crashes app
+    "AppWrapper",              # Application class - ClassNotFoundException crashes app
+    "DownloadFileProvider",    # ContentProvider declared in manifest - must exist at runtime
 }
 
 FORCE_EXCLUDE_SIMPLE = {
