@@ -96,7 +96,7 @@
         <provider android:authorities="com.android.mgstv.downloadFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.mobile.provider.DownloadFileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
         </provider>
-        <service android:exported="false" android:name="com.taobao.accs.ChannelService">
+        <service android:exported="false" android:name="com.taobao.accs.ChannelService" tools:node="remove">
             <intent-filter>
                 <action android:name="com.taobao.accs.intent.action.START_SERVICE"/>
             </intent-filter>
@@ -104,13 +104,13 @@
                 <action android:name="com.taobao.accs.intent.action.ELECTION"/>
             </intent-filter>
         </service>
-        <service android:exported="false" android:name="com.taobao.accs.data.MsgDistributeService">
+        <service android:exported="false" android:name="com.taobao.accs.data.MsgDistributeService" tools:node="remove">
             <intent-filter>
                 <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
             </intent-filter>
         </service>
-        <receiver android:exported="false" android:name="com.taobao.accs.EventReceiver"/>
-        <receiver android:exported="false" android:name="com.taobao.accs.ServiceReceiver">
+        <receiver android:exported="false" android:name="com.taobao.accs.EventReceiver" tools:node="remove"/>
+        <receiver android:exported="false" android:name="com.taobao.accs.ServiceReceiver" tools:node="remove">
             <intent-filter>
                 <action android:name="com.taobao.accs.intent.action.COMMAND"/>
             </intent-filter>
@@ -118,16 +118,16 @@
                 <action android:name="com.taobao.accs.intent.action.START_FROM_AGOO"/>
             </intent-filter>
         </receiver>
-        <service android:exported="false" android:name="org.android.agoo.accs.AgooService">
+        <service android:exported="false" android:name="org.android.agoo.accs.AgooService" tools:node="remove">
             <intent-filter>
                 <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
             </intent-filter>
         </service>
-        <service android:exported="false" android:name="com.umeng.message.UmengIntentService"/>
-        <service android:exported="false" android:name="com.umeng.message.XiaomiIntentService"/>
-        <receiver android:exported="false" android:name="com.taobao.agoo.AgooCommondReceiver"/>
-        <service android:exported="false" android:name="com.umeng.message.UmengMessageIntentReceiverService"/>
-        <receiver android:exported="false" android:label="NetworkConnection" android:name="com.qiniu.android.dns.NetworkReceiver">
+        <service android:exported="false" android:name="com.umeng.message.UmengIntentService" tools:node="remove"/>
+        <service android:exported="false" android:name="com.umeng.message.XiaomiIntentService" tools:node="remove"/>
+        <receiver android:exported="false" android:name="com.taobao.agoo.AgooCommondReceiver" tools:node="remove"/>
+        <service android:exported="false" android:name="com.umeng.message.UmengMessageIntentReceiverService" tools:node="remove"/>
+        <receiver android:exported="false" android:label="NetworkConnection" android:name="com.qiniu.android.dns.NetworkReceiver" tools:node="remove">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
                 <action android:name="android.intent.action.USER_PRESENT"/>
@@ -167,31 +167,30 @@
         <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
         <service android:exported="false" android:name="com.bytedance.boost_multidex.OptimizeService" android:process=":boost_multidex"/>
-        <service android:exported="false" android:name="com.umeng.message.component.UmengIntentService">
+        <service android:exported="false" android:name="com.umeng.message.component.UmengIntentService" tools:node="remove">
             <intent-filter>
                 <action android:name="org.agoo.android.intent.action.RECEIVE"/>
             </intent-filter>
         </service>
-        <service android:exported="false" android:name="com.umeng.message.component.UmengMessageReceiverService">
+        <service android:exported="false" android:name="com.umeng.message.component.UmengMessageReceiverService" tools:node="remove">
             <intent-filter>
                 <action android:name="org.android.agoo.client.MessageReceiverService"/>
             </intent-filter>
         </service>
-        <service android:exported="false" android:name="com.umeng.message.component.UmengMessageHandlerService" android:permission="android.permission.BIND_JOB_SERVICE">
+        <service android:exported="false" android:name="com.umeng.message.component.UmengMessageHandlerService" android:permission="android.permission.BIND_JOB_SERVICE" tools:node="remove">
             <intent-filter>
                 <action android:name="com.umeng.message.action"/>
             </intent-filter>
         </service>
-        <provider android:authorities="com.android.mgstv.umeng.message" android:exported="false" android:name="com.umeng.message.component.UmengMessageProvider"/>
-        <receiver android:exported="false" android:name="com.umeng.message.component.UmengNotificationReceiver"/>
-        <activity android:exported="false" android:name="com.umeng.message.component.UmengNotificationClickActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.umeng.message.notify.UPushMessageNotifyActivity" android:screenOrientation="behind" android:taskAffinity="com.android.mgstv.u_push" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <activity-alias android:exported="true" android:name="com.umeng.message.UMessageNotifyActivity" android:targetActivity="com.umeng.message.notify.UPushMessageNotifyActivity">
+        <receiver android:exported="false" android:name="com.umeng.message.component.UmengNotificationReceiver" tools:node="remove"/>
+        <activity android:exported="false" android:name="com.umeng.message.component.UmengNotificationClickActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" tools:node="remove"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.umeng.message.notify.UPushMessageNotifyActivity" android:screenOrientation="behind" android:taskAffinity="com.android.mgstv.u_push" android:theme="@android:style/Theme.Translucent.NoTitleBar" tools:node="remove"/>
+        <activity-alias android:exported="true" android:name="com.umeng.message.UMessageNotifyActivity" android:targetActivity="com.umeng.message.notify.UPushMessageNotifyActivity" tools:node="remove">
             <intent-filter>
                 <action android:name="com.umeng.message.action.notify"/>
             </intent-filter>
         </activity-alias>
-        <service android:exported="false" android:name="com.taobao.accs.ChannelService$KernelService"/>
-        <service android:exported="false" android:name="com.taobao.accs.internal.AccsJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.taobao.accs.ChannelService$KernelService" tools:node="remove"/>
+        <service android:exported="false" android:name="com.taobao.accs.internal.AccsJobService" android:permission="android.permission.BIND_JOB_SERVICE" tools:node="remove"/>
     </application>
 </manifest>
