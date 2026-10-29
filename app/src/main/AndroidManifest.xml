@@ -51,11 +51,7 @@
         <meta-data android:name="coolx_type" android:value="live"/>
         <meta-data android:name="BUGLY_APPID" android:value=""/>
         <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="@string/default_notification_channel_id"/>
-        <service android:exported="false" android:name="com.interactive.brasiliptv.service.MyFirebaseMessagingService">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
-            </intent-filter>
-        </service>
+        <service android:name="com.interactive.brasiliptv.service.MyFirebaseMessagingService" tools:node="remove"/>
         <activity android:configChanges="keyboard|keyboardHidden" android:name="com.main.ui.activity.HomeActivity" android:screenOrientation="landscape">
             <meta-data android:name="org.coolx.AUTO_UPDATE" android:value="true"/>
             <meta-data android:name="org.coolx.RECORD_COLLECT" android:value="true"/>
@@ -75,7 +71,7 @@
         <activity android:configChanges="keyboard|keyboardHidden" android:name="com.vod.ui.activity.FilterActivity" android:screenOrientation="landscape"/>
         <activity android:name="com.download.activity.DownloadActivity" android:screenOrientation="landscape"/>
         <activity android:hardwareAccelerated="false" android:launchMode="singleTask" android:name="com.download.activity.LocalPlayActivity" android:screenOrientation="landscape" android:theme="@style/anim.fade"/>
-        <activity android:name="com.download.permission.OverlayActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.download.permission.OverlayActivity" tools:node="remove"/>
         <activity android:name="com.live.ui.activity.LiveFreeActivity" android:screenOrientation="landscape"/>
         <activity android:launchMode="singleTask" android:name="com.live.ui.activity.LiveVoiceSearchActivity" android:screenOrientation="landscape"/>
         <activity android:name="com.live.ui.activity.MatchScheduleActivity" android:screenOrientation="landscape"/>
@@ -91,7 +87,7 @@
         <activity android:configChanges="keyboard|keyboardHidden" android:launchMode="singleTask" android:name="com.login.ui.activity.ForcePasswordChangeActivity" android:screenOrientation="landscape"/>
         <activity android:name="com.module.ui.activity.CommonWebActivity" android:screenOrientation="landscape"/>
         <activity android:name="com.module.ui.activity.WebActivity" android:screenOrientation="landscape"/>
-        <service android:name="com.module.receiver.ReportService" android:process=":channel"/>
+        <service android:name="com.module.receiver.ReportService" tools:node="remove"/>
         <provider android:authorities="com.android.mgstv.therouter.TheRouteContentProvider" android:exported="false" android:name="com.therouter.InnerTheRouterContentProvider" tools:node="remove"/>
         <provider android:authorities="com.android.mgstv.downloadFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.mobile.provider.DownloadFileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
