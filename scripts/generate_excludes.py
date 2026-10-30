@@ -209,6 +209,10 @@ def main():
                 refs.add(rel2)
         return refs
 
+    # Packages where BFS cascade should NOT propagate (app code obfuscated packages)
+    # These contain important app logic - only directly bad files are excluded
+    NO_CASCADE_PKGS = {"be", "cc", "ne", "me", "lc", "mc", "ye", "za", "va", "ge", "ee", "ca", "ma"}
+
     # BFS cascade
     queue = list(excluded)
     visited = set(excluded)
@@ -219,6 +223,9 @@ def main():
         fqn = excl_rel.replace("/", ".").replace(".java", "")
         simple = get_simple(excl_rel)
         pkg = get_pkg(excl_rel)
+        # Don't cascade from app obfuscated packages - only their directly bad files are excluded
+        if pkg in NO_CASCADE_PKGS:
+            continue
 
         # Files that explicitly import this FQN
         for importer_rel in importers.get(fqn, set()):
