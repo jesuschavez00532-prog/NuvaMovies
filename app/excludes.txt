@@ -895,6 +895,7 @@ com/interactive/brasiliptv/R$styleable.java
 com/interactive/brasiliptv/p061ui/activity/GuidePageActivity.java
 com/interactive/brasiliptv/p061ui/activity/WelcomeActivity.java
 com/interactive/brasiliptv/service/MyFirebaseMessagingService.java
+com/interactive/brasiliptv/ui/activity/WelcomeActivity.java
 com/interactive/brasiliptv/utils/CustomLayoutInflater.java
 com/ixuea/android/downloader/p062db/DefaultDownloadDBController.java
 com/live/R$styleable.java
@@ -1009,6 +1010,7 @@ com/lzy/okgo/utils/HeaderParser.java
 com/lzy/okgo/utils/HttpUtils.java
 com/main/R$styleable.java
 com/main/p067ui/activity/HomeActivity.java
+com/main/ui/activity/HomeActivity.java
 com/mine/R$styleable.java
 com/mine/p068ui/activity/DisplayQRCodeActivity.java
 com/mine/p068ui/activity/EventCenterActivity.java
