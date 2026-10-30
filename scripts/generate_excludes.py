@@ -18,10 +18,10 @@ EXCLUDED_TOP = {
 
 # Pattern for ANY obfuscated top-level package:
 # - starts with p + digits + optional alphanumeric suffix (p000a, p178ia, p424z3, p030bc, p290q...)
-# - OR is a 1-3 lowercase letter package (ma, ac, ba, ne, ca, ge, be, ee, af, me, ...)
-# - OR starts with uppercase (Andoid - jadx typo)
-# NOTE: 'com' and 'tv' are real app packages - checked separately via APP_PKG_WHITELIST
-OBFUSCATED_PKG_RE = re.compile(r'^(p\d+\w*|[a-z]{1,3}|[A-Z][a-z]+)$')
+# - OR is a 1-3 lowercase letter package that is NOT app code
+# App code 2-letter packages (be, cc, ne, me, ge, ee, ca, ma, lc, mc, ye, za, va, etc.) are kept
+# Only exclude packages that are pure routing/infrastructure with no app-meaningful classes
+OBFUSCATED_PKG_RE = re.compile(r'^(p\d+\w*|[A-Z][a-z]+)$')
 
 # Real top-level packages that contain actual app code - NOT excluded even if regex matches
 APP_PKG_WHITELIST = {"com", "tv"}
@@ -37,7 +37,7 @@ DIRECT_BAD_RE = re.compile(
     r"com\.google\.android\.gms\.common\.|com\.swlauthnew\.|"
     r"android\.support\.v4\.|org\.xutils\.|"
     r"p\d+\w*\.|"
-    r"(?:ac|ad|ae|af|ba|bb|bd|be|bf|ca|cc|cd|cf|de|ec|ee|ga|gb|gd|ge|gf|id|ie|je|ke|la|lb|lc|ma|mc|md|me|na|nc|ne|nf|np|pa|pe|qa|re|sa|sb|sc|sd|se|tc|td|ua|va|vc|ve|ye|za)\."
+    r"(?:ac|ad|ae|af|ba|bb|bd|bf|cc|cd|cf|de|ec|ga|gb|gd|gf|id|ie|je|ke|la|lb|lc|mc|md|na|nc|nf|np|pa|pe|qa|re|sa|sb|sc|sd|se|tc|td|ua|va|vc|ve|ye|za)\."
     r")", re.MULTILINE
 )
 
